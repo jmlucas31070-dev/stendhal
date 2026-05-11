@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="5" name="dark_caves" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_caves.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="93" name="box" tilewidth="32" tileheight="32">
+  <image source="../drawable/box.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="94" name="webs" tilewidth="32" tileheight="32">
+  <image source="../drawable/webs.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="100" name="dry_grass" tilewidth="32" tileheight="32">
+  <image source="../drawable/dry_grass.png" width="288" height="192"/>
+ </tileset>
+ <tileset firstgid="154" name="desert" tilewidth="32" tileheight="32">
+  <image source="../drawable/desert.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="242" name="huge_boulder" tilewidth="32" tileheight="32">
+  <image source="../drawable/huge_boulder.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="262" name="pot_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_green.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="263" name="pot_on_metal" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_on_metal.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="264" name="human_armored" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_armored.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="272" name="huge_animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/creature_huge_animal.png" width="256" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlrkRADAMgzSB9++1aMYgd6KghsZPkxxI9aMNhRsKN+hnGwo36Gcb9P/pd/5296/3d/P/Wv1/T2SUB6uSe4U=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1TEKADAIQ9E4de3i2NH7X7FDz1Ai+B+4BwyakrZ8jrxKftlgB84M1SiDw4o3dHF2D7hJ/AUAAIDfLh4uAuI=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBh4wDvC7R8FgweMpsVRMJoORuNgoO1nBWKO0bAfDftRv4/6fZj7faTazTDAdo+CUQAAdCQBDQ==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1rENACAMA8H3/kuzBY7kL1yfQREhQIaDft3ngM+B+6d8fv3/HSh30O920Hf+rvnL7+/y/suwv/r/Ntt5npgDlg==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="west" type="mapchange" id="1" x="0" y="64" width="32" height="832">
+   <properties>
+    <property name="map" value="-3_deniran_caves_x2_y3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

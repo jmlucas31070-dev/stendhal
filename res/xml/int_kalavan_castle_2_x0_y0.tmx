@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="castle" tilewidth="32" tileheight="32">
+  <image source="../drawable/castle.png" width="640" height="512"/>
+ </tileset>
+ <tileset firstgid="321" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="322" name="ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="327" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="339" name="imperial" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_imperial.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="355" name="edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/bricked_edges.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="380" name="kalavan" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_kalavan.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="385" name="iron bars" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_iron_bars.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="397" name="wall thin bricks" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_thin_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="409" name="blood" tilewidth="32" tileheight="32">
+  <image source="../drawable/nsew_stains.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="413" name="lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_lamp.png" width="128" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpzYmRgcBrFo3gQ4XMMtMG0di+58sTgGWiY1nGgx4CK0e1HlyeEh7r9lOJR+4nHexiIwzCziVU/WrZiYgD0TJnl
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2DwgP1AfIBG+CAR9vMxMjBcA9IqjNTFl4BmCjESZ/8rIG3BiIrzgTgVivMYMeUJ4Wck2P+PAdW+VCz6UhmJxyD3/iLR/nRG6qWpNBra78k4sPbTyv9ZQDqFAIYBQuoySbT/KpH5eQ8Um6GJwwCy2GUi7VdipH7eh2E1Iuw3IyNvE4utsNgPAGpQUDU=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUDAUwhxFCz2SkvV1z0eyYzYhKU2IWOaAFaEYrFLcxjqaFkQ7ygGnAlAGC8wcgPbAAMSsQswEx+wD4XwKIJYFYCoilKTAHAFChB4k=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjAL8oJGRgaEJipsZR8NjFNAWHCCA96BhQupJBSqM1MWDFQAA1gAT4Q==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMAqGDjABYlMoNhsA+1mAmBWI2YCYfQDslwBiSSCWAmJpCswBAD17AVE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpzZGRgcBzFo3gUD2qMDuhtJzIfm3vwAVr4l1RAqf2UglH7aZc+BzpPDmX7AcPzabU=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance_left" type="mapchange_exit" id="1" x="480" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="0_kalavan_castle_x1_y1"/>
+    <property name="place" value="castle_2_entrance_left"/>
+   </properties>
+  </object>
+  <object name="entrance_right" type="mapchange_exit" id="2" x="512" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="0_kalavan_castle_x2_y1"/>
+    <property name="place" value="castle_2_entrance_right"/>
+   </properties>
+  </object>
+  <object name="downstairs" type="mapchange" id="3" x="512" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="int_kalavan_castle_1_x1_y1"/>
+    <property name="place" value="upstairs"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="4" x="480" y="480" width="64" height="32">
+   <properties>
+    <property name="map" value="int_ados_barracks_0_x0_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

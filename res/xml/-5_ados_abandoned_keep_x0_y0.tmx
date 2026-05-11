@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="logic/protection" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="28" name="logic/creature/human_soldier" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_soldier.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="37" name="logic/creature/hybrid" tilewidth="32" tileheight="32">
+  <image source="../drawable/hybrid.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="53" name="logic/item/jewelry" tilewidth="32" tileheight="32">
+  <image source="../drawable/jewelry.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="57" name="logic/item/resources" tilewidth="32" tileheight="32">
+  <image source="../drawable/resources.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="63" name="ground/green_paving" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_paving.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="81" name="ground/stone_floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_floors.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="87" name="ground/indoor/grey_skull" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_skull.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="95" name="ground/rock/rock_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/rock_red.png" width="64" height="160"/>
+ </tileset>
+ <tileset firstgid="105" name="building/stairs/stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="117" name="building/stairs/grey_stone_stairs_down" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_stone_stairs_down.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="123" name="terrain/ground/stone" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_stone.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="127" name="building/wall/int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="248" name="building/entrance/grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="273" name="object/creep_large" tilewidth="32" tileheight="32">
+  <image source="../drawable/creep_large.png" width="96" height="352"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlDkKwzAQRR3IBZMmixLfJE22LoUL+yipdRkX7rL4ABkTBMPgIdIXXgI2vMbS10PG84skSYqBORIn4uzJhbiCWZlvuBHLQDKWXQBkzH8H/JZlEb+d/JN/JP4S8Fcsi/gr5n8QT+IlmM++yPdvogazMt+QK7hHW4/J5h796+6A9K+W1fo3DYT3r2nB7TMKsn+bvSuG9Mk1/v8bANviNx733vboXxMb0O+yMf4dsQf9LvvP33+M/rQDfwnMP+9/ZP6n/sf734eu+z+Wtv7vE6v4Dx3zyz/E/csB/D7zr6Gd6ZuX8x+K5kfO+gB36OOR
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlMkNwjAQRZMCOCD2pSIaiRtgLQLohqNLAJEbCG5sNXDhR8nBijzJxMYREv7Sk6KMZn4c+U8QeCVagw2TrUWvrj/RDkyYSE1vM0yfW6H+fGpdFviXifJvY24HdAl/te7Cv4e5fTAg/NW6C/8h5o7AmPBX6y78q0g6uH+2/nfwyPHOyL9/WvTq+r1+c/82whST/Uv1Fu3fiPGdgrj/gnnOqCB/pvn5Vv69/3/7C8P7y80OlR+//72q7vAyTPZ/XZLen5V/HXtwAFMwy5iDI4iZM2zyfwJnsADLjBW4gGsN/+5G/KvkTC+DeR+O/bC9
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1CEOADAIQ9Hil91z93dkAslOQMj4T9U0dZUAoBd/8i3soodlmbfVdX93hu+D/wf/D0AKD64JGw==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1DEKACAMQ9FmUu+P57WKFsTdTv9BugU6xQwAcBvraEfK64b+JKsbyvy7njTldQGA/Wf/AfzlEiUN7Q==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtl8EJADAIA+P+S3eCQkFrLD3Bp94nCSQkBTtiTydzK/jwh/J3PzNeqvAj/H/4Ge2q4Z78gX8zf536J3/gO/ldA7++K7m72qudcwHnCQJ6
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="down1" type="mapchange_down" id="1" x="480" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="-6_ados_abandoned_keep_x0_y0"/>
+    <property name="place" value="up1"/>
+   </properties>
+  </object>
+  <object name="down2" type="mapchange_down" id="2" x="512" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="-6_ados_abandoned_keep_x0_y0"/>
+    <property name="place" value="up2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

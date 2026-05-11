@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/ground/ground.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="34" name="../../tileset/plant/grasses.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grasses.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="40" name="../../tileset/plant/flower/daisy_white.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_white.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="48" name="../../tileset/plant/flower/daisy_yellow.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_yellow.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="56" name="../../tileset/plant/bush/bushes.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/bushes.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="66" name="../../tileset/plant/tree/tree_darkgreen.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_darkgreen.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="154" name="../../tileset/logic/creature/elf.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/elf.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="170" name="../../tileset/logic/creature/rodent.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rodent.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="178" name="../../tileset/logic/creature/animal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/animal.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="210" name="../../tileset/logic/item/resources.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/resources.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="216" name="../../tileset/logic/item/mushroom.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/mushroom.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="222" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="223" name="herb" tilewidth="32" tileheight="32">
+  <image source="../drawable/herb.png" width="160" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwwEJAAAMBKHj+4dej6HgqqmqqqqvHyPACAE=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYMANtNFoXPIDCch1g8Yg9c9gdg82N2kPIn9rD5G41x7maYQWbtcepO4eqPQ/lON9qKfFgbZXewSFz2i6H82Do2AUjIJRMAqoDwAazgSE
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwTERAAAIAKFPav8YpvBcgPo1AQAAANcWwUsAXw==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0jEOQEAABdE9GypUS4UKFRL378wp/GaKl8wBppZSJsyogX6xYsMS6B0HzlBfuPGEukGLLtQ9BoyhruH/F//3f//3f//3f//3f//3f//3/5/6A669XAU=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtzSEBAAAIwLD3D0kWYiCYmF7VHOr4BwAAgA8WTiN2cg==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="0_semos_road_se_x2_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="2" x="0" y="0" width="32" height="64">
+   <properties>
+    <property name="map" value="0_semos_road_se_x1_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

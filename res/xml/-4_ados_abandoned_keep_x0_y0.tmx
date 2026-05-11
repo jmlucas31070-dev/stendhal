@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="ground/indoor/raised_platform_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/raised_platform_purple.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="14" name="ground/indoor/floors_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/floors_3.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="26" name="furniture/chair/throne" tilewidth="32" tileheight="32">
+  <image source="../drawable/throne.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="32" name="furniture/light/dark_torch" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_torch.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="40" name="item/pot/pot_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_green.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="41" name="furniture/table/orb_table" tilewidth="32" tileheight="32">
+  <image source="../drawable/orb_table.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="43" name="furniture/picture/oil_paintings" tilewidth="32" tileheight="32">
+  <image source="../drawable/oil_paintings.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="59" name="furniture/chair/bench_wooden" tilewidth="32" tileheight="32">
+  <image source="../drawable/bench_wooden.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="67" name="furniture/table/fancy_blue_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/fancy_blue_red.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="79" name="furniture/chair/throne_small" tilewidth="32" tileheight="32">
+  <image source="../drawable/throne_small.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="81" name="furniture/curtain/blue_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/curtain_blue_green.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="85" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="109" name="building/stairs/grey_stone_stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_stone_stairs.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="115" name="item/armor/weapons_rack" tilewidth="32" tileheight="32">
+  <image source="../drawable/weapons_rack.png" width="288" height="64"/>
+ </tileset>
+ <tileset firstgid="133" name="item/armor/sword_rack" tilewidth="32" tileheight="32">
+  <image source="../drawable/sword_rack.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="137" name="item/armor/suit_of_armor2" tilewidth="32" tileheight="32">
+  <image source="../drawable/suit_of_armor2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="141" name="logic/creature/mountain_dwarf" tilewidth="32" tileheight="32">
+  <image source="../drawable/mountain_dwarf.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="146" name="logic/creature/human_soldier" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_soldier.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="162" name="building/wall/int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="283" name="logic/creature/hybrid" tilewidth="32" tileheight="32">
+  <image source="../drawable/hybrid.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="299" name="building/stairs/stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1b0OgjAUhuEWFVExDPhz/4MimyEduBXn3gjfwNA0PbSSlBo5w7OQc3jD0NILIfrEHvCExuMFrWfHnAn1hsqhczxTjp3OmlVf9j/jXgYbwnac0daOi57Z30FO2HP/7/sFHAjHBfonKAln4/3NRNucCblHfN8Si0rc19znPve5v9J+KeP2r5J2g3vE/tz/L/e5n6JfyHhnO0SN+YucPrOh7LP96waG3Dik
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAM5AJxHhTnM1AOTIHYDIgDofwgIDamg/0bgXgTAbwZhx6Y/djUEAtuAbE6El8WiOWAWB7KB8k9wqKnAIgLobgIixpS7CcEHhGhh5r2aw6w/QwjzH51PPLqg8D/14D4NJR9FIgvEFADAzpUsh9m/iao3RpY5DWQ1BBbjpBiP6nAFojtiIgjWtnPQGQauYUjPAmBABxscuynB1Cnsv3OQOwCxK5A7DYA/ncHYg8g9gRiryEe/hoDnP4ZRu3HAN0kioPi8A0QczHixtyM+O1vB+IOIv2CrhZk93ca1X/khu2o/cTbXwPEDUDcDMT1QFwLZbcgyYP4jVC6CYjrkOSHsv/ViSg7ySlbiQGcjPjzLLEYW94eBbgBABx4Zvc=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFyMASiK2AOBiIpYE4BIjNoXKbsajPRWLnD4B71XGwR8EoGAUDD6yB2GY0GEbBIAFGjCPb/lEwCkbBKBgFo2AUMDAAAKo6BCc=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFMKCIxJaC0jJY5HDpURwNwlFApfRHitwoGAUDBfxxsIdiHhsFo+E/ClBBJ4ni1ACtQNxGA7WjYPCDYiAuB+IqIC4D4hIouxpJHsSvgNKVQFyKJD+UgSqFZedo2ToKSAUAQsIL9w==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtltsKwCAMQ5P//+k9DYYwvKWarRaCoNhDqhYJgJO6g5v0J/4zVzlG82vRskfJ52Y+kvHZyc5WfxjwFeHK52Cut37h6F99/oo7/GW+sv5M/v4c+SPzqn9cjxeX/n/4c/zIdXf/bMgdyT5arwsqBgI8
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents"/>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

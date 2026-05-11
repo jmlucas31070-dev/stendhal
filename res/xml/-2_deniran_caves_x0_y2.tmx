@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="stone_floors" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_floors.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="8" name="pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="11" name="dark_caves" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_caves.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="99" name="large_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_green.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="108" name="skulls" tilewidth="32" tileheight="32">
+  <image source="../drawable/skulls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="124" name="box" tilewidth="32" tileheight="32">
+  <image source="../drawable/box.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="125" name="webs" tilewidth="32" tileheight="32">
+  <image source="../drawable/webs.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="131" name="chaos" tilewidth="32" tileheight="32">
+  <image source="../drawable/chaos.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="138" name="giant_human" tilewidth="32" tileheight="32">
+  <image source="../drawable/giant_human.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="154" name="logic/creature/dragon" tilewidth="32" tileheight="32">
+  <image source="../drawable/dragon.png" width="256" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt10EKwCAMBMAQ8oT9/1t7Kkhp0NZoIuxh6XG2KraBiOAR+xltnqOBE5vs4aXtaYv8kTXo+VE9eqnuo4CPAj7oL+lwmg/6oR3o53agT/9E/8v/MO+f3O+PJvma6Kszj+30vVlo9/mbmb8i/be9yHr/OxcXYCgL
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAtKGcY3iAZiFOAOHWA7E8D4nQgzhgg+zOBOAuIs4dAXKUxjBwQjkfOmQb2cTKMgsEGuEaDYEDrgUws6jyB2ItO9QDHaD0wCujQRskcgW0U2QGOB9UBbivqDmA8yJKRBqkJVAc4P+syjIKh0tYe7AAAX/QTEg==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYEAF/EDMyzCwQHSA7QeFAc8Ah4PIIAkH3lE3UN0N1kM0T4yWC6NhMNTDwBGInUbjYMinw1H7R+0fKCA+GvajYT9a/4/GwTCwHwDGQwPJ
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1TsKADAIREHf/S+dPl3AzwZXsB4XFIkIru4sBH3st82h7iPgU2C++gznV/CxX7KLv/kkeFP+dP4sH/v27a+9/82+/7/3L6sO+ZYBhQ==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="160" y="0" width="864" height="32">
+   <properties>
+    <property name="map" value="-2_deniran_caves_x0_y1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="448" y="992" width="576" height="32">
+   <properties>
+    <property name="map" value="-2_deniran_caves_x0_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="0" width="32" height="1024">
+   <properties>
+    <property name="map" value="-2_deniran_caves_x1_y2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

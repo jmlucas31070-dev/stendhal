@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="8" height="19" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="furniture/carpet/carpets" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="plant/indoor/pot_plant" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_plant.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="12" name="furniture/shelve/bright_bookshelf_and_cupboard" tilewidth="32" tileheight="32">
+  <image source="../drawable/bright_bookshelf_and_cupboard.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="18" name="building/stairs/dark_stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_stairs.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="20" name="furniture/table/wooden_rectangular" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rectangular.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="29" name="furniture/chair/wooden_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden_pale.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="item/ches/small.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_small.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="35" name="furniture/clock/wooden_clock" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_clock.png" width="32" height="192"/>
+ </tileset>
+ <tileset firstgid="41" name="item/pot/pot_golden" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_golden.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="45" name="item/documents/book" tilewidth="32" tileheight="32">
+  <image source="../drawable/book.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="49" name="item/food/meals_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/meals_1.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="51" name="item/drink/bottle_and_glass" tilewidth="32" tileheight="32">
+  <image source="../drawable/bottle_and_glass.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="59" name="furniture/crockery/knife_spoon" tilewidth="32" tileheight="32">
+  <image source="../drawable/knife_spoon.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="60" name="item/drink/red_wine" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_wine.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="64" name="furniture/light/candelabra" tilewidth="32" tileheight="32">
+  <image source="../drawable/candelabra.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="65" name="plant/indoor/flowering_plant" tilewidth="32" tileheight="32">
+  <image source="../drawable/flowering_plant.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="67" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="91" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="92" name="logic/protection" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="94" name="item/pot/barrel_with_flower" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel_with_flower.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="96" name="item/banners/wall_hanging_brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/wall_hanging_brown.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="102" name="furniture/table/wooden_trestle" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_trestle.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="111" name="furniture/table/wooden_with_candles" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_with_candles.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="123" name="building/wall/int_green_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_purple.png" width="128" height="224"/>
+ </tileset>
+ <tileset firstgid="151" name="ground/indoor/floors_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/floors_3.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="163" name="building/entrance/green_purple_ns_ew" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_purple_ns_ew.png" width="128" height="224"/>
+ </tileset>
+ <tileset firstgid="191" name="furniture/shelve/green_bookshelf" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_bookshelf.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="197" name="furniture/carpet/brown_rug" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_rug.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="209" name="furniture/carpet/dark_blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_blue.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="224" name="furniture/picture/city_picture" tilewidth="32" tileheight="32">
+  <image source="../drawable/city_picture.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="228" name="item/banners/wall_hanging_dkgreen" tilewidth="32" tileheight="32">
+  <image source="../drawable/wall_hanging_dkgreen.png" width="64" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="8" height="19">
+  <data encoding="base64" compression="zlib">
+   eNqbxcDAMIuG+CoWTIr8KB7aGAC5j12/
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="8" height="19">
+  <data encoding="base64" compression="zlib">
+   eNqrZWBgqMWB64B4Cg7cCMRtQHwJC74MxFOh8uhAGIiv4ZFnQJO/gQXfRJKfjAO3QuU78OAuPH4n1v+ZQJyFhrOR3JcDxLloOA+P/zWBWItA+DCQKC8CxKJIWAxNXhyIJZCwJBXDFwD+zEBz
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="8" height="19">
+  <data encoding="base64" compression="zlib">
+   eNpjYICAJCBOZsANUoA4FYs4NxoNAnEMtAW0Nh8ZpAFxOhrOQJK3BmJDKNsIyndkGFzAGIjtgdgBiU0vAAC5NwcJ
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="8" height="19">
+  <data encoding="base64" compression="zlib">
+   eNrjZIAATgbsgAuNHgWjgBQAAFmIACc=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="8" height="19">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo4B2AAACYAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="8" height="19" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNqLZmBgiKYQMyDRDFjksAFK5KOHECbVf9E0CD9i4o5WGADkSCZl
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="downstairs" type="mapchange" id="1" x="128" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_town_hall_1_x1_y0"/>
+    <property name="place" value="upstairs"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="2" x="0" y="96" width="32" height="96">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="3" x="0" y="352" width="32" height="192">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

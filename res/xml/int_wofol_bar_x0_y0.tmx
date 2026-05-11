@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="17" height="10" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_2.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="3" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="19" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="39" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_red_ns.png" width="288" height="128"/>
+ </tileset>
+ <tileset firstgid="75" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/table_with_beer_dark.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="85" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/stool.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="86" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_plain.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="95" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="97" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/brush.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="100" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_island.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="102" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_windows_purple.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="118" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="119" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="143" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/wood_fire.png" width="64" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="17" height="10">
+  <data encoding="base64" compression="zlib">
+   eNpjZGBgYBzFo3iQYwDlxACr
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="17" height="10">
+  <data encoding="base64" compression="zlib">
+   eNqt0M0KgkAUhuEBf0BTt5qVF5AusivJ6hoU9GJSr7h3cQZaKM5gBx6YM4uPj5MopVwDLbqF/xg+CuQbegzy/mDEBR5CZMpuJsxIEUgP2ww9qfRYy3ig+fEUL9nfBhn/6GGTEe7M0Dc944oSFY6GTtIjgoMbatxlN3XAF+RCDDo=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="17" height="10">
+  <data encoding="base64" compression="zlib">
+   eNpjYECAFCBOBeJEBspBEgV6w4A4AoiTydQfCsSRQBxNoR9gZsRTwQyYu0LR3IksForDjBggjmMY2QAAmWcIJg==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="17" height="10">
+  <data encoding="base64" compression="zlib">
+   eNpjYBj+wBuIfZCwLxT7Qfn+DKNgsAMAmbgCsw==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="17" height="10">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2DwAwACqAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="17" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNorY2BgKBtEmAGNTQygtRkD7RdSAS3MoFaYkIsBSDMyPw==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="96" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_semos_mine_nw_x0_y2"/>
+    <property name="place" value="bar_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

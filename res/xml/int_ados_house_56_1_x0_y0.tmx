@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="wall" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_purple.png" width="128" height="224"/>
+ </tileset>
+ <tileset firstgid="29" name="chair" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden_pale.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="45" name="plant1" tilewidth="32" tileheight="32">
+  <image source="../drawable/flowering_plant.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="47" name="plant2" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_plant_1.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="59" name="plant3" tilewidth="32" tileheight="32">
+  <image source="../drawable/oriental_plant.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="61" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="62" name="table" tilewidth="32" tileheight="32">
+  <image source="../drawable/square.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="63" name="screen" tilewidth="32" tileheight="32">
+  <image source="../drawable/oriental_screen.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="71" name="sofa" tilewidth="32" tileheight="32">
+  <image source="../drawable/sofa_chair_blue.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="83" name="table" tilewidth="32" tileheight="32">
+  <image source="../drawable/long_side_on_pale.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="86" name="bookshelve" tilewidth="32" tileheight="32">
+  <image source="../drawable/bright_bookshelf.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="95" name="piano" tilewidth="32" tileheight="32">
+  <image source="../drawable/piano.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="99" name="rug" tilewidth="32" tileheight="32">
+  <image source="../drawable/nain_rug.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="115" name="tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="124" name="double_blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/double_blue.png" width="64" height="128"/>
+ </tileset>
+ <layer id="1" name="Ground" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNorY2BgKBvFo3gUj0gMAP3UdgE=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNql0DkLAjEQhuGIF3hh64GVrf0KQdBSS7FTwfs+a89/7rswjUvMsnHgIWTIl4GJKaXijhJIIoVyRGnkJF+FVt81xAhjubdww13ulUDer7qy1wNPSz6sXnhb8jPMscAy5C9TfoU1NthKTxuy2pD3ezvsccBR3rbRMZym+SecccFVep5hvue4vy56f+w/bH8TTC2ZPgaWfE24zNc/3jUNvUYgn0Epoqzk8yg4KuID2GkX+A==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYEAAJiR2GBCHA3EEAypgYsAOrNH4kUAcBcTRDLQFnBTo5WAY/sCISLGRCoZT+uEnQw0A1ucC9w==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBg5oAmIm+lspzUFYiBgD8QOWOiBAO5A7EFD8+OBOGGA/IYr/I2HeZ4AAODSBPA=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjFQAAAQAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="16" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNqzZWBgsB0kGBmgi+Pjo+slBpCjfyDstyVCLz4zyAl7cuwfDOFHjF9oZb8tFeJvIDAAXaQhmg==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="down" type="mapchange" id="1" x="96" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_house_56_x0_y0"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

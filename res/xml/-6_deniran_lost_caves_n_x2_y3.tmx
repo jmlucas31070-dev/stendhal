@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="mine" tilewidth="32" tileheight="32">
+  <image source="../drawable/mine.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="66" name="dark_stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_stairs.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="68" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="92" name="blue_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/indoor_blue_green.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="96" name="dragon" tilewidth="32" tileheight="32">
+  <image source="../drawable/dragon.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="104" name="animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/animal.png" width="256" height="128"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1rsNwCAMBFD33sGTBdh/i1BHFAZxXKJc8RoKf0AYwszip5yce4SZG12PL2Lm3lGHA7Dyfs3VlYn13WrXJtZP9H7Ks0dkPZnYyD1fjc2+q8j5kTkT5BzNnAlrprPedNb/JkRE5FVuicNhYg==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtkksOgCAMRHsDWIMrft7/hrLA2JBWA6Krecnb0mHaQkSlaegfbHWvblXPzCzLF3lse/ecnaqR6YQ8ZvGfPZvdE4Q8eUEXvO+ozCYljxN2Y170PUoQdtPfieZT3zM5pDvRHO17JsudiQAAAAAAAADg4gCrPQz7
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0r0OABAMhVGbvgA27/+YlkoMIkH9DN9JuvbeFOcAAMBtUSc9ys860nR50Sl3Rg73CZOdxKhL0B1+4z4rt2lz6x6r9xr1scxd6XMyd+Y/A8BPCsBMBws=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlrENACAMw9L/n+YBporKIGzJczKlrST1qYGzd5DZ0326kNknekxA5YqITOwYnU9sKHlLXr7nnT7Uj1eqqhe6AKoWAjI=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="west" type="mapchange" id="1" x="0" y="96" width="32" height="448">
+   <properties>
+    <property name="map" value="-6_deniran_lost_caves_n_x1_y3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="32" width="32" height="576">
+   <properties>
+    <property name="map" value="-6_deniran_lost_caves_n_x3_y3"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

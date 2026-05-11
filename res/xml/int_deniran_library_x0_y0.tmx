@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="30" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="wallpapers" tilewidth="32" tileheight="32">
+  <image source="../drawable/wallpapers.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="27" name="wood_trim" tilewidth="32" tileheight="32">
+  <image source="../drawable/wood_trim.png" width="320" height="160"/>
+ </tileset>
+ <tileset firstgid="77" name="int_windows_wood_centered" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_windows_wood_centered.png" width="320" height="96"/>
+ </tileset>
+ <tileset firstgid="107" name="dark_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_red.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="116" name="wooden_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden_pale.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="120" name="wooden_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_pale.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="121" name="stone_desk" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_desk.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="137" name="bright_bookshelf" tilewidth="32" tileheight="32">
+  <image source="../drawable/bright_bookshelf.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="146" name="dark_bookshelf_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_bookshelf_2.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="152" name="green_bookshelf" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_bookshelf.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="158" name="kids_art" tilewidth="32" tileheight="32">
+  <image source="../drawable/kids_art.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="162" name="books2" tilewidth="32" tileheight="32">
+  <image source="../drawable/books2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="166" name="note_board" tilewidth="32" tileheight="32">
+  <image source="../drawable/note_board.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="174" name="doll" tilewidth="32" tileheight="32">
+  <image source="../drawable/doll.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="175" name="duck" tilewidth="32" tileheight="32">
+  <image source="../drawable/duck.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="176" name="pulltoy" tilewidth="32" tileheight="32">
+  <image source="../drawable/pulltoy.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="177" name="train" tilewidth="32" tileheight="32">
+  <image source="../drawable/train.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="178" name="table_wooden_brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/table_wooden_brown.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="187" name="floors_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/floors_3.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="199" name="bench" tilewidth="32" tileheight="32">
+  <image source="../drawable/bench.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="202" name="wardrobe_lateral" tilewidth="32" tileheight="32">
+  <image source="../drawable/wardrobe_lateral.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="210" name="books4" tilewidth="32" tileheight="32">
+  <image source="../drawable/books4.png" width="96" height="96"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="30">
+  <data encoding="base64" compression="zlib">
+   eNrt1z0KgDAMhuHcIU5e0Z+oh/RcxqEgUmvTFOvwDS+llPBshTARsbPeOd85uvql8+c5aKOh6cHfjYW5WRNDC3z48H/hc0P/3le+GP7K2Ey4e/wawYcPHz58+C39VdsSyct7abl7kzj3tNT+lZNU2FNjHWjsd9U=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="30">
+  <data encoding="base64" compression="zlib">
+   eNrNl89OwkAQxudRUDyJepLoCaLPxKIXJOADCAfggo+hoi+gHojhjfiMS9xMlu4w3SlM8kvbSXe+zp9u2hoRHYFjBXVwQn9WU8Y5BQ1wpuAcXHh9bZzfdU0wAVMwo39L+a4C/c35HDyTzOaBvsZi+rsa1/8EX+Cb3RfzF+lL43D9F/AK3ti6mN8i/wV4Bx/svpi/SF+ah1X9pXlYzV8V/Q/X7qv/134fu1TWsUz/b8Ct38daoJ1B38KewAiMI74y+p3EtWX+vS3+fkX6AzAED4zHA+y/RH8pmJVxhtnj1xv9nz3nv8owy5p3hte/64/34C6zdjcSd1v9nWHOkvpb9cIl6i+p2S71TvUyVv/cs+cE87di+VLwzC7z/IWxY/ufM3zf3YHtv+E3TBGk/EdMEX7DFEHKf8QUa/qKgbA=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="30">
+  <data encoding="base64" compression="zlib">
+   eNpjYMAEoQzYAS5xZDADiGcSac4MJLFJQDwZiKcAcTwWMQaoOLoYOpgFxLOR1IPAfCi9EE18FgNtwQY8cusHwM6hAq5iEbsEpa8PET8sBeLFOOTWDSJ3BgBxII3M3kiGnptAfAOL+BUofY1hFIyCUTAKBn/5NwpGwSgYBUMdyEJpeSL7hJT0H7EBdSDWAGJNLHLxRIrhEgcAu9UbdQ==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="30">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFowABNgHxZiDeQqT4qD9G438U4AedQNwFxN1YxOgBeoC4F4j7sIgNVVCJQ7x6GKeVbiqYh8us00SklT4qpD1KzBrO4PRoEIyG/ygYBaOArgAASy8icQ==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="30">
+  <data encoding="base64" compression="zlib">
+   eNrt0DEBAAAMAiD7JzSOLbYHIpAAAPyoAgAODYSLANk=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtl0sKwDAIRJ37X7qrQloIajqSSRPBTUCfPwYCM8Pxh9/mvXk52ri39ZgZ8+rP5GDx7SO/lyu6CxPpP9qH2vyZfGy8/x34I3Uy9Y9Z20hc5r2CP1v/K24jo6WM/LNvUJWPQt4K/SvxQZ65ev8o5inqn4L+Rv4zf/MLO7YBMQ==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="320" y="896" width="32" height="32">
+   <properties>
+    <property name="map" value="0_deniran_city_x3_y0"/>
+    <property name="place" value="deniran_library_entrance"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="96" width="32" height="288">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="3" x="992" y="416" width="32" height="480">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

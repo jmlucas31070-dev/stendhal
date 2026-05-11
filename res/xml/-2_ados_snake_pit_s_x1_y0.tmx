@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="creature/naga" tilewidth="32" tileheight="32">
+  <image source="../drawable/naga.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="rocks" tilewidth="32" tileheight="32">
+  <image source="../drawable/rock_rocks.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="10" name="pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="13" name="ground_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_4.png" width="128" height="320"/>
+ </tileset>
+ <tileset firstgid="53" name="large_boulder" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_boulder.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="62" name="large_pebble" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_pebble.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="64" name="huge_boulder" tilewidth="32" tileheight="32">
+  <image source="../drawable/huge_boulder.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="84" name="pothole" tilewidth="32" tileheight="32">
+  <image source="../drawable/pothole.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="88" name="water" tilewidth="32" tileheight="32">
+  <image source="../drawable/water.png" width="96" height="256"/>
+ </tileset>
+ <tileset firstgid="112" name="item/corpse/huge_animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/huge_animal.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="128" name="snake_skeleton" tilewidth="32" tileheight="32">
+  <image source="../drawable/snake_skeleton.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="144" name="water/foaming" tilewidth="32" tileheight="32">
+  <image source="../drawable/foaming.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="152" name="torchlight_5x4" tilewidth="32" tileheight="32">
+  <image source="../drawable/torchlight_5x4.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="248" name="torch_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/torch_2.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="257" name="rotating_crystal" tilewidth="32" tileheight="32">
+  <image source="../drawable/rotating_crystal.png" width="256" height="192"/>
+ </tileset>
+ <tileset firstgid="305" name="light/white_1x1" tilewidth="32" tileheight="32">
+  <image source="../drawable/white_1x1.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="306" name="light_5x5" tilewidth="32" tileheight="32">
+  <image source="../drawable/light_5x5.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="331" name="logic/creature/spider" tilewidth="32" tileheight="32">
+  <image source="../drawable/spider.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="334" name="logic/creature/reptile" tilewidth="32" tileheight="32">
+  <image source="../drawable/reptile.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="341" name="terrain/cave_blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/cave_blue.png" width="256" height="448"/>
+ </tileset>
+ <tileset firstgid="453" name="terrain/cave_edges_blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/cave_edges_blue.png" width="160" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtl0EKgDAMBOMHPPTRfbdHQajUzWxAyCEnzc7QSm3mETGTdca65uGtN3aFQ/M5B6Uvy6/qX2X8hU9lZPl0htJLOlB8dS9JfiavHdqhHbwe1Q5PD+W526Fijb7wR9zlcNh9n3ZQ1ndA/yr1OxvGO8tuFnWeOO/vzl5iFqD4yhlLzS+u+e4C597WdA==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtVkEKgCAQ1IsY/aCH1gvCU/SC7KspKC0UKZTOQg4MkoEzziquEO+xy+vc5uYWKYrDPGh4D7PE6Xv8Xb90DUzG2mj9khmYzHXnCncxlcHCwINl4oODByR0IAIdYU2oQE1GZPYdQJtmoEG1R+5fMKi/Ijkgz58C33/E/uN7fXf+VvdvdOMUvku8EVTf08qTEQOwX6zhoSGNvvVLt72jZZTJFz4OUI0edg==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1LkRACAIBVEtyvto1Vb9oRVIwL6ZjRkICAEAgD+28/2TyqoY3b6qprrR/sy3nT/UVItXhMeJ3ADw5ALmNAUf
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtl0EKgDAMBJuHqzd70h+IX1VRaNGomGwTBRdCEYSZSkJtCH/+rGnpWB5MS4+v8Et5POVzDg3Z8vcOy7PUAcHXOKD4UgcpH+Wg4SMctHytA4KvcUDxpQ5IvsQBzT/ziMZ8zqMhe37uYN0L3DeIN/PQU6rSfcll3N4d5rVz4OcZnPl5TyDPqppSXaW6OOst9t8BZ8XzH97z/mLJ5xzengmTbekR
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlzkOgDAMBMf//zQ9EgjwHg2RXMYzUQ47A4wgzmOCcTXafH7+Os+Wz3KuIkebj4B/lyfJVzsQdsDI/+Kg5k9o/YjeJAoOSv5bhzHwNw4UHFz8pw5O/pP3KcG/O2/KWrDdk4RLm0+Rq6hXzlqR6hnUvXObn+x/nf9A9/1x3TfV3+0AX80Bvg==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="576" y="0" width="128" height="32">
+   <properties>
+    <property name="map" value="-2_ados_snake_pit_x1_y3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="0" y="992" width="448" height="32">
+   <properties>
+    <property name="map" value="-2_ados_snake_pit_s_x1_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="0" y="192" width="32" height="480">
+   <properties>
+    <property name="map" value="-2_ados_snake_pit_s_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="4" x="0" y="800" width="32" height="224">
+   <properties>
+    <property name="map" value="-2_ados_snake_pit_s_x0_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

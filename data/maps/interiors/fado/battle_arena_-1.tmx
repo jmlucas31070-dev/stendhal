@@ -77,4 +77,90 @@
    H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="stairs1down" type="mapchange" id="1" x="960" y="160" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_fado_battle_pit_x0_y0"/>
+    <property name="place" value="stairs1up"/>
+   </properties>
+  </object>
+  <object name="stairs1up" type="mapchange" id="2" x="960" y="192" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_fado_battle_pit_x0_y0"/>
+    <property name="place" value="stairs1down"/>
+   </properties>
+  </object>
+  <object name="stairs2down" type="mapchange" id="3" x="992" y="160" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_fado_battle_pit_x0_y0"/>
+    <property name="place" value="stairs2up"/>
+   </properties>
+  </object>
+  <object name="stairs2up" type="mapchange" id="4" x="992" y="192" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_fado_battle_pit_x0_y0"/>
+    <property name="place" value="stairs2down"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="5" x="64" y="992" width="960" height="32">
+   <properties>
+    <property name="map"   value="int_ados_barracks_0_x0_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="6" x="992" y="32" width="32" height="992">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="basement_exit" type="mapchange" id="7" x="1728" y="96" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_fado_battle_arena_x1_y0"/>
+    <property name="place" value="basement_entrance"/>
+   </properties>
+  </object>
+  <object name="south_1" type="mapchange" id="8" x="1024" y="992" width="960" height="32">
+   <properties>
+    <property name="map"   value="int_ados_barracks_0_x1_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="9" x="1024" y="32" width="32" height="128">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="10" x="1024" y="256" width="32" height="768">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" id="11" x="64" y="1024" width="960" height="32">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east_1" type="mapchange" id="12" x="992" y="1024" width="32" height="960">
+   <properties>
+    <property name="map"   value="int_ados_barracks_0_x1_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="north_1" type="mapchange" id="13" x="1024" y="1024" width="960" height="32">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="west_1" type="mapchange" id="14" x="1024" y="1024" width="32" height="960">
+   <properties>
+    <property name="map"   value="int_ados_barracks_0_x0_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

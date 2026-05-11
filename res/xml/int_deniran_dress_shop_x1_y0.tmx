@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="3" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="wallpapers" tilewidth="32" tileheight="32">
+  <image source="../drawable/wallpapers.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="26" name="wood_trim" tilewidth="32" tileheight="32">
+  <image source="../drawable/wood_trim.png" width="320" height="160"/>
+ </tileset>
+ <tileset firstgid="76" name="floor_tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="85" name="int_windows_wood_centered" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_windows_wood_centered.png" width="320" height="96"/>
+ </tileset>
+ <tileset firstgid="115" name="towels" tilewidth="32" tileheight="32">
+  <image source="../drawable/towels.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="139" name="mannequins" tilewidth="32" tileheight="32">
+  <image source="../drawable/mannequins.png" width="224" height="128"/>
+ </tileset>
+ <tileset firstgid="167" name="oriental_screen" tilewidth="32" tileheight="32">
+  <image source="../drawable/oriental_screen.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="175" name="vendors_table" tilewidth="32" tileheight="32">
+  <image source="../drawable/vendors_table.png" width="224" height="160"/>
+ </tileset>
+ <tileset firstgid="210" name="wooden_rustic" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rustic.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="218" name="rug_border" tilewidth="32" tileheight="32">
+  <image source="../drawable/rug_border.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="227" name="dress" tilewidth="32" tileheight="32">
+  <image source="../drawable/dress.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="228" name="red_hat" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_hat.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="229" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="3" height="20">
+  <data encoding="base64" compression="zlib">
+   eNoTYWBgEIFifigGsQOGOBvZL8gYAOWtCA0=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="3" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpTZGBgUAJiZSDWBmIdINZlgAAzKHsSEpsW4huR2DuQ2PuR2JeQ2NdwmIPMVgRiYyA2gfrLFojtgBgAhGoOYQ==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="3" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAvCAXiMDSxEiR2BY3tBwCzCAGY
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="3" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYMAOumksPlAAAIfvAi0=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="3" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBhZAAAA8AAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="3" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNp7ysDA8BQLZhggcVxqSGXjwgCaXyy7
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="west" type="mapchange" id="1" x="0" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="2" x="0" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="3" x="0" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="west4" type="mapchange" id="4" x="0" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east4"/>
+   </properties>
+  </object>
+  <object name="west5" type="mapchange" id="5" x="0" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east5"/>
+   </properties>
+  </object>
+  <object name="west6" type="mapchange" id="6" x="0" y="416" width="32" height="160">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east6"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

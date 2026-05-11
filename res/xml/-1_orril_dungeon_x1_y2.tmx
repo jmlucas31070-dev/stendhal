@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground/brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="building/stairs/stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="18" name="item/corpse/skull_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_pale.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="20" name="item/statue/skullpedestal" tilewidth="32" tileheight="32">
+  <image source="../drawable/skullpedestal.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="22" name="logic/creature/rodent" tilewidth="32" tileheight="32">
+  <image source="../drawable/rodent.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="30" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="54" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="55" name="building/wall/int_clay" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_clay.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="155" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="170" name="door_n" tilewidth="32" tileheight="32">
+  <image source="../drawable/door_n.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="176" name="winding_small" tilewidth="32" tileheight="32">
+  <image source="../drawable/winding_small.png" width="128" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1TsKACAMRMFA7n+Evau9YBM3H3GL1zohoMLMsOWBQK7aP52V7Tsp+fJ/9Zn3vtuP7IXhY5Bfvf/uv2eS74/5+NhHUvJ7fciXL3+8P+ENup1hAQXofzo=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtl1EOgCAIhrn/FWpWGrNjZpttznzQCVgLNh5iy48fBhbA05bgM9TbDvR25bBW5kHBt8Fd8C2LIzPfRT/is09iaVy6/jC4/8r/F39qmPf8PUOo4d47krunpMEKzn7pDBTqfY92Cr7p0M41eyP5LbWnmr0v1p5De8u3F+fOx5/za3rAfeei8pWv/NfyfeFfUXoHUuRwAs7vO50=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt00ENAAAIA7FpwL9YPIyEV2vhcklvAnzwGvhBawDgagE1rQBJ
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1tEJACAIRdE31dt/tCYIIjWjruD3UVDRkjzJ1XBx/uKrwc8IfPyov1uTC/yTu6/m26PgbHTeXTXbv/v0zs/zqm98fHz8S/2sGgb/uZXF
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="224" y="0" width="320" height="32">
+   <properties>
+    <property name="map" value="-1_orril_dungeon_x1_y1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="224" y="992" width="256" height="32">
+   <properties>
+    <property name="map" value="-1_orril_dungeon_x1_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="0" y="128" width="32" height="288">
+   <properties>
+    <property name="map" value="-1_orril_dungeon_x0_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

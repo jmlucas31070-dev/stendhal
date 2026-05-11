@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground/brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="building/castle" tilewidth="32" tileheight="32">
+  <image source="../drawable/castle.png" width="640" height="512"/>
+ </tileset>
+ <tileset firstgid="326" name="ground/indoor/tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/tiles.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="334" name="building/wall/wall_brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/wall_brown.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="346" name="building/door/door_n" tilewidth="32" tileheight="32">
+  <image source="../drawable/door_n.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="352" name="building/window/window_long" tilewidth="32" tileheight="32">
+  <image source="../drawable/window_long.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="355" name="building/roof/red" tilewidth="32" tileheight="32">
+  <image source="../drawable/red.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="375" name="building/roof/green" tilewidth="32" tileheight="32">
+  <image source="../drawable/green.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="395" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="396" name="ground/rock/pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="399" name="ground/rock/large_boulder" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_boulder.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="408" name="ground/rock/rubble" tilewidth="32" tileheight="32">
+  <image source="../drawable/rubble.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="417" name="plant/bush/large_brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_brown.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="426" name="plant/bush/various_small" tilewidth="32" tileheight="32">
+  <image source="../drawable/various_small.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="435" name="logic/creature/human_imperial" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_imperial.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="451" name="building/wall/stone_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_grey.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="463" name="building/roof/yellow" tilewidth="32" tileheight="32">
+  <image source="../drawable/yellow.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="483" name="building/door/closed" tilewidth="32" tileheight="32">
+  <image source="../drawable/closed.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="484" name="building/wall/wood" tilewidth="32" tileheight="32">
+  <image source="../drawable/wood.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="500" name="building/roof/blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="520" name="building/wall/stone" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="532" name="ground/water/dungeon_water" tilewidth="32" tileheight="32">
+  <image source="../drawable/dungeon_water.png" width="96" height="320"/>
+ </tileset>
+ <tileset firstgid="562" name="logic/creature/giant_human" tilewidth="32" tileheight="32">
+  <image source="../drawable/giant_human.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="572" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="596" name="item/statue/swordsman" tilewidth="32" tileheight="32">
+  <image source="../drawable/swordsman.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="608" name="ground/green_paving" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_paving.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="626" name="wall/int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="747" name="logic/creature/spider" tilewidth="32" tileheight="32">
+  <image source="../drawable/spider.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="750" name="logic/creature/rodent" tilewidth="32" tileheight="32">
+  <image source="../drawable/rodent.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="758" name="building/wall/int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="773" name="object/mine_rails_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/mine_rails_2.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="837" name="castle door centered_double" tilewidth="32" tileheight="32">
+  <image source="../drawable/castle door centered_double.png" width="64" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlMEKgDAMQ8W/afqj/Ww9eCilc1PiQcjhwaZI0qY19m2LG/wE6W7XHde72bdBBsmTpzOKTy9eWfqesKKN4q96ZNVvhU4XTa8Y+p2mD874YAa63uY8umdM3axjizDyr3XbQhajXXmrbzd5Y6IN0jx0Oz/bR+Y8jnatZt3VHoQ5wIf/lqf9DyGEEEII8TsOWMHpDg==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrNlF8KgkAQxrWD9dxfOkGgRHSASM+QWM8+1A2iPECX6ETbCC0My7rut+5qAx+Cjv78ZnYmisxxJD1JZ1KueZ6QFkwr0py0Zc/Tlm+LCIvcIidhbBlFQP4l1ueW7P6DtCSdBvBviswj/xrbv3cjvUh1D/5G6WsJ8NvOIMLf9ax9MTJfnkF+DhG+3ANrQ47ak2Y2dH3KHM9fnzrM2P/74De+kBko2Psh/MsZa9P9l1exOVT5hwl9f2LP58zawYvK3xM77eBXPZk6vvStXkOHUHyr16H4SP9D8ofy7bJ/0drY5CN8tDY2+QLwYTsbSL4AfNjOBpIvgL66+jbVQQB9dfVtqoOI/O88tP++d16o/rvWoWv+Qu08X/P/L/s3FP8zot6kaTyuvsNCk30=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1EEKACAIRFE7f5duG1FBWYn5B1w6z5Ui8+R0ZkbdK/Hs9+7At7Mj+u0tnvwb/+i1X+//6O90aX1NtPva4OPj4+Pj49v40acA/1isRQ==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="256" height="32">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_w_x3_y2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="2" x="832" y="0" width="160" height="32">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_w_x3_y2"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="0" y="0" width="32" height="960">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_w_x2_y3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

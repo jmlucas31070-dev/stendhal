@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="2" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="123" name="floor_tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="132" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="156" name="single_purple_gold" tilewidth="32" tileheight="32">
+  <image source="../drawable/single_purple_gold.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="165" name="purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/purple.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="174" name="bench_wooden" tilewidth="32" tileheight="32">
+  <image source="../drawable/bench_wooden.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="182" name="stool" tilewidth="32" tileheight="32">
+  <image source="../drawable/stool.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="183" name="table_with_beer_dark" tilewidth="32" tileheight="32">
+  <image source="../drawable/table_with_beer_dark.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="193" name="item_shelf" tilewidth="32" tileheight="32">
+  <image source="../drawable/item_shelf.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="199" name="shelf_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/shelf_3.png" width="64" height="160"/>
+ </tileset>
+ <tileset firstgid="209" name="chess" tilewidth="32" tileheight="32">
+  <image source="../drawable/chess.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="210" name="superhumans_wall_hanging" tilewidth="32" tileheight="32">
+  <image source="../drawable/superhumans_wall_hanging.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="216" name="superhumans_banner_on_post" tilewidth="32" tileheight="32">
+  <image source="../drawable/superhumans_banner_on_post.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="224" name="chest_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_purple.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="226" name="notes" tilewidth="32" tileheight="32">
+  <image source="../drawable/notes.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="230" name="wooden" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="231" name="oriental_plant" tilewidth="32" tileheight="32">
+  <image source="../drawable/oriental_plant.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="233" name="plant_potted_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/plant_potted_2.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="235" name="purple_drapes" tilewidth="32" tileheight="32">
+  <image source="../drawable/purple_drapes.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="244" name="square" tilewidth="32" tileheight="32">
+  <image source="../drawable/square.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="2" height="20">
+  <data encoding="base64" compression="zlib">
+   eNqrY2BgqBvEGABPWhOx
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="2" height="20">
+  <data encoding="base64" compression="zlib">
+   eNrjYGBg4ARiYSAWAWInIHYmgs4G4hwgLgPiciDmINMcQuYCAOAeCjU=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="2" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBjcAAAAoAAB
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="2" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBjcAAAAoAAB
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="2" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBjcAAAAoAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="2" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpjZGBgYBzEGAANcAAp
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents"/>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

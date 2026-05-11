@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="18" height="18" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="carpets_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets_2.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="21" name="collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="22" name="pot_tall.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_tall.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="24" name="square_patch.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/square_patch.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="33" name="int_wall_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="49" name="int_wall_purple.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="69" name="dark_bookshelf.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_bookshelf.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="75" name="skull_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_pale.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="77" name="skeleton.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/skeleton.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="81" name="webs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/webs.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="87" name="logic/creature/animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/animal.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="119" name="portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="143" name="stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="155" name="blood/floor_stain.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_stain.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="156" name="logic/creature/spider" tilewidth="32" tileheight="32">
+  <image source="../drawable/spider.png" width="96" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eNrjYWBg4BnFA4ZlRsNgNI5G8aDBAO7qD1E=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eNrt0jcOgDAMhWEfgxI6C2Wlc1Nfljd4YIgQibMgYemTt18ePBJRrTRACyesng5opDOT/0wOHRZvOhHEFonjPSmYG5adKTvm76g6/NDhAPfkUFiUAf/5q50dFk+bdHqolDq4ABnIH9Q=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAucAViNyB2p9AcDyD2BGIvBtoBXyD2Yxg44A/EAQyjYDAAbzLlhioQJ+BX5LQ5G4j78ZgjPozCBQDA0QXX
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eNoLZmBgCGGgHIQCcRiVzBkFo2AUYAdiVDRHbDQ4MQAATnAB6g==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="18" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNoTZWBgEB3kmBRAid5Rc0bNGSnmiFLRHFEqmjPQGAABBAr/
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="upstairs" type="mapchange" id="1" x="448" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_haunted_house_x0_y0"/>
+    <property name="place" value="downstairs"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

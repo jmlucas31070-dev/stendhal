@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="logic/creature/chaos" tilewidth="32" tileheight="32">
+  <image source="../drawable/chaos.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="9" name="logic/creature/huge_animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/creature_huge_animal.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="25" name="bush/various_small" tilewidth="32" tileheight="32">
+  <image source="../drawable/various_small.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="34" name="cross" tilewidth="32" tileheight="32">
+  <image source="../drawable/cross.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="35" name="grave_marker" tilewidth="32" tileheight="32">
+  <image source="../drawable/grave_marker.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="37" name="ground/brown_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="55" name="rocks" tilewidth="32" tileheight="32">
+  <image source="../drawable/rock_rocks.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="59" name="scratches" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="64" name="scratches_corners" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches_corners.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="72" name="scratches_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="90" name="scratches2_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches2_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="108" name="skeleton" tilewidth="32" tileheight="32">
+  <image source="../drawable/skeleton.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="112" name="skeleton-hanging" tilewidth="32" tileheight="32">
+  <image source="../drawable/skeleton-hanging.png" width="128" height="192"/>
+ </tileset>
+ <tileset firstgid="136" name="skull_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_pale.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="138" name="skull_posts" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_post.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="140" name="skullpedestal" tilewidth="32" tileheight="32">
+  <image source="../drawable/skullpedestal.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="142" name="wooden_crosses" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_crosses.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="146" name="logic/creature/undead_skeleton" tilewidth="32" tileheight="32">
+  <image source="../drawable/undead_skeleton.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="152" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtl8ENACAMAruXmzKtM5gmHhUfvK82DaCqSg2tpjScLwN+Z0ZdFs2XAV8GfBnw05V6f4n+Q/ovmT9k/pH5S+U/2T/I/kP0L7J7rsB9/zuf8+ZXfG3an/KUswHHNf8L
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlkEOwCAIBPn/CzC0aTHxn21v3tpQdEmEhPPsIq4S/atK2NruLgE07C8dRWPJ80oNnYaV6wCz24Js9JuB8v5wTyC75Z7nngXzzGC2OM3667y5+w8KYL8UlOHs5NnKV8Cee561hS3AXNEB2VIn3murb0+2Jcctc78AbyI64w==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0bEJACAQA8AfREWncP/N/AEsrBThDtKkSZEIAADgVM20h/s9Mzb9vLBd3A9fW4m5ANA=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlsENADAIAmH/pbuDNjlbbML7NDaAJbmpzvMl0fzqjAZE8z2A7wH81Sr1/yf7T2L+kPlL5j/ZP6j+o2VH3Jru2JP562n/+NkLe1f5B0XxA0Q=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="544" y="0" width="480" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_n2_e3_x0_y3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="288" y="992" width="320" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_n_e3_x0_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="0" width="32" height="192">
+   <properties>
+    <property name="map" value="-2_semos_mine_n_e3_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="4" x="992" y="352" width="32" height="288">
+   <properties>
+    <property name="map" value="-2_semos_mine_n_e3_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

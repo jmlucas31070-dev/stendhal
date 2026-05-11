@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/ground/ground_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_2.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="5" name="../../tileset/ground/brown.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="10" name="../../tileset/building/stairs/dark_stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_stairs.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="12" name="../../tileset/building/stairs/stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="24" name="../../tileset/furniture/carpet/brown_rug.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_rug.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="36" name="../../tileset/item/statue/grey_stone.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_stone.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="40" name="../../tileset/item/statue/skullpedestal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/skullpedestal.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="42" name="../../tileset/furniture/light/torch_top.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/torch_top.png" width="32" height="128"/>
+ </tileset>
+ <tileset firstgid="46" name="../../tileset/furniture/chair/wooden.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="51" name="../../tileset/building/fence/fence_chunky.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/fence_chunky.png" width="96" height="224"/>
+ </tileset>
+ <tileset firstgid="72" name="../../tileset/item/food/rustic_meals.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rustic_meals.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="74" name="../../tileset/furniture/table/wooden_rectangular.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rectangular.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="83" name="../../tileset/logic/creature/kobold.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/kobold.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="89" name="../../tileset/logic/portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="113" name="../../tileset/logic/creature/rodent.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rodent.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="121" name="../../tileset/logic/creature/goblin.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/goblin.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="124" name="../../tileset/logic/creature/orc.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/orc.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="130" name="../../tileset/logic/creature/troll.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/troll.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="134" name="../../tileset/logic/creature/sheep.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/sheep.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="135" name="../../tileset/logic/item/sheepfood.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/sheepfood.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="136" name="../../tileset/logic/creature/gargoyle.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/gargoyle.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="140" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="141" name="bushes.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/bushes.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="151" name="protection" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="153" name="../../tileset/building/wall/int_clay.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_clay.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="253" name="double_peach" tilewidth="32" tileheight="32">
+  <image source="../drawable/double_peach.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="261" name="logic/creature/ogre" tilewidth="32" tileheight="32">
+  <image source="../drawable/ogre.png" width="128" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtljEOACAIAxma9P8/9gsYgwXtcBumJCgnI4JJUAA/z8/2Buc7X5xf8VZopLyyK02ND5XZN3tQ3ucp/x8mz2Ojzjt4ti9O548mTungsw4utcf/YgHg0hRI
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtljEPgjAUhPv//wGDMkiKC87EdNYFCAzIUH+MNYFE63v1qqWKsck3+ehdMO+OXAiRE5Ti/hwMR8MpENpwFvi56nfjMyGpHTSjtjK0M+lz72cw7Kx3r2fQ59hY+l1E7b/+o/7KsPYgBXW45wtLf2/ImKyw2Xr4dd0zZZBkMok7EvSZi8+f2oMGvFN53Inm9TWPKvDO1qMr0H3oX+yXJZG8scchtAtrx6c9TiNql9Yez+2B047lwaX9zEMCZr9rLgNzVRK5XhCdQGW/a670yEoJfKdK8HtWfkn+Nx6zCugEBXbHNFeBHhSR61QnUNnvmhsAD7faGugEDXaHHn9zeeC0Q8J5iKFNebD/o1hd2v9Ijy+JCxqequ8=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlDEKACAMA/t/8mhXB4WKhERM4TYhis2hqrBhHpDoDkQos5Of/OSf+4LhH9YwfIkQHka5x8ouKfusdMqtK7v3XJ1z8L/y/Q7/77D/Dv138F/4iwFoLNBc
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="224" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="-4_semos_dungeon_x2_y2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="2" x="0" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="-4_semos_dungeon_x1_y3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="3" x="0" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="-4_semos_dungeon_x1_y3"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="4" x="0" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="-4_semos_dungeon_x1_y3"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="5" x="992" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="-4_semos_dungeon_x3_y3"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="6" x="992" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="-4_semos_dungeon_x3_y3"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

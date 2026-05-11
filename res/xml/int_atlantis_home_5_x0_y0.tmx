@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="17" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="123" name="wooden_rustic" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rustic.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="131" name="wooden_trestle_vertical" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_trestle_vertical.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="137" name="floor_tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="146" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="170" name="wooden_clock" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_clock.png" width="32" height="192"/>
+ </tileset>
+ <tileset firstgid="176" name="warmer_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/warmer_2.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="182" name="lights_candle" tilewidth="32" tileheight="32">
+  <image source="../drawable/lights_candle.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="224" name="wardrobe_lateral" tilewidth="32" tileheight="32">
+  <image source="../drawable/wardrobe_lateral.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="232" name="brown_rug" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_rug.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="244" name="bed/side_on_bluer" tilewidth="32" tileheight="32">
+  <image source="../drawable/side_on_bluer.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="246" name="sink/dark_brown_stone" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_brown_stone.png" width="64" height="224"/>
+ </tileset>
+ <layer id="1" name="Ground" width="17" height="20">
+  <data encoding="base64" compression="zlib">
+   eNqbyMDAMHEUj+IRjF8A8Rsk/IoMM94B8Wuo/rdA/IFMM0D4PVQ/uWZ8BOJPQPyZTDNeQPXD8KvRNEI0BgDh8Mmr
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="17" height="20">
+  <data encoding="base64" compression="zlib">
+   eNrd0TkKAkEQheFK3LIZ9TIa6g0UzRTN3DK3QHBAcDmQnkjEC7hm/sIEQ9Mi1nQw+OCDDopHdXdKRNLIKGSRgwcfeYUCiiihLPbscZDPqaAa6bjgKr/F7PiWZeS8UO6xwhobBMo93tliF+MuLt4jqR1HBx0nBx3nP/+XG+4xOx54Kjt66GNgqKEezjbQtMwMMcIYE0wNLbTDjg66lpkZ5ngBcRQuRg==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="17" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYMANNgDxRiT+KgbSwSYg3ozEX80wCpDBASA+OBoMo2AUDAsAAHT+BZ0=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="17" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgF5IJmIG4ZDQaagYejQTAKhhgAAJRaAek=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="17" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgF5IJdQLx7NBhGwSgYBVAAAPPTAXY=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="17" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpjZGBgYBxEGBvAJ8dAolnEmkEOIMcd6Gpo4Y6RbAbjMDJjMMfLYMtz2MymR/kFAI73AJE=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="256" y="576" width="32" height="32">
+   <properties>
+    <property name="map" value="-7_deniran_atlantis_x1_y0"/>
+    <property name="place" value="home_5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

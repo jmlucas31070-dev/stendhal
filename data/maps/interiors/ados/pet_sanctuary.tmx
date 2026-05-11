@@ -165,4 +165,24 @@ ABAAAA==
    H4sIAAAAAAAAAO3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="in" type="mapchange_exit" id="1" x="704" y="960" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_ados_outside_nw_x1_y1"/>
+    <property name="place" value="sanctuary"/>
+   </properties>
+  </object>
+  <object name="door_right" type="mapchange" id="2" x="512" y="288" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_ados_pet_sanctuary_x0_y0"/>
+    <property name="place" value="door_left"/>
+   </properties>
+  </object>
+  <object name="door_left" type="mapchange" id="3" x="416" y="288" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_ados_pet_sanctuary_x0_y0"/>
+    <property name="place" value="door_right"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

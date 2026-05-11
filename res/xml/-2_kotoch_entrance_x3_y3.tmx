@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/ground/ground_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_2.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="5" name="../../tileset/ground/brown.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="10" name="../../tileset/logic/creature/rodent.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rodent.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="18" name="../../tileset/logic/creature/orc.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/orc.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="24" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="25" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="49" name="furniture/carpet/carpets_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets_2.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="69" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/large.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="77" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rectangular.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="86" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/throne.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="92" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/iron_lamp.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="95" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_tall.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="97" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_on_metal.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="98" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_stairs.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="100" name="logic/creature/ogre" tilewidth="32" tileheight="32">
+  <image source="../drawable/ogre.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="104" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt06ENADAMA0HDev+FQ7JDW+nA4QeWm6QAAA8762bfDuB78LsBUCAj/Q==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlt0KwCAIRn3cVsTWqPdfN4MIGWSitBTObQf68McDgO84KwXGKyFvUbiBVuYfd10IRdBPLVeJlUPJn5CsJP0ZyUrSr52/+f/rf3u7728Jv5uYxRz+tJi/zSoo+Gd37sp+R/zzL38euAU47p2Z/R8U/Vy33u7+SCQw+Q1jZx6AxBUo
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1sEJACAMBMEr4/qv1AoElSOBuIF9j+AjsSRvuh0HE/4XvgIWfr3f/f/4c/3XNyZ841/56T2Df+57oF996+D335pE1NMCEAE+WQ==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="224" y="0" width="384" height="32">
+   <properties>
+    <property name="map" value="-2_kotoch_entrance_x3_y2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="2" x="0" y="160" width="32" height="640">
+   <properties>
+    <property name="map" value="-2_kotoch_entrance_x2_y3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

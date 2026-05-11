@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="18" height="16" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="25" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="26" name="lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_lamp.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="30" name="int blue green" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_blue_green.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="46" name="int green blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_blue.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="62" name="door" tilewidth="32" tileheight="32">
+  <image source="../drawable/entrance_blue_green.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="70" name="floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/plain_colours.png" width="320" height="32"/>
+ </tileset>
+ <tileset firstgid="80" name="floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="89" name="weapons" tilewidth="32" tileheight="32">
+  <image source="../drawable/weapons_for_walls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="105" name="weapons 2" tilewidth="32" tileheight="32">
+  <image source="../drawable/weapons_rack.png" width="288" height="64"/>
+ </tileset>
+ <tileset firstgid="123" name="table" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_plain.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="132" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <layer id="1" name="Ground" width="18" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBicIJACPFjMoAVmoKI5AYPIT5S6Z7DG10jB/lBMqj4ApmJL6w==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="18" height="16">
+  <data encoding="base64" compression="zlib">
+   eNqTY2BgkKcQKwKxGhArA7ENmVgFiFWh5pgykA+MKDSnm0rmMIyaM2rOIDVHHYgNoNgOiO2R+ISwBtQcLSDWRsIwoE0C1gViANjhFPU=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="18" height="16">
+  <data encoding="base64" compression="zlib">
+   eNrN08cOgkAAhOF9Dt9MVErUSAtgISC9vDh/wp44GIoQJvlOm53DbFaIPkcoOOMEDbo8M6DigitueOAOU6yTw0Z3psSCDQcunjN7XnjjgxCJ2G9SZFI+Yp8APrzBPgVKqRqxzxcxosE+U3p+5V89NRqp3eA99vgvlqQDZ4wYcw==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="18" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFxIJMIM4C4mwgzgHiwtEgwQifAiDOB+K80fAZUcABiB3J0AcAvZEExA==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="18" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIKBAQAEgAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="18" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNqTZGBgkBykmFRADTNwmUVNc8hx50D5C5d6WpojSYa9Q8FfDAOUponJYwOVxwEo2w7Z
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="128" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="-3_orril_dungeon_x4_y3"/>
+    <property name="place" value="smith_shop_entrance"/>
+   </properties>
+  </object>
+  <object name="smith_shop_downstairs" type="mapchange_exit" id="2" x="448" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="-4_orril_dungeon_x0_y3"/>
+    <property name="place" value="smith_shop_upstairs"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/ground/brown.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="../../tileset/item/corpse/skull_dark.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_dark.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="8" name="../../tileset/item/statue/grey_stone.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_stone.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="12" name="../../tileset/ground/eye.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/eye.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="21" name="../../tileset/building/stairs/dark_stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_stairs.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="23" name="../../tileset/logic/portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="47" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="48" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/enormous_creature.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="49" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/demon.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="56" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/elemental.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="72" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/undead.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="88" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/human.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="93" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/iron_lamp.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="96" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/flames.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="102" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/skeleton.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="106" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/metal_and_stone.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="112" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_stains_2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="116" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_stain.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="117" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/nsew_stains.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="121" name="brown_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="139" name="tan_building" tilewidth="32" tileheight="32">
+  <image source="../drawable/tan_building.png" width="128" height="192"/>
+ </tileset>
+ <tileset firstgid="163" name="sand_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/sand_1.png" width="64" height="160"/>
+ </tileset>
+ <tileset firstgid="173" name="sand_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/sand_2.png" width="160" height="96"/>
+ </tileset>
+ <tileset firstgid="188" name="brown_corners" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_corners.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="196" name="window_centered" tilewidth="32" tileheight="32">
+  <image source="../drawable/window_centered.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="197" name="closed" tilewidth="32" tileheight="32">
+  <image source="../drawable/closed.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="198" name="door" tilewidth="32" tileheight="32">
+  <image source="../drawable/door.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="204" name="large_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_green.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="213" name="dim_yellow_light_7x5" tilewidth="32" tileheight="32">
+  <image source="../drawable/dim_yellow_light_7x5.png" width="224" height="160"/>
+ </tileset>
+ <tileset firstgid="248" name="dim_yellow_light_5x5" tilewidth="32" tileheight="32">
+  <image source="../drawable/dim_yellow_light_5x5.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="273" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtljEOgDAMAyP5/x/xjMT3EBsDFBBqHBEPXnNu6rRBROBEPAgiKfnK87MQH+a3y34VDyyWBfouzPeb1LYHO3f1v9Sejx/xKe79m0zP5t/Vn529kYesPeSKkbkHcaAlcQb5QGoPX+tv3RdXxA==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNq9l11KA1EMheMWLFqt2H3aebj0oe2mHNAF6NXqgszQhB5CKoMmuRCGoYXv5OcmmcUV0YLtge2NiN7pdHZsI9sg7yv5X5ZN/A/mfNL5NLZtIf+LOd/Ce5JnJZ8MezoHeT7y78sifjO+U0EM5vAzY6D8LrWP/F6gAf3X+2f9z8wD8rUPNLj/2Xm4YbsWDdoHphi8sG0cHZkasA9MGvaiAzX0pDxgHPqFXqj5ybqPqMHja34y+4HVgHzNT3ZPRg3K70X90N7LnVODVfzu5OBY7D/OhaHQf1sDlTuBVwNjMH/5hxxE8uf0ccs/BPLnzBKvBiP5v2m4Y1vDPIjmD2am3oMOZOte+hrM9+a76lhfmEE9kL+ns43OnoHfRM3sZBE7iN35UEOHWauxj54Bt2bOWg06axvEPToG2mOPZucapTY2pu4yvgu8vUtjYY9Xs6vgWYM7uHeeoQ/+Zxf9AcedkEU=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYEAFF4D4IpR9gIH+4DIQX2EYGHAWiM8h8Q/S2X7ksAfZvWcEhf1gA3sHQRocCDcMtvy/d5ClB/QyYiDjh2EQxM8oGP5l0mACB0aDYESDPQNsf+MItB+5zhsI++lR54HKlapBUOcNhvJtsLihaoDdgN7WYx+G6R4AbRAoeg==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1UEOABEQRNF/o7r/7WysTULoYkrSW+9HAgHqM1o6MPF9feJvb6C4gZzBVQ2v30eHN1Hxf+8r/rM+Bj4GPkX372tfCvyT/z8GDTLw07DWMGs10pyIag==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="96" y="0" width="224" height="32">
+   <properties>
+    <property name="map" value="5_kikareukin_cave_x3_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="160" y="992" width="416" height="32">
+   <properties>
+    <property name="map" value="5_kikareukin_cave_x3_y2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="0" y="704" width="32" height="192">
+   <properties>
+    <property name="map" value="5_kikareukin_cave_x2_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

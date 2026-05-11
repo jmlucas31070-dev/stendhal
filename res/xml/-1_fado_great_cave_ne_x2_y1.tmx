@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground/brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="9" name="logic/creature/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="10" name="green_crystal" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_crystal.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="19" name="pink_crystal" tilewidth="32" tileheight="32">
+  <image source="../drawable/pink_crystal.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="28" name="large_boulder" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_boulder.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="37" name="rubble" tilewidth="32" tileheight="32">
+  <image source="../drawable/rubble.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="46" name="dungeon_water" tilewidth="32" tileheight="32">
+  <image source="../drawable/dungeon_water.png" width="96" height="320"/>
+ </tileset>
+ <tileset firstgid="76" name="ground/earth_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/earth_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="94" name="grass_corners" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_corners.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="118" name="bush/large_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_green.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="127" name="bush/various_small" tilewidth="32" tileheight="32">
+  <image source="../drawable/various_small.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="136" name="logic/creature/troll" tilewidth="32" tileheight="32">
+  <image source="../drawable/troll.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="140" name="ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="173" name="rocks_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks_2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="177" name="logic/creature/golem" tilewidth="32" tileheight="32">
+  <image source="../drawable/golem.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="181" name="logic/creature/giant_human" tilewidth="32" tileheight="32">
+  <image source="../drawable/giant_human.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="191" name="logic/creature/gargoyle" tilewidth="32" tileheight="32">
+  <image source="../drawable/gargoyle.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="195" name="brown_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="213" name="corners" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_corners.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="221" name="logic/creature/dragon" tilewidth="32" tileheight="32">
+  <image source="../drawable/dragon.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="229" name="logic/creature/spider" tilewidth="32" tileheight="32">
+  <image source="../drawable/spider.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="232" name="logic/creature/rodent" tilewidth="32" tileheight="32">
+  <image source="../drawable/rodent.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="240" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="255" name="ground/rock/blue_crystal" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_crystal.png" width="160" height="128"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlUEKwCAMBAPmW20P6v+/VAoWgnjopZmAOSx6m80m0SIiZWPVSQT/Aj30ISoHy7ReqP5752Brt/c2Ts/622IWvPM/pjw85r+CO/DmXiH+U/c5eejO9ZPvbyr1RQpyFeArxNZgbIWYUfg79J3etUgeImWQ/87/ugHq8x/E
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrNlTEOwjAMRXsTBAIKBY6ecokysZSBgVtEQQzd+EgePFQqrWM7lp4UNcPLdxq5qsqqHahpvQJrWgclX8e4gRO40N4GbA2zv+gMnlXCGe4F9KAz6kOr1IdgcA9BsS9P8HC6f0+35RsMI7l7wip/7+DUmFl7Nres6wCOoHHy/2bmmc3NqYrgQ1gVd75BIlojL3dyvLya/viHV8s/x52c3RL/deTbMNOdjP81DX9c6M3lHwTu5NTzHH5pbok/Zsgt8efKXoL/C5MN6js=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1LEJADAMA7BMbf+/uD94CIRIuxcbXAUkbpB5amtz9L12d+j+dgCY4gPRIwAr
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwwEJAAAIA7AHEfvH1AIGEDZYcqvdAQAAAL4bqV0AOw==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1DsKACEMRVHbu/8N20xpIZjMjZ/AA7sTJbG1WsWX0dn0sz3k97Z6QO6hoh/RBz/4JN7/zd/5u39KVfrDd/Cr7Dmim+0zGdNGtpFtFi3TX3WjfC71CcqOPs8PSwemHwoh
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="1024" height="32">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_ne_x2_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="0" y="992" width="416" height="32">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_ne_x2_y2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="0" y="0" width="32" height="96">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_ne_x1_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="4" x="0" y="416" width="32" height="608">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_ne_x1_y1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="5" x="992" y="0" width="32" height="352">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_ne_x3_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="6" x="992" y="384" width="32" height="128">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_ne_x3_y1"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

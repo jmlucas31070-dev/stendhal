@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="table" tilewidth="32" tileheight="32">
+  <image source="../drawable/long_front_on_pale.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="9" name="statue" tilewidth="32" tileheight="32">
+  <image source="../drawable/metal_and_stone.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="15" name="throne" tilewidth="32" tileheight="32">
+  <image source="../drawable/throne.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="21" name="lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_lamp.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="25" name="barell closed" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel_tall.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="27" name="barell 2" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_barrel.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="29" name="steel lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/iron_lamp.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="32" name="flames" tilewidth="32" tileheight="32">
+  <image source="../drawable/flames.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="38" name="rug" tilewidth="32" tileheight="32">
+  <image source="../drawable/pink_rug.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="50" name="amazoness" tilewidth="32" tileheight="32">
+  <image source="../drawable/amazon.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="66" name="blood" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_stain.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="67" name="corpse" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_dark.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="69" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="93" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="94" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="109" name="door_s" tilewidth="32" tileheight="32">
+  <image source="../drawable/door_s.png" width="96" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtljkOACAIBEnmo/z/FVYm9gLrQTElmZUYVzczb5rmS1hQ+xU5EGdAnOFkP+1Pz0AQaj8H+HnUn/lu7JwnIkPEPjNmKeqxirtU2b8Rfhf5b/1PvdwXJKPyTgaSsg64
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjFSQhoRTBsB+ESR21gC6gwHNHQPthvQRGgZ8UFqeTmGgDsQaAxgGukCsN4DpQAuItQmkgzQicAqN/E/r9ErI/7TOswZAbIhHPg6Ik9FwPB3TKzY/JdHJDSC/J+KQS8ITFpS4gdTyJ4kGbiDkd3q4gdS0jMsN6TT2OyE3pJNobzKZdsNABon2I+frRCrkmQwqhD8pIBWtHsgmsv5IoaJ98jSqL1KxuDubym0sfPaC7HKhcfwBAH/RLkw=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0IEAAAAIA7ArJJA/ZgIR1IawBPiqFLBoBQAAJw0FTgAw
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1MEJACAMA8D+u4Po/ku6gr9UuFsg0NBUATDJCeW204P9Ce/PUgE82eF8v/qvC/FVALU=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlsENwDAMAlnU+6/RV/9tg32WChLfHHEknJJUcRzHkG+RbEE5BGfYxq8l99cCvsJ/LJqv4fnTfFcGxzxPMrj6x5Xd+ZZE/789p6NzvvI7Oo3+0/yFP7UvpndWty7SiSKw
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="south" type="mapchange" id="1" x="256" y="992" width="768" height="32">
+   <properties>
+    <property name="map" value="-1_amazon_caves_x2_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="2" x="0" y="320" width="32" height="544">
+   <properties>
+    <property name="map" value="-1_amazon_caves_x1_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="992" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_amazon_caves_x3_y2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

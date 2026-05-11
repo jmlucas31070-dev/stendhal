@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="5" name="dark_caves" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_caves.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="93" name="box" tilewidth="32" tileheight="32">
+  <image source="../drawable/box.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="94" name="webs" tilewidth="32" tileheight="32">
+  <image source="../drawable/webs.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="100" name="pot_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_grey.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="101" name="pot_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_purple.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="102" name="desert" tilewidth="32" tileheight="32">
+  <image source="../drawable/desert.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="190" name="dry_grass" tilewidth="32" tileheight="32">
+  <image source="../drawable/dry_grass.png" width="288" height="192"/>
+ </tileset>
+ <tileset firstgid="244" name="human_armored" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_armored.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="252" name="huge_animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/creature_huge_animal.png" width="256" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlsEJADAMAp3AVd3/1xVKKEijD99nJCESAC+kgfhYbv7EB5fmkL4L7nso3+vByZeRr2C+yo+cXZ29uffWI9i//tcNvS6507q4B83m6JM=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFtAKiA2y/7AC7QXUQuYFhgN0wGNLCQIfBaH6kDhAfwDgA2S0/gGEIslsdjzwLDe0WJ2A3PfyeQoQ6JhrZP5B+Fx9guwdzmmcYpmlenIQ0P9LCnYkOfmcYgWlu1O+jfh9Mfmehsb0A0qQGng==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0DENAAAMA6AqrX8ZVbFkB0ggAS5VAQAA8MAAsYQAXw==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrllzsOwDAIQ1n6G0jC/S/bROpeBVvygCVG9DBmSMz+9cy6bF9uPK0Zzs05mPylNqtv9gzyDJks2DP0RM8Q813MZ+4gy/fifFYGCB/dQYD9LmSj/C7kB+l2Xej9mHUX3X3We+Xcoyi78r0zvCPsELIR78f3P0HYAXpugncNum/Uu+pNycg7652V99IL8rID5w==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtl0kOACAIA6f//7RPMHFJxULS87AUIwI00U7okJzs1Rx0SVX4P+eQ7kX3Pja/3nuMmY2ZXb1+zPUTPHuC567ue/s9xG8v3FvJd17an3IAft4CPg==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="288" y="0" width="480" height="32">
+   <properties>
+    <property name="map" value="-3_deniran_caves_e2_x3_y1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="96" y="992" width="416" height="32">
+   <properties>
+    <property name="map" value="-3_deniran_caves_e2_x3_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

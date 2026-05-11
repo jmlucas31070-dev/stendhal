@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="26" height="13" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="carpets_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets_2.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="21" name="int_wall_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="37" name="int_wall_purple.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="57" name="dark_stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_stairs.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="59" name="wooden_rectangular.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rectangular.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="68" name="wooden.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="73" name="collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="74" name="protection.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="76" name="ground_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_2.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="80" name="chests_banner.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/chests_banner.png" width="32" height="256"/>
+ </tileset>
+ <tileset firstgid="88" name="large.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/large.png" width="128" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="26" height="13">
+  <data encoding="base64" compression="zlib">
+   eNpjYWBgYBnFo3gUj2I6Yn80TIyawawHAOS3Dqk=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="26" height="13">
+  <data encoding="base64" compression="zlib">
+   eNpTYGBgECMBywOxAhl6JIDYAIh1iMD6QCxOgR4tBuKA5qgevHpYoJgBiR4Nt4HTowfE2kjYDKrGFE1clwI9ckAsioSVoG61hLpFEU1elkw96ADZrTC3EALk6JEjwi3k6AEAh10XGw==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="26" height="13">
+  <data encoding="base64" compression="zlib">
+   eNpjYBj8IASIg4A4AIiDoWLI/NBB4k5XNBoXsEbj26DxbQnotUHC+NTaAbEDEtseje+AQ58HDntcaBBmMHfZo7mPFsANjR5oEAPEsTjk4oA4nmEUDBUAAC+NC6w=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="26" height="13">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUIIMIII7EIRcFxNGjQTQK0AAAA5EBZw==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="26" height="13">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRQAkAAAVIAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="26" height="13" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrzZGBg8ByGmBhASJ8nierpYQ8pcuS4bbjaMxj14NNLSjonJ28MVj1DFQMAcDpCcg==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents"/>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

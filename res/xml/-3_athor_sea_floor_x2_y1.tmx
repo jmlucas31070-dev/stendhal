@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="floor_tiles2" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles2.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="7" name="floor_tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="16" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="17" name="golden_whirlpool" tilewidth="32" tileheight="32">
+  <image source="../drawable/golden_whirlpool.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="29" name="rocks" tilewidth="32" tileheight="32">
+  <image source="../drawable/object_rock_rocks.png" width="160" height="384"/>
+ </tileset>
+ <tileset firstgid="89" name="ship" tilewidth="32" tileheight="32">
+  <image source="../drawable/ship.png" width="512" height="736"/>
+ </tileset>
+ <tileset firstgid="457" name="giant_animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/giant_animal.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="460" name="animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/animal.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="492" name="huge_animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/creature_huge_animal.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="508" name="terrain/cave_blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/cave_blue.png" width="256" height="448"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlrsNwCAMRCnceHRGYARGyQjZJimMhBBfCZ8pOOlEx7Piswk75ygzT3inqGE0P92NrqHkWPAte3Aa34tHdWj1/xGPsrBL+Z3xd5DTgu+Fn07O2ATgs3BDZR4R/X/FXNkJWnMwu/NP4Gv0IRb577FJIYe+MJpPi3wG82kwA5rfH7H/W/yZd1CLT0B+L+eIf4DT+Kjc9fgI7uWv1YCSFffKRh/6/iGU
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYCAeyDAxMLAAMSsVMClAC4nNQ0f7NWkYBpSAUfuHj/1sTANrP98A2y/HNPTiH1QG8Q6g/aAySJbCcogaYNR+6tq/gnFg7G9nJD8MqGH/dKD9/YwDZz85+Z91gPM/ywDaT40ymBpgJNrPOgDtb2q1+Uftx7SfWLfQ0n584cLKRBtMa/NH7SfOfgA/JBOh
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlTsKwkAUAHevYmOtt7EwNzDaK5YWJmpnkc8FojlABMUj2HobB0SQ+On2vRRvYNhAimHfZolzRpeY40Kxn2Cq1M4wxwJLhX6FU5xhLdgdeOca1hOOMcIzXt7eS9CjM2GNse9lZz/60ov855xC7/9FF/ZvhOfeflY4h6H//c2HZuX/37nQ7Ont8Oqea6R0D25K+28TK/eXwv01vQRT3OBWuJ/Ry7HAUmH2Fc0DHrG2f4BhGII8AImQHXk=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlMkKwjAURV+C9T/c+U+6cS62bhxB7Z/b0iOlUAdc2TyHd+AQ6OYmL7cR+SwGOFTMTzAVIxSFExmxjnGCU5zhHBcYt5zf9dW6xg1ucYd7PPzRPfTc47e+s/MbhnHLhf8ix8jr5Hd8la2V/06WzDHBFFcK782RzBOeMXPf0bvQ3Wv2PVLoXpt9L5Tv/HomzT3Uc6171dxLqHfuvlf5k76FnsevvK/Ga0qx2R1J
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlskNxEAMw1wC+692K0igfVjMNYDelHwMPJM/FpRytzyk3BY/9fVEPgKfkzlr8o/q0c6f9GAr/wj5R+5/wmvu/5R9XI2PyEfiI+f/dyY29w95/+7A37oFrT/QujtSPnK9kT0ge6Asi/vpffoBsN0uAQ==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="352" height="32">
+   <properties>
+    <property name="map" value="-3_athor_sea_floor_x2_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="2" x="0" y="0" width="32" height="192">
+   <properties>
+    <property name="map" value="-3_athor_sea_floor_x1_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="3" x="0" y="320" width="32" height="352">
+   <properties>
+    <property name="map" value="-3_athor_sea_floor_x1_y1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="4" x="0" y="768" width="32" height="32">
+   <properties>
+    <property name="map" value="-3_athor_sea_floor_x1_y1"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

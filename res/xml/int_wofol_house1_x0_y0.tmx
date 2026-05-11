@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="18" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_thin_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="30" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/bricks_ns.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="42" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/side_on_bluer.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="44" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/stool.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="45" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_brown_stone.png" width="64" height="224"/>
+ </tileset>
+ <tileset firstgid="59" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/square_pale.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="60" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_lamp.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="64" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/flower_vase.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="67" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/kobold.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="73" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="97" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eNpjZmBgYB7FgwYDAO5IAS0=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eNrjY2Bg4CaA+YGYF4iFgFgWBxYGYh6oOmkG3EBqGKoTAWIZKJYDYnkgVoDyRaHqBICYCwkrArESECsjiQkCMQCnlQTi
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAN0AJibSjbhkS9ThTYaw3EOkSo0wViPSLU6QOxAQP9AACagwH1
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFgwkAAAGQAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFgwkAAAGQAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="10" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpLZGBgSKQhZkCiGXDIo4NEItUxELCXGupItTeRCHl8GADMSxro
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="160" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_semos_mine_n_w2_x3_y0"/>
+    <property name="place" value="house1_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

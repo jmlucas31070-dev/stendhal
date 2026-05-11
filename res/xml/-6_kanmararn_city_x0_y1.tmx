@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/ground/indoor/black_hole.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/black_hole.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="13" name="../../tileset/ground/indoor/grey_skull.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_skull.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="21" name="../../tileset/furniture/carpet/brown_rug.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_rug.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="33" name="../../tileset/ground/pothole.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pothole.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="37" name="../../tileset/building/decoration/blue_green_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/decoration_blue_green_2.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="45" name="../../tileset/building/stairs/stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="57" name="../../tileset/item/statue/blobcreature.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/blobcreature.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="61" name="../../tileset/logic/creature/dwarf.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dwarf.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="69" name="../../tileset/logic/portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="93" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="94" name="wall/int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYmBgYMKBpwKxAA3xfDx2w+xnQtODLI9NHJdabPLE2E+qn/Kp7P+BDv9R+2lvfyIQJwFxMhoup7H91VD7c2hsDzYsiJRHpw6A/QKj9o9o+0fT36j9o+lv1P7BYP8REtKLIJny+Ow/D8QXgPgiDrwTTc9eEuXxYSYi8FQC7bapJLbriMWwdlk5lnYTvnYaSD6VCvbnUBD/BVSwfyqV2tbY2rcpRITRVArbtoTa0dU0sl+QCDFBPH1UJjqWSwCDr2n3
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtV7EOgkAM5YcPVsKowYmJgfEGJycNjsQV+S1rck2apncUvAMTfcmL5F1zhfO1lCwLYwSe3fUF+HS8Am9MlzRO3MtmenTut2L6IOiDJxZRLsxvgI27roEnYA4syH2hLmkY+97nADwuzN95dCusWU+8L/af/5+f+jwXSOu/B95dHU+kllCXNIwdWX9o3f5zz9l66o/WEuqSRp+FrmvPORV6chah/DwuFh6kV2Kfl/r1xOJiwbqcc/4riKdiQuu/OuCZmPg1//Fz7ZQ+TYWQ/1P8NzgfafzfJao/ozj/KlH98X23rj+t/7aCz398rqbvVe16iFoMpB7XrMfqj3bl+qcold8VVeS8ZuFcU7uesed7yX5hfiP01VT5W6GPNzPzx15zwQvJqqSg
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNqLZWBgiCUCM5AgzkCmWaP241aPDrDJ4VKPT+2o/aP2D5b0T8if1LQfWzjQE1ASz7Syn9Q0ONzsp2f4j6a/wRf+o+l/5MQ/PcKY2umAFu3aUftH7ad22TNqP2ntTnqX/cgAAM+HwaI=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="320" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="-6_kanmararn_city_x0_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="2" x="512" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="-6_kanmararn_city_x0_y0"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="north3" type="mapchange" id="3" x="672" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="-6_kanmararn_city_x0_y0"/>
+    <property name="place" value="south3"/>
+   </properties>
+  </object>
+  <object name="north4" type="mapchange" id="4" x="928" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="-6_kanmararn_city_x0_y0"/>
+    <property name="place" value="south4"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="5" x="288" y="992" width="736" height="32">
+   <properties>
+    <property name="map" value="-6_kanmararn_city_x0_y2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="6" x="992" y="288" width="32" height="32">
+   <properties>
+    <property name="map" value="-6_kanmararn_city_x1_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="7" x="992" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="-6_kanmararn_city_x1_y1"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east3" type="mapchange" id="8" x="992" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="-6_kanmararn_city_x1_y1"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+  <object name="east4" type="mapchange" id="9" x="992" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="-6_kanmararn_city_x1_y1"/>
+    <property name="place" value="west4"/>
+   </properties>
+  </object>
+  <object name="east5" type="mapchange" id="10" x="992" y="992" width="32" height="32">
+   <properties>
+    <property name="map" value="-6_kanmararn_city_x1_y1"/>
+    <property name="place" value="west5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

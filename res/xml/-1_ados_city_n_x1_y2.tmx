@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_paving.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_blue_green.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="19" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_blue.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="35" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="68" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="69" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/mutant.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="76" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtVkkKxDAMM3pP8pX8/zlzmUIpXmQ3SSnUoFMhki0vHSIyJiOKsRhH4ISdGjR+PMB/aGh/7NIgjoYrPxt3awClBhn+ig6GHwGqWtj8m4GMDkn47/H3EzxNkQ4rdzZ/zQfruxcg+Fn/tXciHXC8r/a/ODVCIvc7/FLwDUrtZ901qz+8vl1xX0Fyi6y789aut3xfde8g++M6a5n9OZtfmwl2ZlhEfcfwNWPng5jnaDcy0RP3x7uVFW5x3uyEP5qO7H/CTP8r/0sz+76y31bE2ISn+T+8Hz99RJJL
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlt0KgzAMhQs6t+GcMqVM3dD1/R9yFSyE0jaxf1cGvosqeE7SJpWx+FFLbpIVcJd8JBVLH5v+pD1bMnow6UMPzwz6Dwk3vJsz1KCVjBYPeg1KAlWAh8lSA6W/Iqgz4+OjJuhjsRh8ULwUkm8Efd0HxYvS3maAiKRP8aJ8XB3aMfSx/bHV3Ue/t/Sxy4cr9+17DdAfEJq9j9WaE3wIJPe35LWvuwOMwAv33K+QvW8Dfei1Zxl9KG1YexbZBzdownMEtYu9V2L+b4gDM0vNpzKQC6HfdS8KQbh/sLtpy+GH9FyqmAl5pwxs1vSE+ZYqYL+5ZloK3SFBr1PuJj1nivYQQKOdv9kj5y6AUbsbY8x2n/kLebEzzqDHH55ZF94=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtVkkOADEI4nH+/029zmlGWwaSqgnHBuqCBoC4FM9w84+Gvjl44/8KNz9DR5Y/q+uEe/f/O1pA4D/pE1U/VfT+OVcQzVMYZohVl05e7/Z5tRZ1sD2U/a6aN9VeyO4Ihb8x6+a+82MwGJSwAHYlxaE=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="west" type="mapchange" id="1" x="0" y="224" width="32" height="160">
+   <properties>
+    <property name="map" value="-1_ados_city_n_x0_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="2" x="0" y="640" width="32" height="64">
+   <properties>
+    <property name="map" value="-1_ados_city_n_x0_y2"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="3" x="0" y="736" width="32" height="64">
+   <properties>
+    <property name="map" value="-1_ados_city_n_x0_y2"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="4" x="992" y="608" width="32" height="64">
+   <properties>
+    <property name="map" value="-1_ados_city_n_x2_y2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

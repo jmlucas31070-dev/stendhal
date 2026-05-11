@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="wall" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="17" name="wall2" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="37" name="entrance" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_red_ns.png" width="288" height="128"/>
+ </tileset>
+ <tileset firstgid="73" name="entrance details" tilewidth="32" tileheight="32">
+  <image source="../drawable/detail_ns.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="79" name="ground_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_4.png" width="128" height="320"/>
+ </tileset>
+ <tileset firstgid="119" name="barrell" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel_tall.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="121" name="barel" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_barrel.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="123" name="bed" tilewidth="32" tileheight="32">
+  <image source="../drawable/side_on.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="125" name="stool" tilewidth="32" tileheight="32">
+  <image source="../drawable/stool.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="126" name="table" tilewidth="32" tileheight="32">
+  <image source="../drawable/square_pale.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="127" name="shelf" tilewidth="32" tileheight="32">
+  <image source="../drawable/bright_bookshelf_and_cupboard.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="133" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="134" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="158" name="logic/creature/human_imperial" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_imperial.png" width="256" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eNrzZ2Bg8B/Fo3gUDxgGAKKmRXA=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eNrjYWBgYCIDcwMxCxDLALEEFtyIQ1waiJmhesWAuAoJw0ALAyqoBuIaIBZF00sKGGp6aynQWzdA9mLzb8UA6q0g0gxkvVJALI6EVYFYDYrV0eRAWBKqlwuIGdGwHhDrQ7EBFnkQ5gRiAGFBDQs=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAcVCLhUTAKkEH5AOkdSgAAjXcCWg==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFowA/KB9gu8uHaLh5ArEXEOsTUAcAlP8CKA==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUDCQAAAOEAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="15" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNprZWBgaB0kGAaQ2QxEqCcGjCS9gymsWgdQL7FmkJIuaYEBMx07Ow==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="house1_entrance_west" type="mapchange_exit" id="1" x="192" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_w2_x2_y2"/>
+    <property name="place" value="house1_west_entrance"/>
+   </properties>
+  </object>
+  <object name="house1_entrance_east" type="mapchange_exit" id="2" x="224" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_w2_x2_y2"/>
+    <property name="place" value="house1_east_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

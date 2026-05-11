@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="123" name="floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="126" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="150" name="green_bookshelf" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_bookshelf.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="156" name="greenish_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/greenish_grey.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="160" name="vendors_table" tilewidth="32" tileheight="32">
+  <image source="../drawable/vendors_table.png" width="224" height="160"/>
+ </tileset>
+ <tileset firstgid="195" name="large_island" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_island.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="197" name="loom" tilewidth="32" tileheight="32">
+  <image source="../drawable/loom.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="201" name="spinningwheel" tilewidth="32" tileheight="32">
+  <image source="../drawable/spinningwheel.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="209" name="ship_lamps" tilewidth="32" tileheight="32">
+  <image source="../drawable/ship_lamps.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="211" name="blankets" tilewidth="32" tileheight="32">
+  <image source="../drawable/blankets.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="223" name="towels" tilewidth="32" tileheight="32">
+  <image source="../drawable/towels.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="247" name="laundry" tilewidth="32" tileheight="32">
+  <image source="../drawable/laundry.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="263" name="boxes" tilewidth="32" tileheight="32">
+  <image source="../drawable/boxes.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="267" name="brush" tilewidth="32" tileheight="32">
+  <image source="../drawable/brush.png" width="32" height="96"/>
+ </tileset>
+ <layer id="1" name="Ground" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNqrZWBgqB3Fo3gUj0gMAAy1fQE=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNrN0LsOAUEUgOHZyLp06/IylLwBoVuhc+ssXoaEamnwFqvjkfzFJMbJFM6KxCRfMZnzF3NCY0wRJaUyKohQRU2pjgaaaBndOaCNTs7++If99oNul6Pf2325NH1q510nxf/PuAhXT3/HQ7HDb/b/qz7DzTNbCN7vYfDqJ5hiJnTRs/N9DMT7HAsskWAlxBjafoSxeF9jgyffvy5S
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYEAAbkYGhmlAejqUfxiIjyDJI8thAzxA/TOA9EwgvgzEV6DiN4H4NgNCDhvgBOrlBeJZQPZsIL4GxNehcneA+B4DQo5S8IRC/eyMlOl/QKH990lQy4Hm1qtk2HcJ6uYnUP0XGUbBcAEAw54XZg==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo4BycBaIzw1xPxwF4mNYxP+DCEYEZmQk3WwWRgQeTAAAILwEOg==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUEAJsjAwMTED8j0z9IL2/oOYMJgAAcQ8CDQ==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="16" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpjZGBgYBwkmIFIMVx6iQWDUT8jjfSTGv7k6mcY4DCg1H5q6MdlFiOFcULLPAcANKsAkw==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="256" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="-7_deniran_atlantis_x3_y3"/>
+    <property name="place" value="home_9"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

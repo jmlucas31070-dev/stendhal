@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="21" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/furniture/carpet/carpets_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets_2.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="21" name="../../tileset/building/wall/int_wall_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="37" name="../../tileset/building/wall/int_wall_purple.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="57" name="../../tileset/ground/cobbled_paving.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/cobbled_paving.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="58" name="../../tileset/building/stairs/dark_stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_stairs.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="60" name="../../tileset/building/stairs/int_ns.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_ns.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="78" name="../../tileset/furniture/table/wooden_rectangular.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rectangular.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="87" name="../../tileset/furniture/chair/wooden.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="92" name="../../tileset/logic/portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="116" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="117" name="../../tileset/logic/protection.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="21">
+  <data encoding="base64" compression="zlib">
+   eNrtwzENAAAMBKEb3r/muugECaumqqpPD0K5CoE=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="21">
+  <data encoding="base64" compression="zlib">
+   eNpTYGBgEBsgLA/EEkBsAMQ6dMb6QCwOtV8LiFnojDVH7R+1fwDstxoN/0FpvyWd8aj9o/aP2j847NcDYm06Y12o/XJALDpAWBaIAYYhTsk=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="21">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AU4AMRFLApBX5A7E8GDqCS/YFAHEQGDh5icewKxG50wu5Y7PcAYk86YS8s9nsDsQ+dsO9okTIKRsEoAAIAn4UjHA==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="21">
+  <data encoding="base64" compression="zlib">
+   eNrtwTEBAAAAwqD1T20LL6AAAOBnCoAAAQ==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="21">
+  <data encoding="base64" compression="zlib">
+   eNrtwTEBAAAAwqD1T20LL6AAAOBnCoAAAQ==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="21" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNorYWBgKBnFdAej9o/aT4z9tErTQ8V+eoV/yQDbPRjsHy1/R+0ftX/k5sGBwADPtnTp
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents"/>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

@@ -80,4 +80,18 @@ S2kck+o+Qv4ixf/43ESM+4gFA2UeqWUItdxHyA2E1JNi1mDFANK36Q1ABgAA
    H4sIAAAAAAAAAGNgGAWjYBSMglEwCkgHADV9EcVABgAA
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="downstairs" type="mapchange" id="1" x="352" y="544" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_nalwor_tower_4_x0_y0"/>
+    <property name="place" value="upstairs"/>
+   </properties>
+  </object>
+  <object name="upstairs" type="mapchange" id="2" x="544" y="128" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_nalwor_tower_6_x0_y0"/>
+    <property name="place" value="downstairs"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

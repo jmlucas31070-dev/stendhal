@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="ground/ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="35" name="ground/rock/pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="38" name="item/blood/floor_stains_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_stains_2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="42" name="building/stairs/stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="54" name="item/blood/floor_stain" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_stain.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="55" name="item/corpse/skull_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_pale.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="57" name="item/corpse/huge_animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/huge_animal.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="73" name="item/corpse/skull_dark" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_dark.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="75" name="item/corpse/skeleton" tilewidth="32" tileheight="32">
+  <image source="../drawable/skeleton.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="79" name="logic/creature/animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/animal.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="111" name="logic/item/resources" tilewidth="32" tileheight="32">
+  <image source="../drawable/resources.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="117" name="logic/creature/human" tilewidth="32" tileheight="32">
+  <image source="../drawable/human.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="122" name="logic/creature/mummy" tilewidth="32" tileheight="32">
+  <image source="../drawable/mummy.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="124" name="logic/creature/golem" tilewidth="32" tileheight="32">
+  <image source="../drawable/golem.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="128" name="logic/creature/dragon" tilewidth="32" tileheight="32">
+  <image source="../drawable/dragon.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="136" name="logic/creature/slime" tilewidth="32" tileheight="32">
+  <image source="../drawable/slime.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="139" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="154" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1TEOACEIRFEajj933sLeQsb97IZiOuMDSSQjIqEItMdfvsA6VAjtC/CJt89xr7uO+099V09v+Sf3OPzqHCu+QN/5Pznn5qrBvRuq/u2dtDsv0Bfku5NwDd37/7uvBr4a+JNv5AFNpDSI
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtVlsOgjAQ7F26jZ7AD/WGNeCjxB7XEiHWzS7dPuCLSTbBVph9TAeU+gLUD3oKhdYoxPcdmXW8N8Kh34a5TuWF/8/x43Wn5DACvpPwWZrhB2H+SjiXEQcib8x/L4xbRs/xHmT2n0If5aAX5jJrBtB+Lf+IQVgvhg3RFfA9Q7yi8Jl6sdPsukJOL9Bca14vOJM20gKsxAtE3fHzKS24ih6neonrGojeOCG3X9AvCHVbWr8XeJlkjj2hgXeIh3AGwFznnNWB0Eoqh5Y+wfmRZA6GOFO5HtUT7wXInEONP849MERfuRxq/SLnneBWqhnzQ3SeQMDfiruk/ntDboofBBpQK/BrxtfcBvzAeItt3OtU/8fvz3Okw7Vrxx50CXHdsPecD+qN+ecc8Dd7p3bs+McH7htYuQ==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0bEJACAMRNGbRnQER4i6/zxaaCOWKin+gyOEdBfpnjJnONxM78VtT/rH5Mf6Qx1pAgAAAP7IVAC41gGfewJu
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtkzEOACAIA+n/P+3ibJRWqxGTbpoDPCI8Bz1RfCufiZuPR/kw8V/tN7tLp7hqfnaWDF/xj1m+0p/Vd2p32Zmx/rDOKHaH5e/YW5UvjFOjuzDyYeTjI/6pOm7pf6fjMzU4+TDOv1KZTQPq6AKp
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="labyrinth_locked_door" type="mapchange" id="1" x="896" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_athor_island_e_x0_y3"/>
+    <property name="place" value="labyrinth2"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" id="2" x="0" y="0" width="960" height="32">
+   <properties>
+    <property name="map" value="-1_athor_island_x3_y2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="0" y="0" width="32" height="128">
+   <properties>
+    <property name="map" value="-1_athor_island_x2_y3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="4" x="0" y="448" width="32" height="224">
+   <properties>
+    <property name="map" value="-1_athor_island_x2_y3"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="35" name="castle" tilewidth="32" tileheight="32">
+  <image source="../drawable/castle.png" width="640" height="512"/>
+ </tileset>
+ <tileset firstgid="355" name="pool" tilewidth="32" tileheight="32">
+  <image source="../drawable/pool.png" width="96" height="768"/>
+ </tileset>
+ <tileset firstgid="427" name="earth_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/earth_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="445" name="grass_corners" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_corners.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="469" name="grass_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_edges.png" width="384" height="96"/>
+ </tileset>
+ <tileset firstgid="505" name="row_boat" tilewidth="32" tileheight="32">
+  <image source="../drawable/row_boat.png" width="192" height="160"/>
+ </tileset>
+ <tileset firstgid="535" name="ropes" tilewidth="32" tileheight="32">
+  <image source="../drawable/ropes.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="539" name="boardwalk" tilewidth="32" tileheight="32">
+  <image source="../drawable/boardwalk.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="575" name="ship" tilewidth="32" tileheight="32">
+  <image source="../drawable/ship.png" width="512" height="736"/>
+ </tileset>
+ <tileset firstgid="943" name="fishing_nets" tilewidth="32" tileheight="32">
+  <image source="../drawable/fishing_nets.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="949" name="fishrods" tilewidth="32" tileheight="32">
+  <image source="../drawable/fishrods.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="961" name="stump_vertical" tilewidth="32" tileheight="32">
+  <image source="../drawable/stump_vertical.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="962" name="barrel" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="964" name="cobbled_paving" tilewidth="32" tileheight="32">
+  <image source="../drawable/cobbled_paving.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="965" name="vertical_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/vertical_pale.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="970" name="caution_sign" tilewidth="32" tileheight="32">
+  <image source="../drawable/caution_sign.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="971" name="earth_dark" tilewidth="32" tileheight="32">
+  <image source="../drawable/earth_dark.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="1067" name="earth_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/earth_pale.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="1163" name="tree_darkgreen" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_darkgreen.png" width="256" height="352"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlMsJwzAMQGUHdFHm6GJtIav0lCGzSFpKiFucRrLkD9SHBz7YvGcZPADA0Ol0/hJswI8N+LEBf40WZFDbn7MHDajt1/RQhJIdxCRXByVgORdSom3gOC5+x7rl5gDuT67uvY4R+l97LRtGBqF/DJotGlL8G0cNpfwWDVr/0XuU9J/NggT+2e8sXuY/a/hueUTOL/6zQeqfnOzv+uVPuT93Bhs5/JPCPxv4JTNYASeqMyM=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2BkgCPMxKk7x8LAcB6ILwDxRRbizMWGiVGPDVwD2nkdiG8A8U0W4s1BNg+b+djsvcVIflgSE56EwuQMI2luINZeUgCxbqCF3chuuAnF5MYJrdyiwITAA+kWaoUNcv4eCPcg5++BDp/1jKh4AyN13ENuPB1gpI6bzlAxvRygwC3UTr8HqBAuhNzgCMznTky0cwuhuAkE2h3ERHq4kBM32EAi0O4kJvLiZgMV0lsh0O4iMsvabRTa3wC0txGIm4C4eQDCYALQzolAPAmIJ2Ox/yfQ7F9A/JuR+mEwH2jfAiDuh+LFQLwEzQ3/QWYDxRiZiC/DsIXHcWA74gRaW+I+FjM/MdGm/NoPEmegj/3Y3OICxK6MmPZvA+JgIA5hoo39MBABtDuSkXL/E5MeiQXk2E9MesQHAB9Nh8I=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMAoGJ1BjQuBR+0ftH7V/FIwC+oODzNQz6zjQrBMkmifJNLD2UxOA7D+FZj87kM/BTNtwJ8X/vEB5Pmba+X+gw58Y+5czQzA97EeP/z5m2vsfADdME8Y=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0zEOgkAURdGfyewMEwSBDgMJbM8lKDaAjeCuvCUrmCHwbnLqR8h8M7W3nt7shQFvH35/ZHPCjE+E/S+bC1b8vN6DOu59x2h73zHa3rdSSikVs9SZXZEhxw0FSlQuzDc07LSocUeH3oX9Dw/2Elyc3sQZ+gNvyBW+
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0kENADAMQlGCt81Bd1j9+1hNNDv0PwMEggQAAABgsmVp+19+VPbx3P1vdU/zQ/R7VA4B+A==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlTkSACAIA8n/P21j6QECQpGdsd6gExQhpB+Yp9LdIQMh7Hdev4X9JqS0B7t/d9URJO4CrR8N/Cjw37K9vLtnfk+OaD8S/TC8V+X8lgxQ3udvf0Rf4Jz/tGui/QNk6gC4
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="1024" height="32">
+   <properties>
+    <property name="map" value="0_deniran_city_s_x1_y3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="160" y="992" width="64" height="32">
+   <properties>
+    <property name="map" value="0_deniran_river_s_x1_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" id="3" x="288" y="992" width="96" height="32">
+   <properties>
+    <property name="map" value="0_deniran_river_s_x1_y1"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="south3" type="mapchange" id="4" x="704" y="992" width="256" height="32">
+   <properties>
+    <property name="map" value="0_deniran_river_s_x1_y1"/>
+    <property name="place" value="north3"/>
+   </properties>
+  </object>
+  <object name="south4" type="mapchange" id="5" x="992" y="992" width="32" height="32">
+   <properties>
+    <property name="map" value="0_deniran_river_s_x1_y1"/>
+    <property name="place" value="north4"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="6" x="0" y="0" width="32" height="672">
+   <properties>
+    <property name="map" value="0_deniran_river_s_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="7" x="992" y="0" width="32" height="384">
+   <properties>
+    <property name="map" value="0_deniran_river_s_x2_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="8" x="992" y="480" width="32" height="544">
+   <properties>
+    <property name="map" value="0_deniran_river_s_x2_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

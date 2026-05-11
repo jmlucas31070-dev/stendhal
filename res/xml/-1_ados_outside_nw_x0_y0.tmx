@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/ground/brown.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="../../tileset/building/stairs/dark_stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_stairs.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="8" name="../../tileset/plant/mosses.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/mosses.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="24" name="../../tileset/ground/rock/rocks_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks_2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="28" name="../../tileset/plant/bush/various_small.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/various_small.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="37" name="../../tileset/logic/creature/animal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/animal.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="69" name="../../tileset/logic/portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="93" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="94" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="109" name="door_s" tilewidth="32" tileheight="32">
+  <image source="../drawable/door_s.png" width="96" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlssNwDAIQ5FY1PtP0QmqNq0/TcXhHYlDCBhUFTanT3DrqfWbQFr/zX120F+NY+d89wyYtPHwvRl1U+Stjldqr9RJ/V8UczzVJ4xecc/Gq3j1XE7qu7yF1XsOn+uwv37R29M7bHKPxjAMv+cAw3P4Iw==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlssKhDAMRf1SJepMwuT/9+NGKNLHjWkrQi9k1/YkIY9O0/v1Oex7sb0jTyNnuCFXgbO/BjkR5/2YTzX582FbxJZK+S/xGbwX+mmpNS3ETgX+ySVDvSmYZwLyxsZa1wSXbvYLO9nk7FPuxNZM/+0PsREfxMG2zCcGfLeykdhzfHGwrbO5xLfuLkvsqdg8fHGyr2/E9lTOFOCiM7KmLPNSGrA9vZva5ah5+6fF/y2nNfin3On/Wj5sD7GHhob66w8T+UQF
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgF1AZyo0FAF8ANxFwDGC8cQCw1Gg2jYBRgBSM1b8iN1gl09y/3AKdDTirWKQMJuEbz8oCBXCDOA+L8AbK/AIgLgbhoNCpGwSgYEQAAOt0D3w==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlksOACEIQ3vR3v8as3ejQikmA0mX+MJHKwFwlNYabp6Ln4lqfiRPMedbfkX9J3mduw0BO9u3Dnb0DEW/o3NTsRncU3XdkXeCDXwHG4/WzsK583L3nL6k8tYKb8PmLqu93vl/epHPZvZoNPqXPlemLCI=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="0" type="mapchange_up" id="1" x="128" y="736" width="32" height="32">
+   <properties>
+    <property name="map" value="0_ados_outside_nw_x2_y0"/>
+    <property name="place" value="0"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_ados_outside_nw_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="brown_paving.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_paving.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="int_wall_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="19" name="int_wall_purple.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="39" name="wooden_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden_pale.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="43" name="dark_torch.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_torch.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="51" name="small.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/small.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="54" name="metal_and_stone.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/metal_and_stone.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="60" name="square_paving.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/square_paving.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="61" name="portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="85" name="collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="86" name="pale_red_ns.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_red_ns.png" width="288" height="128"/>
+ </tileset>
+ <tileset firstgid="122" name="human_evil.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_evil.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="138" name="long_side_on_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/long_side_on_pale.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="141" name="entrance" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_red_ns_closed.png" width="96" height="128"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlcEJAEAIw3Qv95/rdqiKHI2QdxCqjfCeBGsKrJnOy2VmL+8m8UuoPdT1d3sQv69/4v/gx6/4p/r3R3+Z77/pd50Hpkw7vA==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlssKwjAQRQM+Nr66sz43Fuq22eZLtGtxJ4p/oUUQBH/XCaQQQyYmaUsRMnDQNjP3Ehqv7RJCui0ybxlG8KLEXIz8LlphPkW+25Ru1lXjBtwVCs8521m5tgL52mVW9xkqVKhQugyWczJ1yHiTdmrIYL4+AxIg0+RmUXFvWH5zr43wjoC4wczENKfABOhL/q7Py+f/mEj+PQ//uir4f/tT5DmW51RlBzwEOdKTIJrUYf/lOe0oHICn4KhZjyx0bf1531h5bz4BL8FZWRs56Lr0raX35gvwFlyl+ysP3bjGc1qHLmvAn/3R/tvwp5Z9mUEzs/RXf/9LJD84C6SP589ekFv0Y7pDTXaoDCz7XPt53wdSAS5l
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwaENACAQALHb6cP+q6FRJBhM2zpNd6s3EwAAAPDDBp0PAJw=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBhYYIFHzoACvcSYYcEwCkbBKBgFo2Awlv+UltGkmK1PRz/rD9P4Gq1Phy4woHE8WpDQrhsFo3XCUDBzuOZ/cusufSrbNQpwg3ggToDiRArMAQBQBgY1
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtl9ENwCAIRFny9l/FCazUR6MULvELvAsqIDIzFV8zPNk8doP8p/H2vFb7bo+30WjUQkSNJ9y7vYnU7xvq8q5+VD/NGv9f9TW5R8+b9fp4tEkOEd6M+uS/F+0XyasP9JUo/hP6gn6Uk+RW5tl3AO7kbpI=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entranceleft" type="mapchange_exit" id="1" x="480" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="0_ados_city_x0_y1"/>
+    <property name="place" value="castle_left_entrance"/>
+   </properties>
+  </object>
+  <object name="entranceright" type="mapchange_exit" id="2" x="512" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="0_ados_city_x0_y1"/>
+    <property name="place" value="castle_left_entrance"/>
+   </properties>
+  </object>
+  <object name="hall1" type="mapchange" id="3" x="480" y="768" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_entrance_x0_y0"/>
+    <property name="place" value="hall1a"/>
+   </properties>
+  </object>
+  <object name="hall1a" type="mapchange" id="4" x="480" y="672" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_entrance_x0_y0"/>
+    <property name="place" value="hall1"/>
+   </properties>
+  </object>
+  <object name="hall2" type="mapchange" id="5" x="512" y="768" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_entrance_x0_y0"/>
+    <property name="place" value="hall2a"/>
+   </properties>
+  </object>
+  <object name="hall2a" type="mapchange" id="6" x="512" y="672" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_entrance_x0_y0"/>
+    <property name="place" value="hall2"/>
+   </properties>
+  </object>
+  <object name="left1" type="mapchange" id="7" x="0" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_left_x0_y1"/>
+    <property name="place" value="bottom1"/>
+   </properties>
+  </object>
+  <object name="left2" type="mapchange" id="8" x="0" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_left_x0_y1"/>
+    <property name="place" value="bottom2"/>
+   </properties>
+  </object>
+  <object name="left3" type="mapchange" id="9" x="0" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_left_x0_y1"/>
+    <property name="place" value="bottom3"/>
+   </properties>
+  </object>
+  <object name="left4" type="mapchange" id="10" x="0" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_left_x0_y1"/>
+    <property name="place" value="bottom4"/>
+   </properties>
+  </object>
+  <object name="left5" type="mapchange" id="11" x="0" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_left_x0_y1"/>
+    <property name="place" value="bottom5"/>
+   </properties>
+  </object>
+  <object name="left6" type="mapchange" id="12" x="0" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_left_x0_y1"/>
+    <property name="place" value="bottom6"/>
+   </properties>
+  </object>
+  <object name="left7" type="mapchange" id="13" x="0" y="288" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_left_x0_y1"/>
+    <property name="place" value="bottom7"/>
+   </properties>
+  </object>
+  <object name="left8" type="mapchange" id="14" x="0" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_left_x0_y1"/>
+    <property name="place" value="bottom8"/>
+   </properties>
+  </object>
+  <object name="left9" type="mapchange" id="15" x="0" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_left_x0_y1"/>
+    <property name="place" value="bottom9"/>
+   </properties>
+  </object>
+  <object name="left10" type="mapchange" id="16" x="0" y="384" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_left_x0_y1"/>
+    <property name="place" value="bottom10"/>
+   </properties>
+  </object>
+  <object name="left11" type="mapchange" id="17" x="0" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_left_x0_y1"/>
+    <property name="place" value="bottom11"/>
+   </properties>
+  </object>
+  <object name="right1" type="mapchange" id="18" x="992" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_right_x0_y1"/>
+    <property name="place" value="bottom1"/>
+   </properties>
+  </object>
+  <object name="right2" type="mapchange" id="19" x="992" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_right_x0_y1"/>
+    <property name="place" value="bottom2"/>
+   </properties>
+  </object>
+  <object name="right3" type="mapchange" id="20" x="992" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_right_x0_y1"/>
+    <property name="place" value="bottom3"/>
+   </properties>
+  </object>
+  <object name="right4" type="mapchange" id="21" x="992" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_right_x0_y1"/>
+    <property name="place" value="bottom4"/>
+   </properties>
+  </object>
+  <object name="right5" type="mapchange" id="22" x="992" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_right_x0_y1"/>
+    <property name="place" value="bottom5"/>
+   </properties>
+  </object>
+  <object name="right6" type="mapchange" id="23" x="992" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_right_x0_y1"/>
+    <property name="place" value="bottom6"/>
+   </properties>
+  </object>
+  <object name="right7" type="mapchange" id="24" x="992" y="288" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_right_x0_y1"/>
+    <property name="place" value="bottom7"/>
+   </properties>
+  </object>
+  <object name="right8" type="mapchange" id="25" x="992" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_right_x0_y1"/>
+    <property name="place" value="bottom8"/>
+   </properties>
+  </object>
+  <object name="right9" type="mapchange" id="26" x="992" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_right_x0_y1"/>
+    <property name="place" value="bottom9"/>
+   </properties>
+  </object>
+  <object name="right10" type="mapchange" id="27" x="992" y="384" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_right_x0_y1"/>
+    <property name="place" value="bottom10"/>
+   </properties>
+  </object>
+  <object name="right11" type="mapchange" id="28" x="992" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_castle_right_x0_y1"/>
+    <property name="place" value="bottom11"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="29" x="992" y="96" width="32" height="352">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

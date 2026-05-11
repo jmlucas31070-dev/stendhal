@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="8" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="34" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="35" name="mud_patch" tilewidth="32" tileheight="32">
+  <image source="../drawable/mud_patch.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="39" name="grass_corners" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_corners.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="63" name="grass_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_edges.png" width="384" height="96"/>
+ </tileset>
+ <tileset firstgid="99" name="tall_grass" tilewidth="32" tileheight="32">
+  <image source="../drawable/tall_grass.png" width="160" height="96"/>
+ </tileset>
+ <tileset firstgid="114" name="pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="117" name="large_pebble" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_pebble.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="119" name="bush/various_small" tilewidth="32" tileheight="32">
+  <image source="../drawable/various_small.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="128" name="bush/blue_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_green.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="8">
+  <data encoding="base64" compression="zlib">
+   eNrjYmBg4CKAmaiMuSjAA2k3qW7goiGmtfmjeGRgAEHBCIk=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="8">
+  <data encoding="base64" compression="zlib">
+   eNpjYMANzIDYhYF0UMLA0IBNvAEq7gTEphDcQMgskBucoZgct6ADmN3kAFLDwwnh9gaYH8yI8DOxbnBCMxvdLlMG2gAzGps/CugHAEcNDIQ=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="8">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjFQAAAQAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="8">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjFQAAAQAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="8">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjFQAAAQAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpTYmBgUMKDqQmU0NikYmq6Q4lOblCiAaa1+aN45GAAB9sa1Q==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="256" y="0" width="608" height="32">
+   <properties>
+    <property name="map" value="tutorial_island_x0_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="2" x="896" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="tutorial_island_x0_y0"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

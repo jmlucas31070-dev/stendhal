@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="31" height="31" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="ground/fire/lava" tilewidth="32" tileheight="32">
+  <image source="../drawable/lava.png" width="96" height="288"/>
+ </tileset>
+ <tileset firstgid="29" name="item/corpse/skeleton" tilewidth="32" tileheight="32">
+  <image source="../drawable/skeleton.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="item/corpse/skulls" tilewidth="32" tileheight="32">
+  <image source="../drawable/skulls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="49" name="furniture/chair/throne" tilewidth="32" tileheight="32">
+  <image source="../drawable/throne.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="55" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="79" name="ground/skull" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="88" name="terrain/wall/brick_wall_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/brick_wall_red.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="113" name="ground/red_paving" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_paving.png" width="96" height="256"/>
+ </tileset>
+ <tileset firstgid="137" name="item/statue/archway-wide-red" tilewidth="32" tileheight="32">
+  <image source="../drawable/archway-wide-red.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="153" name="terrain/wall/stone_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_red.png" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="225" name="terrain/ground/stone" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_stone.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="229" name="ground/rock/red_crystal_small" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_crystal_small.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="230" name="ground/fire/flame_large" tilewidth="32" tileheight="32">
+  <image source="../drawable/flame_large.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="238" name="object/giant_heart" tilewidth="32" tileheight="32">
+  <image source="../drawable/giant_heart.png" width="64" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="31" height="31">
+  <data encoding="base64" compression="zlib">
+   eNrtlkkOgzAMRbPili2doPOQM/si/EpkU8mpE2zwAqS3wBJ5GNshFEJoRjZgC1qwA3uDWHLRSLo/gCM4gQ70BjHOfQYXcAU3cDeIce4HeIIXeIOPQYxzf4mGNH/cOUrXz7G6fdTbW69pOqVui3y95p0u7TqHiTPGfYua5+mHOAPEEGfEk1u7x6X11uy13JokzFm7zyVeyfvUzhjnpsq9TsO9xN6yupfZzz25S84VGv+xkhmYcg4joZsq3STwDa9MHcU=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="31" height="31">
+  <data encoding="base64" compression="zlib">
+   eNrNlt1OU0EQx8+LKIqEG8FEEF4DFdArPkRBQFG8aK8ICWkDjwGkhRbbkkCvyrktvggJH6LvwL/JTDKZzJ6dFkOc5BfCntn57+yZOdNSkiQHxEMYa+2DEmgQMZsAr8Eb57plrMXap0TM3oJJMOVct4y1WPuMiNk0eAfeg5dgBIyq9ZixFmtvOCiqGK/AGBhX6wVnPNb2WM7pl3f6/Q/amw52nDG3nfFY+4fAW2uedW1Sh7W3FMV//D0pGBqh950z7iKWW9bzfBe1lnPcfzfWi7augV7fd5b2RpcUe/ye6G9LBZxncG2s5Yy8+NlNJB5TFftLYr5JZsAsmAPz4EPgXi0/K94R+An2lHbDYAF8BJ/AIlgKaFt+VryymN9S+9TgM1gGK2AVfAloW35WvLqY3x3bBTUx3yRfwRr4Br6D9YA2+10Q64F4J2J+c86H4G+Pc0X2UJneaY3+v6K/f0AbtMT85pyPyWeQfH4Zms8d2nXS7+QyAG7FsyOqMa5zzrlJmufiPN3mPUx3Whe5JOpOdI11/FJR/zU6D9sj8Nh55y3SbxraddVjJeHH9X8YOHdolsuZzfqp8nlGZyqr38ipOFeDdJuR+Zu13geeGPtbqsfkLOH6b4rz9Ivnofku53PMZI9VRE1z/af36LGYyR5LjDn6NNBnLzK0L6k/Y3YlZmiicm+r/vPm/Vvs78QaCuy9JR89xxLVf5XANybrzvcD+9qB+ZmIOR5a987vamBf1cjhDgYDF1A=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="31" height="31">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFQwXoQWldGpj9nIC8DpRWxiL3jESzX6LxXyOxX5Do7lcE3PIajf8Wj1lvKAzDV6NJFC94NoDm0zpuXpGRp2iZZ1/T2O7XVHYvtdLLfCBeD8Sr0MSPYlF7BI1/jIB6Bqi5IPMXEOEWZRqEuwaF8qQAJTqXD0fQ4gAEtIjQB6tPtCmweyUQL8di/ws6+FuFgPwxOuQvPRxqlhMwYwVaefCCyHz7ikrtGEW0+pvUcl4Vi5gmEfrUBiBvKRMRX8QActs5WkS0oUgBL4kMV1q0G4j1A7b09IKOdTy126jDCRwjUJ8TCwBk6TcA
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="31" height="31">
+  <data encoding="base64" compression="zlib">
+   eNrtlFkKgCAURdthc301D7tpgrbUUiLaRRcyCGmC0oLegQP6VB4XRUUhiH/TMxdUqEGd27dV58/exYAmtC7Wn2Iv89V1EZnfzi4y89v3Tcx0K2XiQR8GMISRxN4xTGAKM5hL7F3Ako0rWEvs3XDzlp6/MP76p9rQge5JfbjZZzxY+3JugvgaExmgI38=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="31" height="31">
+  <data encoding="base64" compression="zlib">
+   eNrt0ksKwCAMRdHsUGtXJTgr7TL72YGv0AUoKIFyD9xJIINAzAB/p7ocdl+3ehx2AcyzTegPstq/ew5VeBVgiKCiWhrnIyW1dswBmFUFZhmJ
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="31" height="31" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpjZGBgYBzFoxgLRgaMaDSyOK3txgVG7aaemQwE4p4Ss8h1Dz3CgpC7iNVLzXigVxogN75pXc4MZBk3aveo3aN2j9o9FO0eyHbLaHyP2j1U7QYAQ0YDDQ==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="exit_bone_pillar_2" type="mapchange" id="1" x="480" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="malleus_plain_x2_y2"/>
+    <property name="place" value="entrance_bone_pillar"/>
+   </properties>
+  </object>
+  <object name="exit_bone_pillar_1" type="mapchange" id="2" x="448" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="malleus_plain_x2_y2"/>
+    <property name="place" value="entrance_bone_pillar"/>
+   </properties>
+  </object>
+  <object name="exit_bone_pillar_3" type="mapchange" id="3" x="512" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="malleus_plain_x2_y2"/>
+    <property name="place" value="entrance_bone_pillar"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="4" x="448" y="960" width="96" height="32">
+   <properties>
+    <property name="map" value="tutorial_island_x0_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

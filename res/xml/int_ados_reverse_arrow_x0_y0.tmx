@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="21" height="21" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_2.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="5" name="grey_skull.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_skull.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="13" name="int_wall_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="29" name="int_wall_purple.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="49" name="pale_red_ns.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_red_ns.png" width="288" height="128"/>
+ </tileset>
+ <tileset firstgid="85" name="collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="21" height="21">
+  <data encoding="base64" compression="zlib">
+   eNpjYWBgYBnFVMesVMCjZo6aOWrmqJmD3czBjgHwmgfk
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="21" height="21">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMAqGJwAABuQAAQ==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="21" height="21">
+  <data encoding="base64" compression="zlib">
+   eNpjYBhaQAKI+XBgTyD2AmJvPGrEsZgpAMQaQKyCBQcBcTAQh+CQVwdifhxmKpHpR8VRM0fNHDVz1EwgVgNiZRzYCI+cKg4zxYCYFwe2AmJrILbBo0aUYegBAJRdDTc=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="21" height="21">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMAqGJwAABuQAAQ==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="21" height="21">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMAqGJwAABuQAAQ==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="21" height="21" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNoLZWBgCB3FNMPkgFEzR80cNXPUTGLsGi1jCWMAkxVZ/A==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents"/>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

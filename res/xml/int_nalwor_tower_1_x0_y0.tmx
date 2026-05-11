@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="int_wall_dark_red_corners" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_dark_red_corners.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="int_wall_dark_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_dark_red.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="33" name="stone" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="45" name="bricked_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/bricked_edges.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="70" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="82" name="fairypool" tilewidth="32" tileheight="32">
+  <image source="../drawable/fairypool.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="98" name="blobcreature" tilewidth="32" tileheight="32">
+  <image source="../drawable/blobcreature.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="102" name="elf" tilewidth="32" tileheight="32">
+  <image source="../drawable/elf.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="118" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="119" name="green_stone" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_stone.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="131" name="blue_circle" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_circle.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="135" name="green_stone_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_stone_3.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="138" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone2.png" width="96" height="128"/>
+ </tileset>
+ <layer id="1" name="Ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgaoAuIu4G4h0w2OugFYlUg7ieTjQ4mALEGEE8ik40OJgOxNhBPJZM9Gn6j4TcafsMn/AYrAADa2nbV
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNrdk8sKwjAURMdHrY+qXSnoP/igBav9OF0I/W2ncAOhJCQkcaGBw53FJQyHZARgTCYJ5pRkZEb2keRkThZkh/hzJIX06++7kzNptAyP3O8/5D5bv6vMi2e+GfrV5ESqgNw6+qX0h4Bs89cN3CiXnQYMOz7+nuTl8Kd2ftWf7uYtGX/+/pov+Yv9v+qYPMGS1Q4G/ZbkEMlK+q3JhmwTzJJ8AJqEKHY=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgawAyIjYDYlES2BxDrYjHPEIuYBYlsQuZRAkDmNQJxExa5FCBOJUGckvAzJRB+FoM4/AZD+huI8Gumcvi1AnEbDnUhQBw6DMLPncrpxQSI9XDkTWRxZHYnFFszDB0AABMWGwU=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBi5oBKIq6hoXi0Q12ERTwLiZBLEhyIoB+IKKqiBgWogrqGCmlGACoKAOHg0GAgCYvJmBxSPZAAA4BYJvw==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMApIBwAGQAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNorY2BgKBsCmFJAD/NwmU2MOD3MGwrhR8gv5PqXGHcP9fAjxq+Ewoce5g328GMgwx5ap7/BigHiiVPl
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="downstairs" type="mapchange" id="1" x="512" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="int_nalwor_tower_0_x0_y0"/>
+    <property name="place" value="upstairs"/>
+   </properties>
+  </object>
+  <object name="upstairs" type="mapchange" id="2" x="64" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="int_nalwor_tower_2_x0_y0"/>
+    <property name="place" value="downstairs"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

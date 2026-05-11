@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground/ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="34" name="plant/grasses" tilewidth="32" tileheight="32">
+  <image source="../drawable/grasses.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="40" name="plant/flower/daisy_yellow" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_yellow.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="48" name="plant/bush/bushes" tilewidth="32" tileheight="32">
+  <image source="../drawable/bushes.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="58" name="plant/flower/daisy_white" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_white.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="66" name="plant/tree/tree_darkgreen" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_darkgreen.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="154" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="155" name="ground/ground_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_3.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="160" name="ground/dry_grass" tilewidth="32" tileheight="32">
+  <image source="../drawable/dry_grass.png" width="288" height="192"/>
+ </tileset>
+ <tileset firstgid="214" name="ground/pothole" tilewidth="32" tileheight="32">
+  <image source="../drawable/pothole.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="218" name="building/fence/palisade" tilewidth="32" tileheight="32">
+  <image source="../drawable/palisade.png" width="192" height="448"/>
+ </tileset>
+ <tileset firstgid="302" name="ground/dirt_mounds" tilewidth="32" tileheight="32">
+  <image source="../drawable/dirt_mounds.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="311" name="furniture/table/square_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/square_pale.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="312" name="logic/training_dummy" tilewidth="32" tileheight="32">
+  <image source="../drawable/training_dummy.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="314" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="338" name="furniture/table/stone_desk" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_desk.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="354" name="item/armor/weapons_for_walls" tilewidth="32" tileheight="32">
+  <image source="../drawable/weapons_for_walls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="370" name="item/bullseye" tilewidth="32" tileheight="32">
+  <image source="../drawable/bullseye.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="371" name="item/chest/chest_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_2.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="377" name="item/weapon/hanging_bows" tilewidth="32" tileheight="32">
+  <image source="../drawable/hanging_bows.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="383" name="item/weapon/box_of_weapons" tilewidth="32" tileheight="32">
+  <image source="../drawable/box_of_weapons.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="385" name="item/ropes" tilewidth="32" tileheight="32">
+  <image source="../drawable/ropes.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="389" name="logic/protection" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="391" name="logic/item/sign" tilewidth="32" tileheight="32">
+  <image source="../drawable/sign.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="392" name="building/dojo" tilewidth="32" tileheight="32">
+  <image source="../drawable/dojo.png" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="432" name="furniture/table/grey_long" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_long.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="436" name="item/tools" tilewidth="32" tileheight="32">
+  <image source="../drawable/tools.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="445" name="logic/area" tilewidth="32" tileheight="32">
+  <image source="../drawable/area.png" width="64" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwwEJAAAMBKHj+4dej6HgqqmqqqqvHyPACAE=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0rERQFAQANGrjYsQIULEj9B/bLu4wAY7swW8jIiOesqCn2igsehXmmkp+oM22ou+0UlX0b9001P0qX/961//+te//vWvf/3rX/8/8f8BZhtYEA==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtwwEJAAAMBKHrH+HTrsdQcNVUVVXV1w8BGmgf
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents"/>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

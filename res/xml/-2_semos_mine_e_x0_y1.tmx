@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="Sin nombre" tilewidth="32" tileheight="32">
+  <image source="../drawable/chaos.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="9" name="Sin nombre" tilewidth="32" tileheight="32">
+  <image source="../drawable/creature_huge_animal.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="25" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/giant_human.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="41" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/various_small.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="50" name="scratches.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="55" name="scratches2_edges.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches2_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="73" name="scratches_corners.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches_corners.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="81" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1bEJADAMA0HN5EL7j5Y+VQiEJ/DFtbbAYE2SkSRJ2vQAuftljsIZCmdwP5uh3uDLP0D+QrIL6D4iO5Hu5ZsZC3kyysk=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlcsKwjAQRed/7EK36qJk4QsqaNX6oP3/zzABC2GYPCYTzCYDd9f0nJkkbQ8AfU1Nzd/zLMyeCrOhAPdlsaFQz+Dgz34mQ2b+B+hyPTNmcqFmHsMHhwvO4GH6uKYukXxfUW5TxDrDvmXgc8twHwSb4i91VjprnY0nWyF3zl3nitYZ9jnw7s7jEcP1zaBlzLYjHN7Ce9oy9xc7jMz7K+WbUoIZlObjM5jCx3sgOQM7nZNwBtIzyHU46hwy8rn7oDLfQc4McO+p/EWCA8VO4VPf4RgHe+6NgB/6F1IOuPfGcsjNpxwU4z8v3QPbYf/zcPFDvX8BEUjkdw==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0DENAAAIBLE3BP7lgQgGhjY5A5cAAJ/U1jYAAMcGCwEAXA==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt0lEKACAMAlC9/6W7QFALl0QG/u7JGgEwSZLkcmC2YXQdPjb8zl4VX7kjFOZWHw/nUOSr+s58ZSfFf3W78Xtu8DU/NxD/d5/xrbaqw2r+AKpEAos=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="south" type="mapchange" id="1" x="256" y="992" width="512" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_e_x0_y2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="256" width="32" height="160">
+   <properties>
+    <property name="map" value="-2_semos_mine_e_x1_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="14" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="wallpapers" tilewidth="32" tileheight="32">
+  <image source="../drawable/wallpapers.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="26" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="27" name="carpets_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets_2.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="47" name="floors_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/floors_3.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="59" name="white_trim" tilewidth="32" tileheight="32">
+  <image source="../drawable/white_trim.png" width="320" height="160"/>
+ </tileset>
+ <tileset firstgid="109" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="133" name="int_windows_wood_centered" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_windows_wood_centered.png" width="320" height="96"/>
+ </tileset>
+ <tileset firstgid="163" name="fancy_gate" tilewidth="32" tileheight="32">
+  <image source="../drawable/fancy_gate.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="175" name="sheep_picture" tilewidth="32" tileheight="32">
+  <image source="../drawable/sheep_picture.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="179" name="chair/wooden_rustic" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rustic.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="187" name="table/white" tilewidth="32" tileheight="32">
+  <image source="../drawable/white.png" width="192" height="160"/>
+ </tileset>
+ <tileset firstgid="217" name="cactuspotted" tilewidth="32" tileheight="32">
+  <image source="../drawable/cactuspotted.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="223" name="chest_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_2.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="229" name="bazaar_produce" tilewidth="32" tileheight="32">
+  <image source="../drawable/bazaar_produce.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="233" name="doors" tilewidth="32" tileheight="32">
+  <image source="../drawable/doors.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="Ground" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eNrjYGBg4KAyFqASRjbPGIhNyMTGWMwzoRCTYp40EMugYVkyzQOZpQPECmhYkQzzcJmlDsSqJJqHzSyQOSpYzCLGPHki3ESueYTMIsY8ZajfVIgwy4QO6RkZm1CY39BxLCPDAXLLAgDRayQH
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eNpzYGBgcKISdgHicCD2BmIfCrEvEPtBzQPRxIIdUIwOvNDMWwvF6xjIA15kum+gzNs9iNx3H4t5Tykw7xGVzRtM8fsUh1+QzYtAy4fcZOTdEKh5iUAcRyUcD8QAdq8tpg==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eNpjYEAFUxmwgw0MDA0MRKpFBvNxiG+CmrcFivGpHQXkg8lAPAWI71FoThcQd48G56AHtlDaHk18Eha1k4gwzx2IPYDYE018Dha12MQAaZMM/Q==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgaYBUUr2YYGeA2wygYBUMfAADKRwLb
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjALaAAAEYAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="20" height="14" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNqTYmBgkBoCmFiASz01zMZnHqWA1uZJDSL3SVHZfVKD3L8MA5CeB0u+BQCU4w1P
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="exit" type="mapchange_exit" id="1" x="160" y="384" width="32" height="32">
+   <properties>
+    <property name="map" value="0_deniran_city_s_x0_y2"/>
+    <property name="place" value="accessory_shop"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

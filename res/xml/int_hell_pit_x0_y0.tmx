@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="rock_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/rock_red.png" width="64" height="160"/>
+ </tileset>
+ <tileset firstgid="11" name="sand_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/sand_red.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="17" name="earth_dark" tilewidth="32" tileheight="32">
+  <image source="../drawable/earth_dark.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="113" name="ground_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_2.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="117" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="118" name="protection" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="120" name="grass_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_2.png" width="96" height="224"/>
+ </tileset>
+ <layer id="1" name="Ground" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNorYWBgKKEBrkfC5OqrJ9GceiIwJXpxmVFPBh7q+utH9VMUhpSkQWrmUwC0P3rs
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNqlkksLgkAUhe2x8kdE26I2gRW0iCxoEZbRiyIXLSw3/f9tZ+AMHEx0rAsfM4rfuXcGPe+7IjAR9p5bWW8KlmDEdeyQE4mXgRf3Zk0lZ1/iZvxuBXZCyPfPggzrzsSLc/lbybnmMgbgQD8uOZ/PnJDn6YufgDVogGbFHQecQX3TewhaoO3gp3IG7e9SC/a3M9T1TfXkDn7xN3/6Qc35/dxq+s/p30CX/8ARnCo4gwvogDvzbMaDJLIvelZX6+2I1geTFCm8
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjFQAAAQAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFgwUwAjHTaDCMAjoCAAtUAAQ=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjFQAAAQAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="16" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNorZWBgKB3FGBgZkKuPVDOIAZSaQ0v7GSg0Y7DqL8VCDxcMABznVBk=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents"/>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

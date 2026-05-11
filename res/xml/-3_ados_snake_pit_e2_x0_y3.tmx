@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="ground/ground_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_4.png" width="128" height="320"/>
+ </tileset>
+ <tileset firstgid="42" name="ground/rock/large_boulder" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_boulder.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="51" name="ground/rock/large_pebble" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_pebble.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="53" name="logic/creature/naga" tilewidth="32" tileheight="32">
+  <image source="../drawable/naga.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="57" name="ground/rock/rocks_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks_3.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="73" name="logic/creature/reptile" tilewidth="32" tileheight="32">
+  <image source="../drawable/reptile.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="80" name="terrain/cave_blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/cave_blue.png" width="256" height="448"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1jEOACAIA0CSvrw/9wkGERu1Q1euCwRGBCdBY5S2fa1t377Stm//NZ+C/a90r/ps9HngbmZ9bv4ZMrMo8Fei9GH/Wx/2ZT6EPi72B481ze0=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYCAMuhgGDjQB8awBtn8gwVAKe7thFvYw+x1G095ovh+1f0Dtd6WSucYMwx+Mpp2BNWs0/AdPveUwAH4frbdG2yyjYU9/u2eNxjvJAAB4oxXl
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0tEKABAMhWGPjbt5clPcrMjFkPq/Opd2shYCAAB/i5qkyQ6zZHPO6Ez9TUtx6i8b3WLiabaDaP57it2B7ZXLt/WiVy7tetX/qhsAcE4FibkUsw==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1sENwDAIQ9Hv/ZfOCjSUWmmMxBEeByQQoEJOhQ7wiW/ziR/f5BP/d74G/Z3a7v53Z+/4+sDX8M160ku8/69Ue8noK/5RPvGv9Ylv8zH6u7EA0Z0Bzg==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="320" y="0" width="704" height="32">
+   <properties>
+    <property name="map" value="-3_ados_snake_pit_e2_x0_y2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="576" y="992" width="448" height="32">
+   <properties>
+    <property name="map" value="-3_ados_snake_pit_e2_x0_y4"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="0" width="32" height="1024">
+   <properties>
+    <property name="map" value="-3_ados_snake_pit_e2_x1_y3"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

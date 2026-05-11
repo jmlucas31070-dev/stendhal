@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/ground/brown.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="../../tileset/ground/rock/rocks_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks_2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="10" name="../../tileset/plant/bush/various_small.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/various_small.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="19" name="../../tileset/building/stairs/stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="31" name="../../tileset/item/corpse/skull_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_pale.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="33" name="../../tileset/item/corpse/skull_dark.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_dark.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="35" name="../../tileset/item/blood/floor_stains_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_stains_2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="39" name="../../tileset/ground/rock/green_crystal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_crystal.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="48" name="../../tileset/item/blood/floor_stain.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_stain.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="49" name="../../tileset/plant/bush/large_brown.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_brown.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="58" name="../../tileset/logic/portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="82" name="../../tileset/logic/creature/dark_elf.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_elf.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="98" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="99" name="square_inverse_light_10x10" tilewidth="32" tileheight="32">
+  <image source="../drawable/square_inverse_light_10x10.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="199" name="scratches" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="204" name="logic/creature/spider" tilewidth="32" tileheight="32">
+  <image source="../drawable/spider.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="207" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1MENwDAIQ1EO3n8tn9moC1RqBDSOWh/++SElkBGRwnCT2t85Bxayb1/lq/6/ev9Vvvr+Kv20b78RF5v0WWzCZ7Pu/nOgio8hu+rzwz4O8J9m2enjAB/2f/3+b96/C4GZnnU=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtllEKwjAMhncIT2CGr+7+l1DUbinzME7wYZaY/s0qEWwgsA62L/mbtOk6X5sSD87xzC2ON+PGd7PT4hcn7s2J7aH58Kd5/0KttT5v/Fr8UZgn0PmCKzDv4L0eKvFHkInEMBtmjbhxvgnJGcyFmiO571fPfUZz3pj3Dvi2/yJfylF7z8YaiAqDVmtK1hp/SOZerVdjgcZaTbCxV6Pwr8PLkTos2W8pBqTvpFjIWG+c4VNh3T/tCPKluUTiE5C/RX+ucO6RsrcW/nXxc0bf9Nz71BMPUIZYjg==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1DEBAAAIw7A5wQL+1SFjB4mEHk1oWwmgZiQA8GCAJw7FiABv
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0AENAAAMAiDr2L+gz/FBBBIAAAA+qwLOAGNIACo=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1cEOABAMA9B+6/7/I9xdMLUSbeL8KmQLAPHx6aP2q3uMYl/nq95f/f9Vvnr+KP2wb99++T5h+Kth+tmw5h82O2R9Ruznd/8pf7ZLhY8LfBzy45H73+qzOjT4Cf9X
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="south" type="mapchange" id="1" x="0" y="992" width="256" height="32">
+   <properties>
+    <property name="map" value="-1_nalwor_drows_tunnel_n_x1_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" id="2" x="480" y="992" width="544" height="32">
+   <properties>
+    <property name="map" value="-1_nalwor_drows_tunnel_n_x1_y1"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="0" y="64" width="32" height="960">
+   <properties>
+    <property name="map" value="-1_nalwor_drows_tunnel_n_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="4" x="992" y="992" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_nalwor_drows_tunnel_n_x2_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

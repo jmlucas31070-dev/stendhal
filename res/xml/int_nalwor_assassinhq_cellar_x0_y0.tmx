@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="wall1" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="13" name="entrance_ew" tilewidth="32" tileheight="32">
+  <image source="../drawable/bricks_ew.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="25" name="entrance_ns" tilewidth="32" tileheight="32">
+  <image source="../drawable/bricks_ns.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="37" name="wall2" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_thin_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="49" name="floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="58" name="earth_entrance" tilewidth="32" tileheight="32">
+  <image source="../drawable/earth_dark.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="154" name="rocks" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks_3.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="170" name="chest" tilewidth="32" tileheight="32">
+  <image source="../drawable/large.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="178" name="kitchen" tilewidth="32" tileheight="32">
+  <image source="../drawable/cabinets.png" width="128" height="352"/>
+ </tileset>
+ <tileset firstgid="222" name="dishes" tilewidth="32" tileheight="32">
+  <image source="../drawable/dishes.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="228" name="Table" tilewidth="32" tileheight="32">
+  <image source="../drawable/table_wooden_brown.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="237" name="logic/creature/rodent" tilewidth="32" tileheight="32">
+  <image source="../drawable/rodent.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="245" name="housewife" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_kalavan.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="250" name="assassin" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_evil.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="266" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="267" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="291" name="intstairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_ns.png" width="96" height="192"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNozY2BgMEPDlkgYJmaEhs3ojAfa/lE8ikfxKB7Fo3gUj+LhggFmdYbq
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNrjZGBgYEPD4QwQEItFDoa5gJgTjzyxmAOIVYHYAAknQ+3PRBOHYTUgZsehl1QMMkOPgTSgi2Q/qXrRwaj9pJvBC8R8QMwPxAJY5F/gwdSwXxCIhYBYGIhFBsD/okAsBsTiQCwxwPGvDsT6FGBK7OcGYlYKMSX2U6v8oyT88ZV/+oxAGogNGUfLv1H7R+3HZT+pZZgGFcs/csswHiqVfwBluSLq
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNrtkkEKwjAQReeAFr1fuskFalVQqEVFQY8hummrHqJf+Is0Us0mAWEePP5kQpgQIjJkxjTMiaQlY1rmNODMCR5ZV3ALa2d/CVcj+hinzrm2P+Zf4Jn1Du7hwdlfw82IPta7g5H0WPlfGtjCO/NK3/UNdpHnP+Dziy9RlE9KuAjoKXEo4Dygp6R7f/3/8ekBRowxSg==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo4B64AkQP8WDn1HJHj4g5h9AfwoBsfAA2S0KxGJALA7EEqNJjipgDRCvJUJsFNAGrALi1USIjQL6hf9o+h/+AAD8eBC0
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo4C64CEO8XujQTMKRsEoGAWjYBQMCgAAW0cBwA==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrjYmRg4MKCQYCLceAwve3HBvCJE+NmQuoJ2Y8LUKIXl1nDxX5Sw5oafhjp4U+r/DeS7CclbdKiHB3p5Q8l4T9a/g798B+pGAAZgQ1e
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="hqcellardown" type="mapchange_exit" id="1" x="192" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_nalwor_caves_e_x1_y2"/>
+    <property name="place" value="crawlyhole1"/>
+   </properties>
+  </object>
+  <object name="hqcellarup" type="mapchange" id="2" x="768" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="int_nalwor_assassinhq_0_x0_y0"/>
+    <property name="place" value="hq0down"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="96" width="32" height="160">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="4" x="992" y="384" width="32" height="192">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

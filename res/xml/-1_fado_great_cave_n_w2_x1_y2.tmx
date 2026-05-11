@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground/brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="7" name="ground/rock/pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="10" name="ground/rock/green_crystal" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_crystal.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="19" name="ground/rock/pink_crystal" tilewidth="32" tileheight="32">
+  <image source="../drawable/pink_crystal.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="28" name="ground/rock/large_boulder" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_boulder.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="37" name="ground/rock/rubble" tilewidth="32" tileheight="32">
+  <image source="../drawable/rubble.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="46" name="plant/bush/large_brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_brown.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="55" name="plant/bush/large_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_green.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="64" name="plant/bush/various_small" tilewidth="32" tileheight="32">
+  <image source="../drawable/various_small.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="73" name="logic/creature/giant_human" tilewidth="32" tileheight="32">
+  <image source="../drawable/giant_human.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="89" name="logic/creature/human_imperial" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_imperial.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="105" name="logic/creature/animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/animal.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="137" name="logic/creature/demon" tilewidth="32" tileheight="32">
+  <image source="../drawable/demon.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="144" name="ground/rock/large_pebble" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_pebble.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="146" name="ground/rock/obsidian" tilewidth="32" tileheight="32">
+  <image source="../drawable/obsidian.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="152" name="logic/creature/dragon" tilewidth="32" tileheight="32">
+  <image source="../drawable/dragon.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="160" name="logic/creature/spider" tilewidth="32" tileheight="32">
+  <image source="../drawable/spider.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="163" name="building/wall/int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="178" name="object/mine_rails_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/mine_rails_2.png" width="256" height="256"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0zEOACEIRFGS4f5n3t7oYuFg4S9eZ5ghBkVETuiQarYrd5U95nTn6ydfBtV+3bvfyq/e3dhdxr/PzR7Z3EFN9787051/qqezAwAAAN7xARLDDF8=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlk0KwjAYBbOzOYitf13bLmwPK8+Vh/QJBoLQxmqSZyGB2YUO8zWEGJNnnUlHenIlN4Ifv2kX7L2QgYzk/nLD5F9+u8Lvt0PcDrEbYjdE/zynf64d4vaUfiv2x+y3K5j/ltSkiejfLPAfyYm0f3L+vvW7OdYT80zpd+69xyGjf/fmDvkrsT92vzvDPu1K79/iL/7i1/pDbz98eIemaoe4HeL2Jw/x4KCO
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0skJACAMBMB0IooPy7Vk04R4MAP7zrIkAv41TQDwhHFJj5KpB++3TPcOAGyyABWQAT8=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1VEJAEAIREGD6PWPeaYQwRnYAvvzIgAAdsjecwMAB/tXAw383xsAkg==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1MsJAEAIQ0FPr/+St4IcFsT9JIJXJyhYNVOILhNf5XDyT+yfC+6PsU/8+AO+munid+2/O+OOT3xrP/8vfvx/fIx9HvEXDlEGiw==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="832" height="32">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_n_w2_x1_y1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="0" y="992" width="704" height="32">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_n_w2_x1_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="0" y="0" width="32" height="1024">
+   <properties>
+    <property name="map" value="-1_fado_great_cave_n_w2_x0_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

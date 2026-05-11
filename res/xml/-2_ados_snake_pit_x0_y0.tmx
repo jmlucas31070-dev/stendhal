@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="5" name="ground_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_4.png" width="128" height="320"/>
+ </tileset>
+ <tileset firstgid="45" name="sign" tilewidth="32" tileheight="32">
+  <image source="../drawable/sign.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="46" name="creature/hybrid" tilewidth="32" tileheight="32">
+  <image source="../drawable/hybrid.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="62" name="skulls" tilewidth="32" tileheight="32">
+  <image source="../drawable/skulls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="78" name="skull_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_pale.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="80" name="torch_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/torch_2.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="89" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="101" name="torchlight_5x4" tilewidth="32" tileheight="32">
+  <image source="../drawable/torchlight_5x4.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="197" name="logic/creature/reptile" tilewidth="32" tileheight="32">
+  <image source="../drawable/reptile.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="204" name="terrain/cave_blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/cave_blue.png" width="256" height="448"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtljEOQBEQRFdB4f7XlYhOQ7Iy3+BP8Vrzwo5sMbMiPicNWD0vBl5+7mDkI+4P+Y43zxEie5dHcsLOn/m0/no7jHBA94+Rj/Q4aSYYHq911OvB/jPZu4h2MyGE+CcVlwU5DA==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgF9ACijNgxPUHyMAlLOSRMb/APiMWg8SYCpFnoHIdsaPbR0w3Ifkd3g+gAhAUudww2twxG9wxE+UMvwDRa3YyCUTAKRsEoGAWjYBTgBACGEAT+
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0MEJACAMA8AWxPkE99/FR4eohbtPngmJgFl2Vq70xW9Oc/8dsgkAADo84RwBUw==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFIwF8xYHJAf+g9B8S9PzFgckBwWj0KBgFo2AUjILBCwIG2P7RumIUjIJRMApGwShAAAC2fw7w
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0DEKACAMBME80f//w3QBLYOksfEC7kCwdDkz4M44XuCF2Ofi/7s0TGFHsEW5BR19O/K5qKNqUm8DAPjTAnaLMnE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlkEKACAIBPX/n+4DBoHiSs7CXHNKi9zMHFYQJbOWei9b61f0r3KO1DPc7fGSCQ4dPtmoHdRnoe7J7/dkyptxc+JfAgAACg6/HQON
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="pit_exit" type="mapchange_up" id="1" x="448" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_ados_caves_e_x2_y1"/>
+    <property name="place" value="pit_entrance"/>
+   </properties>
+  </object>
+  <object name="pit2_escape_down" type="mapchange_down" id="2" x="864" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="-3_ados_snake_pit_x0_y0"/>
+    <property name="place" value="pit3_escape_up"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="-2_ados_snake_pit_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="4" x="992" y="384" width="32" height="224">
+   <properties>
+    <property name="map" value="-2_ados_snake_pit_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

@@ -111,4 +111,60 @@ irsnUdAumYAMAAA=
    H4sIAAAAAAAAAO3DQQ0AAAwDodNR/0LnYi9IWDVVVdWHBzaVoEOADAAA
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance_right" type="mapchange_exit" id="1" x="672" y="608" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_ados_city_s_x1_y0"/>
+    <property name="place" value="church_entrance"/>
+   </properties>
+  </object>
+  <object name="entrance_left" type="mapchange_exit" id="2" x="608" y="608" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_ados_city_s_x1_y0"/>
+    <property name="place" value="church_entrance"/>
+   </properties>
+  </object>
+  <object name="entrance_centre" type="mapchange_exit" id="3" x="640" y="608" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_ados_city_s_x1_y0"/>
+    <property name="place" value="church_entrance"/>
+   </properties>
+  </object>
+  <object name="upstairs" type="mapchange" id="4" x="64" y="64" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_ados_church_1_x0_y0"/>
+    <property name="place" value="downstairs"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="5" x="608" y="608" width="96" height="32">
+   <properties>
+    <property name="map"   value="int_ados_barracks_0_x0_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="6" x="992" y="32" width="32" height="160">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="7" x="992" y="224" width="32" height="384">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="8" x="1024" y="32" width="32" height="160">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="9" x="1024" y="224" width="32" height="384">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

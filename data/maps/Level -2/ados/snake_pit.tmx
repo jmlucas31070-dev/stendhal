@@ -134,4 +134,132 @@ wAIMJXfvtC96p+l7NwAAAEwy98mNPhkA1q/VO6foJAKpdwAAgDWYeruM97/6O1/+YQvrtotOIJBz
 POaQ+a58k7FW6qmV4GV4PrP+M7KxL9oXAeZ0B6L32u4AgAAA
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="pit_exit" type="mapchange_up" id="1" x="448" y="128" width="32" height="32">
+   <properties>
+    <property name="map"   value="-1_ados_caves_e_x2_y1"/>
+    <property name="place" value="pit_entrance"/>
+   </properties>
+  </object>
+  <object name="pit2_escape_down" type="mapchange_down" id="2" x="864" y="96" width="32" height="32">
+   <properties>
+    <property name="map"   value="-3_ados_snake_pit_x0_y0"/>
+    <property name="place" value="pit3_escape_up"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="96" width="32" height="32">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="4" x="992" y="384" width="32" height="224">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="pit_escape_up" type="mapchange_up" id="5" x="1888" y="96" width="32" height="32">
+   <properties>
+    <property name="map"   value="-1_ados_caves_e_x2_y2"/>
+    <property name="place" value="pit_escape_down"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="6" x="1504" y="992" width="288" height="32">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x1_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="7" x="1024" y="96" width="32" height="32">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="8" x="1024" y="416" width="32" height="192">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x0_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="south_1" type="mapchange" id="9" x="576" y="2016" width="224" height="32">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x0_y2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east_1" type="mapchange" id="10" x="992" y="1120" width="32" height="160">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x1_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" id="11" x="1408" y="1024" width="352" height="32">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x1_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="west_1" type="mapchange" id="12" x="1024" y="1120" width="32" height="160">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x0_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="north_1" type="mapchange" id="13" x="608" y="2048" width="256" height="32">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x0_y1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south_2" type="mapchange" id="14" x="864" y="3040" width="160" height="32">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x0_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east_2" type="mapchange" id="15" x="992" y="2176" width="32" height="896">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x1_y2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="west_2" type="mapchange" id="16" x="1024" y="2208" width="32" height="800">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x0_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="north_2" type="mapchange" id="17" x="832" y="3072" width="128" height="32">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x0_y2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south_3" type="mapchange" id="18" x="320" y="4064" width="192" height="32">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_s_x0_y0"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east_3" type="mapchange" id="19" x="992" y="3424" width="32" height="192">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x1_y3"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="south_4" type="mapchange" id="20" x="1600" y="4064" width="128" height="32">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_s_x1_y0"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west_3" type="mapchange" id="21" x="1024" y="3456" width="32" height="160">
+   <properties>
+    <property name="map"   value="-2_ados_snake_pit_x0_y3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

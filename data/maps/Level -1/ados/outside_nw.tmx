@@ -83,4 +83,24 @@ av7oHazuP2PWqvfAened8it20CH7Sn3vDqy1O979U49/v3lqq7PPw6fSU09vvQ6zePtG7dNzInNn
    H4sIAAAAAAAAAO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="0" type="mapchange_up" id="1" x="128" y="736" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_ados_outside_nw_x2_y0"/>
+    <property name="place" value="0"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="160" width="32" height="32">
+   <properties>
+    <property name="map"   value="-1_ados_outside_nw_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="1024" y="160" width="32" height="32">
+   <properties>
+    <property name="map"   value="-1_ados_outside_nw_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

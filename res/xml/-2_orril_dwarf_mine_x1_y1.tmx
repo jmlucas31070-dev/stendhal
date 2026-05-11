@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="ground/brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="7" name="rocks_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks_2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="11" name="rocks" tilewidth="32" tileheight="32">
+  <image source="../drawable/rock_rocks.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="15" name="iron_lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/iron_lamp.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="18" name="small_lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_lamp.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="22" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="34" name="mossess" tilewidth="32" tileheight="32">
+  <image source="../drawable/mosses.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="50" name="barrel" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="52" name="skull_dark" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_dark.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="54" name="skeleton" tilewidth="32" tileheight="32">
+  <image source="../drawable/skeleton.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="58" name="chair/wooden_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden_pale.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="62" name="table/long_side_on_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/long_side_on_pale.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="65" name="dark_stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_stairs.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="67" name="skull_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_pale.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="69" name="pool" tilewidth="32" tileheight="32">
+  <image source="../drawable/decoration_pool.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="78" name="green_crystal" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_crystal.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="87" name="table_with_hob" tilewidth="32" tileheight="32">
+  <image source="../drawable/table_with_hob.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="92" name="bush/large_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_green.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="101" name="chest/small" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_small.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="103" name="toolset" tilewidth="32" tileheight="32">
+  <image source="../drawable/toolset.png" width="288" height="64"/>
+ </tileset>
+ <tileset firstgid="121" name="flames" tilewidth="32" tileheight="32">
+  <image source="../drawable/flames.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="127" name="pot_golden_centered" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_golden_centred.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="130" name="vine" tilewidth="32" tileheight="32">
+  <image source="../drawable/vine.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="133" name="pot_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_purple.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="134" name="object/mine_carts" tilewidth="32" tileheight="32">
+  <image source="../drawable/mine_carts.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="142" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="166" name="logic/creature/dwarf" tilewidth="32" tileheight="32">
+  <image source="../drawable/dwarf.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="174" name="logic/creature/rodent" tilewidth="32" tileheight="32">
+  <image source="../drawable/rodent.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="182" name="logic/creature/animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/animal.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="214" name="logic/creature/hybrid" tilewidth="32" tileheight="32">
+  <image source="../drawable/hybrid.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="230" name="logic/item/resources" tilewidth="32" tileheight="32">
+  <image source="../drawable/resources.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="236" name="item/firewood" tilewidth="32" tileheight="32">
+  <image source="../drawable/firewood.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="248" name="logic/creature/dragon" tilewidth="32" tileheight="32">
+  <image source="../drawable/dragon.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="256" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="271" name="object/mine_rails_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/mine_rails_2.png" width="256" height="256"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtl7EOwCAIRLHh/7/ZtUMb5MpVIgxsyjsgKKiIqGHX4Jk6+SvnPbo9/hDLroHNtjRU4b9p+JP/pKEa/8t7cgr/rqH5za/cfxn+gCyzSNXY2f2BxB2VI6TmUbM74iNif0DvM/cci7+D3fw89d/Fn4YPDpA=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtl8EOgjAMhtfoREQkxANn40ljokfxplc9qu//KDaEhTHBdWMbF5s0uuj6tf82VhhrbAeM7aEZL/H7TBr7MFDiF8o4VsYRjucEp+Y9hXYOMj+vNZDjpsS4JtotoL/+IUbJIVJqKhyvty6HVLP+Liw2iOmanxM0iDzXb7IfC4/nPR6ZT9HAK5+gwR1/f6BnBl6iXzT/WaMnBA1s6r/inBtxXqzRQOaf0UtiDkecd9LU37UP84Dr38UHCHj+KiBjE+i+e2z50YBnwK/7132z0a5dzoHXecj8JABb7QMo9T/RX4Z3EOXZ28Vf1Z9vz7WLPqTi1+vB4ft8+GRv0Q/Q1kreG3kAtm6Pcqo2BLbov3Rsau8suNwgTmbJ7tPFJoYte4z+9M93axsI857bZ+KdeywNPk5xDMI=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBjaoAmK6QnqgbgBiBsH0A3YwgEZtDKMglEwCgYCGEHxYAA9QNw7wsK/C4i7R5PhKBgFo2AUjIJRMArwACXGket3AJarB0U=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1UkNACAMRNFKQBmbGwywuKYGuAEN4b9kHMy0ImtFbDnB6+gQftY147N9Vk1jnzjEa4Jhx5MmX/5BkV/OrQCAjSY+MAZc
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtllEOwCAIQ+n9L+0FxqJbaTFK4p/xPSIiEXlAtKKpw9tetjc73PwVj+royp6tpUoPZZzCz8521l/moMw/zPffxcHFr+oB2KQPdf8HQXhff2eB7G4hyB0F7+NL7qz6YLNXfBTsJweI2Yy5H5d/+Ua+02EAUWQB+w==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="224" height="32">
+   <properties>
+    <property name="map" value="-2_orril_dwarf_mine_x1_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="0" y="992" width="64" height="32">
+   <properties>
+    <property name="map" value="-2_orril_dwarf_mine_x1_y2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="-2_orril_dwarf_mine_x0_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="4" x="0" y="192" width="32" height="256">
+   <properties>
+    <property name="map" value="-2_orril_dwarf_mine_x0_y1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="5" x="0" y="800" width="32" height="224">
+   <properties>
+    <property name="map" value="-2_orril_dwarf_mine_x0_y1"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

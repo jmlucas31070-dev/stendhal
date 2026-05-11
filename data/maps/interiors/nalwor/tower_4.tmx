@@ -73,4 +73,18 @@ SkAGAAA=
    H4sIAAAAAAAAAGNgGAWjYBSMglEwCkgHADV9EcVABgAA
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="downstairs" type="mapchange" id="1" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_nalwor_tower_3_x0_y0"/>
+    <property name="place" value="upstairs"/>
+   </properties>
+  </object>
+  <object name="upstairs" type="mapchange" id="2" x="352" y="544" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_nalwor_tower_5_x0_y0"/>
+    <property name="place" value="downstairs"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

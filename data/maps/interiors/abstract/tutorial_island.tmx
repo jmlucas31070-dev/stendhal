@@ -65,4 +65,42 @@
    eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" id="1" x="224" y="992" width="800" height="32">
+   <properties>
+    <property name="map"   value="tutorial_island_x0_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="256" width="32" height="768">
+   <properties>
+    <property name="map"   value="tutorial_island_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="south_1" type="mapchange" id="3" x="1056" y="992" width="32" height="32">
+   <properties>
+    <property name="map"   value="tutorial_island_x1_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="4" x="1024" y="256" width="32" height="736">
+   <properties>
+    <property name="map"   value="tutorial_island_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" id="5" x="256" y="1024" width="608" height="32">
+   <properties>
+    <property name="map"   value="tutorial_island_x0_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="6" x="896" y="1024" width="64" height="32">
+   <properties>
+    <property name="map"   value="tutorial_island_x0_y0"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

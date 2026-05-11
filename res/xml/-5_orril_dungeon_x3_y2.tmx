@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/building/wall/int_blue_green.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_blue_green.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="../../tileset/building/wall/int_green_blue.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_blue.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="33" name="../../tileset/ground/brown_paving.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_paving.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="35" name="../../tileset/ground/ground.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="68" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="69" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="93" name="ratfolk" tilewidth="32" tileheight="32">
+  <image source="../drawable/ratfolk.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="96" name="brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="101" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtls0NwCAIRp2FM0zl/ju0B20aIi2oEBM9fIemlFfkR3JKKTsKbmERFOVAVT4d/pMDj9xWtWwggC+d7ZtPDRsYlJaPQvxfPrlatjTIJ4X4f7Tej/A1cQJjS99Y61/DtejMn7j5o+XDAnycyB+dUxZf2pik2cT71YMvzSf+DD/9j8pd5WtWR55/T/5xAr+3/0jYESL7f3f+rveP1NMR9b8CnxblW/c5j/jJsM971r9HrwC7B7nPCy58Kko=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlmELgkAMhq0sz0oLU4oK6///yl5B4ZC7czs2/NANHvDD2INDXmcyWpXgCBoHJ3Ce9e/BwzOrA2Z8NkR/BWoPF3BV9tu1AVuw85Ar+4fZB9A7KMaZVP8z8B4+XuC9MJvq7yP4gK+QX7qSP/k5/kaYKYup/lqYKYs19r+Uu9yMyoizckLuxmQUJf8Kqze005hvlNub/P/tD92Ac26gFcg/+7asGDl0F8o/121JvdHW+P9w/Zz80/Bz8m+N/XfJn/yKfk5Wavh/aOIWsA==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtzAEJAAAMA6DVff8CjzEGGsAEAGDHjd4A0PbgVwDT
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtl0sOACEIQzlc73+m2bogZtCWaTKQsNLkya8qIgJCzwyNvjKHz+W/qa0TH8ketlXPyODd8E/yvFu/qVElv0Hqv676j/78m8+8/5g9Wu1nEDhq/k77O+P/Ov8q/un8YfRn+Gb629X/DvPnyK++5xTxwyB+1axkf4V1/QHaIrBh
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="768" y="0" width="160" height="32">
+   <properties>
+    <property name="map" value="-5_orril_dungeon_x3_y1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="96" y="992" width="64" height="32">
+   <properties>
+    <property name="map" value="-5_orril_dungeon_x3_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" id="3" x="192" y="992" width="64" height="32">
+   <properties>
+    <property name="map" value="-5_orril_dungeon_x3_y3"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="south3" type="mapchange" id="4" x="768" y="992" width="96" height="32">
+   <properties>
+    <property name="map" value="-5_orril_dungeon_x3_y3"/>
+    <property name="place" value="north3"/>
+   </properties>
+  </object>
+  <object name="south4" type="mapchange" id="5" x="896" y="992" width="32" height="32">
+   <properties>
+    <property name="map" value="-5_orril_dungeon_x3_y3"/>
+    <property name="place" value="north4"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="6" x="0" y="192" width="32" height="64">
+   <properties>
+    <property name="map" value="-5_orril_dungeon_x2_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="7" x="0" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="-5_orril_dungeon_x2_y2"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="8" x="0" y="512" width="32" height="160">
+   <properties>
+    <property name="map" value="-5_orril_dungeon_x2_y2"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="west4" type="mapchange" id="9" x="0" y="832" width="32" height="96">
+   <properties>
+    <property name="map" value="-5_orril_dungeon_x2_y2"/>
+    <property name="place" value="east4"/>
+   </properties>
+  </object>
+  <object name="west5" type="mapchange" id="10" x="0" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="-5_orril_dungeon_x2_y2"/>
+    <property name="place" value="east5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

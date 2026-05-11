@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="int_wall_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="17" name="int_wall_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="37" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="38" name="logic/protection" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="40" name="vendors_table" tilewidth="32" tileheight="32">
+  <image source="../drawable/vendors_table.png" width="224" height="160"/>
+ </tileset>
+ <tileset firstgid="75" name="floors_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/floors_3.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="87" name="wooden" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="92" name="int_windows_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_windows_purple.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="108" name="pot_plant_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_plant_1.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="120" name="potted_plants1" tilewidth="32" tileheight="32">
+  <image source="../drawable/potted_plants1.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="126" name="book" tilewidth="32" tileheight="32">
+  <image source="../drawable/book.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="130" name="books" tilewidth="32" tileheight="32">
+  <image source="../drawable/books.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="134" name="chests_banner" tilewidth="32" tileheight="32">
+  <image source="../drawable/chests_banner.png" width="32" height="256"/>
+ </tileset>
+ <tileset firstgid="142" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="154" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <layer id="1" name="Ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNq11EsOgjAURuGCThRimPhCt+QOFHx00MhmWLKnCU2MgYHtz+BLGgY3ObcNpTEmxxW3xHOBJc6444FDxNk7YQGLHS5/6Ee+NWjhIuaNeeI19CrmbYde1bzQ6+dlEzaRvfmEKqLXinvnuF/F/r7vV7G/0GvFvU78ntei/YXeUrS/0GvFvW6G/0GNfaLjz3280SWeV/gADyxfIQ==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYKANqKBAbwEDQwO6WDUF5pVhMW84gmgg1gBiLSQxLgrN0wdiQyQxHhxqe4k00wyILYZQmHJR2TxKw2+opT8GKqc/hhGQ/mqGUHkFAGvgCVU=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFwwk0MjAsGA2FUTCQoJmKabBhND0PagAABtsDZQ==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRQC6oZGBoGKl+BwD53AD6
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMApIBwAGQAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpTZWBgUB0imFxATbNwmTlYzKN2mNIqjoZafFDbv8M1/EbTH+XmqQ4hDACAoxuc
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="stairs_down" type="mapchange" id="1" x="416" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="int_fado_bank_x0_y0"/>
+    <property name="place" value="stairs_up"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

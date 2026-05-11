@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/ground/brown.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="../../tileset/building/stairs/dark_stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_stairs.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="8" name="../../tileset/building/decoration/arrows.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/decoration_arrows.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="12" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="13" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwwEJAAAMBKGD7995PYaCq6aqqqq+fi2gDAE=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt01EJAEAIBUEbCML1r3otfB/OwkaYqttN+A7/wos//vgTf/yJP/74E387f8SMHyE=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1EENAAAIw8C98S8YGRC4OiBrSW5Rgf14NXWT/nTKGz1gvzPFbz8B9uXqWxrDhACN
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpjYBhegIcM9aN44DCl8TdY09VwzCuj+W/457+BSjvDMX8NBX+N5oHBl/94hlDaHK75ll7hPpoHhmb9N1LyBM8IyIsjGQMAZ9cVqQ==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="1024" height="32">
+   <properties>
+    <property name="map" value="-3_semos_jail_x2_y2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="2" x="0" y="0" width="32" height="64">
+   <properties>
+    <property name="map" value="-3_semos_jail_x1_y3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="3" x="0" y="160" width="32" height="128">
+   <properties>
+    <property name="map" value="-3_semos_jail_x1_y3"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="4" x="0" y="384" width="32" height="128">
+   <properties>
+    <property name="map" value="-3_semos_jail_x1_y3"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="west4" type="mapchange" id="5" x="0" y="608" width="32" height="128">
+   <properties>
+    <property name="map" value="-3_semos_jail_x1_y3"/>
+    <property name="place" value="east4"/>
+   </properties>
+  </object>
+  <object name="west5" type="mapchange" id="6" x="0" y="832" width="32" height="128">
+   <properties>
+    <property name="map" value="-3_semos_jail_x1_y3"/>
+    <property name="place" value="east5"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="7" x="992" y="0" width="32" height="64">
+   <properties>
+    <property name="map" value="-3_semos_jail_x3_y3"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="8" x="992" y="160" width="32" height="64">
+   <properties>
+    <property name="map" value="-3_semos_jail_x3_y3"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east3" type="mapchange" id="9" x="992" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="-3_semos_jail_x3_y3"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+  <object name="east4" type="mapchange" id="10" x="992" y="384" width="32" height="128">
+   <properties>
+    <property name="map" value="-3_semos_jail_x3_y3"/>
+    <property name="place" value="west4"/>
+   </properties>
+  </object>
+  <object name="east5" type="mapchange" id="11" x="992" y="640" width="32" height="96">
+   <properties>
+    <property name="map" value="-3_semos_jail_x3_y3"/>
+    <property name="place" value="west5"/>
+   </properties>
+  </object>
+  <object name="east6" type="mapchange" id="12" x="992" y="832" width="32" height="128">
+   <properties>
+    <property name="map" value="-3_semos_jail_x3_y3"/>
+    <property name="place" value="west6"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

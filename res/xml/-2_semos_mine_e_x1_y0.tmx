@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="Sin nombre" tilewidth="32" tileheight="32">
+  <image source="../drawable/chaos.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="9" name="Sin nombre" tilewidth="32" tileheight="32">
+  <image source="../drawable/creature_huge_animal.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="25" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/giant_human.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="41" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/various_small.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="50" name="scratches.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="55" name="scratches2_edges.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches2_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="73" name="scratches_corners.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches_corners.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="81" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1aENADAMA0HPZJD9RystrlpZVh8c/iQklmQAAIACs0m2X88xB5Ltoc3uxX2H2y7c/9f7J37M7fYCCuTKuQ==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtl+8KgjAUxfdc1QfxQ2qgUMvURr3/YzTBCzLu7u7c5oIaHIwQf+dc7/4ohRAyUErYxzPC8ymNWu9MfBf7qnVPyFcZ2b/83qnsc90fGWufOvc38/foeYq/V/Y/H+e/tIbM/Z/Cw7zWTYaotS+2B2qdT+FhZGQ9aB21ThE8jB61BXa3/G4dPlweXPsY5FyrQ+6jfFAeFDMnZzRatWcd1A7stQd4xwPB92XPo9wwPyYLv/B8Fie7bajI2eH8c9vIP2tdArLDHtQzPYTWvyT2wJ5Ri1B+a8x5bA+mfITybfWXFh+mB+y/gsmtkL53nUGgFiDMF/RgY+lFar5tPQNh86BerpWhOuJ3zwfYyNI2
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1FEKACAIA9Dt/pfuBEJEbkYT/AveJJQAeKGroqid/q92/t03d3yvHT/+xP2D2FJlgDjDrVJ7JxkU5fYxwK+yOIvmudj8x25/51Y7d13ts3ivvrddd+A1fwGylgJN
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="576" y="0" width="192" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_ne_x1_y3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="96" y="992" width="544" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_e_x1_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="736" width="32" height="192">
+   <properties>
+    <property name="map" value="-2_semos_mine_e_x2_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

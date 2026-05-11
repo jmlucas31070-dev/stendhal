@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="23" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="wallpapers" tilewidth="32" tileheight="32">
+  <image source="../drawable/wallpapers.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="26" name="wood_trim" tilewidth="32" tileheight="32">
+  <image source="../drawable/wood_trim.png" width="320" height="160"/>
+ </tileset>
+ <tileset firstgid="76" name="floor_tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="85" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="109" name="table/fancy_blue_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/fancy_blue_red.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="121" name="table/wooden_with_candles" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_with_candles.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="133" name="orb" tilewidth="32" tileheight="32">
+  <image source="../drawable/orb.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="134" name="webs" tilewidth="32" tileheight="32">
+  <image source="../drawable/webs.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="140" name="logic/protection" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="142" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eNoTYGBgEBhgzDlAGNn+IDrjUftH7R+1f9T+UftH7R+1f9T+kW4/IRxEw/YfMTiIRm1fAMMdtQY=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eNqTZ2BgUBwgrAzEmkCsBcTadMY6QKwLtd+Egf7AbNT+UfuHsP25QJwHxPlAXDAA9hcCcREQFwNxCR51lUBcBcTVAxT+NUBcC8R1A2h/8wDbP5D+rwfiBiBuHCD7m6B0y2j5M2r/qP1Y7Tcnoq3IQOW2pzHUfgcgtsWDYe1FdTQxWypgOyAGAFXrLzc=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMFxB62gQjIJRMAqGKJCB0nIDZL8alNaggdkAQWkBDg==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eNrtw8cNACAAAKEb37K0buFDSBjV7J117wAA4A8HMxgCJw==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eNrtwTEBAAAAwqD1T20LL6AAAICXAQuAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="23" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrrY2Bg6BvFdAej9o/aP5TtH0r6+wY4/EftH9n2j5Y/o/aP2o/ffmLaZwPdPqSFuQC7j3dD
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="320" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="0_deniran_river_se_x2_y0"/>
+    <property name="place" value="psychic_entrance"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="320" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_barracks_0_x0_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

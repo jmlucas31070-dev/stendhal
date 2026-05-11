@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="5" name="ground_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_4.png" width="128" height="320"/>
+ </tileset>
+ <tileset firstgid="45" name="sign" tilewidth="32" tileheight="32">
+  <image source="../drawable/sign.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="46" name="creature/hybrid" tilewidth="32" tileheight="32">
+  <image source="../drawable/hybrid.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="62" name="skulls" tilewidth="32" tileheight="32">
+  <image source="../drawable/skulls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="78" name="skull_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_pale.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="80" name="torch_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/torch_2.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="89" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="101" name="torchlight_5x4" tilewidth="32" tileheight="32">
+  <image source="../drawable/torchlight_5x4.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="197" name="logic/creature/reptile" tilewidth="32" tileheight="32">
+  <image source="../drawable/reptile.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="204" name="terrain/cave_blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/cave_blue.png" width="256" height="448"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1sENACAIQ1FO3X9hElcw2uSjcOj5aQzYjIic2KPNUK7b12Eo1+EL9AX6esQn5prcK/RO63p38j/JBr7GH7+xX3n+VaRP/9zp6W5/c44f/Spv4ejbC49F1ZA=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlkEKwCAQA7MgvqD2/w9VKR72WBBEs7QZ8DyJEhAQO8gGlImzy3sbp+9fvO5e8Saie4UOntu7s4jcvan7Z7t3Uu/Im6vku5df/hO8bTwRNzm4TBk8g//no2SJkKNyI+gtJnI8U+cZJA==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1jERAAAMAjEk9q7+vVQGQxMDvzCQ/DHl/gYAAPDtsYuOA/HpAeo=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0VEJAEAIREEjCsL1j3IV/FKQmQIPdiOAabncLxcAAA3PBHDKByrXAPo=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtklEKACAIQ73/easvjeoGQskk92C/TudECCG/0ba6Q1G+5tRr76jZHhT8byQK7nm1uyv/nJBqDLC/gXc4/jNBBh2YgyXKAd2FLDtk6MNNFgt5FDiC
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtl1EKACAIQ7f7X7obhES5kRP8lKfDFRIAk19mJVTcF/yTUHFv8SHkd+9Vha30ltrXmb2fzyG6q2eP9uGHP9d/rm+Qiw4u/3BnH+49uNx6u7oF5L8DPg==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="south" type="mapchange" id="1" x="576" y="992" width="224" height="32">
+   <properties>
+    <property name="map" value="-2_ados_snake_pit_x0_y2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="96" width="32" height="160">
+   <properties>
+    <property name="map" value="-2_ados_snake_pit_x1_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

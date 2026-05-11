@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="31" height="30" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="protection" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="ground\cobblestones" tilewidth="32" tileheight="32">
+  <image source="../drawable/cobblestones.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="8" name="ground\indoor\blue_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/indoor_blue_green.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="12" name="building\castle" tilewidth="32" tileheight="32">
+  <image source="../drawable/castle.png" width="640" height="512"/>
+ </tileset>
+ <tileset firstgid="332" name="building\decoration\arrows" tilewidth="32" tileheight="32">
+  <image source="../drawable/decoration_arrows.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="336" name="building\decoration\floor_sparkle" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_sparkle.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="354" name="ground\hexagramm" tilewidth="32" tileheight="32">
+  <image source="../drawable/hexagramm.png" width="608" height="1216"/>
+ </tileset>
+ <tileset firstgid="1076" name="sky\stars" tilewidth="32" tileheight="32">
+  <image source="../drawable/stars.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="1082" name="statue/warlock" tilewidth="32" tileheight="32">
+  <image source="../drawable/warlock.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1086" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="1110" name="furniture/light/flames" tilewidth="32" tileheight="32">
+  <image source="../drawable/flames.png" width="192" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="31" height="30">
+  <data encoding="base64" compression="zlib">
+   eNrFV1GuwyAMYxJ61ThPGshpdofd/+NRiUiWRbtq7eAjQsVtEhs2jMUQ1hqlhrRRYc7gOdf4CyGkGkuNZ43Yxu1Z2nv+vn9bIB/OS8tpUGsFDMcN8zqp1cU+MuQoLa/nyjCuwNFH7sXf69VBvj1cqCZqq6CxgabMc5vDOu+dPt7Uh+eTFka8DXAFrTZsjw/zXU7o4Tm5B6yHfZzR9SwupGmhPanxnjqfcN7Lzv/uOj0c93kZxJfxdSBfxu3C7/cqLnE8X8RH80V8Bt+F6kf6n/pFH+lG3V+Pa9/HibrP2mdp4j7zc3aG7n6uzdDd2jk2Q3chHzqCb+l4xjzoPFPgq+ClcP7OPoT8qPuVTB7e59NJP5rIv/b6UPLkBnwz3R3YVx6dA0f3BKG7iMD6ok90DL2z9/mN7kp+mO8pRjWVcIE18v6P+igdn9/jiF4cdTBYB7wP4j7Y4yudOw5rjTX/ARM1T24=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="31" height="30">
+  <data encoding="base64" compression="zlib">
+   eNq111doFEEYwPHdJaCCgj4rKKiPMdgVFI0xFhQFxd5riiaxa6LBimLB3hsWlLuLGhNjTy6m2csZG/qkGBNsT7ZTsPwXZ3Vu9vZyp7mBHzM7ZYfv27m9O02LrFQiTrfzadEv1UjQ7aqitJ8VqxnbN4c5fmVeXcdqxuaFRxl3oVCZVxexmtrqv/tipevuMZrWgL5uMYH98rx/zYH8XBPFPeOVa6vEO8yLJAfBYpVLEn3JSEEqHhqaNpM6DenICLIm3BwEi9Usi2hnIguLRX82dQ17LxXXy6lXYCVW6facOOXAijdYrOvoW48N0tgm2puxBVuxTRrbSXsXdofIgS9IvOpz3M/1ARxU+o9wfVT0HaM+rox7uM7BCYdzIcfv9JnNZd5p5CEfZ1CAsziH87iAi7iEyyhEEbwo1p3fBVa+zVy7lM9tCX2lKEM5KnAV13AdN3ATt3Abd3AX98yc4j4q8UAPfA94RO59It9mrmOV5/2Q9iM8xhPR/5T6mUMsz+l/IcZemnnFK1Trgc/b3CNe5P2b9Czk510j2q+p3+At3uG9w94f6P+IT/iML/Djq3LmrT38yrM231V/zoC05jvtH/iph34/1OMzVx8NjL99DaV2t5jAZy7vPUi6dyNpTWPaTYzw3k9NmddMmttcag/WnfeW424hrWlJuxVa17J/LONtECfNaxdG3Oo5b8+aDuiITuiMLujqsH8P+nuKsV7UCeiNRMN+zq29vdK5l895H9b0RT/0F+sHUA902HsI/UPF2DDq4RiBkYb9nFvfuda7RT3no1gzGmMwFuMwHhMwEZMwGVMwFdMwHUlIRgpSMcOwn3N/GO+1NNalIwOzMBtzMBfzMB8LsBCLkIksLMYSZBuh32uayLs7yO+RZaxdjhXKPVZzvUb0raVep4xv5HoTNhv23zduKd9aLfFvZ/0O7JTus4f2XuzDfhyQxg7RPowjRuh41WLFr+bAxX3c8CBH3PMk9Snkius86nycQYFhj9UpXi3MHBRxTy+KcQUlKEUZylERYayR5MDlcC5cDvMiibW2HPil71z1d6pPmVdXxSvFYH3nqr9HqpR50Sih/pdEu8jnwP2fz/UXeNHyZA==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="31" height="30">
+  <data encoding="base64" compression="zlib">
+   eNrlVwsKgzAM7UYvtgOsMAaK7gS9gd5hQs9SBK+3ig3E4HcmnbBAKNbQx3tNk1apfdYEf0z4W8mbDf7SSpV6PDohvAZxszMxjsRxcoX16+DP4Jke5oowmjBWJI6Da+9dnPPoG7BzPZ7Hcd9qYJk0cwe4HrWtGljhM+IW+HbC2H6Cv1VpzZ0Au4lam3huJQ0wPKpTZTyjKfa7i3gO6d3X5FzLYmex9oPulvyTNMyNYhfC2MUCdgrNp7C58vx2Xc9z2hNT5jn03H+tayrq3iaqay3S+9c9lPLn1MCgNauT3pnWNDAzmpiZuD1ct9yRoef2NfB+GeqkJ3d3zndCjTjAuwQb9MSaievePHAJ6gLOg/bgvn4A2oBZIg==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="31" height="30">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFxIIoFlR+NMtomIyCUTAKRsEoGFx1E61A9ADXgVGjde4oGAWDGsDKhNG8Sr8yERTmyPRQAwAt3gTN
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="31" height="30">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFQwVYs0BoK5bRsBgFo2AUDP6yilZgsJaBI9Xfo2AUjIJRMNpOHQXkAAC9cgH1
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="31" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpjZGBgYBzFRGFsYKDsp4dd1FRHid24/M1Aw3glFQwVu2kJBqPd9ASjYY4qTg+7sdlHD7sZRu0e8PgeLddGy7WBsHukth0GS3ttsLRTB7J9Ppj6JdTAAKf/AdA=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents"/>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

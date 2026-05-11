@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="rectangular_with_meals.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rectangular_with_meals.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="10" name="fence_wooden.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/fence_wooden.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="22" name="brown_hole" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_hole.png" width="224" height="256"/>
+ </tileset>
+ <tileset firstgid="78" name="square_patch.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/square_patch.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="87" name="bricked_edges.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/bricked_edges.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="112" name="small_stump.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_stump.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="116" name="barrel.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="118" name="green_stone_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_stone_2.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="124" name="brush.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brush.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="127" name="rodent.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rodent.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="135" name="portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="159" name="collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="160" name="boat.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/boat.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="202" name="ship" tilewidth="32" tileheight="32">
+  <image source="../drawable/ship.png" width="512" height="736"/>
+ </tileset>
+ <tileset firstgid="570" name="water from ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="603" name="pool" tilewidth="32" tileheight="32">
+  <image source="../drawable/pool_deep.png" width="96" height="768"/>
+ </tileset>
+ <tileset firstgid="675" name="lights_candle" tilewidth="32" tileheight="32">
+  <image source="../drawable/lights_candle.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="717" name="dim_light_7x5" tilewidth="32" tileheight="32">
+  <image source="../drawable/dim_light_7x5.png" width="224" height="160"/>
+ </tileset>
+ <tileset firstgid="752" name="ship_lamps" tilewidth="32" tileheight="32">
+  <image source="../drawable/ship_lamps.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="754" name="red_light_5x5" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_light_5x5.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="779" name="green_light_5x5" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_light_5x5.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="804" name="double_peach" tilewidth="32" tileheight="32">
+  <image source="../drawable/double_peach.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="812" name="whirlpool" tilewidth="32" tileheight="32">
+  <image source="../drawable/whirlpool.png" width="32" height="256"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwwEJAAAMA6DxbutfaT2Ogr2kqqqq6usDxT4cEA==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtwwEJAAAMBKHrX+KrrsdQcNVUVVXV1w8yenwf
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents"/>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

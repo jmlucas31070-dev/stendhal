@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="26" name="logic/creature/demon" tilewidth="32" tileheight="32">
+  <image source="../drawable/demon.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="33" name="item/blood/nsew_stains" tilewidth="32" tileheight="32">
+  <image source="../drawable/nsew_stains.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="37" name="ground/fire/fire" tilewidth="32" tileheight="32">
+  <image source="../drawable/fire.png" width="96" height="288"/>
+ </tileset>
+ <tileset firstgid="64" name="building/decoration/fireplace_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/fireplace_2.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="73" name="ground/fire/lava" tilewidth="32" tileheight="32">
+  <image source="../drawable/lava.png" width="96" height="288"/>
+ </tileset>
+ <tileset firstgid="100" name="item/corpse/skeleton" tilewidth="32" tileheight="32">
+  <image source="../drawable/skeleton.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="104" name="item/corpse/skeleton-hanging" tilewidth="32" tileheight="32">
+  <image source="../drawable/skeleton-hanging.png" width="128" height="192"/>
+ </tileset>
+ <tileset firstgid="128" name="item/corpse/skull_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_pale.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="130" name="item/corpse/skulls" tilewidth="32" tileheight="32">
+  <image source="../drawable/skulls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="146" name="sky/stars" tilewidth="32" tileheight="32">
+  <image source="../drawable/stars.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="152" name="item/statue/stone_dragon" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_dragon.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="160" name="ground/skull" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="169" name="terrain/wall/stone_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_red.png" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="241" name="ground/rock/red_crystal" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_crystal.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="261" name="ground/red_paving" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_paving.png" width="96" height="256"/>
+ </tileset>
+ <tileset firstgid="285" name="ground/rock/rock_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/rock_red.png" width="64" height="160"/>
+ </tileset>
+ <tileset firstgid="295" name="ground/fire/flame_large" tilewidth="32" tileheight="32">
+  <image source="../drawable/flame_large.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="303" name="ground/pothole" tilewidth="32" tileheight="32">
+  <image source="../drawable/pothole.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="307" name="ground/sand_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/sand_red.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="313" name="ground/rock/red_obsidian" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_obsidian.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="333" name="object/rock/rocks" tilewidth="32" tileheight="32">
+  <image source="../drawable/object_rock_rocks.png" width="160" height="384"/>
+ </tileset>
+ <tileset firstgid="393" name="terrain/ground/stone-red" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone-red.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="411" name="terrain/cave_opening" tilewidth="32" tileheight="32">
+  <image source="../drawable/cave_opening.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="423" name="ground/rock/lava_rock" tilewidth="32" tileheight="32">
+  <image source="../drawable/lava_rock.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="424" name="furniture/light/torch" tilewidth="32" tileheight="32">
+  <image source="../drawable/torch.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="426" name="furniture/light/flames" tilewidth="32" tileheight="32">
+  <image source="../drawable/flames.png" width="192" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNqtVluOxDAI65wp0PYSe7cceSfSVoOQAZPZDxQ1TTBPk/E6justw4iCbwHfXp5/6vbWerr7CvRakcQee0acHo+N/LD4o5CLOKfOJouDzmrgZxWHCjv7j/TMRhxsPEaQyyp2NiZzAx/VixQ6fB1NJ514alKDg+ghhG9tX+td1MId+CsOV8H+DPCFqDUJYq1kvVT4EY8oOON7WRr16/E9T0ngM4rFTjy8HUytKeCujF9YO2ZyTsF6E/3A8hHb90pyja/5qzgzv+BVbXBDNz7MWVs7StbNzlyr6kbJfGvBi2Ojf0fBlZEN+ue7nwsXkfPOzJBgRmkjVoi/7d5F9EMm1Z31/XN88JDvZ/HO0eK9p0DX4+vCtjKbvaOOEyThTX8H4XfmzAnePmi+oPcjwl7S6Rsh9qzOJzcIF+GPf+CUJ6cz8dnmfiZvC9Q/ke3WzwrX28jMyix2QuDZOzvzItPHYs8mr0b53ZFv5nCUZ1aY90XnHcDg+fudnqtyUuH/AvyF8H4=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNq1Vk1vwjAMbf5/qaqWQ8sfmAoHQD0MmKap5bRxmDSxMzty2LT9hCXClozlfJUSyYK6jZ/fi50kSfzjVdubYAf2XaNtTmxD3i217bQ9CfPGGmuLfwm4vbY98R9vxHPxpaMFXK7Z+534Sty55kdHvmPit4LmnyNgN4ExWsL9Vs5NwFpL+GOsdzMw93YAd4P1wWyoboj/rW0F/3M1Pk8ffheo/5bkORZ+qvmeQIMfMBtGF9hXMfiVxi/VJXYPZrQwvoWw16/voH8BGuDZgfiPA2rtGSxkmPgL0KAGHYxtAD9m0HOkh7UKzWFO8iiJYdwEzseVB5vupaeIHHB+wnLgnNaeffwMzzj/JHy7Ymf+i5A7rgf6/6Autg78M3meqkuMGavrHmLsGK+95d7B/R2Zj7nviHbIfabs96OOYNruSjgOQv9xPvTewrFd9zXfPStVso/26S/8fhHdxxqFEKsifYFYki9mGE4TwUoLfwmrUGHaS7hmXm4x/C5T19gcy+DHci8cuDlgTdh+VEJfUuyUvMtUOPfSg8/5SPqmbJ18OaSMU23Jg2LZOEs14qqBVNBQ0oHGqB2cMQ49t1z1R/f1CehUMQ14jAcVVv9VYO3zczZT136Jq1Qzsb1m6zlfvfDa4r2R3dhzvnqpWe/lrG5LtmdlKm6vmSr3t//HWhNw
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjAL6ASPG0TAgBDrIDCNPoD4vGobveiDeBcUbBiBcNiOxdw6QGxho4IZdFOjdOAjCYBcSphRsGM3+o2AUjIIRAGYC6+pZI7g91AP0e98A+r8XaPdkRgg9EgEAFAIQrQ==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1MEJACAMQ9F0GhV1DN1/JK/eFXLofwsEmhIJAPDDCmkHdwCAV8W8pZ0tT6EZeq5X5jTkD347/Y4da8kB5A==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrdllkOwCAIRJ37X7oXqJ1FwKQm/lTisDwpa/GFj83sdmcdC6L/zN7RU+Lq1Hd8fPs+pc/8SXPv2J3qJgxX1Tv1PYkdBtuJPhrirIq/W1/tFVWcsB7s9gWXCUXfYc3lcmeDgvfv+oCDnLJ/6jrIQ6rP6qfcDdPOrYt7L4qYdPJawdgKueju/1Xz1a11U/9W/PiRNsSzDl11zunMN+vZE5wpPQ3DXE2ync4ME2/qASGjARc=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="288" height="32">
+   <properties>
+    <property name="map" value="tutorial_island_x1_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="2" x="512" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="tutorial_island_x1_y0"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="north3" type="mapchange" id="3" x="768" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="tutorial_island_x1_y0"/>
+    <property name="place" value="south3"/>
+   </properties>
+  </object>
+  <object name="north4" type="mapchange" id="4" x="960" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="tutorial_island_x1_y0"/>
+    <property name="place" value="south4"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="5" x="0" y="992" width="192" height="32">
+   <properties>
+    <property name="map" value="malleus_plain_x1_y2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" id="6" x="224" y="992" width="576" height="32">
+   <properties>
+    <property name="map" value="malleus_plain_x1_y2"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="south3" type="mapchange" id="7" x="928" y="992" width="96" height="32">
+   <properties>
+    <property name="map" value="malleus_plain_x1_y2"/>
+    <property name="place" value="north3"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="8" x="0" y="0" width="32" height="384">
+   <properties>
+    <property name="map" value="tutorial_island_x0_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="9" x="0" y="448" width="32" height="64">
+   <properties>
+    <property name="map" value="tutorial_island_x0_y1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="10" x="0" y="640" width="32" height="384">
+   <properties>
+    <property name="map" value="tutorial_island_x0_y1"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="11" x="992" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="malleus_plain_x2_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="12" x="992" y="128" width="32" height="672">
+   <properties>
+    <property name="map" value="malleus_plain_x2_y1"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east3" type="mapchange" id="13" x="992" y="960" width="32" height="64">
+   <properties>
+    <property name="map" value="malleus_plain_x2_y1"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

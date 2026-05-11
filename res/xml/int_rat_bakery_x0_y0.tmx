@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="16" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="brick wall" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="18" name="brick wall" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_thin_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="30" name="brick door" tilewidth="32" tileheight="32">
+  <image source="../drawable/bricks_ns.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="42" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="66" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="67" name="lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_lamp.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="71" name="warmer" tilewidth="32" tileheight="32">
+  <image source="../drawable/warmer.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="73" name="cabnets" tilewidth="32" tileheight="32">
+  <image source="../drawable/cabinets.png" width="128" height="352"/>
+ </tileset>
+ <tileset firstgid="117" name="floor 2" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tan.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="121" name="food prep" tilewidth="32" tileheight="32">
+  <image source="../drawable/food_preparation.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="137" name="crates" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_crates.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="143" name="wood" tilewidth="32" tileheight="32">
+  <image source="../drawable/firewood.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="155" name="sack" tilewidth="32" tileheight="32">
+  <image source="../drawable/sacks.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="157" name="table" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rectangular.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="166" name="chair" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden_pale.png" width="64" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="20" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjZmBgYB4CuAyIK7DQxKgpw2IeMeoqiLSXFu4jBpPiPkrCuGyIpJFRPIpJxQD/KxvE
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="20" height="16">
+  <data encoding="base64" compression="zlib">
+   eNrjY2Bg4CaAVYBYFYjVCKjjB2JeIBYCYlk8WB2INYBYE48aYSDmgZonzUA5kBo1b9S8UfMGxDwRIJahEItCzRMAYi4qYUEgBgD86wng
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="20" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYKANcCdCTSAQJ0FxMBAHQdnJWNR6YBGrR+OHAnEYFLcisaOp7LeAIWheDwXmhRBh3jI8+tHl+giYNxeI5wHxfCzqsMn14bF7BZqelUTI9RIIjwVAvBCIFxEp10tEGC8nU44aoJ6AfCcQd0FxNxDPBuI5ULnJQDwFTcyZYegAAF6aIiI=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="20" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBhYUAvEdUDcBuV3AHENknwHwygYaWAuEM8D4vkkyo2CUUAqAABMqgbC
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="20" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIKRCQAFAAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="20" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpzYmBgcBoAzECmHmTghIVPrlmkgKFontMQMo9QnONT70QgXQxG86gRhrRMf6TkYYYBKk/IxQD9Gi2j
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="320" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="-3_orril_dungeon_x6_y3"/>
+    <property name="place" value="bakery_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

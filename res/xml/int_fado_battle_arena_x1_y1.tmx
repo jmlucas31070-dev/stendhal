@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="13" name="collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="14" name="dojo walls" tilewidth="32" tileheight="32">
+  <image source="../drawable/dojo_walls.png" width="320" height="512"/>
+ </tileset>
+ <tileset firstgid="174" name="brown floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/indoor_brown.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="180" name="fence wooden" tilewidth="32" tileheight="32">
+  <image source="../drawable/fence_wooden.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="192" name="iron lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/iron_lamp.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="195" name="flames png" tilewidth="32" tileheight="32">
+  <image source="../drawable/flames.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="201" name="sparkle" tilewidth="32" tileheight="32">
+  <image source="../drawable/sparkle.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="203" name="sparkle middle" tilewidth="32" tileheight="32">
+  <image source="../drawable/sparkle_middle.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="207" name="skeleton" tilewidth="32" tileheight="32">
+  <image source="../drawable/skeleton.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="211" name="skull pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_pale.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="213" name="dojo_entrances" tilewidth="32" tileheight="32">
+  <image source="../drawable/dojo_entrances.png" width="384" height="192"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwwEJAAAMBKHrH+YzrsdQcNVUVVXV1w/Gmrgf
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAdOIlHLgaIYxkGDhCy/+QA288wav+IsH8vlfHuQe7/Q6Pxj9P+80B8gcr2XKaR/08D8ZnR/E8T+08NI/+fBeJzo/E/Wv4PIvttgdgOiO2HoP8vAvGlQRj+J4dI/I+2P+hr/yEy7I8gwfwICv3PwsjAkMqAipMYMMVwYVLUIuM0qP0CQPsLGFBxDgOmGC5Milp0XAjEAJ4mW90=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1kENACAMBME2QQD+1RRnuOAezBjYpP1cFfDKhPvHCwDA/rA/3Ptjq7P9He5f8NMEmg==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0DERAAAIBCD713LQWLb4c4AIVAEpqwAACBsFUa2Axw4JsQJT
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgYwAvFDKP2j9o/gu2nBR7M/ucdjf9R+0ftH7V/1P4RWf6P2j9q/2j7Y+TYzzsCy9+hhAGveQiW
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="960" height="32">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="2" x="0" y="0" width="32" height="224">
+   <properties>
+    <property name="map" value="int_ados_barracks_0_x0_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="3" x="0" y="256" width="32" height="352">
+   <properties>
+    <property name="map" value="int_ados_barracks_0_x0_y1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="4" x="0" y="640" width="32" height="320">
+   <properties>
+    <property name="map" value="int_ados_barracks_0_x0_y1"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

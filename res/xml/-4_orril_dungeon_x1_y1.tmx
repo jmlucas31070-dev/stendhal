@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/building/wall/int_blue_green.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_blue_green.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="../../tileset/building/wall/int_green_blue.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_blue.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="33" name="../../tileset/ground/brown_paving.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_paving.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="35" name="../../tileset/ground/ground.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="68" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="69" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="93" name="rat" tilewidth="32" tileheight="32">
+  <image source="../drawable/ratfolk.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="96" name="brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="101" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlkEOgCAMBHkL5/ZV/P8PXjyQTakIQqv2MIkJ6tAUu5aUUglckDfQ46cTrq4RbqyjD9dG/HwBPjfjl2rU3qfVK93X45e8u/pP4LY4/x78FH4T/53vdZU/G54/nBkW/ScH+ffVjJ71a9mz0q/9AyBaBj7h1zK3tZ9R/2y/2cE8/bM/O8gTMq7/DXM1sOEANURIbg==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtltsOgjAQRPEuaFVUUKNR//8rGRObkKZVlu4WHnaTEx5PtqEzzbLhJv9+J2CaiBmYO/4FWIJnAlZg7fg/32uiM7+pX/0EfwmOjGzAluCvQA12TOzBgeBvn5dU/qlf/WPzl8595epoX//6/Pbe2/vK1dGh/i0COWX3voOHUP6aHzll936Bt5DfN9x7U/3ce1P9Up1M8Rc9O/YEzpF+E9Gxl455ZgRzbYg8Vf//f7f9/pMa0/H9N4ah9GXMhPq7AcEnE9Q=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0EERADAIACDz6vq/V0ADeEIEImCWCgDgrKeApUoBtD6TGwFC
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1dsJADAIA8AM5/4zdYVIfbWmkF8PglQDYMqIVDyPb8ScCj+yN69vDf1n7gPrg+w+Y//l7/Yhv93vvn+/3uhXfc+sKp+df+NH9a17ov98m6/MzwFALM4h
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="house3_upstairs" type="mapchange_enter" id="1" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_rat_house3_x0_y0"/>
+    <property name="place" value="house3_downstairs"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

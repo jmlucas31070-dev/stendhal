@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="23" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="wallpapers" tilewidth="32" tileheight="32">
+  <image source="../drawable/wallpapers.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="26" name="wood_trim" tilewidth="32" tileheight="32">
+  <image source="../drawable/wood_trim.png" width="320" height="160"/>
+ </tileset>
+ <tileset firstgid="76" name="floor_tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="85" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="109" name="logic/protection" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="111" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="112" name="carpet/brown_rug3" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_rug3.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="121" name="chair/greenish_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/greenish_grey.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="125" name="picture/small" tilewidth="32" tileheight="32">
+  <image source="../drawable/small.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="128" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eNoTYGBgEBhgzEkBFqBQL0x/EBmYkwL9g9X+AiAuxIOLaGx/MRCX4MGlo/aP2j9q/6j9o/YPuP2U4MFqfxkQl+PBFcO8/h8o+wey/TeQGADW0rhj
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eNqTZ2BgUBwgrAzEmkCsBcTaZGAdCvSD9OpC9ZswkAdAes2g5pAKzEbtx2p/JZSuJtJ+hgH2P8MA+380/Q1N+zXR7G8cYPsZhrD9JgMc/wNlvwO0LrMbIPspAcPBfnmkdsxITH/Ust+czPajMQX6jaH2g/KQLR6M3GZEFrOlAgblWwAFTS7Z
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAIwKA3t7o1nAPqngkAAH5adt8AgA==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eNrtwTEBAAAAwqD1T20LL6AAAICXAQuAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eNrtwTEBAAAAwqD1T20LL6AAAICXAQuAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="23" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrLZ2BgyB/FZAFK9I/aP2r/qP2j9o/aP2r/ULWfEjAc7B9Nf9Szf6RiAMtVbpI=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="stairs_up" type="mapchange" id="1" x="64" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="int_breland_house_x0_y0"/>
+    <property name="place" value="stairs_down"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

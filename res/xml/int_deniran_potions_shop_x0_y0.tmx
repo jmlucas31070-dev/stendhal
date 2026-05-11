@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="wood_trim" tilewidth="32" tileheight="32">
+  <image source="../drawable/wood_trim.png" width="320" height="160"/>
+ </tileset>
+ <tileset firstgid="52" name="wallpapers" tilewidth="32" tileheight="32">
+  <image source="../drawable/wallpapers.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="77" name="floor_tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="86" name="wooden_rustic" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rustic.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="94" name="warmer" tilewidth="32" tileheight="32">
+  <image source="../drawable/warmer.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="96" name="lights_candle" tilewidth="32" tileheight="32">
+  <image source="../drawable/lights_candle.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="138" name="cats" tilewidth="32" tileheight="32">
+  <image source="../drawable/cats.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="141" name="dark_bottle_shelf" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_bottle_shelf.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="drawer_shelf" tilewidth="32" tileheight="32">
+  <image source="../drawable/drawer_shelf.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="153" name="potions" tilewidth="32" tileheight="32">
+  <image source="../drawable/potions.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="162" name="empty_bottles" tilewidth="32" tileheight="32">
+  <image source="../drawable/empty_bottles.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="174" name="flask" tilewidth="32" tileheight="32">
+  <image source="../drawable/flask.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="177" name="brush" tilewidth="32" tileheight="32">
+  <image source="../drawable/brush.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="180" name="webs" tilewidth="32" tileheight="32">
+  <image source="../drawable/webs.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="186" name="skull_pot" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_pot.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="188" name="grey_long" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_long.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="192" name="wooden_trestle" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_trestle.png" width="96" height="96"/>
+ </tileset>
+ <layer id="1" name="Ground" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpzZmBgcKYQ25CJkfUHk4hH9Y/qx6XfHwkPhH5y3I+Og0nIP9hwMJF5FwC8+0qk
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjZ2Bg4ABiThIxFxBzA7EgEAsBsTCJWASIRaH6ZYB4AhBPBOJJDLgBshqYPhhNKkDXvxdNPhwHmwGqlpD+aBxsYvQfBuIjaPgoCfqPAfFxNHyCRPfjA8NR/34S9O+nYvqTA2J5LPmLgUD+k4bq1wBiTSz5i4FA/lMFYjUgBgDBoCOX
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYMAOeqD0ZCCeAsQbGfCDXiDuA+J+IN4FFYsD4qlAPA2IN6GpwQd2Q+l4IJ4OxDOAeDMDbcF8EtTOxiI2hwT967CIzUTjN0HNnAdlI4OlWPTPIsH+5VjE5pKgfyYWsQUk6F+GRWwhCfrXYBGbR4L+BQyDG7BAaTYy9fMBMT8QCxChFgCtbRgp
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNrbxsDAsJ2BPLAFiHcA8U6GUYAMDgDxQTR8aDRYRsEgBACp/wgZ
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFtAA1ONijYBQMJgAAkQ4A+Q==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="16" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpjZGBgYByEmAGJZkDi41NPCqDEDEYa66dUfqDdPxT1U5p+qJH+sKV/WmMALg8Ajg==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="192" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="0_deniran_city_e2_x2_y0"/>
+    <property name="place" value="deniran_potions_shop_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

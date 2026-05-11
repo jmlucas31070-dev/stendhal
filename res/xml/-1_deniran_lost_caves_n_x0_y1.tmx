@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="int_clay" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_clay.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="102" name="scratches2_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches2_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="120" name="scratches_corners" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches_corners.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="128" name="scratches" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="133" name="pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="136" name="blue_crystal" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_crystal.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="156" name="large_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_green.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="165" name="human_evil" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_evil.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="181" name="logic/creature/dragon" tilewidth="32" tileheight="32">
+  <image source="../drawable/dragon.png" width="256" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrV0jEOgCAQRFEO4JnU5t+LwoNLQ2cQossPxdQzebuklHjJVpI/5GqECf2tLbP784L9e8kp9kf+APINrP4apB8Y7Y8yQDZANkA2QDZANkA2WLX/rxsgGyAbIBsgGyAbIBsgGyAbIBsgGyBvIGjD0bmDwPTsYELqjqfcDF2FzA==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlEsKgDAMBXsLT6IeqyuFHsX/96A+QVxEkFJtQ2keDGSjCWOiUnbJlHsqUF8Yx3d86U9nMYz9z2iHZ3JQMvb/04GWHbhvgmsHFPM3cM2bgx4MYCR1KAcTmMFC6lAOVrCBndQh98CndxsHPr3bOPDtPZZbTP1/1ImDoB7kFuJw0IBW9iCJGQqZ4zEHhTsHYJ0iPw==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1DsKwCAURFE3H92E3yQLdQr7FBYT8B649QMZDAHYcx1+/0+yKqqa7jfV1TDdv9Wj3sP3wg6+d+CS+ANhEHkCAMAyAZ4hDmI=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0jEKACAMA8C+Xwcd1PfaB7gX5A4yB0IiAAD+cExgh4eW6YX9IzML+1dmuwGQLiEZBIo=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1TEKACEMBdHM/S9tv4VauBkCX0gnvtFGqoqL+WsRX22IP8cn/vOGiT7xnzXEdxum+2zONf3O+3M43/S77k/8q4bvPuQ3QG5AbkBuoGFs//RPmLMA9YMCFA==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="320" y="0" width="704" height="32">
+   <properties>
+    <property name="map" value="-1_deniran_lost_caves_n_x0_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="0" width="32" height="992">
+   <properties>
+    <property name="map" value="-1_deniran_lost_caves_n_x1_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

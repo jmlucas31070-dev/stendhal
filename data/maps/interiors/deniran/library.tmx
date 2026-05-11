@@ -109,4 +109,42 @@
    H4sIAAAAAAAAA+3BMQEAAADCoPVPbQlPoAAAAAA+BjO3YgZoEAAA
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="320" y="896" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_deniran_city_x3_y0"/>
+    <property name="place" value="deniran_library_entrance"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="96" width="32" height="288">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="3" x="992" y="416" width="32" height="480">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="4" x="1024" y="128" width="32" height="256">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="5" x="1024" y="416" width="32" height="160">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="6" x="1024" y="864" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

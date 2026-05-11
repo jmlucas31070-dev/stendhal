@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="3" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="wallpapers" tilewidth="32" tileheight="32">
+  <image source="../drawable/wallpapers.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="26" name="wood_trim" tilewidth="32" tileheight="32">
+  <image source="../drawable/wood_trim.png" width="320" height="160"/>
+ </tileset>
+ <tileset firstgid="76" name="floors_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/floors_3.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="88" name="weapons_rack" tilewidth="32" tileheight="32">
+  <image source="../drawable/weapons_rack.png" width="288" height="64"/>
+ </tileset>
+ <tileset firstgid="106" name="suit_of_armor2" tilewidth="32" tileheight="32">
+  <image source="../drawable/suit_of_armor2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="110" name="sword_rack" tilewidth="32" tileheight="32">
+  <image source="../drawable/sword_rack.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="114" name="weapons_for_walls" tilewidth="32" tileheight="32">
+  <image source="../drawable/weapons_for_walls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="130" name="box_of_weapons" tilewidth="32" tileheight="32">
+  <image source="../drawable/box_of_weapons.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="132" name="firewood" tilewidth="32" tileheight="32">
+  <image source="../drawable/firewood.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="144" name="tools" tilewidth="32" tileheight="32">
+  <image source="../drawable/tools.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="153" name="fireplace" tilewidth="32" tileheight="32">
+  <image source="../drawable/fireplace.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="162" name="fire" tilewidth="32" tileheight="32">
+  <image source="../drawable/fire.png" width="96" height="288"/>
+ </tileset>
+ <tileset firstgid="189" name="grey_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_pale.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="197" name="brick_base" tilewidth="32" tileheight="32">
+  <image source="../drawable/brick_base.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="200" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="201" name="furniture/light/flames" tilewidth="32" tileheight="32">
+  <image source="../drawable/flames.png" width="192" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="3" height="20">
+  <data encoding="base64" compression="zlib">
+   eNrjZWBg4MWCg4c4GxcGAJwVB20=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="3" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpTZGBgUAJiZSDWBmIdINZlgACzAWZnUqBXEYiNgdgE6i9bILYDYgDr4Qiy
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="3" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAuqMQhXkGiOSUMtAEAtDABZg==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="3" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBhcIIHG5gMAJPAAYQ==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="3" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBhZAAAA8AAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="3" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNo7wcDAcAILZhgE7BNU0ouMAXNAIyk=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="west" type="mapchange" id="1" x="0" y="64" width="32" height="352">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="2" x="0" y="448" width="32" height="128">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

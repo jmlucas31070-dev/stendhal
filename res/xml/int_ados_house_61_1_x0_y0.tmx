@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="walls" tilewidth="32" tileheight="32">
+  <image source="../drawable/dojo_walls.png" width="320" height="512"/>
+ </tileset>
+ <tileset firstgid="162" name="lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/iron_lamp.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="165" name="flames" tilewidth="32" tileheight="32">
+  <image source="../drawable/flames.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="171" name="flowers" tilewidth="32" tileheight="32">
+  <image source="../drawable/hothouse_flowers.png" width="192" height="384"/>
+ </tileset>
+ <tileset firstgid="243" name="bush" tilewidth="32" tileheight="32">
+  <image source="../drawable/bush_mult_colored.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="249" name="mosses" tilewidth="32" tileheight="32">
+  <image source="../drawable/mosses.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="265" name="stump" tilewidth="32" tileheight="32">
+  <image source="../drawable/stump_blue_green.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="269" name="stump" tilewidth="32" tileheight="32">
+  <image source="../drawable/stump_pale_brown.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="273" name="veg" tilewidth="32" tileheight="32">
+  <image source="../drawable/vegetable.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="289" name="sheepfood" tilewidth="32" tileheight="32">
+  <image source="../drawable/sheepfood.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="290" name="whirlpool" tilewidth="32" tileheight="32">
+  <image source="../drawable/whirlpool.png" width="32" height="256"/>
+ </tileset>
+ <tileset firstgid="298" name="water" tilewidth="32" tileheight="32">
+  <image source="../drawable/dungeon_water.png" width="96" height="320"/>
+ </tileset>
+ <tileset firstgid="328" name="pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="331" name="rocks" tilewidth="32" tileheight="32">
+  <image source="../drawable/rock_rocks.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="335" name="grass_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_2.png" width="96" height="224"/>
+ </tileset>
+ <tileset firstgid="356" name="double_white_pink" tilewidth="32" tileheight="32">
+  <image source="../drawable/double_white_pink.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="374" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <layer id="1" name="Ground" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpLY2BgSAdiZhJxFhBnA3EBEBcCcREQCxOJi4G4BIhLgTiMcRRTE5sBsQWUJke/ORArQWly9MPsNhuNiyGBAeqyUCY=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNql0UsLAUEAwPGZnLyVfCg3uWmRV5RHsTh53DxOnheKm2/oefSXUSyWYerXtLP7n2navBCiAIemIkqoogYTQWyxw17N1ufLXEcDTUTRQltcxwFHnNR8/3zbq4MuQqoPC/uRl9xRPu4V0ejLtBX5uKbTm7T1P3rr2Nj0BufEkZCvWy/rPvncG+r7pJpTb3o/6wH5/vw07zLISvs7/HP/V72T81zy995N6/mx76H/4X/djwGGqh9hjAliX5pihjkWWCKnaYU1zuFmPR0=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYMAOPgPxFyD+ykAe+AbE34H4B9Scz1BMjv7vaHxcbqphJGwuNf2FD9zBIf6PgTZgCYX6vaFh58VImTs9GSFm+cDigpE0/XfxyO2E0muxyF1EYt+gUpiyYXH7YyC+hEfPDjxy9xgGHwAAZXYixQ==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAN+AzEX4D4KxXMIBd8A+LvQPwDjU0qyGNkYMhnRPAXYVGziATzFhMpNlBAjZFhyAFOoJu5cLh7EYVmL2YYvgAAoooPeA==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBic4BsQfwfiH0D8FYg/A/EXKHugwXIsYssYRsFgBStHgwAnAADjBgit
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="16" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpjZGBgYBwEmFRAin5saoay/dQIQ1x6GdFoUu0mNUyo5X8GLH6gRRiSo4+RBHPojQEH7wCF
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="down" type="mapchange" id="1" x="96" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_house_61_x0_y0"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

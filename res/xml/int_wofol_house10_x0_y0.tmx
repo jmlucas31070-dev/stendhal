@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_fancy_purple.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="13" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="33" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="49" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_red_ns.png" width="288" height="128"/>
+ </tileset>
+ <tileset firstgid="85" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/stool.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="86" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/small.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="89" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_green.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="90" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="114" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="115" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="117" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/flower_vase.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="120" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="125" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/long_side_on_pale.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="128" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/single_blue.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="130" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../drawable/detail_ns.png" width="96" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eNqrYWBgqBnFNMeUgNHwG94YAPLTZbk=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eNrV0jsPREAYheGv3o51a+1qXBp07KVAh//j33slU8gUJkQiJnmKrzjNnJOJyOuAFBECODv4eKusLfuedVLWQ44CJZ4GrsomCFGhxkfdJjGmFdFuk0z9eYMW3YGOegwYb9LRldvQ+9/ayrKNx2obui9++G9sYwbiQxi+
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eNpjYMAOItBoUkEDkerK0PihQNwIZZeSYR420MgwMkA4jcwtReNHQjE6KKejX0HppBaI6wmow+WmEqgZgwEAAE+ICHk=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFpIImIG4G4hYy9FYiYVJBKxC3AXH7aBQMKwAAVj8Ehw==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUDCQAAAOEAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="15" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNorYmBgKBpgjA6K0GgGIvXhAvjspcTNI00vengSE84MFMQTserx6S3Co5eBhDBhoGH6BwD4JUnt
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="224" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_semos_mine_nw_x0_y2"/>
+    <property name="place" value="house10_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

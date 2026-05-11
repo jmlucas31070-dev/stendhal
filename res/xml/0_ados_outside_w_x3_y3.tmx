@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="34" name="grasses.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grasses.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="40" name="daisy_white.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_white.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="48" name="grass_edges.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_edges.png" width="384" height="96"/>
+ </tileset>
+ <tileset firstgid="84" name="grass_corners.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_corners.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="108" name="earth_edges.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/earth_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="126" name="pebbles.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="129" name="daisy_yellow.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_yellow.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="137" name="daisy_red.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_red.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="145" name="tree_fluffy.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_fluffy.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="157" name="logic/creature/undead" tilewidth="32" tileheight="32">
+  <image source="../drawable/undead.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="173" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="174" name="swamp_water.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/swamp_water.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="207" name="tree_darkgreen.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_darkgreen.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="295" name="grasses_swamp.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grasses_swamp.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="337" name="stone_ruins" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_ruins.png" width="192" height="384"/>
+ </tileset>
+ <tileset firstgid="409" name="large_gravestone.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_gravestone.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="418" name="skull_post.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_post.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="420" name="tombstone_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/tombstone_2.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="428" name="broken_green_column.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/broken_green_column.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="430" name="broken_lion" tilewidth="32" tileheight="32">
+  <image source="../drawable/broken_lion.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="436" name="green_stone.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_stone.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="448" name="slate_tiles.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/slate_tiles.png" width="160" height="96"/>
+ </tileset>
+ <tileset firstgid="463" name="rocks.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rock_rocks.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="467" name="rocks_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks_2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="471" name="rocks_3.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks_3.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="487" name="hollow_logs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/hollow_logs.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="493" name="dead_tree_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dead_tree_2.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="513" name="dead_tree_3.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dead_tree_3.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="529" name="skeleton.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/skeleton.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="533" name="swamp_sunken.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/swamp_sunken.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="565" name="pillars_stone" tilewidth="32" tileheight="32">
+  <image source="../drawable/pillars_stone.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="601" name="logic/creature/undead_skeleton" tilewidth="32" tileheight="32">
+  <image source="../drawable/undead_skeleton.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="607" name="logic/creature/undead_specter" tilewidth="32" tileheight="32">
+  <image source="../drawable/undead_specter.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="613" name="logic/creature/undead_zombie" tilewidth="32" tileheight="32">
+  <image source="../drawable/undead_zombie.png" width="160" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNqtV8tuAzEIjPj/bwGnjax0q+bQHpq0/aiupV3JQjBgbw5oX7bHAwN4y+l0KqvxdtUmxn0b+3Dm9WP2b3U1cqxfn425+lmcd3of/TeEz876ej/F2FM0XhL8IywBeIj3fr2t9pbAt9aTBGf0HPm+2R34uF/Humdnf1nuFPhYQNyjHMlwJ4czB+8l4J3Juz7/PA15GvPiMsPfi2W/zp/B3asPZRDfmifAF0j3PKg9AjrznjmolyOxb/aR0LyAOiFOzcriX9TcXwOHgUasnM36fsfnRG2RpD94gHuzBcTxx1ibg34zwp0AP1QL2dFcGeROTj1FuY7GjnKnpOajHjiLTUp3D+XvqP6P1hqEz0EvYbCvOolNoHd6V+3/I9wJ1FpL7zoWR7Gpiz0H/Z+foHWUf6j/Fkfr59VeNns9qD90Bu1xrx3vy0S/s/DvALcYuDvvpRv7PukDVEut/4fzhitbr2zjv7dxM3vwNL9z1ryXJ/YeUnl8NTAJYOtzaD2g/zpwTmj2ZdSOekD/NXlOsurl5wH+/9Sb1PQ=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlrsOwzAIRYGpc/OQWieV0k5Z+/8fV6J2qKJYMQbCEqQrebBjH98ABvCPKwI0rJYFq/ERced9EmtgXVZjOPnD2BuMZU8Yy95iLPtw8seys7rfGd50PPsy7njfnnWjWP5cvPhcI+tBPvwjxnnvVf9K2VMwu0f+S9gt81/Mbey/lNvS/1p2K/9r2bX+q7gN/Ndwa/23YC/1P7fXU8le6n/unrd6h1X9y31n6ZcTffv2TH71T8Ks+Scka/feCjX5IFm791bw5v+fv3UXNfwfd4Qhew==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtltEKwjAMRVu/w/dtzhZ1YFD8/++yhQVCSbas7bqXFYIKjpOb9u7WmHOda5/VWWNutj1zCNWHGkM9bFt2ZPq53geyobH2iXBb6+e0a/lD4RmlbCBs7ezj3O4FPTiim5aWj73n9CBp38J3ymeuF97fqW7I0K89L6gXFrh+o++8wi8d0QsL3By+pm8nsCD5nvPOWfMrnTkIPeTOns7/Fepnee2Q6IXCPU/5Ejv1F/qUm30un2Ojx8ZkvsD89oU5w+meFPOGnXKuE3T7inu+JceW+qjNd4LPoAEb9507a5r3Ym/LslzKMvykeYGsmEnRP99Qz8IzkWqXNOP/kIv++cw95C58fi0LxwWdLe57R9yt06yEwjtbLa/U8OAfDc05hw==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrdlt0KwjAMhROHN86BoG/h+z9Xd1eJDkwRmZP9tElKYIWwc7FsfOf0D6D+OCBAwxVY9zDVtQdxnfh/LVdk/YCp9mRP2pO9RV/2UNn7LfYI++WnTP7BkT3pI/pln3SH++MnZ/5c9saZvXVmD8bcz0L26MhtmT8JuC3zl7IHp8yt8tdwa/MnJXdJ/l+fX1wX/GgL9qD0WcseM5mXfJ47O6z2v6XvrJ2XpNj//jPOYb6jfj2U9G7dFSTroaS3w9GjwWg/kPbOeSHl/503ZxzfWdMWc78XZH/l5w3t8n8DWmAZdw==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBj+4DcQPwfiF0D8Eo09kv3+fJj7/RcOP48U/xOK+xcjPO5B7L8jOO5fjnC/D8f8/4dIfw+3+Cclzodb/P8hw9/DIf7JjXNqxP+fQVB3sDKSX++R4n8BRoT6v8MsTZBizmD3+y8y8gEpegUYh6//CaWbodJOJDUMAHfWw/Q=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlsENACEIBOm/l+nxOjBIgEVPkv0py4AhmtUHC3WF0v/P/AzgV/kzgJ/HL/FnQxNqYDB/tD5V70+a/U1vTtl/gjJxDUr20/tPgkxcg5KdJK+O+XvvZ/l7eSv3X8Z5r3/2XyGSr9ubgt29m+MDJGkZ3Q==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="800" height="32">
+   <properties>
+    <property name="map" value="0_ados_outside_w_x3_y2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="0" y="992" width="64" height="32">
+   <properties>
+    <property name="map" value="0_ados_swamp_x3_y0"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" id="3" x="480" y="992" width="160" height="32">
+   <properties>
+    <property name="map" value="0_ados_swamp_x3_y0"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="4" x="0" y="0" width="32" height="352">
+   <properties>
+    <property name="map" value="0_ados_outside_w_x2_y3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="5" x="0" y="448" width="32" height="576">
+   <properties>
+    <property name="map" value="0_ados_outside_w_x2_y3"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

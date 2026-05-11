@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="wood_trim" tilewidth="32" tileheight="32">
+  <image source="../drawable/wood_trim.png" width="320" height="160"/>
+ </tileset>
+ <tileset firstgid="52" name="wallpapers" tilewidth="32" tileheight="32">
+  <image source="../drawable/wallpapers.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="77" name="wooden" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="78" name="wooden" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="83" name="pot_on_stone" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_on_stone.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="84" name="floors_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/floors_4.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="86" name="notes" tilewidth="32" tileheight="32">
+  <image source="../drawable/notes.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="90" name="rack" tilewidth="32" tileheight="32">
+  <image source="../drawable/rack.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="98" name="small_shelf" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_shelf.png" width="64" height="128"/>
+ </tileset>
+ <layer id="1" name="Ground" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eNqzZWBgsCWALXBgZPlQNExveQskcXT3wXAoFjEAV/QQkg==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eNpjZ2Bg4ABiTjTMBcTcQCwIxEJALIyGRYBYFCovA8TBDBDgD6Xl0ORBIAiIffHIIwNi5UG0PNTNDEjul4bq0wBiTaibGZDcrwrEakAMAHr+BQY=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eNpjYGBgCAPiFAYIiGTABBFo/HAkdhQDbhANxHF45OMZqAdYoDQbECdjkeeD0gJo4gCZ5gPA
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eNpjYBg5gB+LGAACLAAQ
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eNpjYBjZAAABAAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="8" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpjZGBgYKQSRga45BgJyDOQKc+IRxwfBgAadAAy
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="0_deniran_city_w_x1_y1"/>
+    <property name="place" value="deniran_tiny_house_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

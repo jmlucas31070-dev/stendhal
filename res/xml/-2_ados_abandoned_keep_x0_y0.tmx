@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="furniture/carpet/strawberry" tilewidth="32" tileheight="32">
+  <image source="../drawable/strawberry.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="furniture/carpet/dark_blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_blue.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="17" name="furniture/carpet/border" tilewidth="32" tileheight="32">
+  <image source="../drawable/border.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="29" name="furniture/carpet/brown_rug" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_rug.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="41" name="furniture/carpet/pink_rug" tilewidth="32" tileheight="32">
+  <image source="../drawable/pink_rug.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="53" name="furniture/carpet/rug_border" tilewidth="32" tileheight="32">
+  <image source="../drawable/rug_border.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="62" name="furniture/carpet/blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpet_blue.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="71" name="furniture/carpet/red_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_purple.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="80" name="furniture/carpet/border2" tilewidth="32" tileheight="32">
+  <image source="../drawable/border2.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="92" name="furniture/table/fancy_blue_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/fancy_blue_red.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="104" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="105" name="furniture/table/wooden_rectangular" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rectangular.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="114" name="furniture/picture/oil_paintings" tilewidth="32" tileheight="32">
+  <image source="../drawable/oil_paintings.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="130" name="furniture/chair/throne" tilewidth="32" tileheight="32">
+  <image source="../drawable/throne.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="136" name="furniture/kitchen/warmer" tilewidth="32" tileheight="32">
+  <image source="../drawable/warmer.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="138" name="furniture/kitchen/warmer_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/warmer_2.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="144" name="building/decoration/coal_fire" tilewidth="32" tileheight="32">
+  <image source="../drawable/coal_fire.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="148" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="172" name="logic/creature/dwarf_duergar" tilewidth="32" tileheight="32">
+  <image source="../drawable/dwarf_duergar.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="180" name="ground/indoor/floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="183" name="building/wall/int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="304" name="building/entrance/grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="329" name="furniture/bed/single_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/single_grey.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="338" name="building/stairs/stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1qsOgDAMheHuQRA4bgrNcyPGxSEQvMo0ki50koWFJk1GxR8MOV8QLLMAMGHzxxZsxQ7MJmxu2MjUTn7KpmP0T/Kd+upn4JuH1Ff/D76eP+rn7heGzy/N7adsVvhujTWRBir2Tot15L/ZDLsHyPbmrhy+fwbe/Ka/K/eCOXqOQqmvvqTvz0rJ/+8Cs4Kbgg==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBh4cAyIj1OIT5BpJgi8B+IwIA4iE4cD8Xc0+9+T4H+Q2lAKwi+CDva3DbD9lPifCYiZcWB62M8KxGw4MD77ZXBgetgvCcTeOLAYHe1HVz8Q9sPASLV/IMN/oNIfCAjjwPTK/wNd/lDLfg4g5sSBh0r9R2v7I4E4mkwcRaH9cowMDPJ4sDEU41OjwEiamTBzCQFzJDWWjAxUA+ZUNIuWwB7JnY6MtDGXUFvZlRGCKW2jYzMXllb1gdhoADDMfhDbeAAwuv0qdMaDzf6BCn+dAUx/1Ch/ycEgMwH/vq7q
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYEAFpQy4QQkD5aAGiGsZBg40AHEjw9ACTUDcDMQtA2R/K5RuZxgFo4A6IAGIE0eDYRSMglEwCgYtMGJEsE0YaWPuKEAF1WToqaKi/fVIbBekeHLDE2d1JNrhMhr/o2AQgfBBmh5pXf4CAOomCos=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0DEOABAQBdHdU6HCPTiyO1HQaCi2kJiXTPuziAD4TRlVvgEA8CinIn4W1H73pG1Zud2L48Y0y4bvX7sA/tUB+eAIYg==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1tEJADAIQ8GM6/4TdIVQK6HyhP6JB8WAJal47bqd6fQ6M6d9Bf30/2/00/v/U/7w8fHxN/vObTRxc+Hjv9j/bm7w8ZN+Kn8HgzycaQ==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="south" type="mapchange" id="1" x="288" y="992" width="64" height="32">
+   <properties>
+    <property name="map" value="-2_ados_abandoned_keep_x0_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" id="2" x="992" y="992" width="32" height="32">
+   <properties>
+    <property name="map" value="-2_ados_abandoned_keep_x0_y1"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="64" width="32" height="160">
+   <properties>
+    <property name="map" value="-2_ados_abandoned_keep_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="4" x="992" y="288" width="32" height="736">
+   <properties>
+    <property name="map" value="-2_ados_abandoned_keep_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

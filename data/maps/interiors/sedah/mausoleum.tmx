@@ -68,4 +68,24 @@
    H4sIAAAAAAAACmNgYGDoYCQNw8CovlF9o/ogegDyIPdrSAMAAA==
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="mausoleum_entrance_west" type="mapchange_exit" id="1" x="192" y="448" width="32" height="32">
+   <properties>
+    <property name="map"   value="-1_fado_great_cave_w2_x2_y3"/>
+    <property name="place" value="mausoleum_west_entrance"/>
+   </properties>
+  </object>
+  <object name="mausoleum_entrance_east" type="mapchange_exit" id="2" x="224" y="448" width="32" height="32">
+   <properties>
+    <property name="map"   value="-1_fado_great_cave_w2_x2_y3"/>
+    <property name="place" value="mausoleum_east_entrance"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="3" x="192" y="448" width="64" height="32">
+   <properties>
+    <property name="map"   value="int_ados_barracks_0_x0_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

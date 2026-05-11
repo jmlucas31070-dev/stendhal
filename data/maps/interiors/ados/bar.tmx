@@ -176,4 +176,24 @@ qPisvrr/1fyq+wfV9M/IM/q+8l3V9+8f+Kgm0mdm7/X0OYbr9dZOqHwq4wHQsCa5ABAAAA==
 glEAEAAA
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="bar_entrance" type="mapchange_exit" id="1" x="480" y="960" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_ados_city_x1_y1"/>
+    <property name="place" value="bar"/>
+   </properties>
+  </object>
+  <object name="upstair_left" type="mapchange" id="2" x="896" y="64" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_ados_bar_1_x0_y0"/>
+    <property name="place" value="downstair"/>
+   </properties>
+  </object>
+  <object name="upstair_right" type="mapchange" id="3" x="928" y="64" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_ados_bar_1_x0_y0"/>
+    <property name="place" value="downstair"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

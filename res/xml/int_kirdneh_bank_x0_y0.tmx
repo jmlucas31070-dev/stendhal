@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="17" height="30" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="int_wall_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="17" name="int_wall_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="37" name="carpets_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets_2.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="57" name="table/long_front_on" tilewidth="32" tileheight="32">
+  <image source="../drawable/long_front_on.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="60" name="chair/wooden_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden_pale.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="64" name="chest/small" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_small.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="66" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="67" name="logic/protection" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="69" name="entrance" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_red_ew.png" width="256" height="192"/>
+ </tileset>
+ <tileset firstgid="117" name="table" tilewidth="32" tileheight="32">
+  <image source="../drawable/table_wooden_brown.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="126" name="floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tan.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="130" name="notes" tilewidth="32" tileheight="32">
+  <image source="../drawable/notes.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="134" name="notes2" tilewidth="32" tileheight="32">
+  <image source="../drawable/notes2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="138" name="chest" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_purple.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="140" name="chest" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_2.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="146" name="chest" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_dark.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="147" name="chests_banner" tilewidth="32" tileheight="32">
+  <image source="../drawable/chests_banner.png" width="32" height="256"/>
+ </tileset>
+ <layer id="1" name="Ground" width="17" height="30">
+  <data encoding="base64" compression="zlib">
+   eNrt1MkKwjAQBuC4ti7XutVLFxER8ZHqTW/6BJa+uX9hAkNIY2nmUMTDBwMz/CRkWSqlhmTKahc+t4Ax7GFjEcP7S39EGSs4wBFKVkeU4erzjBOcaUbXPKOpL5UR0swFrjSj64z2nTf0zXWUHdQZgUCGXscO1oYUKiaxzGxZhu38cyMja3E/qg4iwYzQMyPo0V76klHAzTPjDg/PjCe8/ucidtcl1vGL78X2n7ah/9M5DMiE1S58bgYfOZ+eeQ==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="17" height="30">
+  <data encoding="base64" compression="zlib">
+   eNpjYBhcwAZKW6LxiZVHBlYE7LIiwj3UMMOaQvnhAjqIVNcMxC0Mo4AcUAHElUi4atSMUTMGoRnVQFyDhGtHsy5dAQCz9B5e
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="17" height="30">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAemEWAP50AfxQMf9AGxE1Eqm3HIuZIhL5JBOS7gLibSDdMAOKJgyTs7LGI2VHBXLtB4o5RQH1AjbgdiHRKDXf0ECmGD/QTKTbUAADMBgui
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="17" height="30">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2B4gl4g7htC7i0F4jIkXD4ahaNgFIwCGgAAyv0Dag==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="17" height="30">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMApGwUgBAAf4AAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="17" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpzYmBgcBpEGAbQ2cTKD1czSAG0MMOJgLmUxjcDmXpwuZ0YcykJh8ESL8S4d6SYwTAaHkPGDHrkF2rkXWrlf6dBhgFBcUXf
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="32" y="576" width="32" height="32">
+   <properties>
+    <property name="map" value="0_kirdneh_city_x3_y1"/>
+    <property name="place" value="bank"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

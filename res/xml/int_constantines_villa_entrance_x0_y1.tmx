@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="31" height="18" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="stonefloors" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_floors.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="7" name="int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="128" name="balcony" tilewidth="32" tileheight="32">
+  <image source="../drawable/balcony.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="148" name="stairs_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs_grey.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="154" name="horned_man" tilewidth="32" tileheight="32">
+  <image source="../drawable/horned_man.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="160" name="wooden_doors" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_doors.png" width="224" height="128"/>
+ </tileset>
+ <tileset firstgid="188" name="window_long_below" tilewidth="32" tileheight="32">
+  <image source="../drawable/window_long_below.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="191" name="pool" tilewidth="32" tileheight="32">
+  <image source="../drawable/decoration_pool.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="200" name="mosses" tilewidth="32" tileheight="32">
+  <image source="../drawable/mosses.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="216" name="mushroom3" tilewidth="32" tileheight="32">
+  <image source="../drawable/mushroom3.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="218" name="leaves" tilewidth="32" tileheight="32">
+  <image source="../drawable/leaves.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="226" name="star_shaped_plants" tilewidth="32" tileheight="32">
+  <image source="../drawable/star_shaped_plants.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="232" name="bushes" tilewidth="32" tileheight="32">
+  <image source="../drawable/bushes.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="242" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="243" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="267" name="blue_stone" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_stone.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="270" name="green_stone_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_stone_3.png" width="32" height="96"/>
+ </tileset>
+ <layer id="1" name="Ground" width="31" height="18">
+  <data encoding="base64" compression="zlib">
+   eNqTZWBgkMWCmfBgRiwYn3pZEvGo3aN2j9o9ajct7GYkEQ+k3fjwUPL3aDoftZvadgMAtAAarw==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="31" height="18">
+  <data encoding="base64" compression="zlib">
+   eNrLZUCAR1DaHoirgDiJgTKQBjXHHYucJBDnYhEH2c0DxAoU2q0CNYeQ3U/Q7KYmcMfhLlz+prXdDIPE7seDwN+P0Ow+T2O7q9DyFD38nYbm79wByt+P0eymZ/6G+fsZncIcZvcjLGFODTCfCLthwI6OaQ1feU6vtPYcWp4/HqC09hSazgiFeRqW8EgjEEakhjmu8qwQi55CHOYQsrsCqVwjBtdA9VRC+dVIYqSaAwABnjpP
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="31" height="18">
+  <data encoding="base64" compression="zlib">
+   eNrFlG0KAiEQhr187AmCTlEdoO/PKyy1rPpvoYK6QfPDQKYdnXGHGnhAB/HxFdGY7xqZsvJEv0LzLrEHdq+BDbAtPFMlWIvdO2APHKKeReOLwH0b6DbI7TNup5jbZHx9uRvGGaS5Oe5XQe5ayY2r+WFuqsYByn0ETsAZ9VvgiuY24+6Ebuptp+ZauYfWx+0U3C7c7z/cmm9tEki520zPMv8W6b9G3Zdn/pU4913o1rrzJyN3zXhvEnfsfETjBbAMrJj7TYEZMGeu73O8AcB5VV0=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="31" height="18">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFuMAJID4LxGcGyP6Bsvc8lD41QPafGyB7LwHxVSC+OIBp7voA2Xt5iOXN2QNo99zRonEUjIIBBQAKegrv
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="31" height="18">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMApGwSgYGgAACLgAAQ==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="31" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNr7xIAJPiFhSgAuc/CZjy5HrluIsQObODXDYbDZzTBq94DZjS1d0zutfaJDHvtEot3ULlsI2U1NMBB2fxpAu8kt1+gd34OlHiNkHjF+oEZdQku7ycWUmgEAOwiZJQ==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="livingroom1" type="mapchange" id="1" x="192" y="384" width="32" height="32">
+   <properties>
+    <property name="map" value="int_constantines_villa_livingroom_x1_y1"/>
+    <property name="place" value="door1"/>
+   </properties>
+  </object>
+  <object name="livingroom2" type="mapchange" id="2" x="192" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="int_constantines_villa_livingroom_x1_y1"/>
+    <property name="place" value="door2"/>
+   </properties>
+  </object>
+  <object name="livingroom3" type="mapchange" id="3" x="192" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="int_constantines_villa_livingroom_x1_y1"/>
+    <property name="place" value="door3"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" id="4" x="32" y="0" width="128" height="32">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="5" x="256" y="0" width="480" height="32">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="north3" type="mapchange" id="6" x="832" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="south3"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="7" x="480" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="int_kalavan_castle_basement_x0_y2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="8" x="960" y="96" width="32" height="128">
+   <properties>
+    <property name="map" value="int_ados_barracks_0_x1_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

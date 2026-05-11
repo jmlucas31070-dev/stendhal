@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="34" name="grasses.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grasses.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="40" name="daisy_blue.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_blue.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="48" name="daisy_yellow.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_yellow.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="56" name="daisy_red.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_red.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="64" name="daisy_white.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_white.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="72" name="collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="73" name="tree_green.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_green.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="161" name="resources" tilewidth="32" tileheight="32">
+  <image source="../drawable/resources.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="167" name="broken green column" tilewidth="32" tileheight="32">
+  <image source="../drawable/broken_green_column.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="169" name="tree spruce" tilewidth="32" tileheight="32">
+  <image source="../drawable/spruce.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="175" name="pine snowy" tilewidth="32" tileheight="32">
+  <image source="../drawable/pine_snowy.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="181" name="ent" tilewidth="32" tileheight="32">
+  <image source="../drawable/ent.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="185" name="mushroom" tilewidth="32" tileheight="32">
+  <image source="../drawable/mushroom.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="191" name="star shaped plants" tilewidth="32" tileheight="32">
+  <image source="../drawable/star_shaped_plants.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="197" name="tree dark green" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_darkgreen.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="285" name="stump" tilewidth="32" tileheight="32">
+  <image source="../drawable/stump_pale_brown.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="289" name="umbrella_thorn" tilewidth="32" tileheight="32">
+  <image source="../drawable/umbrella_thorn.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="307" name="fruits" tilewidth="32" tileheight="32">
+  <image source="../drawable/fruits.png" width="256" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwwEJAAAMBKHj+4dej6HgqqmqqqqvHyPACAE=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYMAOUtD4GVjUTAHiqUA8DYibGKgPcoE4D4jzGegDNMjQ0wPE1UBcCcRVVHSLMpHqaB0HMLBiAMKAYRCEwQqGUTAS4nk03HGXObQO9wOj4T+a7kfDfdDGQRVaPFTT2Q1NaPEwlQZ2qAyRPICPTYu25hQsYT+NTnFCD4Dsd8sBigdlMsoiasUDsf2MI3RscxDqe1IzLpSJ7Hvuh9KH6ZgnDiK1jQ6i0dQCAFanUPw=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrFl8FOwkAQhqnPp8hBxQMoLQHD9tQWPJF46YkX4fXUk3ryJ2njZJ3dzmy3sMmX/G1IyHydzm5HI/dagTV48fxmD3KwaTDk+pRLx/029101qEDRUJJrSQ5Z7+ADfIIDqWkJUpA12b7msnQdSf4C38R5W5PtN+9wb0KlJ3/+aC22X8lz0NS9BTvG46mWN6HvZaB/u9epR5d/Vw71Xzs8uvy7ssY/9f7K+EzP0P97j89z9H/t8VkM3P9d/vML+68u7H/I+UPnvO2Nq0Uyb+zsW+2c/2H+i6tFMm/s3DXnE3CV/P8vrh7JvLGzpPeNsJeyyP7b3peeKUxs/03vZ8J3uRzAP30HuvynA/inZx2j2GNj+adnHe3ZMoZ/ySyiObZ/7XOI7l/5HGL4vwY3YAxuwYSZSSFnTS5z6w7cgwcwBY+K/Vi7B3NrBubgCTyDhWI/1u7Bfb49feciLkv99/0ecOXY37+1ch5x934BjREvoA==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1jEOACEIRNE53r//iWy32Y0a3cE4JHQkD7AQ6T14pDrrRlOF/Z7A5LMoRzynv8PGOPfs/E6f+BafjSlzDyf4XOxj9DH7ef/sP/vP/1PBr3D//Hn/f9Vg9lVg/6v6aAbYvvk=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="224" height="32">
+   <properties>
+    <property name="map" value="0_kalavan_forest_x0_y1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="2" x="320" y="0" width="224" height="32">
+   <properties>
+    <property name="map" value="0_kalavan_forest_x0_y1"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="3" x="0" y="992" width="512" height="32">
+   <properties>
+    <property name="map" value="0_kalavan_forest_x0_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="4" x="0" y="0" width="32" height="1024">
+   <properties>
+    <property name="map" value="0_kalavan_city_gardens_x3_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

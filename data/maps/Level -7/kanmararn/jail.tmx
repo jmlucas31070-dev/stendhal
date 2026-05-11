@@ -99,4 +99,66 @@ ea5ydPVX7Csc9N/v2WSf/py7or/Cken3zttOxfO9/kj/F4b+2u9fcTeFY+Ze/W9SOKL93XffxbHz
    H4sIAAAAAAAAAO3BAQ0AAADCoPdPbQ43oAAAAAAAAACAdwOUmfTYACAAAA==
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="jail_lock_outside" type="mapchange" id="1" x="352" y="576" width="32" height="32">
+   <properties>
+    <property name="map"   value="-7_kanmararn_prison_x0_y0"/>
+    <property name="place" value="jail_lock_inside"/>
+   </properties>
+  </object>
+  <object name="jail_lock_inside" type="mapchange" id="2" x="352" y="704" width="32" height="32">
+   <properties>
+    <property name="map"   value="-7_kanmararn_prison_x0_y0"/>
+    <property name="place" value="jail_lock_outside"/>
+   </properties>
+  </object>
+  <object name="jail_lock_inside2" type="mapchange" id="3" x="608" y="288" width="32" height="32">
+   <properties>
+    <property name="map"   value="-7_kanmararn_prison_x0_y0"/>
+    <property name="place" value="jail_lock_outside2"/>
+   </properties>
+  </object>
+  <object name="jail_lock_outside2" type="mapchange" id="4" x="608" y="416" width="32" height="32">
+   <properties>
+    <property name="map"   value="-7_kanmararn_prison_x0_y0"/>
+    <property name="place" value="jail_lock_inside2"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="5" x="992" y="480" width="32" height="64">
+   <properties>
+    <property name="map"   value="-7_kanmararn_prison_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="jail_lock_outside3" type="mapchange" id="6" x="1152" y="576" width="32" height="32">
+   <properties>
+    <property name="map"   value="-7_kanmararn_prison_x1_y0"/>
+    <property name="place" value="jail_lock_inside3"/>
+   </properties>
+  </object>
+  <object name="jail_lock_inside3" type="mapchange" id="7" x="1152" y="704" width="32" height="32">
+   <properties>
+    <property name="map"   value="-7_kanmararn_prison_x1_y0"/>
+    <property name="place" value="jail_lock_outside3"/>
+   </properties>
+  </object>
+  <object name="jail_lock_inside4" type="mapchange" id="8" x="1408" y="288" width="32" height="32">
+   <properties>
+    <property name="map"   value="-7_kanmararn_prison_x1_y0"/>
+    <property name="place" value="jail_lock_outside4"/>
+   </properties>
+  </object>
+  <object name="jail_lock_outside4" type="mapchange" id="9" x="1408" y="416" width="32" height="32">
+   <properties>
+    <property name="map"   value="-7_kanmararn_prison_x1_y0"/>
+    <property name="place" value="jail_lock_inside4"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="10" x="1024" y="480" width="32" height="64">
+   <properties>
+    <property name="map"   value="-7_kanmararn_prison_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

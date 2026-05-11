@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="grey_plain.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_plain.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="10" name="barrel.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="12" name="portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="36" name="collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="37" name="carpets.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="45" name="glass.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/glass.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="61" name="grey_fancy_horizontal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_fancy_horizontal.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="70" name="barrels_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrels_2.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="78" name="wall/int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="199" name="entrance/grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="224" name="indoor/grey_gradients" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_gradients.png" width="128" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNrTZGBg0BxEWJUAHu76B0O4k6NmqOjXHGD99E4HDATkASbwJ9A=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNoLZGBgCALiYBJxCBCHAnEMEOsCsR6J2ACIE4C4FYhNgZgLigkBmDoLIO5H0s+Apt8BiB2h2AlNPwMO/cjAGYhdoNgVizwh/YTAqH5M/YxE6GPEo5+VCP2sNNTPSYR+djT9W4DYEoitceDHOMRtgHgHEO8H4gNAfBAHfo5D/BAQHwZiAPFSLnc=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBiewAOJ7cYwCoYCcCdCjRcN7fckQo03Hjl2IvRzkuCek1D6NJn+OQelL+BRAwDhEQT2
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUDEZwEkqfJlP/OSA+D8QX8KgBAOkQBAI=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjFQAAAQAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="16" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpTYWBgUBlEmBDAp08FjzoGNDWk2kvIHaP6KddPbPwPVv2U+J9QuqYVBgAYqxHd
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance_meat_market" type="mapchange_exit" id="1" x="256" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="0_ados_city_x2_y2"/>
+    <property name="place" value="meat_market_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

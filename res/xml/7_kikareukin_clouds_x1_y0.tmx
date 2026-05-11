@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="26" name="sparkles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_sparkle.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="44" name="clouds" tilewidth="32" tileheight="32">
+  <image source="../drawable/clouds.png" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="60" name="logic/creature/elemental" tilewidth="32" tileheight="32">
+  <image source="../drawable/elemental.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="76" name="dark clouds" tilewidth="32" tileheight="32">
+  <image source="../drawable/cloudtile.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="332" name="friendly cloud" tilewidth="32" tileheight="32">
+  <image source="../drawable/friendlycloud.png" width="576" height="480"/>
+ </tileset>
+ <tileset firstgid="602" name="logic/creature/mythical_being" tilewidth="32" tileheight="32">
+  <image source="../drawable/mythical_being.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="626" name="logic/creature/angel" tilewidth="32" tileheight="32">
+  <image source="../drawable/angel.png" width="192" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrFlt9RwzAMxpN3RmCEpi3lT6HpCB7BI2SEjsAIHSGjMEJHYIQ8oBzRoftOspSmwMPvcrZjf7JlyVpVVdUQa2JDrP64vSUeiB3x+A/tJ+KZeCH2N2ynCe//V+KNOBCtmMftuePc5v+scW5Lf/CcZvpa/ksLx2U7FbD8J//ZTv1z5+8K8+b4t4Q2n8ewnQP+6gRJfBHs5/lJuT841/JXdyWafSX/W/Eq15RnkafvCfrQ92gPr/8O+pZ/o/tlO9D3qM/+74N3ydLLRr91dxLcr3PBhiX+x1jnfrxfZ8WGxvH/EvB+sXbvxP+t9DEf9Mb5e/HPXIiPiYi+9Z7I+LPytac/8unoo//v65/cx1jvtaZ9EbqSkg1y/VE/+r4nQ39Q9D07eP27+tsG7z0/FPLBcIUN0v+j/jrwnnv5aK4N7P8Rqz6bkwsHwNOP1HO/qd8G6rO0wIbI+ZfqsznarMPakVy0L7z3CWojmSMGkW84BiNxz8jzxfgu6SZln2yD9x5LvPo3w9d7/yVYh3B8WeefC7VkaT+aJtZBrG3pt8Y8ibanTulHpLZlw8ZYA/s6ZQz7Mpw3cqz18/dqulNA29M/Kvp8/78AgFhnuQ==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrFV81LVUEUvxOSlZv+gYgW4bZHunMvFPTBeyII+QoVqYX6uPYk4cXz+fxeuMg/IGjn1lX7EHQjorZoGz37eC2CIhCCzvDO1Ol0zsxcMzzw49659878zpzzmzNzk+Tf7RbgaXJ6NggYI+1RQB2xnGEc228SIfWbIu+nPeM8JvdDAc4LpnVdAMyQ5/cBA55xq4qPdpwHGfgLGKcSeVZR+i4CaqQ9AXiEnAWMC51DEfAE7zvIPOvYz2dFxfc51rZxuquMkQr5c/7N4nVF4S4DHrK+dexfidTTBPZx86YxzgM+KdxLgZxmtaoQo1T5Nh/Q80lYhfC8Amwzv6ZQTwUS80TQZ0g/ZURNeE+19YzpaeYE5jgUiB+N//P/UBNTD3+RadvaGmBdiWHNw/NdqGVO+5OYP6q9cUHfzl4o669P+b4d+AygmbRg7SgQl1nPuw2l9kr5OwTsJr+5f/lg/D5o9XgVsKV8x+uunfcumbOzz+TZx0j+TcRLbN9jNegm5nSE9WsK/PSdlotqxJ6cRtSgpqe/5NsRq8vTSq0oC2tD2nckjsvKNxZvI3Ug7ee8Bp4z4RxIsaLr8w7G4JLxn4e0Wvge0Eji/fgREQN+jozZd6wfryM0sQP4ENAZP0fOReao3YT59zLWon5lzz/MoPle8KsLcMP8HXufBkcFbsu7D/gi1LymEm+rjzNG1j/n7ydn9pJwNjqI0BlfbznT0sdZuJ43f673eaxx7txaCuT4WyT3DuHrIbiIeXBrbzjjv8k7Je6Ut4Eat3nPIa8ze3/NHK8G0XVm59bAe9d28+1EvV1h3I7f4ro5Hn+M5Ui8JeP8KdF2m2nhK6uTsXbVw6vx59leTrX7JiN/dyS/s9uo/58Glbwc
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFIxl8HmD7Hw+w/ZyM5OvNHk0+AwJ8R4NgUIEnQHxlELjjwhAMOylG6pv5gQS1BkD7vUh0w1Uqx4UyifY/JSEcrhCRNh0YSYuHrzRIB8YkhgETI3XThDCZ6fASlfyvTGE+INcdYkB73YDYk0L7GRnpV2bAytsvQMzCiNtud6C4CRn5m1pAFWivDSP5aYsSAPK7IdR+gQEIA5jfYXiwAKsBdgut0oL5IApjetbflIY/AAB5GFk=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1LsNgzAURuFrEx41iYAslREYgRFYgJEYCgiPmlPQUiHkgv9In9zZsnxlM6XU0+t0nyD1Gj11oR/agOfXaPQMpw3ObMSEP2YsWLG5m/8+b+bgEeGFGAlSZP7eu+fs/8bnOKdgLVHh6zUbSikVsh1DsQxs
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlW0KACAMQu3+l+4CFezDCWHgv9azYW0BWJZFFtwDy7k88mF+yUOlHo31mXMq/Nfq6h0S7IiHzr5nPDB6H/ExxQfp/avuz8oji69kQ8Bj8KM8Ff+2fzJjihx2zqUf/4DILJ3ibxzIAyo=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="south" type="mapchange" id="1" x="32" y="992" width="160" height="32">
+   <properties>
+    <property name="map" value="7_kikareukin_clouds_x1_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" id="2" x="608" y="992" width="288" height="32">
+   <properties>
+    <property name="map" value="7_kikareukin_clouds_x1_y1"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="0" y="320" width="32" height="384">
+   <properties>
+    <property name="map" value="7_kikareukin_clouds_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

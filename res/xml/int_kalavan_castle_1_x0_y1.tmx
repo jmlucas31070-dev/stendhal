@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="castle" tilewidth="32" tileheight="32">
+  <image source="../drawable/castle.png" width="640" height="512"/>
+ </tileset>
+ <tileset firstgid="321" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="322" name="torch iron lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/iron_lamp.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="325" name="flames" tilewidth="32" tileheight="32">
+  <image source="../drawable/flames.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="331" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="343" name="throne" tilewidth="32" tileheight="32">
+  <image source="../drawable/throne.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="349" name="weapons" tilewidth="32" tileheight="32">
+  <image source="../drawable/weapons_rack.png" width="288" height="64"/>
+ </tileset>
+ <tileset firstgid="367" name="swords" tilewidth="32" tileheight="32">
+  <image source="../drawable/sword_rack.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="371" name="armor" tilewidth="32" tileheight="32">
+  <image source="../drawable/armor.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="375" name="stick" tilewidth="32" tileheight="32">
+  <image source="../drawable/stick.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="377" name="chest" tilewidth="32" tileheight="32">
+  <image source="../drawable/large.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="385" name="chest2" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_small_2.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="386" name="chest" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_dark.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="387" name="imperial" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_imperial.png" width="256" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0zEOABAQRNEVx1E4lb3/EeioFEiG+MWrfzaTdTPzBaXJB/jl/TLxcz/Tpy/6f/p7zXHHV+/fkUKn6rvpqPtR3AcA4HcVvzhlcg==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYCAd/ILS/4C4kIH+gF727wfiA1jwZSz2FzIyMBQxQtgVjAhMDX9iAwKMtPc/Hx73XwNiNUbK7PdlJN/+V0BsxThw/geF/XQgXj2A9tM674HsF8CCQUCIkfb2KwHtUIFiVSi+REf/mwHtM4diSyh+RoH9LtCywZUBgclNE8j2u+BJJ8hyRVjKNErsj2ZA9QshHAEt00BlByxeybX/Ko6ymRC+DC07LBghmFp5glgsCC23qZEnyMGgPKTGSFmesKQQWzEyjIJRMApGwSgYBaNgAAEAIZlCYQ==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1LsJACAQBNHb1vzUo5ntKxgIRhqIKPNg4GDzM/tDkllWv4tGAP7mtL6d+Alea1toxanXxY0AAABwXwVTPAgf
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtybERACAMxLD8ciwE+x8FG6QMUuPCVfOcvO4UMNxK7wEAwG8uEBgBeA==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1FEKABAQRdGxtLf/TfmXj5neoHTVKT+6SDQiZHKGPunv5pm9ifun/6hN/35/XdP192R6HW/dOf+JPgAAAGom5D3Y0w==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="downstairs" type="mapchange" id="1" x="992" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_kalavan_castle_x0_y1"/>
+    <property name="place" value="upstairs"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" id="2" x="544" y="0" width="480" height="32">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="0" width="32" height="352">
+   <properties>
+    <property name="map" value="int_ados_barracks_0_x1_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

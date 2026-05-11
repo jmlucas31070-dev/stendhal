@@ -174,4 +174,90 @@ WpOE//1sdZaKlYWMHCF1VGQfqdOCx9CseSfbawtGVTb6cEbiM7I/apCeITPLzguSh+V71D+0B2y9
    H4sIAAAAAAAAAO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAgHcD7IoligAwAAA=
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="crawlyspacedown" type="mapchange_exit" id="1" x="288" y="864" width="32" height="32">
+   <properties>
+    <property name="map"   value="-1_ados_city_x0_y0"/>
+    <property name="place" value="crawlyspaceup"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="768" width="32" height="128">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="3" x="992" y="928" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="entrance2" type="mapchange" id="4" x="1472" y="96" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_ados_castle_throne_x0_y0"/>
+    <property name="place" value="secret"/>
+   </properties>
+  </object>
+  <object name="entrance1" type="mapchange_exit" id="5" x="1056" y="928" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_ados_city_x0_y0"/>
+    <property name="place" value="castledungeons"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="6" x="1024" y="768" width="32" height="192">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east_1" type="mapchange" id="7" x="2016" y="256" width="32" height="96">
+   <properties>
+    <property name="map"   value="int_ados_castle_dungeons_x2_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2_1" type="mapchange" id="8" x="2016" y="384" width="32" height="64">
+   <properties>
+    <property name="map"   value="int_ados_castle_dungeons_x2_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east3" type="mapchange" id="9" x="2016" y="480" width="32" height="64">
+   <properties>
+    <property name="map"   value="int_ados_castle_dungeons_x2_y0"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+  <object name="east4" type="mapchange" id="10" x="2016" y="832" width="32" height="128">
+   <properties>
+    <property name="map"   value="int_ados_castle_dungeons_x2_y0"/>
+    <property name="place" value="west4"/>
+   </properties>
+  </object>
+  <object name="west_1" type="mapchange" id="11" x="2048" y="256" width="32" height="96">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="12" x="2048" y="384" width="32" height="64">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="13" x="2048" y="480" width="32" height="64">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="west4" type="mapchange" id="14" x="2048" y="832" width="32" height="96">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="east4"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

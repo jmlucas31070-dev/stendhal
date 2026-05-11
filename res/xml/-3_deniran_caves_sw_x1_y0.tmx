@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="5" name="dark_caves" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_caves.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="93" name="skulls" tilewidth="32" tileheight="32">
+  <image source="../drawable/skulls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="109" name="webs" tilewidth="32" tileheight="32">
+  <image source="../drawable/webs.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="115" name="dry_grass" tilewidth="32" tileheight="32">
+  <image source="../drawable/dry_grass.png" width="288" height="192"/>
+ </tileset>
+ <tileset firstgid="169" name="sarcophagus" tilewidth="32" tileheight="32">
+  <image source="../drawable/sarcophagus.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="181" name="iron_lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/iron_lamp.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="184" name="flames" tilewidth="32" tileheight="32">
+  <image source="../drawable/flames.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="190" name="desert" tilewidth="32" tileheight="32">
+  <image source="../drawable/desert.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="278" name="sand_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/sand_2.png" width="160" height="96"/>
+ </tileset>
+ <tileset firstgid="293" name="human_armored" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_armored.png" width="256" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1ksKgDAMBNDkAl36x//Fe5pcy4AI3VlLdSJ0MSuLbyrFxhGRyxB5EPdCin+mYqKav/evDr3aA9AvZ8CO37CN/W/aY2db31/AtgVfwLaAbQG6qb78LD4I2v+6hwf5PjJo34PtFL/Ve6zj/P6s71w0683sNurzie2fgdge8nB2zt0hXBczO//1X1SSfhe/aR6x4hJS
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtkj0OgzAMhX2Bqu1QOgFT4Fa9VNUutGJLc8waKVSA+ImJUy9+0hsi7Hx+JgA8OhJqD8Av5Ss/VBf0SZCfJ9gBhW+E+aB81jd4Rl+JPZxvsMteEnuM3wFX9npHbx7JzTy73HmHieQWnl1H5MiIHnKrDfYL/Rm4makpiA7h9monZzszR0V06K677G7h2xvSqd+5W6mxK/8jVi2h1ibI7kBOS9lvwvx/6Y5+oJ86x28O3cV4jqlVsvoCoQAiyA==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFwxkwjwbBKBgFo2CEApbRIBgFowAnWEUlc5jI1LdugP2/CY/ctgF22/Zh2g5dScV0Rw5YO8DpbiOBdEcJWA3Eawawbl0PxBsGMGw3A/GWQRI+DEMgfADDaQ/T
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0CsOACAMRMEafob7X4T7gcbTIGaSp7tpBAAA/GF5AZCknOpVS7zdT/NqPN6yASfQATs=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0DENAAAMA6D691RvVbFkB0ggAQCAH6oA4MwACxAAvg==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt0TsKACAQA9HJ/S9tbSeiBGUCqd9+AuRQV5NL1dfX782gr9+agQd9yjZlm6K76/+W6Pubwl7Rd7eC731mfwBkewGO
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="608" y="0" width="320" height="32">
+   <properties>
+    <property name="map" value="-3_deniran_caves_w_x1_y3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="0" y="992" width="896" height="32">
+   <properties>
+    <property name="map" value="-3_deniran_caves_sw_x1_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" id="3" x="960" y="992" width="64" height="32">
+   <properties>
+    <property name="map" value="-3_deniran_caves_sw_x1_y1"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="4" x="0" y="608" width="32" height="32">
+   <properties>
+    <property name="map" value="-3_deniran_caves_sw_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="5" x="0" y="736" width="32" height="288">
+   <properties>
+    <property name="map" value="-3_deniran_caves_sw_x0_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="6" x="992" y="448" width="32" height="576">
+   <properties>
+    <property name="map" value="-3_deniran_caves_sw_x2_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

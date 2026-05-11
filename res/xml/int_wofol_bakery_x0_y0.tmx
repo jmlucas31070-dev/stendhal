@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/building/wall/int_wall_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="17" name="../../tileset/building/wall/int_wall_purple.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="37" name="../../tileset/furniture/kitchen/warmer.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/warmer.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="39" name="../../tileset/furniture/table/table_with_hob.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/table_with_hob.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="44" name="../../tileset/item/brush.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/brush.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="47" name="../../tileset/item/pot/barrel.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="49" name="../../tileset/building/decoration/wood_fire.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/wood_fire.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="53" name="../../tileset/plant/indoor/pot_plant.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_plant.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="56" name="../../tileset/building/window/int_windows_purple.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_windows_purple.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="72" name="../../tileset/building/entrance/pale_red_ns.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_red_ns.png" width="288" height="128"/>
+ </tileset>
+ <tileset firstgid="108" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="132" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="133" name="ground/brown_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_2.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="135" name="furniture/chair/stool" tilewidth="32" tileheight="32">
+  <image source="../drawable/stool.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="136" name="kitchen" tilewidth="32" tileheight="32">
+  <image source="../drawable/cabinets.png" width="128" height="352"/>
+ </tileset>
+ <tileset firstgid="180" name="vendors" tilewidth="32" tileheight="32">
+  <image source="../drawable/vendors_table.png" width="224" height="160"/>
+ </tileset>
+ <tileset firstgid="215" name="warmer" tilewidth="32" tileheight="32">
+  <image source="../drawable/warmer_2.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="221" name="household" tilewidth="32" tileheight="32">
+  <image source="../drawable/food_preparation.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="237" name="floor tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tan.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="241" name="candle" tilewidth="32" tileheight="32">
+  <image source="../drawable/lights_candle.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="283" name="item/firewood" tilewidth="32" tileheight="32">
+  <image source="../drawable/firewood.png" width="96" height="128"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgcQIIG5iFjQuAdEH/AgUFyrSTgd0j6sOEPWOz/QACTaj82O5H5DFC1tPA/KZgByS0DgUeq/ehg1P5R+4kpR96NIPvJMYdcMFD2AwAZ5teM
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYIAAJjRsAcSWWMSxYQY0NjaATQ8ymADEEkjYBoht0cSIxSDQiYZhcoZAbITF/ilAPBWP+3cgsfVwqJFlRLB7gLgXivuQ1BgDsQkD6WAHA3WBFRBbo4ltAeKtOPBeKttvB8T2aGKHgPgwDnyMyvaLAjEzFcxBD7NtdLZ/NxDvQcJ7KYh/etqPLf7JAehp5giZ4f+Ggb5goO2nVvyTA8xJiH91INaAYk0gNqBx/vcAYk8g9iLBLHE0jE+eEAgE4iAgDibRP4xQjE8OmzwATvMudQ==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eNrjYWBgYGLADa4D8Q00MR00PhMaG4YtgNgSh/kgMW4gZgFiGSB+BcQTgXgSmrqbQHwLTUwXj3tVgVgCif8QiB9hUScNxMxQ+8WQxKehqbsNxHeAeDsDcUANSrMzMjBwMCLE29HUieKwn95g1P6Btd8BiB0pNOM1ED8D4udk6HUBYtdhFv7to+lv2Nn/BIjv45DTh2JiALpakP1SQCwOxchAnEjMQEAfNjlJaPnPBcSMSBgZMJKA8enBZSYnEAMA+8oWRA==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBiegJGRgYGJkWEUjIJRMAoGFTAdYPvNRqNgFEABACFNAHE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMApGwUgDAAgAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNprYWBgaBnFKBgZ4BLHBpDV4TKTkDw+s6kJsNlPSrgMR/upYU7LqP10tZ/e7h6u9g9WvxOjlpJ010JmWTRcMACh3Heh
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="160" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_semos_mine_nw_x0_y2"/>
+    <property name="place" value="bakery_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

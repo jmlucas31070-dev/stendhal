@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="21" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/furniture/carpet/carpets_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets_2.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="21" name="../../tileset/building/stairs/dark_stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_stairs.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="23" name="../../tileset/furniture/table/square_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/square_pale.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="24" name="../../tileset/furniture/chair/wooden_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden_pale.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="28" name="../../tileset/building/entrance/int_iron_bars.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_iron_bars.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="40" name="../../tileset/furniture/bed/side_on.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/side_on.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="42" name="../../tileset/logic/portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="66" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="67" name="../../tileset/logic/protection.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="69" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="21">
+  <data encoding="base64" compression="zlib">
+   eNrtzSEBAAAIA7ALutG/ETEumJjeJtmyKfH7/X6/3+//+jcdptElMw==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="21">
+  <data encoding="base64" compression="zlib">
+   eNpjYBh44APEvkjYm05iMOCP5h4/OomN2o/d/kAgDqKxGD776QEGyn6xIeB/VyB2o7HYaP4btR+f/Z5A7IWEPWgghq/886Ux9h6h5Z/oICz/0NMGPbAHw+AAAIeTRkQ=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="21">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFICAOxBpArElnMRiQHCCxwQLkgVgBiBXpLDYKRsFApsnBDCToIDbQZfIoGAWjYOAAAIcUCac=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="21">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo4CBQQaIZYFYjs5io2AUDGSaHAWjYBSMglEwMAAAmeoDvg==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="21">
+  <data encoding="base64" compression="zlib">
+   eNrtwTEBAAAAwqD1T20LL6AAAOBnCoAAAQ==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="21" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpzYmBgcBrFA46RAT3FBov9gyn86QFG7Sec/gY6/43m/4G1f6TH/2j5N3LsH6kYAAora4M=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_up" id="1" x="896" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="0_semos_plains_w_x2_y0"/>
+    <property name="place" value="jail_entrance_left"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

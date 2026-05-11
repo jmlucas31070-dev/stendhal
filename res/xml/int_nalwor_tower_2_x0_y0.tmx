@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/buildingint_green_blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_blue.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="../../tileset/building/wall/int_blue_green.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_blue_green.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="33" name="../../tileset/building/stairs/stairs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="45" name="../../tileset/ground/indoor/tiles.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/tiles.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="53" name="../../tileset/item/statue/green_stone_3.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_stone_3.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="56" name="../../tileset/building/window/window_long_below.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/window_long_below.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="59" name="../../tileset/plant/indoor/pot_plant.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_plant.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="62" name="../../tileset/plant/bush/blue_green.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_green.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="63" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="64" name="../../tileset/logic/creature/elf.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/elf.png" width="256" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgaQJdCPGreqHmj5o2aN1TNG6wAAAiDLQE=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNq9k0EKgzAQRcfW1qq1iiIYED3FMPe/mX/hogs1k2Qw8PiLwOeRyWRE9ABPg8zBC7zBAtaELMAHlGAi/2HP/Qi+u99s0OdO/ETRJwF+sX13+ZGxHyv6OMAvtu8uv6P3EcVfdBf7wYp5h/hxgOuZnyj62NiPI/ZXO2OfnyT2/ftVoAdDQta7XwN+oDXIDmyqBBGb
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgawBaPnB0FerHpt6PQrbQ2z5aMMKDETjsqx5/dALrPjgj1dlT2ix0ZcWtHgftonTYIma9IRbOo7TZc+UeFzHSHLz3Z4Sl77HCkJXzmWQCxJRRbDZJyGQAMegtN
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNrNVDESACAI4lUs+v93NbQ6aHAVs3IoKLAROEfVmwKf0jsFG/NQ5EszX1UT5p3c9KCTJ5jyFObM5NBPh98KH0UdNPtH8R+ESQubv+flXfyIBWK2B5A=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMApIBwAGQAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrV1NEJACAMQ8Fs9vbfyglaE6WgQr+UM5UikvikquXuVxahp8bD8BjwCLyqn52P+TY3HsNeeobg7hc8GbORzLPMLAp7TrOe5DvJJiND57h/F5feK7UADnA4XA==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="downstairs" type="mapchange" id="1" x="64" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="int_nalwor_tower_1_x0_y0"/>
+    <property name="place" value="upstairs"/>
+   </properties>
+  </object>
+  <object name="upstairs" type="mapchange" id="2" x="544" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="int_nalwor_tower_3_x0_y0"/>
+    <property name="place" value="downstairs"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

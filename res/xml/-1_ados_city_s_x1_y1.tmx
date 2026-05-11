@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_paving.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_blue_2.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="11" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_blue_green.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="27" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_blue.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="43" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="76" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="77" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../drawable/mutant.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="84" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtVlsOgDAIWzhTdxXvfxR/NDGEjYc4TPSjHybOIiulaK1RImB8rx8Ae7aek3Dyw/ENXNAVYIIeBLG6Z5j1HMb+SdgSwGu0nsvi5xry1J3FjwA/JfMjwB/Rgzb/Xt1cEeWv/v9K/fP5r9IfKb61Sv+Sr0o10EPzb/VbWuQ/b+GHoNvM+ZvxS/4S9Y7R3tb4K/uPD+hvdIcr5p8Ufgyy6J2sDaOGScmtuJF9Jb/37uxo9h1l/8j+9/Bm7f8tOf9W8lMg//78tfe/A/I+7qY=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlmELgjAQhv0gRRStaGUliIES+P9/YBckjGt327xNjHbwfJt7cr3vsCjy/PvUQCmgEez5ng3QArcJPICVxe+757i2A3YGe+Kstmhdz/gvnuf/BNYGR+ZZBRzQ+kHoD3lWEe+b/d974ExR2cJdOTv82qN/OFNmtjr0G2xduRP+yrN/XNZxviX/1SnQb/MtwR/7/qmZfGB/qvunJfLhOu+Y/Vc/4E/R/xB/iv67/GPeXXeli36C38w7d1f6MgT655gl+TWR0Tn81Sejmvn+TOm3dcakjEAj+P65CnH1P/Wo7Bf5X+HbFl0=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlzsOwCAMQ3NA3/88XTq2ygc3DipIDAzhkQ/EmGkG7vm29uyeZpaNxN5YOBfjzFG/VnIBoh8ZOxa/sifbfzW/Ev+KLaumDp9b/zak/qJx6eZb0/1X8xHscxP4zPu3I//v+e/of5P4DM1WeWc9Hc7UqV9rXe/foNDfbE3d0f9hWv17+Nr8X1NHw/E=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="960" height="32">
+   <properties>
+    <property name="map" value="-1_ados_city_s_x1_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="576" y="992" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_ados_city_s_x1_y2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" id="3" x="640" y="992" width="64" height="32">
+   <properties>
+    <property name="map" value="-1_ados_city_s_x1_y2"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="4" x="0" y="0" width="32" height="736">
+   <properties>
+    <property name="map" value="-1_ados_city_s_x0_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="5" x="0" y="800" width="32" height="64">
+   <properties>
+    <property name="map" value="-1_ados_city_s_x0_y1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="6" x="992" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="-1_ados_city_s_x2_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="7" x="992" y="704" width="32" height="96">
+   <properties>
+    <property name="map" value="-1_ados_city_s_x2_y1"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

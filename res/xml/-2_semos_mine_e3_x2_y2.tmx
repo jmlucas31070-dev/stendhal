@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="Sin nombre" tilewidth="32" tileheight="32">
+  <image source="../drawable/chaos.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="9" name="Sin nombre" tilewidth="32" tileheight="32">
+  <image source="../drawable/giant_human.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="25" name="item/statue/swordsman" tilewidth="32" tileheight="32">
+  <image source="../drawable/swordsman.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="37" name="tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="46" name="edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/bricked_edges.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="71" name="stone dragon" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_dragon.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="79" name="suit of armor" tilewidth="32" tileheight="32">
+  <image source="../drawable/suit_of_armor2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="83" name="chains" tilewidth="32" tileheight="32">
+  <image source="../drawable/chains.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="87" name="scratches.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="92" name="scratches2_edges.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches2_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="110" name="scratches_corners.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches_corners.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="118" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt17ENACAIBECmofjEedh/EyfQRCW+AsXX92IhQkSwEHMONsP2vXr87sPZ18sdQJ4ByB0i+TjwlezP0sg+yr/uj+5ca/7ll/+kn/n9Ze5/WffvjP8vCxb2uTq3Lvze
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlkEKgDAMBPd7CvociSgKvtwIQnsp2LgYpFmYayfdHhogZVBGlHMoqyJEanPNsBHnsIbVBZxnqEmn9OQZGNkb9795Azh3AOcO4NxB+MMf/v/6850p+m/XPylzo/+v9e7i7BZntxR26q/cYnAuNwy3ZOc9geUMEidlovy3
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBjcIBCLWPAAuymUhmYHMQwtEDLA9ocxjIJRMLzLhKFUNo+CUTAcQdBoEIyC0XQ9Wu6PglEwjAAAW6UD5A==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYMAP/BlGFggYxG5zB2IPhlEwCkbBKBh5ZfMoGLkAV73sDcQ+o8EzCkZQe3O03B9tU4+CUUANAADGHQOT
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlzEOACAIA+n/P+1i4mQ0DYhKL+l8xQU0G6BnBgKyAsEdWKL8ONyBmdmzgwfy5/pNfrrDy34Un1/+On5s7ES9f13/q/sPpOuW+yPz/sz8h2R4oXyXBsJZAiM=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_e3_x2_y1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="2" x="160" y="0" width="192" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_e3_x2_y1"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="0" y="0" width="32" height="768">
+   <properties>
+    <property name="map" value="-2_semos_mine_e3_x1_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="4" x="0" y="800" width="32" height="64">
+   <properties>
+    <property name="map" value="-2_semos_mine_e3_x1_y2"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="5" x="0" y="896" width="32" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_e3_x1_y2"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

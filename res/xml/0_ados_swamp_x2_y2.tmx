@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="34" name="daisy_white.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_white.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="42" name="grass_edges.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_edges.png" width="384" height="96"/>
+ </tileset>
+ <tileset firstgid="78" name="grass_corners.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_corners.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="102" name="grasses.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grasses.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="108" name="pebbles.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="111" name="earth_edges.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/earth_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="129" name="skull_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_pale.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="131" name="logic/creature/undead" tilewidth="32" tileheight="32">
+  <image source="../drawable/undead.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="148" name="logic/creature/undead_fallen" tilewidth="32" tileheight="32">
+  <image source="../drawable/undead_fallen.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="164" name="swamp_water.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/swamp_water.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="197" name="tree_darkgreen.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_darkgreen.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="285" name="death_tower.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/death_tower.png" width="288" height="896"/>
+ </tileset>
+ <tileset firstgid="537" name="earth_dark.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/earth_dark.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="633" name="dead_tree_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dead_tree_2.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="653" name="swamp_sunken.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/swamp_sunken.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="685" name="grasses_swamp.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grasses_swamp.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="727" name="dead_tree_3.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dead_tree_3.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="743" name="hollow_logs.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/hollow_logs.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="749" name="rocks.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rock_rocks.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="753" name="rocks_3.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks_3.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="769" name="skeleton.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/skeleton.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="773" name="skull_post.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_post.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="775" name="skullpedestal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/skullpedestal.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="777" name="int_broken_bars.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_broken_bars.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="779" name="slate_tiles.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/slate_tiles.png" width="160" height="96"/>
+ </tileset>
+ <tileset firstgid="794" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="818" name="logic/creature/undead_skeleton" tilewidth="32" tileheight="32">
+  <image source="../drawable/undead_skeleton.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="824" name="logic/creature/undead_specter" tilewidth="32" tileheight="32">
+  <image source="../drawable/undead_specter.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="830" name="logic/creature/undead_zombie" tilewidth="32" tileheight="32">
+  <image source="../drawable/undead_zombie.png" width="160" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNqVV+1uwzAIjPb+jwG0i5J10axpH/2x7MmWSrGE0B14P1CixjZwnA+q0zSZMz3N3LPb12HivqF3C+868Js4Y+cJOcPCug+wr4olnr8HLGJs0e8O4rCBfC2Jx8CT4WIgPi3iR9gjrBAXNMGQYfBL9qE8/bd22MtpbyBXBT4liauKN8a0HPZ02pzwTwAv+pp7ka8kuG6HPZ/+V4eFxwTxSgf4heoa1zzwvzkMos3JOQJqJWQ9qrMG/JGtgBcS7qYUdYp19jij3C+uJh6DzK8W/rdwJvJ5Pe01rJ8LDmmiDRpiuII4LqfPGP/m4hnhwHfBRSFYzIRLRu4vqzfaz3RgAbmjHJXceS1ybY63iB8RW8SdBrTACi1Ql99a6BbTKAV3ptcJ9RwUd79X2d0Q0qO7Rb6uQQ8R56OeyT97N+oVS6GHvlZRT5hPLXAwcA+vgKta6AvriTLYN5i+o3MWoJ8Z5v19J3lbMXMq6KUdoyXUvz8/B3q6Eg1VgBPToV4PKeqf8U8GZ2wh71viUwZ1RBP9YLEzHWaYCbmnQmJvhR4yXmvBsSrXqC9riKHSuNFZIdNspMmNzM7VHP6e1IjdR6TJt2RGaWDmyzDQhAeZzrI5dSG1QjOLDPxf8VrccegzBNq/gf5lA3h3DO9FbFvw/bAft/8PriFxNg==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYICAfiYGhmlMDBhgPlBsARZxWoDpQHtmQO2aBaWXA+kVTLSzDxuYCBTvBeKFdPI3NQDIzUuAeMIAuxkWh5PIcMdKLHo4GBFsbkbauh0W51OQ3CEAtFMQiIWAWJgG9s9GS++4AHI4nGGiXphMJjLdIIfDPwbsYQIKvz4m7PFIbjqaA8T/gZiRmYGBiRli9icqpnFYHieUzsDxBLSfGYhZmKmXLmcyEU5nZQTig5rpchUTYbtpWYYtgqZFXOE7i07lG7bwxZVPQGljKgVl7xQm4vMDtrw1mUh75wLVzWPCTH9TcdT96HGDCxwCyr1lIpzOlwLxMhrF33485vYPYL0IqgfLyEwTsPQ2mQZuB8XXBibcaQ1ULoLKAlC8UbMN+I0Mc2jZBhwFo2CwgTIqqHsOzC8vBiDP7AXauYUJd3ueHm2IhdA241ACxwfIvQBBE0MS
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNqtV9tOwzAMrfLn/ALiBf5gSLt1US/SogHSQEAQY6g/Ae88k2qJdGpsp9uIZDVpm56TE9txi+LQLk1R3Jri5LYJcx/OmN+3azJ/GsazYPNofX9hDvcXZ2JJDTGXwRyYDVbG+yW8919cpvHbFqwD86RvIy/kMjmRD8V2gENx09iCLnitgt0oe7kwPLZjsN/g3VfA9mCOaFYSDLo2+nwFe+yJ1i/BHqM9MxogB0f2JGH0sVETbav4bAZrp/vsBR1+iqEm1B/SdQ1zWkEjB37GaZvu7eBbF8G2oAn6B6cB6u8IBwvf30d7J3z6Z5+AvwVcz+yHJRyoXzvGz6mf7SKPfcTeEj+Q/JLD4LDx6hk/09bL+aVXcDVsbu/7bz8Z3se84J+doq+G7YRv5eKe87fcmrmxFXIbF/dXTMxz2I4xae0cBy0WvTC/zugv+YAlea8TuEhzG/M3h0o8cM5dsHtGr47hovEvIc/Uwtq48yk1F/nUR/irFXLZUsFN/QbqpGnUoB+3ZE7iRPtSfslpn8ZrwN6YYf2W9iRx2pB+PdLntThItcqS7IPWJmbIsT4izrX3qhNqOHqWaXGu7VXyGcfUC8fUaFYY5/yVe5bjsBqZV3L532XiSOLQHhGjuTyo3Vub/L5ra23AT8ecfR2cn5IGq5FnOc7fMDlRyvv0DG/MOO0pp69g3xDbEgdae9CzrRLWnzvTUYO5GdbX0vpTrZc4NMy/bJs5D8bGHld79rXGB9S9JfzrYn6uM3l/LDZefwGqjXT7
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYECA2UwMowANfADij0D8CYg/D4D9P4D4JxD/AuLfRKhfT+04ZAQiIGYCYmbGgYkDTqC9XIwDnBCQwuEdA/XDhJh0hhwO1A4TUtMZqeqpns5okC6Rw5TU+BjofE/L9D6i8z0SODNaP46CUTAKRsEoGAU4+x/rRuvJIQMALlogCw==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0SkOACAMRNFiuP8p0SyGxTAOHK4JyX/JT+oqxgx4y6qoqmI4d3P639VQU6XrXuzhtgEAAACAv22JJRA2
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlUsOwCAIRL3/9l24i3bRNDYWBRTLJG6M4TPMYCknuM4Tb/cWqOWyzE+jDq++Nbljszpw7I0JGuzlQYsTSZz7O2uevDhHoDOMdSmNFW1HzdK41jxa2mBQg72zZlAvX2onkKdX8glKXlhV97vPL5GI/Jf+zau5K2Q4AP7SOpM=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="0_ados_swamp_x2_y1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="2" x="128" y="0" width="128" height="32">
+   <properties>
+    <property name="map" value="0_ados_swamp_x2_y1"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="north3" type="mapchange" id="3" x="320" y="0" width="704" height="32">
+   <properties>
+    <property name="map" value="0_ados_swamp_x2_y1"/>
+    <property name="place" value="south3"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="4" x="0" y="992" width="1024" height="32">
+   <properties>
+    <property name="map" value="0_ados_swamp_x2_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="5" x="0" y="0" width="32" height="256">
+   <properties>
+    <property name="map" value="0_ados_swamp_x1_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="6" x="0" y="288" width="32" height="32">
+   <properties>
+    <property name="map" value="0_ados_swamp_x1_y2"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="7" x="0" y="352" width="32" height="672">
+   <properties>
+    <property name="map" value="0_ados_swamp_x1_y2"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="8" x="992" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="0_ados_swamp_x3_y2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="9" x="992" y="64" width="32" height="960">
+   <properties>
+    <property name="map" value="0_ados_swamp_x3_y2"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

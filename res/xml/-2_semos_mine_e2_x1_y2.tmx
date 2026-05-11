@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="logic/creature/chaos" tilewidth="32" tileheight="32">
+  <image source="../drawable/chaos.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="9" name="ground/rock/obsidian" tilewidth="32" tileheight="32">
+  <image source="../drawable/obsidian.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="15" name="ground/scratches" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="20" name="ground/scratches2_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches2_edges.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="38" name="ground/scratches_corners" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches_corners.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="46" name="logic/creature/dragon" tilewidth="32" tileheight="32">
+  <image source="../drawable/dragon.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="54" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtzrEJADAMA0Ft4EL775oFAm5ii8AXV/+XpAIAAADwFV9stjrJ9osvD0m2Hex2fQf7Dva97AD6Kz71
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrllksOwyAMRLlAu017BbIntPm0Ive/U4kUS5XFz2BAai3NjugNYzDRQgiN9BbuMlaLYz23nlZTZw++DI56dea3yCDEb+EhdAZ+wcNqtTH0IdUD8ED7+S1HBi4PPh4uzewhxsvhUzxQi/NO1uZzZ6Ay7+R8aiKyZqRHg/mgmFg5Z0JV5KZk0OKdDGXQiu/LoBXfl0EtPp7tvnlrHOtASwF7Z5g9JvH9xfsF9sXqWnn+roS3bLC6felewI9xMevQiNbIRC+UfwVgj8SMpcMv+ILzFOvn4NlnSUlCbzm5qVVjzxR2D+6/sT9U233U
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0bENADAIA0FaEvafN2yARJPmTvrahSMAAGCW3fm4f7tygz+BtQeR3wBV
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtljsOACAIxR73v7SrA4nxA9VIE+Y2DqBJMmc8LHnoBsENt/qrIbdBQQ1Kbthtn21QwNud5jW/we7Vlh/3w++3mv6vlJ+7iZH7QEBHFJR35M+C8vb+oqBoh/cCJA==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="192" y="0" width="160" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_e2_x1_y1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="2" x="0" y="992" width="1024" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_e2_x1_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="3" x="0" y="896" width="32" height="128">
+   <properties>
+    <property name="map" value="-2_semos_mine_e2_x0_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="4" x="992" y="224" width="32" height="160">
+   <properties>
+    <property name="map" value="-2_semos_mine_e2_x2_y2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="5" x="992" y="704" width="32" height="320">
+   <properties>
+    <property name="map" value="-2_semos_mine_e2_x2_y2"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

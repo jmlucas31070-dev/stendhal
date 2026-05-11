@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="21" height="18" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="wall" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="17" name="wall2" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="37" name="entrance" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_red_ns.png" width="288" height="128"/>
+ </tileset>
+ <tileset firstgid="73" name="floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/floors_3.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="85" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="86" name="window" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_windows_purple.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="102" name="kitchen1" tilewidth="32" tileheight="32">
+  <image source="../drawable/cabinets.png" width="128" height="352"/>
+ </tileset>
+ <tileset firstgid="146" name="kitchen2" tilewidth="32" tileheight="32">
+  <image source="../drawable/pie_safe.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="150" name="kitchen3" tilewidth="32" tileheight="32">
+  <image source="../drawable/stove.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="156" name="table1" tilewidth="32" tileheight="32">
+  <image source="../drawable/table_wooden_brown.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="165" name="table2" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rectangular.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="174" name="chair" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden_pale.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="178" name="bed" tilewidth="32" tileheight="32">
+  <image source="../drawable/single_blue.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="180" name="mirror" tilewidth="32" tileheight="32">
+  <image source="../drawable/drawer_with_mirror.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="182" name="light" tilewidth="32" tileheight="32">
+  <image source="../drawable/lights_candle.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="218" name="carpet1" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_blue.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="233" name="carpet2" tilewidth="32" tileheight="32">
+  <image source="../drawable/orange.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="242" name="sofa" tilewidth="32" tileheight="32">
+  <image source="../drawable/sofa_chair_pink.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="254" name="householditem1" tilewidth="32" tileheight="32">
+  <image source="../drawable/food_preparation.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="270" name="householditem2" tilewidth="32" tileheight="32">
+  <image source="../drawable/food_preparation_2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="274" name="fruitbasket" tilewidth="32" tileheight="32">
+  <image source="../drawable/fruit_basket.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="275" name="flowerbasket1" tilewidth="32" tileheight="32">
+  <image source="../drawable/flower_baskets.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="278" name="flowervase1" tilewidth="32" tileheight="32">
+  <image source="../drawable/flower_vase.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="281" name="flowervase2" tilewidth="32" tileheight="32">
+  <image source="../drawable/flowering_plant.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="283" name="flowervase3" tilewidth="32" tileheight="32">
+  <image source="../drawable/potted_plants1.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="289" name="pies" tilewidth="32" tileheight="32">
+  <image source="../drawable/pies.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="292" name="cups" tilewidth="32" tileheight="32">
+  <image source="../drawable/bottles_and_cups.png" width="128" height="128"/>
+ </tileset>
+ <layer id="1" name="Ground" width="21" height="18">
+  <data encoding="base64" compression="zlib">
+   eNoLZmBgCKYBlgFiCSKxNAnmehKJYep9seBRM4eemSDsTUF69KaTmb5UwIPNzLdQPNjdOZBmDnYMAMjEc4I=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="21" height="18">
+  <data encoding="base64" compression="zlib">
+   eNq90rsKwjAUBuCqRbC61vtivc3quygOOoiuOggOTr6J16fyrpu3qm/gX8hwDGlTaTHwQTg5/JDkxBRFCQrUoWFz5iQKqvK9xjCCAfRhAuHAd08WkgIZCLHMOOkfCmgkU+f66dJtMmWLZq5hA1sus+0hcwd7OJCzJnR8zmx5vPsRTnD28T2d/igNBqvnIOEgxfppzRBkWvNWYPW8zew5KXi8u+xdfp2lC1wFbpJZmsKMmJOzOzxYz5ztLaZklhawJFaCTJ7p4T2f8BJ4/+GPVMG88YpQgrKL2bUyNQgQXehxtQpUoeaiNwIfeJM+Gg==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="21" height="18">
+  <data encoding="base64" compression="zlib">
+   eNpjYEAFdUDcgMQXZIRgcsAkIJ6MRZwRaB43EM8AsmciiW8B4k1Q9iYoHx1MAeKpeOycBcSzkfhb0eS3YtHDT4b/JKF6pMgMG3JAJZReCsTLkPByJDW5JJpZC6VXAPFKJLwKSU0hiWay0DFMYGAbEG+nspl7gHgvEH+B8j8B8WcCeiSQ/L4OjQaBU0B8Goi/Q/lfgfgbEIsNQJhtQGKLINm/EU2dEVBuIZXtXgTES0jUsx6NJhcoMBKfb5HjE5bn5QcgrigFAAM/JAM=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="21" height="18">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAd4GVkYOBhZBhwsBmNpgcohdJLgXgZEl6OpCaTRDNZoWHJCaSVgJgdiDlAYoyoYQ4DO4B4J5X9tQ+I91PZzFNAfJphFBACc4B4LhKeh0PNvGHkZxkiy49fUPoHEP8kQz828BdK/wbiP0M8HAE1nhTY
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="21" height="18">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFtARMjAwMzEAsBMTKjPS1exsQb6eymXuAeO9otA5qYMw4GgajABUAAMKDA1k=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="21" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNoLZWBgCB2CGBcgRh0p5mHTx4CDxmYeIbvIcWcokfYNtJnEhie+cCHGncSmF3qaSUoaYiCQZqgByE2fDESI08OdhPSQEp6kxBO10gvDAJeXAOIATbM=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="320" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="0_kalavan_city_gardens_x0_y0"/>
+    <property name="place" value="cottage_2_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

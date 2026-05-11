@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="18" height="12" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="brick wall" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="18" name="brick wall" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_thin_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="30" name="brick door" tilewidth="32" tileheight="32">
+  <image source="../drawable/bricks_ns.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="42" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="66" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="67" name="lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_lamp.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="71" name="warmer" tilewidth="32" tileheight="32">
+  <image source="../drawable/warmer.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="73" name="carpet" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_red.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="82" name="sofa" tilewidth="32" tileheight="32">
+  <image source="../drawable/sofa.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="88" name="desk" tilewidth="32" tileheight="32">
+  <image source="../drawable/desk.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="92" name="cabnets" tilewidth="32" tileheight="32">
+  <image source="../drawable/cabinets.png" width="128" height="352"/>
+ </tileset>
+ <tileset firstgid="136" name="rat" tilewidth="32" tileheight="32">
+  <image source="../drawable/ratfolk.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="139" name="single_purple_gold" tilewidth="32" tileheight="32">
+  <image source="../drawable/single_purple_gold.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="148" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <layer id="1" name="Ground" width="18" height="12">
+  <data encoding="base64" compression="zlib">
+   eNpjZmBgYB6B2BOIvbBgbxLN8QFiXyzYb4DM8QfiACw4cITG80BjAOt1CqE=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="18" height="12">
+  <data encoding="base64" compression="zlib">
+   eNrjY2Bg4KYQ8wMxLxALAbEsmVgYiHmg5kgzkA+kRs0Z8eaIALEMHiwHxPJArIBFThRqjgAQcxHAikCsBMTKOOQFgRgAGC8H7g==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="18" height="12">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAu6EGj3aF0NBAHAXEwEg4B4ggc5vSj0R5QOgqIQ4E4DAmHQ8WdsZgzCY0eLqAIiLOAOAOIM4E4j0xz8tH46WSaU0wlfzmToWf2II4nAD0KDSM=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="18" height="12">
+  <data encoding="base64" compression="zlib">
+   eNpjYBicYAIaPVxAKhCnAXEKEJcCcRnDKBjOAAAhFQM7
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="18" height="12">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AU0AoAAANgAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="18" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpzYmBgcBqEGB04odHY5PGZhUsfA5HmkQtoZY4TmWYT0kctcxgGgTnEpAlaYwCpxB5t
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="320" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="-3_orril_dungeon_x5_y3"/>
+    <property name="place" value="house2_entrance"/>
+   </properties>
+  </object>
+  <object name="house2_downstairs" type="mapchange_exit" id="2" x="480" y="288" width="32" height="32">
+   <properties>
+    <property name="map" value="-4_orril_dungeon_x0_y1"/>
+    <property name="place" value="house2_upstairs"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

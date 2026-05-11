@@ -137,4 +137,30 @@ wCro4AsAAA==
    H4sIAAAAAAAAAO3DAQkAAAwDoD3P+vdbj6NgL6mqqvriADECC6jgCwAA
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="downstairs" type="mapchange" id="1" x="128" y="128" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_ados_town_hall_x0_y0"/>
+    <property name="place" value="upstairs"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="480" width="32" height="64">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="upstairs" type="mapchange" id="3" x="1152" y="96" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_ados_town_hall_2_x1_y0"/>
+    <property name="place" value="downstairs"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="4" x="1024" y="480" width="32" height="64">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="31" height="30" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="..\tileset\building\castle.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/castle.png" width="640" height="512"/>
+ </tileset>
+ <tileset firstgid="321" name="..\tileset\logic\collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="322" name="..\tileset\ground\indoor\blue_green.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/indoor_blue_green.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="326" name="..\tileset\sky\stars.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/stars.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="332" name="..\tileset\ground\cobblestones.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/cobblestones.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="336" name="..\tileset\ground\hexagramm.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/hexagramm.png" width="608" height="1216"/>
+ </tileset>
+ <tileset firstgid="1058" name="..\tileset\furniture\light\floating_candle.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/floating_candle.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="1074" name="..\tileset\furniture\light\lights_candle.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/lights_candle.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="1116" name="character\zekiel" tilewidth="32" tileheight="32">
+  <image source="../drawable/zekiel.png" width="192" height="288"/>
+ </tileset>
+ <tileset firstgid="1170" name="..\tileset\furniture\shelve\dark_bookshelf_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_bookshelf_2.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="1176" name="..\tileset\furniture\shelve\pale_book_bottle_shelf.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_book_bottle_shelf.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="1188" name="..\tileset\furniture\shelve\dark_bottle_shelf.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_bottle_shelf.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="1194" name="..\tileset\building\decoration\floor_sparkle.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_sparkle.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="1212" name="..\tileset\item\statue\green_stone_3.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_stone_3.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="1215" name="..\tileset\furniture\shelve\small_shelf.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_shelf.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="1223" name="..\tileset\item\chest\small.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_small.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="1225" name="..\tileset\item\chemistry\empty_bottles.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/empty_bottles.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="1237" name="..\tileset\item\chemistry\bottle.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/bottle.png" width="32" height="160"/>
+ </tileset>
+ <tileset firstgid="1242" name="..\tileset\item\chemistry\flask.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/flask.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="1245" name="..\tileset\furniture\table\wooden_trestle.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_trestle.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="1254" name="..\tileset\furniture\table\bench.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/bench.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="1257" name="..\tileset\item\documents\book.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/book.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1261" name="..\tileset\item\documents\books2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/books2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1265" name="..\tileset\item\boxes.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/boxes.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1269" name="..\tileset\item\chest\chests_red.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/chests_red.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1273" name="..\tileset\item\chest\wooden_dark.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_dark.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="1274" name="..\tileset\item\chest\chest_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_2.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="1280" name="..\tileset\item\chest\chest_purple.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_purple.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="1282" name="..\tileset\furniture\table\square.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/square.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="1283" name="..\tileset\furniture\shelve\wardrobe_lateral.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/wardrobe_lateral.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="1291" name="..\tileset\item\chest\large.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/large.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="1299" name="..\tileset\logic\portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="1323" name="..\tileset\logic\protection.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="31" height="30">
+  <data encoding="base64" compression="zlib">
+   eNrlV0FuhDAMZH/V+yLHjlF5Rv//g02lWBqNTKlYmhx6sKLE4PEMASb+WJbSoraQPiqsOcytxWeLtcXe4tli6+Pe7y9wfdxboR6uS6/pgFUgh6MDztpxsQ+DGrXPo5bBWIBjjNxLXJfhbCd9CGGitgoaO2jKPI1wvpa8j+917CPqSQ8n3g55Ba3KD3zO+Gb5qMk9IB72cRUnywtpWmlP6k04Z3ney8H/bpwsj/u8DuLL+QJ8P/6YL+f9jff33bwMwjnKj+aL+Rl8d8L/b7pvE3VfJ+q+T9S9TNI9/mszdPf+bZuhu5APHcG3Jp7RBvFV4KvgpXD9zj6E/Gj4FSMPH+tHddiPruRfsz6UPLkDX6OzA/vKK3yNfKHD3MgnOpxpHPrRi7or+WE+pzhhKuUFnlH9xXeoJj4/44heHHVweA54HsR9cMRXkjMOa42YL6M5C4k=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="31" height="30">
+  <data encoding="base64" compression="zlib">
+   eNq1lllsTFEYgO/M3NtWLa2tVK1F7YKHamwhPBFCgkckJMpjH0gQXpBoCE+EmFZ4IraqfS+mtbcoWkK6aGsbJdaKhu+k52bOnJk7bXV6ki//2f7/v/9//3PuNYzWtSIY4grFZ7R/ewkZrlDK28mfHauIrd5hj1/bF+1YRWz5kKuteyFP2xeNWAVp0GAaRqoyVps+n9rGOlDf6yRpM10b2y3dYV9rcqDHqrerbsO4BtehAG7ATbgFPih0h+q0NAfhYhWtGJsl8AgeS/ulyKfwTI7LkOXwArJcoTlxyoEdb7hYK7FVBdVKTLX062AT+98h3ytrfvqfoD5CDnxavDfN0PeYzfgbNr5rdhoY/5Zzf5CN2rrLYxhu2OdQF2r8Tmc2Bv1YiIMOEA8doRN0hi6QAInQFbpBd+gBPSHJ43wX2PkWufZq57Y3esnQB1KgL/SD/jAABsIgSIXBMASGQhoMg+EwAkZ6gu+BXJl7n8y3yHWqfN+W1bRvFDqjYQyMlfrjkOMdYpnIfIZcm4ScDFNgqpyLsQI+0mXe65V3IZ4hVvqeJnWmI2dAOWszkbMU3xfNQH8283Ogmn1zkfOglv58uT/OCviw8y58V2CjEqqgg/S9QPGxkP4iWOyJfD8sYX0pLFP2LZf9eCvYj+27mv4bqFHiWKHor6SfqfnNZO8qWG0Gz2eJmlTqfo2ip/rxR6jxtYrOOvrrYUMzcW9mfQtsVfZti1DrwvcPM7TOs0UN8/zbkTtEDdPfidyl2LqgxLyb+T1yba842zABnf1h6txtNfnOV+pevde86ORALhyQ+geRhxziOMz8Ebl2FHkMjsMJT/C9Zp/nPOVusWswgWdKhJPo5MEpyIfTcAbOwjk4DxfgIlyCy3AFrsI1uA4FcMMTsGn78LfgXruFng8KoQhuwx24C/fgPjyAh1AMJfAIHsMTKG3mXjNk3nPC/I88R7dMnG3NxivGr+VcBbJSW68RZxs2ukP/b3KUfBta/I3amfmAjY/gV+x/pv8FtmH7K/KbsvaT/i9oUJ+HfLus4Hj1Zsev5+CvsMMzucAtn81EWhAjx3HiXoJ46GiGxuoUr+GQg1ps1MFbaasHsickQS/oDcnQB1Kgr9yn6vn/438tXA68DnXhddjXmlgj5cC+D+xvriG/A1Vm4Jto31N+I3otX4nB/uaqvtOVf/doxBopB9/NwLdBfBfcVnRjbUkd5LTxvf4DVdP6mw==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="31" height="30">
+  <data encoding="base64" compression="zlib">
+   eNrFV1tKxTAQDTL7cREB8VM3cHdQ99BCNiCKoiiKYincJYgvfOAi1G8VxceHv55wE+7ckF6bmKYDQ5p2MqfnZJKmQoRZBV/yeCn6txH8nIS4oEn/Eu0VXPWEVzFuGvsGWLcG214rJy4lV206/xp82Xku4YUTl4Kr9rG5Vzt94bl/R9N+rAaawz7yHFDcu29j3E5AHbhcDzH2KBJ7F+P2AjTQXNcRv0Fpa/UY+U5aNKgY103EbCXGrpGvYRqUnjq+JpHFlIPN12wu7MpoLT3rNrVZjJrtU3aNjgPynEGjU5q0needYSiD/YDxj/AnCsPmbRfjOBb7C9ff8M+e5/sZ+V/gKww7xlZpto2pt5EYxjh2aJ23zffiwt917n4Tc9a5/eaKAXRXnj11CGyte5NpX2uY3iIj/3nnCMs/pQaS5SwCzkzvqOGPiL3j1Yx5izw7+zSQLZrIlrgQrl3OyBXbB+5pum7LhGdknwbFnHpUTlxf/0Tcfig91y510PxzXn8BcW10hg==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="31" height="30">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo4A4oMQycHarsYyGP7WBKoVhqk2Bfk0K7dYfQumBmZU4dXtZUGlCgIWVem4k1W5qghignbFAHEeG3V4UujcJqD8ZiFNGWPkykPFNC7u5gXmBB5ofdCg0V4UF00xigQGFdmsMoXT4a4i4VWsA3ak3Qtstd4H+vj+Afr81gHZfHW2rkgwAwrAPmw==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="31" height="30">
+  <data encoding="base64" compression="zlib">
+   eNrt0CEBAAAIwDAE6aB/HwQdMGzm/hEA8E/lttMLALg2qqwAng==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="31" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpzZGRgcBzFRGFsYKDsH0i/08MuYuymtlvIAQNhJzXcQE0wEHYS6wZ6gsHkb1Ltp0Q9NexGpgdzeqNV2UGJ/oEAlIQBqfFNTJzTMswHY5k6Wq4NjJ2Dpf6mxB3Dpb1GjFvo3UYe6L7JUO1bAQCsmoQB
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="portal_sparkle_leave_tower" type="mapchange_exit" id="1" x="480" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="0_semos_mountain_n_w2_x2_y1"/>
+    <property name="place" value="wizardstower_entrance"/>
+   </properties>
+  </object>
+  <object name="portal_sparkle_enter_spire" type="mapchange" id="2" x="480" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="int_semos_wizards_tower_8_x0_y0"/>
+    <property name="place" value="portal_sparkle_to_seventh_floor"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

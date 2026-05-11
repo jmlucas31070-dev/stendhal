@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="17" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="123" name="floor_tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="132" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="156" name="flowers_on_benches" tilewidth="32" tileheight="32">
+  <image source="../drawable/flowers_on_benches.png" width="64" height="160"/>
+ </tileset>
+ <tileset firstgid="166" name="flowers_on_bench2" tilewidth="32" tileheight="32">
+  <image source="../drawable/flowers_on_bench2.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="172" name="side_on_bluer" tilewidth="32" tileheight="32">
+  <image source="../drawable/side_on_bluer.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="174" name="wooden" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="179" name="pale_brown_stone" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_brown_stone.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="183" name="large_island" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_island.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="185" name="barrel_with_flower" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel_with_flower.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="187" name="pot_burgundy" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_burgundy.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="188" name="clay_pot" tilewidth="32" tileheight="32">
+  <image source="../drawable/clay_pot.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="189" name="flowering_plant" tilewidth="32" tileheight="32">
+  <image source="../drawable/flowering_plant.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="191" name="oriental_plant" tilewidth="32" tileheight="32">
+  <image source="../drawable/oriental_plant.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="193" name="flower_vase" tilewidth="32" tileheight="32">
+  <image source="../drawable/flower_vase.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="196" name="plant_potted_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/plant_potted_2.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="198" name="small_flowerpots" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_flowerpots.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="202" name="wooden" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="17" height="32">
+  <data encoding="base64" compression="zlib">
+   eNprYGBgaBhEuBaJJhZjM6N2mJgxikfxKB7Fo3gUD0cMAPpbD3c=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="17" height="32">
+  <data encoding="base64" compression="zlib">
+   eNqtlLlOw0AQQLcJR8fVgaADwR9ACX8Agg4EXTg6rr/J5aTgRkggJcEoARECX8UrFmk1mrW9NiM9OVnNPs3O2lMyxozAaA7GYBwmYBKmcjANM7AKa3ALd8YfD+J/DOuw4TiS4gl+4F6sS0daHY/KWkgdMp7hpaDjFd4CHe/Qz3CWT/gKrEc6QvZ/w0BxDG0tMq7gGm4UT5GeGlu31g83Ksq+qn0OPWeRfa8pjrrze5DhLA1lLUo5i4ymstZKudtuYE97iiO272Oaq2t7577rZTiEI4dN2BJ7t2FH5B3DCZzCGZw77MKecOzDgci7gEsoKfN0FuaEYx4WAubpIiwJxzKspMzT2PapY+dDW+ln2+Z92P7Le+kE3m3/H765vPNUzgHpqHj2VQPqqHny6gGOhicvSqhPOpqe3FZCfUXvJcro6Dlo9f05fgEf0WBV
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="17" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRQE2wHYh3UFHdKBgFwxEAANaQAt8=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="17" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFlILNQLxlELvvyCB3yzIgXg7EKwbIDXNGkzBJYP9oEIwCGgBC5cBoPqVf/t5Pp3wOACu4C9I=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="17" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjIJRMApGwSigLwAACIAAAQ==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="17" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrdVEEOACAIgv9/unuHBoatauuUMkGCAHjhVU+llyKOMwfCvacweFAPBrgo86ZmcLTgwmcMYMDQoRsDjV51PFvJkkQe/YSR2Aca/lw1T+d6h/8unxcxuvaivg+nIAEJ
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="south" type="mapchange" id="1" x="64" y="992" width="160" height="32">
+   <properties>
+    <property name="map" value="int_ados_barracks_0_x0_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" id="2" x="320" y="992" width="160" height="32">
+   <properties>
+    <property name="map" value="int_ados_barracks_0_x0_y1"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

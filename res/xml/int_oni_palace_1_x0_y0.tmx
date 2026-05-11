@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="wall" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_blue_green.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="18" name="wall2" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_blue_2.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="26" name="wall3" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_blue.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="42" name="entrance" tilewidth="32" tileheight="32">
+  <image source="../drawable/entrance_blue_green.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="50" name="ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/greenGround2.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="52" name="ground4" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="85" name="carpet" tilewidth="32" tileheight="32">
+  <image source="../drawable/nain_rug.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="101" name="carpet2" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="109" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_stone.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="112" name="plant" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_plant.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="115" name="bush" tilewidth="32" tileheight="32">
+  <image source="../drawable/bushes.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="125" name="arrows" tilewidth="32" tileheight="32">
+  <image source="../drawable/arrows.png" width="64" height="160"/>
+ </tileset>
+ <tileset firstgid="135" name="paving" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_paving.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="137" name="entrance2" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_green_2.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="145" name="table1" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rectangular.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="154" name="chair" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="159" name="kamin2" tilewidth="32" tileheight="32">
+  <image source="../drawable/coal_fire.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="163" name="torch" tilewidth="32" tileheight="32">
+  <image source="../drawable/torch.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="165" name="torch_top" tilewidth="32" tileheight="32">
+  <image source="../drawable/torch_top.png" width="32" height="128"/>
+ </tileset>
+ <tileset firstgid="169" name="table_kit" tilewidth="32" tileheight="32">
+  <image source="../drawable/table_with_beer_dark.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="179" name="sink" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_front_on.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="185" name="statue2" tilewidth="32" tileheight="32">
+  <image source="../drawable/metal_and_stone.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="191" name="curtain2" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_gold_gathered.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="197" name="flower" tilewidth="32" tileheight="32">
+  <image source="../drawable/flower_baskets.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="200" name="fairypool" tilewidth="32" tileheight="32">
+  <image source="../drawable/fairypool.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="216" name="oni" tilewidth="32" tileheight="32">
+  <image source="../drawable/oni.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="221" name="blue_green_ns_centered" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_green_ns_centered.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="233" name="blue_green_wide" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_green_wide.png" width="128" height="512"/>
+ </tileset>
+ <tileset firstgid="297" name="double_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/double_red.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="305" name="entrance/blue_green_big" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_green_big.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="309" name="red_drapes" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_drapes.png" width="96" height="96"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtls1KAzEQx2NrrZ+VVpSVYrEggpeqCwVh36RCPeoe1MfYkx+P7AQndAiTZHabbC8t/EgzmZl/QmZnN1dK5TVx/fLEdIAuMN9R6h3GD+QTbXqtl1B/D+gDBaOvbfswniTWnwIV8GahbZMI+r57ravfpEbo3Zp7NXd/I9AfkRpw5bJrapfwZMXoubZf4t3fefRv1X8NjLBOuVxdtULv8xDzXiCFFaPnZs1ou/TNHiS59D4PUP+cxFeOvJXHR+pH7ZlQPyZbfZl+G1D9I+AsMcqaH6P+ADhlKB32pnD5huSdZlM67KZvdDzr0nxc/wlh3nF14xSTp0n9ZURfxxUBJPW31V/ZF8AzM8bWnxD9KbEvGd+XFvUXjK/r/JK+dZXo/ANBz7n21Na65w/1n16gtmPcf1/Qo2KfX2EvLfH/K0O2hv4Sz2uPbenX7T+c/gy4B76A7w3oPwCPwA/wK9DXz/E4AP1uCD3/IZ+x4PvDx1AQJ/X5AxkKCYw=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtl9lKw0AUhpNbwUuhr+D6Noq9U/EB1EJ8DteLKm69EJWquF/12uUZtO77vl/6FaYkDJNMMo6KkB8+Jp2c/H8P0xyo46RKleq/yDO8p1NOEObbH1hLipqSVOMlzMkZfOdt2DHs1Ub+Luz9Yf53zjpuvqc417Dz9xL8BqK0DwdQttRvUr9DOIJjS/lJ/U7gFM4s5ct+PYqa2cD1OVzAZUSNvD8H87AARY1fr8KjEKOPQsT+IizBMqxo/Pp+4J2qdx2nwfVXE7VCWwjtmmcbyWxy/dVEWenzWOC6Q/NsM5ktrr+a5k/AAAwKhmLm21C1fzk//4v5af/R/V/BNdzArdibhCkxg4oW+h+GEcGo1P8d3MMDPIq9aZgRM6gyezIBzzrD929culfNf4JneIHXCK9aqBH5q7Cmya7M607oCqFb1LzBO3zAZ4hXRspfhw3D2Z60RpW/CVvpXwelvgBOUnIV
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBiawJgRwTZhZBgFwwjA4pYa8UpNswYL2E2k2CgYnmA0/kfBYANHcbBB4DCUPjIaTKNgFIyCUTAKRsGgAACMWQc5
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYCAdWDNix6Ng6ANqxutoGqEN2E2k2CgYjf9RQDp4AMQPgfjRAJn3GIifAPFTKtlPbfNGweAD+sC61YARQY+CUTAKaAP+AfH/AbSfCZi/mamcx5dTSc0oGFoAAGlcFV8=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0DEKACAMA8B+XHybvqwOfYA4SbmDkC1DIt6NCv3MT7cAuLeqtysAgCMBWJsDfA==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtl0sOACEIQ8v9L+3eZEIsrZ8MJGxG6ZPogAaAIHy22Ox/5n+ZQ7/KZ9bX/HN8RhdFrSyvLF827nU+ayHYL4fmHKeumc75za/rMecWoj7J/jvZ91UdV5ybr8yfHVPlr+jhqzWw+W/yVT1wd3931h/1vVZ1xzz5XrzVB2v0Anw=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="downstairs_left_1" type="mapchange" id="1" x="160" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_0_x0_y0"/>
+    <property name="place" value="upstairs_left_1"/>
+   </properties>
+  </object>
+  <object name="downstairs_left_2" type="mapchange" id="2" x="192" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_0_x0_y0"/>
+    <property name="place" value="upstairs_left_2"/>
+   </properties>
+  </object>
+  <object name="downstairs_left_3" type="mapchange" id="3" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_0_x0_y0"/>
+    <property name="place" value="upstairs_left_3"/>
+   </properties>
+  </object>
+  <object name="downstairs_right_1" type="mapchange" id="4" x="768" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_0_x0_y0"/>
+    <property name="place" value="upstairs_right_1"/>
+   </properties>
+  </object>
+  <object name="downstairs_right_2" type="mapchange" id="5" x="800" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_0_x0_y0"/>
+    <property name="place" value="upstairs_right_2"/>
+   </properties>
+  </object>
+  <object name="downstairs_right_3" type="mapchange" id="6" x="832" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_0_x0_y0"/>
+    <property name="place" value="upstairs_right_3"/>
+   </properties>
+  </object>
+  <object name="upstairs_1" type="mapchange" id="7" x="448" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_2_x0_y0"/>
+    <property name="place" value="downstairs_1"/>
+   </properties>
+  </object>
+  <object name="upstairs_2" type="mapchange" id="8" x="480" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_2_x0_y0"/>
+    <property name="place" value="downstairs_2"/>
+   </properties>
+  </object>
+  <object name="upstairs_3" type="mapchange" id="9" x="512" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_2_x0_y0"/>
+    <property name="place" value="downstairs_3"/>
+   </properties>
+  </object>
+  <object name="upstairs_4" type="mapchange" id="10" x="544" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_2_x0_y0"/>
+    <property name="place" value="downstairs_4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

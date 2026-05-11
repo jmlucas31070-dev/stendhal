@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground/brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="ground/rock/green_crystal" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_crystal.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="15" name="plant/mosses" tilewidth="32" tileheight="32">
+  <image source="../drawable/mosses.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="31" name="plant/bush/various_small" tilewidth="32" tileheight="32">
+  <image source="../drawable/various_small.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="40" name="item/corpse/skull_dark" tilewidth="32" tileheight="32">
+  <image source="../drawable/skull_dark.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="42" name="ground/rock/rocks_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks_2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="46" name="building/decoration/rocks" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="52" name="logic/creature/kobold" tilewidth="32" tileheight="32">
+  <image source="../drawable/kobold.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="58" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="82" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="83" name="logic/protection" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="85" name="building/wall/int_clay" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_clay.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="185" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="200" name="shadow" tilewidth="32" tileheight="32">
+  <image source="../drawable/shadow.png" width="32" height="96"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1TEOwCAMQ9FI+P4X8uW6dqlQiVsHlMEjen8AgYiAYJxsPAzCuX0U8LG5fz+jbsAL+ys/84aYbGg/Zyvvh8Kn2VY10NjAQ3y2v9RAc0P73ganzx/mtGm226/pV3n7p/0/K//vBSwrmRk=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlsEKwjAMhvPc4nF4FF9no3Xa4p5LexhI6Jq0SVYHBnroGPv+/EmzAsji9Vkz472YeTaCTnA05PgB9ILSYM2nNHD4qR73rzU1aNjKyRPfS2zH0Czx4Iz2J0K3R35wPdny4IL2Q0MvRIEHN7S/GvFreztXeyj0EacWgaE9CM9hqadTDZ5oLRl+Te4t54qqkcYM8oJZ4UAnouKs2ssD7fkfO/NrPdDm12qw4FvNyCPxuTWw4nM8kM5d7n9q6pB7yYf1juc68ffK+8//Tf56L5oNmY/CnQvrsGAv0Cda2G848GGQ
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtk7sNgFAMxLIBDRUD8FkRKIESmAkW40pKqncRsiXXjhIl4jtNQAb+coercO+Wo5zkbOovcpWbqb/LQ56mvvP+4KGVXeFmzdrhRWVoDqyd34QU8IvgpE860wPMCAze
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0AENAAAIw7B7Af8auQ7SJjOwBICvpq0NAADUAd1SAEg=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1sENQCEIA1Bm7P7DuIAHkGJ7wKRH8vo/iTGid1DIbZZx1H4Y+EHwMzPMDkjMTe0BSf+lk7Nf/f+vO6n4aETto+mzMn13M3ah8n99P9YvdYC4w/raDkofH+PkQ5D113fxXe4+lzfAAZ9A3QU=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="512" height="32">
+   <properties>
+    <property name="map" value="-1_semos_mine_n2_x2_y1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="2" x="864" y="0" width="128" height="32">
+   <properties>
+    <property name="map" value="-1_semos_mine_n2_x2_y1"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="3" x="672" y="992" width="352" height="32">
+   <properties>
+    <property name="map" value="-1_semos_mine_n2_x2_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="4" x="0" y="0" width="32" height="352">
+   <properties>
+    <property name="map" value="-1_semos_mine_n2_x1_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="5" x="992" y="960" width="32" height="64">
+   <properties>
+    <property name="map" value="-1_semos_mine_n2_x3_y2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

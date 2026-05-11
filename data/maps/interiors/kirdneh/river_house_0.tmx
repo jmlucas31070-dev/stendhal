@@ -213,4 +213,24 @@ EAAA
    H4sIAAAAAAAAAO3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="downstair" type="mapchange_exit" id="1" x="704" y="64" width="32" height="32">
+   <properties>
+    <property name="map"   value="-1_fado_great_cave_n_e2_x0_y3"/>
+    <property name="place" value="kirdneh_house"/>
+   </properties>
+  </object>
+  <object name="entrance" type="mapchange_exit" id="2" x="480" y="960" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_kirdneh_river_w_x1_y3"/>
+    <property name="place" value="river_house"/>
+   </properties>
+  </object>
+  <object name="upstair" type="mapchange" id="3" x="640" y="544" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_kirdneh_river_house_1_x0_y0"/>
+    <property name="place" value="downstair"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -118,4 +118,30 @@ AP/UMw8ACwAA
    H4sIAAAAAAAAAO3BAQEAAACCIP+vbkhAAQDAjwFMJdk3AAsAAA==
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="hqleftdoor" type="mapchange_exit" id="1" x="224" y="640" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_nalwor_forest_ne_x1_y2"/>
+    <property name="place" value="hqleftdoorin"/>
+   </properties>
+  </object>
+  <object name="hqrightdoor" type="mapchange_exit" id="2" x="768" y="640" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_nalwor_forest_ne_x1_y2"/>
+    <property name="place" value="hqrightdoorin"/>
+   </properties>
+  </object>
+  <object name="hq0down" type="mapchange" id="3" x="736" y="352" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_nalwor_assassinhq_cellar_x0_y0"/>
+    <property name="place" value="hqcellarup"/>
+   </properties>
+  </object>
+  <object name="hq0up" type="mapchange" id="4" x="768" y="352" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_nalwor_assassinhq_1_x0_y0"/>
+    <property name="place" value="hq1down"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

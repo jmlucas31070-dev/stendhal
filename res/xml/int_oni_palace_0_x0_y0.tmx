@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="wall" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_blue_green.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="wall2" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_blue_2.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="25" name="wall3" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_blue.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="41" name="entrance" tilewidth="32" tileheight="32">
+  <image source="../drawable/entrance_blue_green.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="49" name="ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/greenGround2.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="51" name="water" tilewidth="32" tileheight="32">
+  <image source="../drawable/soft_blue.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="54" name="waterfall" tilewidth="32" tileheight="32">
+  <image source="../drawable/waterfall.png" width="256" height="480"/>
+ </tileset>
+ <tileset firstgid="174" name="throne" tilewidth="32" tileheight="32">
+  <image source="../drawable/throne.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="180" name="carpet2" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="188" name="statue" tilewidth="32" tileheight="32">
+  <image source="../drawable/seahorse.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="200" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_stone.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="203" name="plant" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_plant.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="206" name="kamin" tilewidth="32" tileheight="32">
+  <image source="../drawable/fireplace.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="215" name="seerose" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_white.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="223" name="bush" tilewidth="32" tileheight="32">
+  <image source="../drawable/bushes.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="233" name="arrows" tilewidth="32" tileheight="32">
+  <image source="../drawable/arrows.png" width="64" height="160"/>
+ </tileset>
+ <tileset firstgid="243" name="paving" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_paving.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="245" name="big_entrance" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_green_big.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="249" name="torch" tilewidth="32" tileheight="32">
+  <image source="../drawable/torch_top.png" width="32" height="128"/>
+ </tileset>
+ <tileset firstgid="253" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="254" name="creature/oni" tilewidth="32" tileheight="32">
+  <image source="../drawable/oni.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="259" name="green_paving.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/green_paving.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="277" name="red_drapes" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_drapes.png" width="96" height="96"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtl8kKgzAQQNO9dt/sLkhLi1dp8ejRX7b/5Q90UiY4DNEqqGCr8A6ZmcwLyVx0hRBuTWgB7S90S/T3gD5wT2AATEr220CUgPUDfhMe+SVi5Fq9/ZX5Q4T6L2QGknrxmeoQ9qxGrj9xfHsnxX/DGVjiLOp68Vk1sK+JnNgeuVY5h90396szZOklzzlE/yahb5jy1lHOGl63q4m/SOrmjwqiSL+a5UDEX0DiVfgfgEf8Hsaq9PvE7/+pn1K1P2BU7ddRJ79F/Hbjb/yNP7X+ABwJZ+LV5Yr2y/otMAPWuOeJ6HJl+NW/haHx81we/4jdn/pfoLExc8g9K0SXo3vVx/tJ/xTvjaL8PL5Ah9wzZ/Bc1n5vA7oGmg==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtVcsKwjAQ3OADf8XHz6u/4Lv1hWIPxYt+hhcXTCCUpt2Nm/SSgaFhSWa6mTQFSPDFRzNBFjvkHnlomDNHLjSXf2oZZI41mUcPPlq5Y01uzVkh1zVrN8gtU6uKI7MOkbQS4uHtGMfSeznGBj0F0EeecHzWvMCvNlB8Pe77DrXH1ard9HOkwu2n+e7b/Kv3gDS4/XPRlhfXP1T+d6v2EMyf2n8dJPqn5l8Q/UOdPxuloD81f+r+h86/EM6/6/6p91/p8I91/xk8hc+/9PcqnX/X//8Y+zlGTgTPDFdvipwJ+jfpfQHAMmIa
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBiaQJoRFQ+E/djYIwWsA+L1ULyBymZ/h9I/BplZo2AUjIJRMApGwSgYBaNgFIyCUTCUAQDgqAdD
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFowABpBkxMTawDojXQ/EGCs0iBewB4r1YxPcB8X46hM8BID6IRfwQEB8eTT6jYBTQBGDL925QTI9yAFu+N4PigSoH7KB4oMBA2z8KRsFILv8Y6NgOwtXuGW0HjYJRMHQBAPnCF7k=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtzLEJADAIAEH3X8453CIE7GwsLe7g24+AqY6+AL7sAADYexY4A3E=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtl0sOwCAIRLn/nSfpvglkpoAtVhMWRp2n8onCzHBslHmtQz8a9/qK1lP+nbuaz95/Bx+C71m+BWeLzmziGs9Xq9vh+zmd8XsUByjkKznZxc/MU/3P7lPVQ0F+44X467r/Kfyu/Dv1b0b925XP1r+qeVPij3mHZ/T+zmd1M/+pL/4lL7+Wxqw=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance1_right" type="mapchange_exit" id="1" x="192" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="0_fado_forest_e_x2_y2"/>
+    <property name="place" value="palace_entrance_left"/>
+   </properties>
+  </object>
+  <object name="entrance2_right" type="mapchange_exit" id="2" x="832" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="0_fado_forest_e_x2_y2"/>
+    <property name="place" value="palace_entrance_right"/>
+   </properties>
+  </object>
+  <object name="entrance1_left" type="mapchange_exit" id="3" x="160" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="0_fado_forest_e_x2_y2"/>
+    <property name="place" value="palace_entrance_left"/>
+   </properties>
+  </object>
+  <object name="entrance2_left" type="mapchange_exit" id="4" x="800" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="0_fado_forest_e_x2_y2"/>
+    <property name="place" value="palace_entrance_right"/>
+   </properties>
+  </object>
+  <object name="upstairs_left_1" type="mapchange" id="5" x="160" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_1_x0_y0"/>
+    <property name="place" value="downstairs_left_1"/>
+   </properties>
+  </object>
+  <object name="upstairs_left_2" type="mapchange" id="6" x="192" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_1_x0_y0"/>
+    <property name="place" value="downstairs_left_2"/>
+   </properties>
+  </object>
+  <object name="upstairs_left_3" type="mapchange" id="7" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_1_x0_y0"/>
+    <property name="place" value="downstairs_left_3"/>
+   </properties>
+  </object>
+  <object name="upstairs_right_1" type="mapchange" id="8" x="768" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_1_x0_y0"/>
+    <property name="place" value="downstairs_right_1"/>
+   </properties>
+  </object>
+  <object name="upstairs_right_2" type="mapchange" id="9" x="800" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_1_x0_y0"/>
+    <property name="place" value="downstairs_right_2"/>
+   </properties>
+  </object>
+  <object name="upstairs_right_3" type="mapchange" id="10" x="832" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="int_oni_palace_1_x0_y0"/>
+    <property name="place" value="downstairs_right_3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

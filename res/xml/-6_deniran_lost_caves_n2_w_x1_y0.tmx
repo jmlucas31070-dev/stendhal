@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="webs" tilewidth="32" tileheight="32">
+  <image source="../drawable/webs.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="8" name="mine" tilewidth="32" tileheight="32">
+  <image source="../drawable/mine.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="72" name="blue_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/indoor_blue_green.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="76" name="dragon" tilewidth="32" tileheight="32">
+  <image source="../drawable/dragon.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="84" name="animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/animal.png" width="256" height="128"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1MENwCAMA0BW8A4MQ8v++5RPPxEClQZbtDz8PkwCMYQQd3Z+EpioXJaPTlTuTB9CHyIfg2G6qeRw8kfcsyQ7+E/vuOYyfc/5e9pJaN9zYfi1vX96/297ZpHf6s7wW91B+uNA9Ht97RlV7y6LfDsf9v7b+ayw/7P2YDU/ftC/AOeFc6g=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlbEJwDAQAzVF+jykiHH2Xy/fGFSkjVRYB6oPyQ8GgpKjMylq79M5KWpvdW6K2jtEnR1edju8k9zDdNclfOPcl867uMT39dXd6S7Tv7Xr7twdRr+r+9oe2d7mx8b+EMJ/vEBzDTc=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0bEJAEAIBEEDffvvWLt4hBnY+IKLAOCa3Orj/tvaDQAApwzrKAAX
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0MEJAEAIA0ErsAOf13+LZxeKzED+YSMAAAB2yF4Nf3gaaHC0wQcZbgEc
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1DEKACAQxMD4/0/b2wjqGcQNbD3XaANaln2yMcu95c+y3Eof0UfyV7PcXf9Upv2ij+jzsU98zSd+fMkn7y//f+ENHWP/Aho=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="south" type="mapchange" id="1" x="384" y="992" width="640" height="32">
+   <properties>
+    <property name="map" value="-6_deniran_lost_caves_n2_w_x1_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="160" width="32" height="864">
+   <properties>
+    <property name="map" value="-6_deniran_lost_caves_n2_w_x2_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

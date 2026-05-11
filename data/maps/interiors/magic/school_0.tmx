@@ -211,4 +211,78 @@ O4Mzow+eONo/bR7VasbiY9SoMu3uSGOPNrqOwWfdfys/wmi9PZTPWweZR/d1Cl9m/zT7G5+llXRV
    H4sIAAAAAAAAAO3BMQEAAADCoPVPbQ0PoAAAAADg1wAW4j6/wBIAAA==
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance_left" type="mapchange_exit" id="1" x="608" y="896" width="32" height="32">
+   <properties>
+    <property name="map"   value="-1_fado_great_cave_n_e2_x3_y0"/>
+    <property name="place" value="school_entrance_left"/>
+   </properties>
+  </object>
+  <object name="entrance_right" type="mapchange_exit" id="2" x="640" y="896" width="32" height="32">
+   <properties>
+    <property name="map"   value="-1_fado_great_cave_n_e2_x3_y0"/>
+    <property name="place" value="school_entrance_right"/>
+   </properties>
+  </object>
+  <object name="downstairs" type="mapchange" id="3" x="576" y="96" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_magic_school_cellar_x0_y0"/>
+    <property name="place" value="upstairs"/>
+   </properties>
+  </object>
+  <object name="upstairs" type="mapchange" id="4" x="672" y="96" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_magic_school_1_x0_y0"/>
+    <property name="place" value="downstairs"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="5" x="992" y="96" width="32" height="320">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="6" x="992" y="576" width="32" height="128">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east3" type="mapchange" id="7" x="992" y="768" width="32" height="128">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="8" x="1024" y="64" width="32" height="96">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="9" x="1024" y="256" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="10" x="1024" y="384" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="west4" type="mapchange" id="11" x="1024" y="576" width="32" height="128">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east4"/>
+   </properties>
+  </object>
+  <object name="west5" type="mapchange" id="12" x="1024" y="768" width="32" height="128">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east5"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

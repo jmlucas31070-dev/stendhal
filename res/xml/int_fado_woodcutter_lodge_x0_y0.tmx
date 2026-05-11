@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/wall_brown.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="13" name="wall1" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_dark_red.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="29" name="wall_corner" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_dark_red_corners.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="45" name="ofen" tilewidth="32" tileheight="32">
+  <image source="../drawable/coal_fire.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="49" name="table" tilewidth="32" tileheight="32">
+  <image source="../drawable/stump_rectangular.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="53" name="stool" tilewidth="32" tileheight="32">
+  <image source="../drawable/stool.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="54" name="drink" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_wine.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="58" name="lamp" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_lamp.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="62" name="entrance" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_red_ns.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="74" name="chest" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_wooden_pale.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="75" name="window" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_windows_dark_red.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="91" name="webs" tilewidth="32" tileheight="32">
+  <image source="../drawable/webs.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="97" name="carpet" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpet_blue.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="106" name="sink" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_front_on.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="112" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="113" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="137" name="double_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/double_red.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="145" name="item/firewood" tilewidth="32" tileheight="32">
+  <image source="../drawable/firewood.png" width="96" height="128"/>
+ </tileset>
+ <layer id="1" name="Ground" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eNqTZWBgkCMDKwCxIhArAbEwCVgZiDWgeoWAmAkNJwJxMhZxEBYnoDcdiDPJ1IsPj+qlr15vIPYhU68/EAcMEf/6ArEfmXoDgThogONXDYjFsGAtHOLqUL2aQKxNBtYBYgBweRLf
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYKA+0AViPSLVTkbD+kBsQIJeWoGZFOidA8SdQNxFpv5uIO4hU28vEPcxDC5gCsSGQGxEpn5jIDaBmjMKsKf7LCDOJkIPtnSdB8T5RKZrQsAOiO2B2IEMfzkCsRMQO+NRAwBQiQ7Y
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAOmImESdU3BwnjAl5YxOYw0A5YMYwCagPL0SAYBRQCAOOqBZI=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAMxAJxHBJ/Mgl644E4gWEUoIN+IJ4wGgyjYBRgAABgTAMt
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="15" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAviGYYBaNgFIwC8gAAh38AXA==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="15" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNorYGBgKBiEGB0Qqw4XIFVfAQV6qeHeoWYvIb3EmDXY3DxY9RaQEc8FePQyUMnuAgL2UAMDALoYPpE=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="224" y="576" width="32" height="32">
+   <properties>
+    <property name="map" value="0_fado_forest_x1_y2"/>
+    <property name="place" value="woodcutter_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

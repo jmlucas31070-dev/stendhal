@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="18" height="13" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="../../tileset/furniture/carpet/carpets.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="../../tileset/building/wall/int_wall_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="25" name="../../tileset/building/wall/int_wall_purple.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="45" name="../../tileset/building/entrance/pale_red_ns.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_red_ns.png" width="288" height="128"/>
+ </tileset>
+ <tileset firstgid="81" name="../../tileset/furniture/carpet/border.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/border.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="93" name="../../tileset/furniture/table/grey_fancy.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_fancy.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="102" name="../../tileset/furniture/table/grey_plain.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_plain.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="111" name="../../tileset/building/decoration/toolset.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/toolset.png" width="288" height="64"/>
+ </tileset>
+ <tileset firstgid="129" name="../../tileset/furniture/other/stick.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/stick.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="131" name="../../tileset/item/armor/weapons_rack.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/weapons_rack.png" width="288" height="64"/>
+ </tileset>
+ <tileset firstgid="149" name="../../tileset/item/armor/armor.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/armor.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="153" name="../../tileset/logic/portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="177" name="../../tileset/logic/collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="178" name="carpets_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets_2.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="198" name="armor" tilewidth="32" tileheight="32">
+  <image source="../drawable/suit_of_armor2.png" width="64" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="18" height="13">
+  <data encoding="base64" compression="zlib">
+   eNrbysDAsHWIYnYseNQc6pszigceAwBDFJR1
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="18" height="13">
+  <data encoding="base64" compression="zlib">
+   eNoTYWBg4KIQCwMxDxCrALECmVgZiLmh5sgxkA9kR80ZNYdMM06imaMExPJo2BCLGDasCDVHCIg5KcSCQAwAa5wJYg==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="18" height="13">
+  <data encoding="base64" compression="zlib">
+   eNq10M0KgkAYheG5oZC23UlgudDKNJMQSixQ3Ljxp8AL7g0MCgaGGfXAwyxm5vDxCfGfGBckw3nFTegnRYYH7shRaPwvFfdrYZ5K0rPHAb5inhoNXniiQ//Tc0SA0HC2b88JEc4j9mNLzJUNtnBG9rjwsJPcfXbfDvvvFT2q/ZlkgSWsCbpWmu/fr8oY1g==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="18" height="13">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAuaGQYXADmnmYgbgHiDiBuB+I2IO4eQPeMJAAK+1Zo+NMizI8PsfCwBGJzILYmQQ8ALfgINA==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="18" height="13">
+  <data encoding="base64" compression="zlib">
+   eNpjYBjeYCrDKBgFQx8AAKIfAJY=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="18" height="13" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrbyMDAsHGQYnIAuWag68HlHkJuJaSegUr+onf4EOMecswkxRx88rQIG1LTAC0xAHaWW/Y=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="192" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="0_semos_mountain_n2_e2_x2_y1"/>
+    <property name="place" value="stores_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

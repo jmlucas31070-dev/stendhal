@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="18" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="carpets.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="int_blue_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_blue_green.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="25" name="int_green_blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_green_blue.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="41" name="throne" tilewidth="32" tileheight="32">
+  <image source="../drawable/throne.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="47" name="throne_small" tilewidth="32" tileheight="32">
+  <image source="../drawable/throne_small.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="49" name="warmer" tilewidth="32" tileheight="32">
+  <image source="../drawable/warmer.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="51" name="small" tilewidth="32" tileheight="32">
+  <image source="../drawable/small.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="54" name="large_island" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_island.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="56" name="grey_plain" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_plain.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="65" name="grey_fancy" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_fancy.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="74" name="stool" tilewidth="32" tileheight="32">
+  <image source="../drawable/stool.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="75" name="wooden_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden_pale.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="79" name="long_side_on_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/long_side_on_pale.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="82" name="long_front_on_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/long_front_on_pale.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="85" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/stairs.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="97" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="121" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="122" name="ground_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_2.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="126" name="blue_green_wide" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_green_wide.png" width="128" height="512"/>
+ </tileset>
+ <tileset firstgid="190" name="blue_green_ns_centered" tilewidth="32" tileheight="32">
+  <image source="../drawable/blue_green_ns_centered.png" width="96" height="128"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eNpjY2BgYBvFo3gUj+JRPIpH8SgeQRgA54QNgQ==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eNoTZGBgUGAYOCA4av+o/aP2j9o/av+o/aP2D4j9QkAsNUBYFIjFqIzFScAAMcUJCg==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eNpjYMAPjBhoB2hpNi2BAQ5aB4h1gViPgLqhCHyB2BGInSjEzkDsR6YbXIDYhkLsRoH/qWU/rfzvCsUD5X9i7R+Nf/KAOxB7UIg9KSgD7IDYnkLsQGE55EOAJlbNKBgFIAAAHYMu2g==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eNpjYBh6QB8HrQnEWkCsTUDdKBgFo2AUjIJRMApGNgAAFjsBmQ==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eNrtwQEBAAAAgiD/r25IQAEAfBkJAAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNqrZGBgqGTADfDJUQoqkfBAAXLsr8RDVxKQp4b9A+X/SirhUftH7R+1f+jZP1jK31H7aVMHj0QMAE38dqQ=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="64" y="0" width="192" height="32">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="2" x="288" y="0" width="704" height="32">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="32" width="32" height="480">
+   <properties>
+    <property name="map" value="int_ados_barracks_0_x1_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

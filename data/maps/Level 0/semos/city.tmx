@@ -260,4 +260,372 @@
    H4sIAAAAAAAAA+3YvQ7CIBSG4Sbcqxr//zXqUr0FJ5108jI9TTowIKVGUg+8T/IN0kUCHE4oCgAAAACIozRFcbZyMV3/IwDAvysb7oym70AI1z7y7a3QfXeV7yPJuM5Ecstor95lrnPJos5S8mD+2XjKXDeSbZ2d5JXR/JGnnuzxvmRg/GMpGlp3XnXfTY17TLtP6zmzan5V71fGPaaZbz3XVs2v6v3euMc0a1rPg/w+Sk7GP6ZVauv5jZTWs2u53I0uKd6NbbhqaZt3He1vQDFrqZZzFaOWcq5+23NqO2f0KPQoAHTR0rPEQM+S1jtZW/Qs9CwhqJHUSGokNZIaCQAAQrwBXCkhJABAAAA=
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="townhall_entrance" type="mapchange_enter" id="1" x="960" y="416" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_abstract_server_down_x0_y0"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+  <object name="library_entrance_left" type="mapchange_enter" id="2" x="192" y="704" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_semos_library_x0_y0"/>
+    <property name="place" value="entrance_left"/>
+   </properties>
+  </object>
+  <object name="library_entrance_right" type="mapchange_enter" id="3" x="352" y="704" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_semos_library_x0_y0"/>
+    <property name="place" value="entrance_right"/>
+   </properties>
+  </object>
+  <object name="bank_entrance" type="mapchange_enter" id="4" x="576" y="704" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_semos_bank_x0_y0"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="townhall_entrance_left" type="mapchange_enter" id="5" x="928" y="416" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_semos_townhall_x0_y1"/>
+    <property name="place" value="entrance_left"/>
+   </properties>
+  </object>
+  <object name="townhall_entrance_right" type="mapchange_enter" id="6" x="992" y="416" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_semos_townhall_x0_y1"/>
+    <property name="place" value="entrance_right"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" id="7" x="0" y="0" width="576" height="32">
+   <properties>
+    <property name="map"   value="0_semos_plains_n_x2_y3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="8" x="608" y="0" width="128" height="32">
+   <properties>
+    <property name="map"   value="0_semos_plains_n_x2_y3"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="9" x="0" y="992" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" id="10" x="64" y="992" width="736" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y1"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="south3" type="mapchange" id="11" x="864" y="992" width="128" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y1"/>
+    <property name="place" value="north3"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="12" x="0" y="0" width="32" height="352">
+   <properties>
+    <property name="map"   value="0_semos_village_w_x1_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="13" x="0" y="416" width="32" height="64">
+   <properties>
+    <property name="map"   value="0_semos_village_w_x1_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="14" x="0" y="800" width="32" height="224">
+   <properties>
+    <property name="map"   value="0_semos_village_w_x1_y0"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="15" x="992" y="32" width="32" height="64">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="16" x="992" y="416" width="32" height="224">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east3" type="mapchange" id="17" x="992" y="672" width="32" height="128">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y0"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+  <object name="east4" type="mapchange" id="18" x="992" y="832" width="32" height="128">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y0"/>
+    <property name="place" value="west4"/>
+   </properties>
+  </object>
+  <object name="storage_entrance" type="mapchange_enter" id="19" x="1664" y="608" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_semos_storage_0_x0_y0"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="bakery_entrance" type="mapchange_enter" id="20" x="1408" y="608" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_semos_bakery_x0_y0"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="north_1" type="mapchange" id="21" x="1792" y="0" width="160" height="32">
+   <properties>
+    <property name="map"   value="0_semos_plains_n_x3_y3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2_1" type="mapchange" id="22" x="1984" y="0" width="64" height="32">
+   <properties>
+    <property name="map"   value="0_semos_plains_n_x3_y3"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="south_1" type="mapchange" id="23" x="1056" y="992" width="864" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2_1" type="mapchange" id="24" x="2016" y="992" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y1"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="west_1" type="mapchange" id="25" x="1024" y="32" width="32" height="64">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2_1" type="mapchange" id="26" x="1024" y="448" width="32" height="192">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3_1" type="mapchange" id="27" x="1024" y="832" width="32" height="128">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y0"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="east_1" type="mapchange" id="28" x="2016" y="0" width="32" height="128">
+   <properties>
+    <property name="map"   value="0_semos_road_e_x0_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2_1" type="mapchange" id="29" x="2016" y="160" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_semos_road_e_x0_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east3_1" type="mapchange" id="30" x="2016" y="256" width="32" height="288">
+   <properties>
+    <property name="map"   value="0_semos_road_e_x0_y0"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+  <object name="east4_1" type="mapchange" id="31" x="2016" y="576" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_semos_road_e_x0_y0"/>
+    <property name="place" value="west4"/>
+   </properties>
+  </object>
+  <object name="east5" type="mapchange" id="32" x="2016" y="640" width="32" height="384">
+   <properties>
+    <property name="map"   value="0_semos_road_e_x0_y0"/>
+    <property name="place" value="west5"/>
+   </properties>
+  </object>
+  <object name="blacksmith_entrance" type="mapchange_enter" id="33" x="480" y="1312" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_semos_blacksmith_x0_y0"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="north_2" type="mapchange" id="34" x="0" y="1024" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2_2" type="mapchange" id="35" x="64" y="1024" width="64" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y0"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="north3" type="mapchange" id="36" x="160" y="1024" width="640" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y0"/>
+    <property name="place" value="south3"/>
+   </properties>
+  </object>
+  <object name="north4" type="mapchange" id="37" x="832" y="1024" width="192" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y0"/>
+    <property name="place" value="south4"/>
+   </properties>
+  </object>
+  <object name="south_2" type="mapchange" id="38" x="0" y="2016" width="1024" height="32">
+   <properties>
+    <property name="map"   value="0_semos_plains_s_x2_y0"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west_2" type="mapchange" id="39" x="0" y="1024" width="32" height="352">
+   <properties>
+    <property name="map"   value="0_semos_village_w_x1_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2_2" type="mapchange" id="40" x="0" y="1408" width="32" height="128">
+   <properties>
+    <property name="map"   value="0_semos_village_w_x1_y1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3_2" type="mapchange" id="41" x="0" y="1568" width="32" height="192">
+   <properties>
+    <property name="map"   value="0_semos_village_w_x1_y1"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="west4" type="mapchange" id="42" x="0" y="1856" width="32" height="192">
+   <properties>
+    <property name="map"   value="0_semos_village_w_x1_y1"/>
+    <property name="place" value="east4"/>
+   </properties>
+  </object>
+  <object name="east_2" type="mapchange" id="43" x="992" y="1024" width="32" height="224">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2_2" type="mapchange" id="44" x="992" y="1280" width="32" height="224">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y1"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east3_2" type="mapchange" id="45" x="992" y="1536" width="32" height="384">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y1"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+  <object name="east4_2" type="mapchange" id="46" x="992" y="1952" width="32" height="96">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y1"/>
+    <property name="place" value="west4"/>
+   </properties>
+  </object>
+  <object name="tavern_entrance" type="mapchange_enter" id="47" x="1344" y="1184" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_semos_tavern_0_x0_y0"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="temple_entrance" type="mapchange_enter" id="48" x="1696" y="1184" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_semos_temple_x0_y0"/>
+    <property name="place" value="entrance_center_right"/>
+   </properties>
+  </object>
+  <object name="north_3" type="mapchange" id="49" x="1056" y="1024" width="192" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2_3" type="mapchange" id="50" x="1824" y="1024" width="160" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y0"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="north3_1" type="mapchange" id="51" x="2016" y="1024" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y0"/>
+    <property name="place" value="south3"/>
+   </properties>
+  </object>
+  <object name="south_3" type="mapchange" id="52" x="1024" y="2016" width="320" height="32">
+   <properties>
+    <property name="map"   value="0_semos_plains_s_x3_y0"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2_2" type="mapchange" id="53" x="1408" y="2016" width="640" height="32">
+   <properties>
+    <property name="map"   value="0_semos_plains_s_x3_y0"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="west_3" type="mapchange" id="54" x="1024" y="1280" width="32" height="224">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2_3" type="mapchange" id="55" x="1024" y="1536" width="32" height="416">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3_3" type="mapchange" id="56" x="1024" y="1984" width="32" height="64">
+   <properties>
+    <property name="map"   value="0_semos_city_x0_y1"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="east_3" type="mapchange" id="57" x="2016" y="1024" width="32" height="192">
+   <properties>
+    <property name="map"   value="0_semos_road_e_x0_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2_3" type="mapchange" id="58" x="2016" y="1280" width="32" height="64">
+   <properties>
+    <property name="map"   value="0_semos_road_e_x0_y1"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east3_3" type="mapchange" id="59" x="2016" y="1376" width="32" height="128">
+   <properties>
+    <property name="map"   value="0_semos_road_e_x0_y1"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+  <object name="east4_3" type="mapchange" id="60" x="2016" y="1536" width="32" height="288">
+   <properties>
+    <property name="map"   value="0_semos_road_e_x0_y1"/>
+    <property name="place" value="west4"/>
+   </properties>
+  </object>
+  <object name="east5_1" type="mapchange" id="61" x="2016" y="1856" width="32" height="192">
+   <properties>
+    <property name="map"   value="0_semos_road_e_x0_y1"/>
+    <property name="place" value="west5"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

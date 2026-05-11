@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="8" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="wall1" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="13" name="entrance_ew" tilewidth="32" tileheight="32">
+  <image source="../drawable/bricks_ew.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="25" name="entrance_ns" tilewidth="32" tileheight="32">
+  <image source="../drawable/bricks_ns.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="37" name="wall2" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_thin_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="49" name="floor" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="58" name="earth_entrance" tilewidth="32" tileheight="32">
+  <image source="../drawable/earth_dark.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="154" name="rocks" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks_3.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="170" name="chest" tilewidth="32" tileheight="32">
+  <image source="../drawable/large.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="178" name="kitchen" tilewidth="32" tileheight="32">
+  <image source="../drawable/cabinets.png" width="128" height="352"/>
+ </tileset>
+ <tileset firstgid="222" name="dishes" tilewidth="32" tileheight="32">
+  <image source="../drawable/dishes.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="228" name="Table" tilewidth="32" tileheight="32">
+  <image source="../drawable/table_wooden_brown.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="237" name="logic/creature/rodent" tilewidth="32" tileheight="32">
+  <image source="../drawable/rodent.png" width="256" height="32"/>
+ </tileset>
+ <tileset firstgid="245" name="housewife" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_kalavan.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="250" name="assassin" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_evil.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="266" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="267" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="291" name="intstairs" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_ns.png" width="96" height="192"/>
+ </tileset>
+ <layer id="1" name="Ground" width="8" height="20">
+  <data encoding="base64" compression="zlib">
+   eNozY2BgMBvFo3iAMAB4diHB
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="8" height="20">
+  <data encoding="base64" compression="zlib">
+   eNrV0DsKgEAMRdE0jiBuwL+OIjbjuP/VeQci2KQQQTBwivC660TEGQochhW52Le/3MNHe0SFGo3+yaZ7hhYdev0vpXYaMGIy+nnMWB70Cz/Zo+Hez5L6ncN2CJU=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="8" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYMAPNkPxFiA+BMSH0eS3Q/EOID4GxMcZKAc7KZTfyzAKhgoAAJ/4CYI=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="8" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYKA/2MowtIAMEMsCsRwOeXkgVgBiRYZRQCoAAF7yAW0=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="8" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2DgAAACgAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="8" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrjYmRg4KIyBgFkNjaATx7dLGrLo6tBdzMhP1FTnpzwGUzylGIANJMD9Q==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="west" type="mapchange" id="1" x="0" y="96" width="32" height="160">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="2" x="0" y="384" width="32" height="192">
+   <properties>
+    <property name="map" value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

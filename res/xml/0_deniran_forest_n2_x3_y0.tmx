@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="35" name="house_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/house_3.png" width="192" height="256"/>
+ </tileset>
+ <tileset firstgid="83" name="house_chalet" tilewidth="32" tileheight="32">
+  <image source="../drawable/house_chalet.png" width="224" height="256"/>
+ </tileset>
+ <tileset firstgid="139" name="grassland" tilewidth="32" tileheight="32">
+  <image source="../drawable/grassland.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="227" name="grass_edges" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_edges.png" width="384" height="96"/>
+ </tileset>
+ <tileset firstgid="263" name="grass_corners" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_corners.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="287" name="grass_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_2.png" width="96" height="224"/>
+ </tileset>
+ <tileset firstgid="308" name="fall_trees" tilewidth="32" tileheight="32">
+  <image source="../drawable/fall_trees.png" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="348" name="pine_tree" tilewidth="32" tileheight="32">
+  <image source="../drawable/pine_tree.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="368" name="pine_tree_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/pine_tree_1.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="388" name="tree_darkgreen" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_darkgreen.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="476" name="evergreen" tilewidth="32" tileheight="32">
+  <image source="../drawable/evergreen.png" width="96" height="384"/>
+ </tileset>
+ <tileset firstgid="512" name="dead_tree_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/dead_tree_3.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="528" name="hollow_logs" tilewidth="32" tileheight="32">
+  <image source="../drawable/hollow_logs.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="534" name="stump_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/stump_purple.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="538" name="leaves" tilewidth="32" tileheight="32">
+  <image source="../drawable/leaves.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="546" name="brown_door" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown_door.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="549" name="barrel_with_flower" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel_with_flower.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="551" name="pebbles" tilewidth="32" tileheight="32">
+  <image source="../drawable/pebbles.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="554" name="mushroom3" tilewidth="32" tileheight="32">
+  <image source="../drawable/mushroom3.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="556" name="large_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_green.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="565" name="daisy_blue" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_blue.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="573" name="daisy_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_red.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="581" name="daisy_white" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_white.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="589" name="daisy_yellow" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_yellow.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="597" name="stone_edge_beds" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_edge_beds.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="621" name="human_evil" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_evil.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="637" name="animal" tilewidth="32" tileheight="32">
+  <image source="../drawable/animal.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="669" name="tall_grass" tilewidth="32" tileheight="32">
+  <image source="../drawable/tall_grass.png" width="160" height="96"/>
+ </tileset>
+ <tileset firstgid="684" name="logic/creature/reptile" tilewidth="32" tileheight="32">
+  <image source="../drawable/reptile.png" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="691" name="logic/creature/fowl" tilewidth="32" tileheight="32">
+  <image source="../drawable/fowl.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="697" name="stone_well" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_well.png" width="64" height="96"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1UEKACAIBVFB/v2v3L5FlJAazeItY6QI3cwcAPAkTar70TkiZ7XhRl+HqvtKevOs/uq+svoZf+LVfucZfup32w/sa6CPAZvyDN0=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrVV0tuwjAQtSPoFcoGttADtfehJ6CsrCwIzSJNWdGci7KmWdVIGSmy5uNxU0RGeiJCk3nPz594jBlHPGX3oePD451BpXyvUnKXHp8M9kFN4C2Z/BgtwH3w+GJQBzWB98DkY1pCAHcjeHQMagJvw+RjWkLEcGM1G8X8HhlfGzPOuJd9K8UqM6ONk8d3h7OQ+2yNebHD8l96zzMbp4Mbx1n5ziMynhQd13H8eLQKrSF3uI6uOmI1THzu1OPB6jyXQqPBKLTOO52LTjdgjuinPF373FebrgHza4JoaG+8Jy83mIPY+Yn1YEf8Xyi5lxmugfJglzjGImEeQg9c97vxeGOwJb5pReQ8gCctMXYn1Mn/4AN4sGDOFhfhNeWHpEM61zbIGpC+U/lAa9UI986KONdzYs2naKgV9/k+x3aA/SHdO2umRyiE9SCt21htfX8c0VeV/8Qf+uOQ+tAfUD2Ttrfk+jCH1Kf6g5zQ1Y9fEtulTg==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAfuArE12hgrj4TA4MRE2F1d4H4HpqYBFCfJBPDgAJs7pcB8mUpcNdTRgaGZ0D8nJE8/QpAuxUHOFxGAeVABxiHukCsN4BxaQC025BK9puRYY4xUI8JDn1uFLjrODBvnQDik0B8ish8Rmm+BgE/qP7zQDsvAPFFIL7EOPzydS7QT3mMo3mYWvXfUAXk5DNK6z9kQE4+ozfwYyIubVAzXEbBwAJatadBQAqYZqSZSG9PUwvIAe2WZxpZ5Rw9gNsgDL+5QDfNA+L5VHAbqeWbHdDORUC8GIiXMNEnb6GD5UB7VwDxSiby8hYl4QcAZAUxGg==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtl8dSwlAUhm94CH0RRWygiGKlrnQGhmZ/GfBFLBvLRuA9QNqD+LlwxsIktyXZ5J/5NrmnzT1zchIh/ivhCLEKa7DuCG0N8B16+C/EhFiM/X62hc82pGFHM/8HfiMYa/jv43MAh3CkmX+C3xRmGv4FfIpQgrLB/ZvolLxnIeWOJKd7+vMAj/Ak0aslbJYhDisWevtMjBd4hTeJeBvYbEISUhL2FWyqLnbvnHWhB32JeBlsdmEPsh72Nc7r0ICmpTk4Js4J5CDvEbPF+TlcwGUIc3hFzmu4gVsnmjOVOVPZf37Mmen+M50zr/1n616C/i6wIbd7aUNnDnc+1/Sd101+1dU23FN+3I3qnrJdg8qe+tkfW3Wo7Kkg+qGqsGv4er91Qqrj7/st6BpM/nsiBa9PEilODg==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlG0OQFAMBNvGt3BXBEFwU2exh8AmspPM73mvaWomhBBCfE/nZj0cnNMf0Z3gTOov6K5wI/V3dA94unZRCCGe4HrxnnqYRXD+laCbwgzmhDcUaJawgjVpBg26bfxjT29otwb+
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtljEOACAIA+n/P+3uBFoEYkk64hGBFJgZJGmIPBHNY7L3N+0w74ateBMdehRlT5onzf4/O5SxZ9Ashv6F5X0sz2N7MpvNqAHFNVTcZ5l8NOCjAd9bR/XNLn4tfwFOHgHM
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="south" type="mapchange" id="1" x="800" y="992" width="224" height="32">
+   <properties>
+    <property name="map" value="0_deniran_forest_n2_x3_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="2" x="0" y="192" width="32" height="352">
+   <properties>
+    <property name="map" value="0_deniran_forest_n2_x2_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="3" x="0" y="576" width="32" height="128">
+   <properties>
+    <property name="map" value="0_deniran_forest_n2_x2_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="4" x="992" y="160" width="32" height="864">
+   <properties>
+    <property name="map" value="0_deniran_forest_n2_e_x0_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

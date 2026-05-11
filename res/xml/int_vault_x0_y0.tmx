@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="9" height="10" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="brick wall" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="13" name="doorway" tilewidth="32" tileheight="32">
+  <image source="../drawable/bricks_ns.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="25" name="brick wall, lower part" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_thin_bricks.png" width="64" height="192"/>
+ </tileset>
+ <tileset firstgid="37" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="38" name="tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tan.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="42" name="wastebin" tilewidth="32" tileheight="32">
+  <image source="../drawable/wastebin.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="45" name="stool" tilewidth="32" tileheight="32">
+  <image source="../drawable/stool.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="46" name="big table" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rectangular.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="55" name="lamps" tilewidth="32" tileheight="32">
+  <image source="../drawable/lights_candle.png" width="192" height="224"/>
+ </tileset>
+ <layer id="1" name="Ground" width="9" height="10">
+  <data encoding="base64" compression="zlib">
+   eNpTZ2BgUB/FNMcAwVMNtw==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="9" height="10">
+  <data encoding="base64" compression="zlib">
+   eNrjZGBgYMODuYCYA4glgVgFC5YCYnaoGiUg1gNiAwYIgLEV0dQYArExVA2Mja4GG0BXo00lNYTskgZiZTR5EF8GqoYbiFmhGBnAxHiAGACvtAWx
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="9" height="10">
+  <data encoding="base64" compression="zlib">
+   eNpjYCAPuAOxBwE1vkDsx0A7oEWEGl0q2scLxHxAzI9HjQAQCwKxEJo4AIxvAd8=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="9" height="10">
+  <data encoding="base64" compression="zlib">
+   eNpjYBi6QGcIuRUAHvgALQ==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="9" height="10">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgF9AAAAWgAAQ==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="9" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpTZWBgUKUBZqBQDTZAjhpVKppDrL+wYQBdWQnV
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents"/>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

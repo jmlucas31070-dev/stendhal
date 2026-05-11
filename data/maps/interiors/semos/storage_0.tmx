@@ -140,4 +140,18 @@ mgAIAAA=
    H4sIAAAAAAAAAHvNwMDwehSP4lE8ikfxKB7FIwoDAOcbgJwACAAA
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="288" y="448" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_semos_city_x1_y0"/>
+    <property name="place" value="storage_entrance"/>
+   </properties>
+  </object>
+  <object name="downstairs" type="mapchange" id="2" x="512" y="64" width="32" height="32">
+   <properties>
+    <property name="map"   value="int_semos_storage_-1_x0_y0"/>
+    <property name="place" value="upstairs"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

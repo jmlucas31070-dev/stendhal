@@ -175,4 +175,30 @@ kVmrskeXOACiB13wABkAAA==
    H4sIAAAAAAAAAO3DAQkAAAwDoL3k+kdZj6NgL6mqqqqqquqjA2q0HBkAGQAA
   </data>
  </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance_left" type="mapchange_exit" id="1" x="512" y="960" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_fado_city_x1_y0"/>
+    <property name="place" value="tavern_entrance_left"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="64" width="32" height="896">
+   <properties>
+    <property name="map"   value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="entrance_right" type="mapchange_exit" id="3" x="1312" y="960" width="32" height="32">
+   <properties>
+    <property name="map"   value="0_fado_city_x1_y0"/>
+    <property name="place" value="tavern_entrance_right"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="4" x="1024" y="352" width="32" height="64">
+   <properties>
+    <property name="map"   value="int_ados_magician_house_x0_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

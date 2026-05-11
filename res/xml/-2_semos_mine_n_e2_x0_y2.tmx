@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground/brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="ground/rock/rocks_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/rocks_2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="10" name="plant/bush/large_brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/large_brown.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="19" name="building/wall/wall_brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/wall_brown.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="31" name="furniture/light/torch_top" tilewidth="32" tileheight="32">
+  <image source="../drawable/torch_top.png" width="32" height="128"/>
+ </tileset>
+ <tileset firstgid="35" name="building/castle" tilewidth="32" tileheight="32">
+  <image source="../drawable/castle.png" width="640" height="512"/>
+ </tileset>
+ <tileset firstgid="355" name="building/door/door_n" tilewidth="32" tileheight="32">
+  <image source="../drawable/door_n.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="361" name="building/roof/yellow" tilewidth="32" tileheight="32">
+  <image source="../drawable/yellow.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="381" name="object/arrows" tilewidth="32" tileheight="32">
+  <image source="../drawable/arrows.png" width="64" height="160"/>
+ </tileset>
+ <tileset firstgid="391" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="415" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="416" name="logic/creature/human_soldier" tilewidth="32" tileheight="32">
+  <image source="../drawable/human_soldier.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="432" name="ground/rock/rock_cluster" tilewidth="32" tileheight="32">
+  <image source="../drawable/rock_cluster.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="438" name="ground/rock/rubble" tilewidth="32" tileheight="32">
+  <image source="../drawable/rubble.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="447" name="building/wall/int_clay" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_clay.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="547" name="ground/scratches" tilewidth="32" tileheight="32">
+  <image source="../drawable/scratches.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="552" name="building/door/door_s" tilewidth="32" tileheight="32">
+  <image source="../drawable/door_s.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="558" name="building/door/door_e" tilewidth="32" tileheight="32">
+  <image source="../drawable/door_e.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="564" name="building/door/door_w" tilewidth="32" tileheight="32">
+  <image source="../drawable/door_w.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="570" name="object/mine_carts" tilewidth="32" tileheight="32">
+  <image source="../drawable/mine_carts.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="578" name="item/pot/wooden_bins" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_bins.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="582" name="item/pot/pot_tall" tilewidth="32" tileheight="32">
+  <image source="../drawable/pot_tall.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="584" name="int_sandstone" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_sandstone.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="599" name="object/mine_rails_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/mine_rails_2.png" width="256" height="256"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtzTENAAAIA7AFKwT/FhGyHr27kywAUOP8fr+/9Id2D+i/lBU=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrdlrFuAjEMhsk9ERsvQFW4g9KcDjEyUligXVr6Gn0nZmZmZmZGfBKINGDH9pkOtfRLOemS77ed5C7PWq080gj0qtTLnfUwlQh7DKqjm11FRfhOJfBREmxsfW5UDA/lnecwZvD8BpowNQctgjW8gv8czF/CeCXI+x3e/TDkT4U1j+ekepCq/xTZC3E8EZ69IZ/agxcPj+RL66/hW/b/wsfiEfyfaE6bWKPzR/Xn5j8A9Q3r34NxEa2Ruv/DGnzC+Etw/61B39lvdk7w947mayNkU/yDu/1+jhn8+qzHqpnDs4ooJ4x/dLKchoQK4pxT/eeGF/xX/Ed+Jfy3suY38WDF13qw5Gs8WPOlHig+dp77mZ0HjL9x+JyBoQeMv3X0PK4Hr+TvXLp2HA++Qf85+yflIdWDpnyOB684S6XwHqE8tBX8juIuxTxo8z8BBlq0Dg==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFQxk4MDEwODKNhsMoGAXYgB6evGFKo3wzBWhuOBLGBSrpkG+N8NhhOcTLDTug++0p8EPQAPt/pNs/CkbBKBi5YLT8HU0D9Gjn0ar9lw7Un0FEOw8XyKTQ/nyg/gImwu08fO0/AMd4CZo=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYMANnJgQmIEIdbQCtDafEmADdJctFd3mNsD+dBuk4YycFtCBM9PA2U1vNwz3+KeF/V5M2DG9wHC13wpohjUTafYPBKC2/aC8jo5Hkv9H7R+1f9T+UftH7R+1fzDZj6udQ6/211C0HwAppSWK
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjILhC/SZMMVMmOhnvyEWu8zoaL8xFrssmEbTxSgYBaNgFIyCUTAKhmc7DxegRfvPkAQzadH+MybBTFj7DwAOCgKD
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtl1EKgDAMQ+f9D7Grir9CNW0Su4GFfajYl1Vc03mMMRdcV9yvo4jeYdhRfjRUbJTTqaG7Bko+khO5V9WQZb8966q98xvsxM/qc+XP1MKxNwc/c/Z9uX+kn7FnENtPq7VW9fOfvxef1aDgs55C9a9386t93eGFnHylBqcfdfPR+cfJZz2uazZDNaj4K/jTpxk1u07PSXKw
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="south" type="mapchange" id="1" x="448" y="992" width="128" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_n_e2_x0_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="2" x="0" y="512" width="32" height="256">
+   <properties>
+    <property name="map" value="-2_semos_mine_ne_x3_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_n_e2_x1_y2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="4" x="992" y="960" width="32" height="32">
+   <properties>
+    <property name="map" value="-2_semos_mine_n_e2_x1_y2"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

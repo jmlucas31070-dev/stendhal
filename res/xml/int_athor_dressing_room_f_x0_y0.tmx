@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="carpets_2.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpets_2.png" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="21" name="int_wall_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_pale.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="37" name="int_wall_purple.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_wall_purple.png" width="64" height="320"/>
+ </tileset>
+ <tileset firstgid="57" name="pale_red_ew.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_red_ew.png" width="256" height="192"/>
+ </tileset>
+ <tileset firstgid="105" name="pale_red_ns.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_red_ns.png" width="288" height="128"/>
+ </tileset>
+ <tileset firstgid="141" name="pale_book_bottle_shelf.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pale_book_bottle_shelf.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="153" name="grey_pale.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_pale.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="161" name="bright_bookshelf_and_cupboard.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/bright_bookshelf_and_cupboard.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="167" name="small_tree.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_tree.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="171" name="drawer_with_mirror.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/drawer_with_mirror.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="173" name="stick.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/stick.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="175" name="dark_bottle_shelf.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_bottle_shelf.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="181" name="book.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/book.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="185" name="detail_ew.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/detail_ew.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="191" name="collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNrjYGBg4BjFo3gUj0gMABTwCAE=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNqd0TkOwjAUhGFfgqUhRKICQqBDLA1Lw3KRQAfcBChBHJU/Uiws69l54klfM/EU0aTGmKani1SZtTFBVhmj5eV12cD8ri/k2qy8GeZYYBnJQv0V1thgG8lC/R32OOAYydx+jmFlVPOvufcuQcPTCfQT4V0a2N/v9/DEA3fl/rY/db5nf+xv7614J21t76PoS1vbeyn60tbSafYv8wInnJ03mv1tfsEVt8C7L/YAI4E=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYKAOWAzEq0lQiw6WAfEaLOLLsYgtZRh8AOTOdUSqXccwNMF6IN4AxBuxyK3GEa/IYBMQbwbiLVjk1kDTAK6wBeHtgzhscMX/8kEepwCbHBFd
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBh+YCcQ7yJCDB2shdK7gXgPmhyy2FqGUTDU4p8YgC/+hysAAA6zCsY=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFo2AUjFQAAAQAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="16" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrbz8DAsH8YYBjAJk6sGCmAFHdR6q9R/cTFM6F4JVYdvjhnIMNPlKQfaoQhPgwA5nubMQ==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="out" type="mapchange_exit" id="1" x="288" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="0_athor_island_x2_y1"/>
+    <property name="place" value="dressing_room_f_entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="2" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="123" name="floor_tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="132" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="156" name="wooden_with_candles" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_with_candles.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="168" name="sofa_brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/sofa_brown.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="174" name="wooden_rustic" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rustic.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="182" name="single_purple_gold" tilewidth="32" tileheight="32">
+  <image source="../drawable/single_purple_gold.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="191" name="purple_drapes" tilewidth="32" tileheight="32">
+  <image source="../drawable/purple_drapes.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="200" name="stove" tilewidth="32" tileheight="32">
+  <image source="../drawable/stove.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="206" name="warmer_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/warmer_2.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="212" name="lights_candle" tilewidth="32" tileheight="32">
+  <image source="../drawable/lights_candle.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="254" name="drawer_without_runner" tilewidth="32" tileheight="32">
+  <image source="../drawable/drawer_without_runner.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="260" name="piano" tilewidth="32" tileheight="32">
+  <image source="../drawable/piano.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="264" name="wardrobe_lateral" tilewidth="32" tileheight="32">
+  <image source="../drawable/wardrobe_lateral.png" width="64" height="128"/>
+ </tileset>
+ <layer id="1" name="Ground" width="2" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYEAFzYMMAwBUIxJt
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="2" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYEAFHEDMCcTCQCwCxE5A7ExHOhuIc4C4DIjLgRgASf4JQw==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="2" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBjcAAAAoAAB
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="2" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBjcAAAAoAAB
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="2" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBjcAAAAoAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="2" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpjZGBgYBzEGAANcAAp
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents"/>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

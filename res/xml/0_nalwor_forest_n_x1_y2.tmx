@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground/ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="34" name="plant/grasses" tilewidth="32" tileheight="32">
+  <image source="../drawable/grasses.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="40" name="plant/flower/daisy_yellow" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_yellow.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="48" name="plant/bush/bushes" tilewidth="32" tileheight="32">
+  <image source="../drawable/bushes.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="58" name="plant/flower/daisy_white" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_white.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="66" name="plant/tree/tree_darkgreen" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_darkgreen.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="154" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="155" name="ground/ground_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground_3.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="160" name="ground/dry_grass" tilewidth="32" tileheight="32">
+  <image source="../drawable/dry_grass.png" width="288" height="192"/>
+ </tileset>
+ <tileset firstgid="214" name="ground/pothole" tilewidth="32" tileheight="32">
+  <image source="../drawable/pothole.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="218" name="building/fence/palisade" tilewidth="32" tileheight="32">
+  <image source="../drawable/palisade.png" width="192" height="448"/>
+ </tileset>
+ <tileset firstgid="302" name="ground/dirt_mounds" tilewidth="32" tileheight="32">
+  <image source="../drawable/dirt_mounds.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="311" name="furniture/table/square_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/square_pale.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="312" name="logic/training_dummy" tilewidth="32" tileheight="32">
+  <image source="../drawable/training_dummy.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="314" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="338" name="furniture/table/stone_desk" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_desk.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="354" name="item/armor/weapons_for_walls" tilewidth="32" tileheight="32">
+  <image source="../drawable/weapons_for_walls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="370" name="item/bullseye" tilewidth="32" tileheight="32">
+  <image source="../drawable/bullseye.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="371" name="item/chest/chest_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_2.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="377" name="item/weapon/hanging_bows" tilewidth="32" tileheight="32">
+  <image source="../drawable/hanging_bows.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="383" name="item/weapon/box_of_weapons" tilewidth="32" tileheight="32">
+  <image source="../drawable/box_of_weapons.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="385" name="item/ropes" tilewidth="32" tileheight="32">
+  <image source="../drawable/ropes.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="389" name="logic/protection" tilewidth="32" tileheight="32">
+  <image source="../drawable/protection.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="391" name="logic/item/sign" tilewidth="32" tileheight="32">
+  <image source="../drawable/sign.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="392" name="building/dojo" tilewidth="32" tileheight="32">
+  <image source="../drawable/dojo.png" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="432" name="furniture/table/grey_long" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_long.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="436" name="item/tools" tilewidth="32" tileheight="32">
+  <image source="../drawable/tools.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="445" name="logic/area" tilewidth="32" tileheight="32">
+  <image source="../drawable/area.png" width="64" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1jESABAMRNF1+3AHV8qZOAAzGsL4xat/kWJjSbKJ3FVJvpHRp08/rF/S3Il+XeAAAOAZ0Tse/Vvc3P/t/k5/qAE2Jxlh
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYMAPzjAMLBgM9seOcP+Phv/wtf8hED8C4sc42LQO/ysE8FWGURA7GgQjJvw3Mg6sXwej/fQM/82Mo+l9tPyhTpjFAXE8ECcAceIAhH8aEKcDccYAhcFBID4ExYcHwP5TSOwDSG5BxvSyHxmcRGrf0Mv+kwPQpjqFZPfVAYz/gWrDE2M/rHwYKPsBct02Aw==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYMAPpBkhdBoQpwNxBgN9gSgjKj+czvaD/B8LpOOAOB5qf+IA+H+gwl96gMNfFEv4hw+A/wcq/NEBvcP/CQNt0/9zIH4BxC9xsF8xjOzwZ2AY2PKHYTT86Rr+exgHf/iHj6b/ER3+4SM4/PGBOiLV1NHQ/jpoPCUg5RPk+KOl/Rl44oke8UeM30bDf2DTPy3LD2LCn5b2D3T4k9OGAgB2fz2R
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlMkKwjAURfNtDnW2dWyrrtRV1aVLv9QBHD7Eu+iDRyA0JK90k8Ahd2GgnHd9SlWfCZiCGCTgAPblffTMNmcF1iAFGTiBorzPntnmdEEEeqAPtqAF2qDjmZWj/yEYgbFndvU/Bwuw9Myu/jflvfPMd/AATy3T/aq5/2/wAV9D/oX+h/7X2H8V9n/of+h/6H8N/efOmug/d9ZE/3P23vQbchpVZJs+628HhvldmH+JDlNOtDnNDPO7Mv8SHaacaXPKDfO7Mf8SO5yyi3+JHU7Zxb/EDqfs4p++SWKf2/inQ2/pm7gfqWzyH2v7X/cjlU3+U/bf+QNEKxwW
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFpIDc0SAYDf/R8B8Fo+E/Gv6jYDT8BylwBWI3IHYHYg8g9qRz+Psi2QlySyCd/R+KZCfILZGDPK4IsckBniSK0wsEDrD9A50WBlP4w8qHgQ5/5LKKWmxsAKYGvawaqQAAMwgREg==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1kEKAFAERdG3/yVYrekf/SQvA1fJ8KAU6R/xVEcKHx9/za/2uDW/8PEP+YF/2uf+8Kf8yv/g9t37w8fH7/sJbfHOqg==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="256" height="32">
+   <properties>
+    <property name="map" value="0_nalwor_forest_n_x1_y1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="2" x="288" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="0_nalwor_forest_n_x1_y1"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="3" x="736" y="992" width="96" height="32">
+   <properties>
+    <property name="map" value="0_nalwor_forest_n_x1_y3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="4" x="0" y="0" width="32" height="256">
+   <properties>
+    <property name="map" value="0_nalwor_forest_n_x0_y2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="5" x="0" y="288" width="32" height="512">
+   <properties>
+    <property name="map" value="0_nalwor_forest_n_x0_y2"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

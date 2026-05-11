@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="35" name="earth_pale" tilewidth="32" tileheight="32">
+  <image source="../drawable/earth_pale.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="131" name="earth_dark" tilewidth="32" tileheight="32">
+  <image source="../drawable/earth_dark.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="227" name="desert" tilewidth="32" tileheight="32">
+  <image source="../drawable/desert.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="315" name="tree_darkgreen" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_darkgreen.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="403" name="sand_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/sand_2.png" width="160" height="96"/>
+ </tileset>
+ <tileset firstgid="418" name="cactus_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/cactus_2.png" width="160" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt1zEOACAIQ1ESCvc/spOLizEkgtLhz68LAy4iHgiH6ZI/7kc3ZPj4zHf69BPv7yVf6af5Sr+cbwV8u+DrxrcCfmQH/b4+Gvto7OND/9bfOxte+ROH
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrllrsRwkAMRM8tQY5znENIA9TAJzGQQg45FEEDFMU6c2DmVj+Oz81spvFb6STrUtKfCVQHxn86fwmNoHFQfERO3h40NfW8B00+v9aH38RfQFOoKcTvYmfQvAA/IncJPyJ3Kb9O/of5blTtWf6r2p/eyB+KuRTmHx1qYOE/HDzk+Lnes3rI8Zm5t3hg+Mzcaz148btzVszEP/OZ/2okn+ntKD67U/r8VZXSGtpA28rGZ/d5n9+CuYP20MHAl+zTiPpL3jLefOlbguXfoSt0c8w95/UJw/VDqA==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtzbkRACAMxMBz4zwJhq65KuxEO6NYUq0R0nTL7VC542e6617DHwAAAACADh9Z6QQl
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0rcNADEQA8G7ZmUSmUSm+2cVEqDfATZmQjMAAAAArwpuFlVS2c/vF21W1VS/sD+0OdVS2/kD/u0DmoIFRw==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrt1kEOgEAIQ9H++1/auHNntI5FgYQdyeuEWSB5xY35Y2v8aIaEr5/5zg46+jT2GT/mM/6yDF/1pXfugLO3E/bdDDy0e8K+c0909SngK+RTwFfIp4CvkM8i/8p/cu29Nzv/AM0=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="512" height="32">
+   <properties>
+    <property name="map" value="0_kalavan_castle_w_x1_y3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="2" x="544" y="0" width="352" height="32">
+   <properties>
+    <property name="map" value="0_kalavan_castle_w_x1_y3"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="3" x="0" y="992" width="128" height="32">
+   <properties>
+    <property name="map" value="0_sikhw_desert_s2_e_x3_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" id="4" x="192" y="992" width="256" height="32">
+   <properties>
+    <property name="map" value="0_sikhw_desert_s2_e_x3_y1"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="south3" type="mapchange" id="5" x="480" y="992" width="320" height="32">
+   <properties>
+    <property name="map" value="0_sikhw_desert_s2_e_x3_y1"/>
+    <property name="place" value="north3"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="6" x="0" y="0" width="32" height="512">
+   <properties>
+    <property name="map" value="0_sikhw_desert_s2_e_x2_y0"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="7" x="0" y="576" width="32" height="448">
+   <properties>
+    <property name="map" value="0_sikhw_desert_s2_e_x2_y0"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

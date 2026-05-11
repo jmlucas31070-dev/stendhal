@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="wallpapers" tilewidth="32" tileheight="32">
+  <image source="../drawable/wallpapers.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="26" name="wood_trim" tilewidth="32" tileheight="32">
+  <image source="../drawable/wood_trim.png" width="320" height="160"/>
+ </tileset>
+ <tileset firstgid="76" name="floor_tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="85" name="int_windows_wood_centered" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_windows_wood_centered.png" width="320" height="96"/>
+ </tileset>
+ <tileset firstgid="115" name="towels" tilewidth="32" tileheight="32">
+  <image source="../drawable/towels.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="139" name="mannequins" tilewidth="32" tileheight="32">
+  <image source="../drawable/mannequins.png" width="224" height="128"/>
+ </tileset>
+ <tileset firstgid="167" name="oriental_screen" tilewidth="32" tileheight="32">
+  <image source="../drawable/oriental_screen.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="175" name="vendors_table" tilewidth="32" tileheight="32">
+  <image source="../drawable/vendors_table.png" width="224" height="160"/>
+ </tileset>
+ <tileset firstgid="210" name="wooden_rustic" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_rustic.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="218" name="rug_border" tilewidth="32" tileheight="32">
+  <image source="../drawable/rug_border.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="227" name="dress" tilewidth="32" tileheight="32">
+  <image source="../drawable/dress.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="228" name="red_hat" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_hat.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="229" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNoTYWBgEKEAS1KoH4T5ycTI9lNiBogOIBFjsz+ADDxq/6j9lNgvMoD2o2N62k8tPGr/qP3E2O+DB4/aP/TjnxQcQEF7A1v7g1QcQIU2FwwDAO01mM0=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNq1lskKwjAURfMndVhpdaXoStFvdNw6gm7ULpzAaeEnuHDC4Uu8YgqhpGkmLxxoQpqbl7w84hBCYiCuSAIkyU+O5hxfUiANXEUyIEv9dedw6b95oq4C489+q4r19yLGen/2X4GjgLVF/xEYB/z3YCvgoOBfC/FtC+LX3Tcb+3/SyL8ivUM5Zi0TMAUzRf9zxLhuoF0BVXqHSqBM++dgAZZ/jj9MG5orO8GYuiD+HrGrhkH8fYn5O5rr8vNE9vxty88T2+cfpWYgT3jxDzj/XcCVw03g1VKsIyLdQ/ofhvsh6/8ELw5vA++hQf21JbaOykI030ts238vsXVUFqL51uHxAQv/VWE=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYMAN4hkoA/FkmnsZSmei8YkByGpx6c8kYMZ1AnxS9JKi/wnDwAJC9j9mGAWDHTQAcT0QlwyQ/RVA3AKliQGhQBw2Gm0Dlk4YBjidjIJRMBgBrjaKDJSWo6DNRIwaXG0UNSitQaI+XGoAZ5cUGQ==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFIxEsB+IVNDS/B4f4xNGgJwvMHkZ+6cUjN4fKdvVRoHcuEWpmjSZNkkA/EWrmUcmuCaPBjRfMHw2CEQ8ADHcIUg==
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNrtwQEBAAAAgiD/r25IQAEA8GQKAAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlkEKwEAIA/P/f84/eu+hRDZWKRW8qaMRQSTxe9kSNXTLxYjt5rs6nfK79cfQUMv2n+BX+3FjGeYnjQc+jazq/ATqd91fQpcJvnP/vLR7Deq/gc+i+au/wlf+ngsfocza
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="416" y="576" width="32" height="32">
+   <properties>
+    <property name="map" value="0_deniran_city_e_x3_y1"/>
+    <property name="place" value="deniran_dress_shop_entrance"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="64" width="32" height="64">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="3" x="992" y="160" width="32" height="192">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east3" type="mapchange" id="4" x="992" y="416" width="32" height="96">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+  <object name="east4" type="mapchange" id="5" x="992" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

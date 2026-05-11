@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="30" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="floor_tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="10" name="tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/tiles.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="18" name="stone_floors" tilewidth="32" tileheight="32">
+  <image source="../drawable/stone_floors.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="24" name="int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="145" name="wooden_dark" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_dark.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="146" name="chest_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_2.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="152" name="vendors_table" tilewidth="32" tileheight="32">
+  <image source="../drawable/vendors_table.png" width="224" height="160"/>
+ </tileset>
+ <tileset firstgid="187" name="wooden" tilewidth="32" tileheight="32">
+  <image source="../drawable/chair_wooden.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="192" name="drain" tilewidth="32" tileheight="32">
+  <image source="../drawable/drain.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="196" name="oriental_screen" tilewidth="32" tileheight="32">
+  <image source="../drawable/oriental_screen.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="204" name="toilet" tilewidth="32" tileheight="32">
+  <image source="../drawable/toilet.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="216" name="basin" tilewidth="32" tileheight="32">
+  <image source="../drawable/basin.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="219" name="barrel" tilewidth="32" tileheight="32">
+  <image source="../drawable/barrel.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="221" name="towels" tilewidth="32" tileheight="32">
+  <image source="../drawable/towels.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="245" name="bench" tilewidth="32" tileheight="32">
+  <image source="../drawable/bench.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="248" name="small" tilewidth="32" tileheight="32">
+  <image source="../drawable/small.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="251" name="book" tilewidth="32" tileheight="32">
+  <image source="../drawable/book.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="255" name="woden_trestle" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_trestle.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="264" name="throne_small" tilewidth="32" tileheight="32">
+  <image source="../drawable/throne_small.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="266" name="bottle_and_glass" tilewidth="32" tileheight="32">
+  <image source="../drawable/bottle_and_glass.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="274" name="red_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_purple.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="283" name="red_gold_gathered" tilewidth="32" tileheight="32">
+  <image source="../drawable/red_gold_gathered.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="289" name="archway" tilewidth="32" tileheight="32">
+  <image source="../drawable/archway.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="298" name="grey_stone" tilewidth="32" tileheight="32">
+  <image source="../drawable/grey_stone.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="302" name="dark_torch" tilewidth="32" tileheight="32">
+  <image source="../drawable/dark_torch.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="310" name="tools" tilewidth="32" tileheight="32">
+  <image source="../drawable/tools.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="319" name="bottles_and_cups" tilewidth="32" tileheight="32">
+  <image source="../drawable/bottles_and_cups.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="335" name="trousers" tilewidth="32" tileheight="32">
+  <image source="../drawable/trousers.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="336" name="toys" tilewidth="32" tileheight="32">
+  <image source="../drawable/toys.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="346" name="laundry" tilewidth="32" tileheight="32">
+  <image source="../drawable/laundry.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="362" name="blankets" tilewidth="32" tileheight="32">
+  <image source="../drawable/blankets.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="374" name="mannequins" tilewidth="32" tileheight="32">
+  <image source="../drawable/mannequins.png" width="224" height="128"/>
+ </tileset>
+ <tileset firstgid="402" name="box_of_weapons" tilewidth="32" tileheight="32">
+  <image source="../drawable/box_of_weapons.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="404" name="spears" tilewidth="32" tileheight="32">
+  <image source="../drawable/spears.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="407" name="wooden_bow" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_bow.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="408" name="swords" tilewidth="32" tileheight="32">
+  <image source="../drawable/swords.png" width="32" height="320"/>
+ </tileset>
+ <tileset firstgid="418" name="longbow" tilewidth="32" tileheight="32">
+  <image source="../drawable/longbow.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="419" name="steel_arrow" tilewidth="32" tileheight="32">
+  <image source="../drawable/steel_arrow.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="420" name="sword_rack" tilewidth="32" tileheight="32">
+  <image source="../drawable/sword_rack.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="424" name="weapons_for_walls" tilewidth="32" tileheight="32">
+  <image source="../drawable/weapons_for_walls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="440" name="suit_of_armor2" tilewidth="32" tileheight="32">
+  <image source="../drawable/suit_of_armor2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="444" name="banners" tilewidth="32" tileheight="32">
+  <image source="../drawable/banners.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="450" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="451" name="portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="475" name="single_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/single_grey.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="484" name="double_white_pink" tilewidth="32" tileheight="32">
+  <image source="../drawable/double_white_pink.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="502" name="white counter top" tilewidth="32" tileheight="32">
+  <image source="../drawable/white_counter_top.png" width="160" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="30">
+  <data encoding="base64" compression="zlib">
+   eNrt1bEKwCAMRdF0KBZH8/8/2smhFUQMkiZWhzfcRcQzGJSJiBd3H08X9Sv7grFyTqpikl34vn5obPiYv/odaL1ZSX5v7Q8/LQy+PA9f79VrHrXFNw8/DtLuO4Xgw4e/n+/xrkhpfe9/Gf/fXr7l/qyzkQHsBzey
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="30">
+  <data encoding="base64" compression="zlib">
+   eNqTZmBgkCWA5YFYmgh15JjjD8Q/GBkYfgIxLhAJVUcpwGYOiP8BaPfHAbSfHH3kAFMgNsRjfzkQd2PBvVSyHxvwR3MftnQTSSf7aR3+pNp/AIgPUtF+UPwWk2D/ISA+TOP03wlNY8V40mEvkjpKMLZ0DCuPDIlIh9TAhmSkP1qCUfsx8wg5aauYTDP8seQRYupa9LoUV/olVHf7k1nWUUsdPe0XAtbxwmiYnvaLAu0TQ8PE2D8XiOdRQR259g+E/+8wDp7wp5b9EkD7JNHwYMx/nUSUa8TWyb14zMNmvyme+pIa9TLIPHVo2tJkHK3/Btp+Utt1xXjatuTU2wDaM3V5
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="30">
+  <data encoding="base64" compression="zlib">
+   eNpjYCAeZDMyMGQxEqd2MhBPQaLN0fTtQ+LfguKjQHwWiI8A8Tko/wySnjygnlwi7H8ExNOAeDoSbYWm7wAWc44D8QUgPgbEF6H882hq0nDYn4Emfg+P+3YxotLUAAl4zGqmoj2kgh4y7X4IxA+wiCfhMC+FSn78CsTfkfh3GEYeOI7D36A05s+IP62BQA5QvhiIS6EYBGoZGUbBKBgFJABY3QkCP9D4uNQx4FFnSEIevMOIqDthAMa/w0i6OhjQJdIN9xmJkyNWnQ6aOg4C7njESJwcseomoslxErB/EpTeD8TzgXghEO9GkyNFHTJgAtrNDMQseNwwFY+5U8lQhwxYgfayATE7HvsDkOSWAfEKtLSJjY1PHamAnPS3jwQzCLZhqZz+TAdh/aswQG6SZxxY+0fB4AEAn81Wyg==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="30">
+  <data encoding="base64" compression="zlib">
+   eNpjYBh5YAcjKk0qSGfExPhADePA+bWVcfjFXzIjJqYmuDvA/jtKBTMKgGFSBMUgUMbIMApGwSgY4UB7gMoBLRLtfcBInByx6gYT+A8igG5jHCD3cQHt/Q2k/9DA7L/DJJ9QO/3pD6K0qAh0ixIQKw+Qm1SA9qoCsdpom2QUDDAAAPlRFk0=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="30">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFpIJMRgRORKJHAX1ALCMEp0Jx7GjYj4JRMApGwSgYBaNgFAxqIAttr8mNtttGwQADAEfeBJA=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtV0EOwCAIc///lS/zaozQoiAukWRZVLSABbb6lVJ/8rAi7Z2d0497vfE9zs0wtfFol2SP5g/SQWuM/x7xZ+1awWfjv2OfZFOEeN2/JS9Ynmq8teSfFsfZ/Mk6cgN+pjx83Dus9+rFx1vwrf0BrTHx96qJKO+YesDUt1U9Sz1C56K6zdh1Aj/b/wz+7fifxb+ovpiNb/3+fv03Ft/jP3CVBw3J6jtq
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="door1" type="mapchange" id="1" x="416" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="int_constantines_villa_entrance_x0_y0"/>
+    <property name="place" value="barracks1"/>
+   </properties>
+  </object>
+  <object name="door2" type="mapchange" id="2" x="448" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="int_constantines_villa_entrance_x0_y0"/>
+    <property name="place" value="barracks2"/>
+   </properties>
+  </object>
+  <object name="door3" type="mapchange" id="3" x="480" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="int_constantines_villa_entrance_x0_y0"/>
+    <property name="place" value="barracks3"/>
+   </properties>
+  </object>
+  <object name="door4" type="mapchange" id="4" x="512" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="int_constantines_villa_entrance_x0_y0"/>
+    <property name="place" value="barracks4"/>
+   </properties>
+  </object>
+  <object name="door5" type="mapchange" id="5" x="544" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="int_constantines_villa_entrance_x0_y0"/>
+    <property name="place" value="barracks5"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="6" x="416" y="928" width="160" height="32">
+   <properties>
+    <property name="map" value="int_ados_barracks_0_x0_y1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="7" x="992" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="8" x="992" y="96" width="32" height="352">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east3" type="mapchange" id="9" x="992" y="512" width="32" height="96">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+  <object name="east4" type="mapchange" id="10" x="992" y="640" width="32" height="160">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west4"/>
+   </properties>
+  </object>
+  <object name="east5" type="mapchange" id="11" x="992" y="832" width="32" height="96">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

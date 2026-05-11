@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="26" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="castle" tilewidth="32" tileheight="32">
+  <image source="../drawable/castle.png" width="640" height="512"/>
+ </tileset>
+ <tileset firstgid="322" name="floors_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/floors_3.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="334" name="brown" tilewidth="32" tileheight="32">
+  <image source="../drawable/brown.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="339" name="wall_hanging_dkgreen" tilewidth="32" tileheight="32">
+  <image source="../drawable/wall_hanging_dkgreen.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="343" name="metal_and_stone" tilewidth="32" tileheight="32">
+  <image source="../drawable/metal_and_stone.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="349" name="swordsman" tilewidth="32" tileheight="32">
+  <image source="../drawable/swordsman.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="361" name="weapons_for_walls" tilewidth="32" tileheight="32">
+  <image source="../drawable/weapons_for_walls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="377" name="suit_of_armor2" tilewidth="32" tileheight="32">
+  <image source="../drawable/suit_of_armor2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="381" name="throne" tilewidth="32" tileheight="32">
+  <image source="../drawable/throne.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="387" name="green" tilewidth="32" tileheight="32">
+  <image source="../drawable/carpet_green.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="396" name="chests_red" tilewidth="32" tileheight="32">
+  <image source="../drawable/chests_red.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="400" name="chest_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_purple.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="402" name="wooden_trestle_vertical" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_trestle_vertical.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="408" name="lights_candle" tilewidth="32" tileheight="32">
+  <image source="../drawable/lights_candle.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="450" name="wooden_trestle" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden_trestle.png" width="96" height="96"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="26">
+  <data encoding="base64" compression="zlib">
+   eNrVln0KwyAMxfVGu4b+4zW8x7rvS8+CYyKJJtG4tfDjgY08XyrWaIyJAMGuwQOs9lvl3/J0hWr6u0qhsb02mrkExNs31qUBJf+HUwHXB5qL9Rl619NzYstcBPO9/X4Xb/lruCZumbuVZWjty57W/lr56z738mP1kJb+3JzccWl+LCd3XJr/kXhmXoScWP0/7n9K/l/vf0zrPkvzS8+/UR3NP0NHzr8Z+UOnNy249ftD/f9z7zMa9x8K0np3gPufBpx9Ntsb83kDiX4PAA==
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="26">
+  <data encoding="base64" compression="zlib">
+   eNo7yMDAcBALPsRAPXAAhx0gfB2IVRlR8WWg2H8q2v8bjz2vgdiSERU/p4H9pNjzmwb2YzOPnxEhXs2Iqv4aEF+lEr6CZn8NI6b9yEAZKC5DZazOiN//yMAcKG4AxIeA+DAQH4HyScHoeq1x2H8NT147CpQ/BsTHkfT2Adk9UH4vIwSji+PSi54nr9AgrZGaJmH0MqA7lzMOnP1rgHavpYP9MHvQ7R/o8J8CdNNUHP5PBYqnkRA26UC1GTjUw+whxX5qglH7sds/DSg2nQ72w+yB2QsqA4UZByb/g+wFtQtAdQO9878yUvvDmpH++d8cT/sDX3sNW/uQVPXEtEuwtdeQMXJ9rsyIX+1laFwjgyhG/PZja68hY+Q4M2fEr/Y5FvvR/T8BKD+RQLuI0rROrD2wPEktgMs8WPsHW3uR2vbjsgcAFEi4Ig==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="26">
+  <data encoding="base64" compression="zlib">
+   eNoTZGRgEMSCqQ0ECdgTDGSH0MBedIDLnlCgWBgd7KeXPcMBFADDKReIcxgx464ISGcCcRYQF2KRzwbSeUCcz0j9uKsF4jogrkdjUztui4FmlQJxGZqZDUB+IxA3MaKykQHI7xVAXI7HPVeA+DIe+08A9Z4E4lNk+ImQ3t9AfB2Inw9g+noNdcdAgf+DKK+tA8bTesbhYw+pYAXQTSsZB86ekRz+wqP14aADuNpruNqHpKofBaNgMAAAmNMooA==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="26">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFgwFUMtLPrirG0fAebGAWME5mMw6cPQuAYgvpYD+97MEFlgHtXk6i/bFA9XEk6IkHqk0g0Y5JQPWTcehJBIonkWBeMlBtCiPp9oyC0fw/mv9HAT1A+GgcjIJBAACHURMu
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="26">
+  <data encoding="base64" compression="zlib">
+   eNrtzQENADAIA7Dh38hxiQwe0hpoAsCmV0nXnQcAfjZG4QKn
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="26" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtllEKACAIQ7f7X7r/sEJDJ5QgCEpvSpEEwO9Sn62agymfzafBV/ev5Fs5bGbHQ+w9e1WTad34VTpU3BsdXo2ee9dl/q/z//t/d/7R/y9af9JQwe/U/yrO2D/YcP9S+gDhkQG3
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance_left" type="mapchange_exit" id="1" x="480" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="0_deniran_city_x2_y3"/>
+    <property name="place" value="deniran_castle_entrance_left"/>
+   </properties>
+  </object>
+  <object name="entrance_right" type="mapchange_exit" id="2" x="512" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="0_deniran_city_x3_y3"/>
+    <property name="place" value="deniran_castle_entrance_right"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

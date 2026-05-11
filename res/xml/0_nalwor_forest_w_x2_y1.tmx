@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="34" name="tree_darkgreen" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_darkgreen.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="122" name="tree_green" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_green.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="210" name="elf.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/elf.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="226" name="animal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/animal.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="258" name="portal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="282" name="collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="283" name="herb" tilewidth="32" tileheight="32">
+  <image source="../drawable/herb.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="288" name="mythical being" tilewidth="32" tileheight="32">
+  <image source="../drawable/mythical_being.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="312" name="small flower bed 2" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_flower_bed_2.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="324" name="small flower bed" tilewidth="32" tileheight="32">
+  <image source="../drawable/small_flower_bed.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="336" name="pointed yellow flower" tilewidth="32" tileheight="32">
+  <image source="../drawable/pointed_yellow.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="338" name="polyanthus" tilewidth="32" tileheight="32">
+  <image source="../drawable/polyanthus.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="341" name="huts" tilewidth="32" tileheight="32">
+  <image source="../drawable/huts.png" width="832" height="416"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwwEJAAAMBKHj+4dej6HgqqmqqqqvHyPACAE=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwwENAAAIA6BH0/6ltMdhI+kzfwMAAAA9DqRxAII=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNpjYBhY4AilbYHYDojtgdgBje1IJ7e4AbE7EHugsUcBcSAViNOAOJ1INRlUtj8XiPOAOJ9INQUjMI4IxQ+tAaH4Ge7hHkzD9E9MuEcPsvSPq8xHZmMDtkSooaTMJ6b8H+51BHJZTUm5Ta5e5LKaknJ7KJb5uNpFjnRK/8Sk89E20igYKECt9E+t/sJom5++7ZnR9jzuvEAKGwBK7C58
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrFlstuwjAQRfMtAVpCWwqBUmgRIGAF4bGhZNOC1P//h16rWIpGGeLHGCwd6S7seJEz4xlF/+sNDMA7GJI8isyX+k4KeqB/Jdt803RtwBZ8gE8wZrLaswN74fsP4AvMwQIsmaz2HEEufP83+AErsAYZk9WeEzgH+AcNEIMaqDO5CZIozHoBLfAEnpncAd1A95v4X6wp5eFvwUku7yucL+638f9InORy7uk85/+JOMnls6fznP9VrurcJd4qzx8uvtU9nK9yVedX4q26t2149przJr06LXkL9Hthcrbn8I5w/ZzWgmnPHzv0/DK3aS3Y+G/b88vcprVg439ZHSmHHy9+FnPC9PPQ/nOe38p/zvNQ/k/AFMxIlp55XPyXnHlc/JeceTLhmUf7XzP0n3tHfOYcG/+l5x9b/33fAgn/Q9SCy/wjWQsu84/OkrUQO9aC1MzvWgu3mvm5fO/1B4ZMheM=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt07EJADAIAEGXEfffMBsEBAuFu/L7jwDgp5odLsnhLwC/gBf2epymAOk=
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtlkEOgCAMBPEb/v+hHDVGgpVh16pNuJGdhTZtS9liXc5PNFo6Pc3s/CvckXfRfNqDmx/1MCuc7Ch/9K/u5Hyv6eQTtarkHz0QWko+3TOIHKr5xDxR9VxVDqIelPPGVf+tO5n5T9h53rRz0bPsS3zCg5v/10B+D25+BdN6O0c=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="north" type="mapchange" id="1" x="0" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="0_nalwor_forest_w_x2_y0"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" id="2" x="288" y="0" width="384" height="32">
+   <properties>
+    <property name="map" value="0_nalwor_forest_w_x2_y0"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="north3" type="mapchange" id="3" x="960" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="0_nalwor_forest_w_x2_y0"/>
+    <property name="place" value="south3"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" id="4" x="0" y="992" width="576" height="32">
+   <properties>
+    <property name="map" value="0_nalwor_forest_w_x2_y2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="5" x="0" y="0" width="32" height="256">
+   <properties>
+    <property name="map" value="0_nalwor_forest_w_x1_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" id="6" x="0" y="480" width="32" height="128">
+   <properties>
+    <property name="map" value="0_nalwor_forest_w_x1_y1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object name="west3" type="mapchange" id="7" x="0" y="672" width="32" height="352">
+   <properties>
+    <property name="map" value="0_nalwor_forest_w_x1_y1"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="8" x="992" y="0" width="32" height="96">
+   <properties>
+    <property name="map" value="0_nalwor_forest_w_x3_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="9" x="992" y="160" width="32" height="128">
+   <properties>
+    <property name="map" value="0_nalwor_forest_w_x3_y1"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="east3" type="mapchange" id="10" x="992" y="352" width="32" height="576">
+   <properties>
+    <property name="map" value="0_nalwor_forest_w_x3_y1"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

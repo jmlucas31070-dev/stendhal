@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="20" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="logic/collision" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="int_grey" tilewidth="32" tileheight="32">
+  <image source="../drawable/int_grey.png" width="352" height="352"/>
+ </tileset>
+ <tileset firstgid="123" name="floor_tiles" tilewidth="32" tileheight="32">
+  <image source="../drawable/floor_tiles.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="132" name="logic/portal" tilewidth="32" tileheight="32">
+  <image source="../drawable/portal.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="156" name="single_purple_gold" tilewidth="32" tileheight="32">
+  <image source="../drawable/single_purple_gold.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="165" name="purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/purple.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="174" name="bench_wooden" tilewidth="32" tileheight="32">
+  <image source="../drawable/bench_wooden.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="182" name="stool" tilewidth="32" tileheight="32">
+  <image source="../drawable/stool.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="183" name="table_with_beer_dark" tilewidth="32" tileheight="32">
+  <image source="../drawable/table_with_beer_dark.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="193" name="item_shelf" tilewidth="32" tileheight="32">
+  <image source="../drawable/item_shelf.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="199" name="shelf_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/shelf_3.png" width="64" height="160"/>
+ </tileset>
+ <tileset firstgid="209" name="chess" tilewidth="32" tileheight="32">
+  <image source="../drawable/chess.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="210" name="superhumans_wall_hanging" tilewidth="32" tileheight="32">
+  <image source="../drawable/superhumans_wall_hanging.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="216" name="superhumans_banner_on_post" tilewidth="32" tileheight="32">
+  <image source="../drawable/superhumans_banner_on_post.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="224" name="chest_purple" tilewidth="32" tileheight="32">
+  <image source="../drawable/chest_purple.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="226" name="notes" tilewidth="32" tileheight="32">
+  <image source="../drawable/notes.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="230" name="wooden" tilewidth="32" tileheight="32">
+  <image source="../drawable/wooden.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="231" name="oriental_plant" tilewidth="32" tileheight="32">
+  <image source="../drawable/oriental_plant.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="233" name="plant_potted_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/plant_potted_2.png" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="235" name="purple_drapes" tilewidth="32" tileheight="32">
+  <image source="../drawable/purple_drapes.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="244" name="square" tilewidth="32" tileheight="32">
+  <image source="../drawable/square.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNrtwwENAAAMw6Aqn/YLOSSsmqqqbx7cZzsQ
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNq11D1uwjAUB3AvQNn46FZUNhDcAMb2BiDYisoGrMCRArQpG80EpUcpS07QA/AfHOnJek4c27H0E18v/jvYeSUhRBkqFh6gCiWHOWpQh4aFJjw6zjGAobAbL/BK5ghgZ2gv5/CZf4APQ58F5IfwZejI5J/hwviBK/n8q8m3GfTaIOfe6fL/4KbJU3+j1x5y7l2Sv4AlrBQjGMvaCUyZGpof5ty7JH8NG9gq3mAma99hztTo9i6CWL7S77jzp+s/T9CStc/QZmpofsSsgQ51PUm+rv90oCtre9DP6D8xkykM7t/X+c+6f1Fwvu3+uzzDaWuPMtaTnCk6uGf431P/jQxqQof+q45A+a+KGGn5obLWPOME3xnvhWPv9MGld/pwBxgMpDc=
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNrtlLkKAjEQhvP+z6Ao2ns09t5n492tlSgehfoCfkXAQSYbF11WJR985IeZJBDIGPOgjwObm9hSsuyJ44gnxXPMniGObG5jR8myx0UOL3hVvGHesW+ME5u72FOy7HFR8NSLJl1KnnrZBFw0XlwDgWcqWMWdyEnq71LDOu5FTlL/RWY4z/D+BS4982Sa4txY4fpDZ0W4+bM/eXDkLNh+4fvcAWOuQT4=
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNpjYBgFowACtgPxDix4JxDvQuLvHg2qUTAKRgGVwQ0gvjmA9t8C4tsDaP8dIL47TOJyExBvBuKXONijYHAAACfxEw4=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eNrtwQEBAAAAgiD/r25IQAEA8GQKAAAB
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNpjZGBgYBzFYIDMxgWwqUfXR4wZDCTYScgt1DBjMNhPbnwNNv/jM5ORhvFPSlhRM+xoZT/jIPM/I43tZ6RB+BOrfjCWP4yDrPxjJNN+xiFW/tIT0MpOYvMFNfLuUMYAVJ4BNw==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="entrance" type="mapchange_exit" id="1" x="256" y="576" width="32" height="32">
+   <properties>
+    <property name="map" value="-7_deniran_atlantis_x0_y3"/>
+    <property name="place" value="home_11"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="2" x="992" y="64" width="32" height="160">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" id="3" x="992" y="384" width="32" height="192">
+   <properties>
+    <property name="map" value="int_ados_bank_x1_y0"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>

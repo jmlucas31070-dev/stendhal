@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="ground.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/ground.png" width="96" height="352"/>
+ </tileset>
+ <tileset firstgid="34" name="pool.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/pool.png" width="96" height="768"/>
+ </tileset>
+ <tileset firstgid="106" name="tree_darkgreen.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/tree_darkgreen.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="194" name="grass_edges.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_edges.png" width="384" height="96"/>
+ </tileset>
+ <tileset firstgid="230" name="grass_corners.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grass_corners.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="254" name="grasses.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/grasses.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="260" name="flower/daisy_yellow.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_yellow.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="268" name="flower/daisy_blue.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/daisy_blue.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="276" name="mushroom.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/mushroom.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="282" name="resources.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/resources.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="288" name="vegetable.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/vegetable.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="304" name="animal.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/animal.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="336" name="collision.png" tilewidth="32" tileheight="32">
+  <image source="../drawable/collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="337" name="herb" tilewidth="32" tileheight="32">
+  <image source="../drawable/herb.png" width="160" height="32"/>
+ </tileset>
+ <layer id="1" name="Ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtwwEJAAAMBKHj+4dej6HgqqmqqqqvHyPACAE=
+  </data>
+ </layer>
+ <layer id="2" name="Object" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrllUtPQjEQhft7lQ2KoCAiiDyUILmyUhbGR3AFbIz8PA5JF5NmOm2HEhKY5EtP79x7J5k5aUfGmCfwTNaRR0s5rZ6CArySderRUk6rS+AMnJO15NFSTqsr4AJckrXi0VJOq+ugAW4FzeVSZiXV6IAH0BU0l0uZlVQjxqdcLmVWBfnW1TE+5XK5ZhXjUy6Xa1YxPuVyuWaV2/8ps9qH/1Nm1Ql4k/bUzaXM6tT9/wbewYzRWv+7fZxbuLv6E3yBb0bn9P/cc/7/Gn/k9D/tL+3xSqif0/9/tqfG9tjY/Vqor+0/964mtP2n+x7ogwEYMnsptPcv1WPwAib2n+7eBOavOX9i/R0Kzsc/YAGWkXrr77KyPudjGlegCmrgGtwEnqcG9TEXTXAHWuAetAPPtf5/dHzrejhGa6KwPfxwfOt6OEZr67d29PAuMSMePkRs78H/wBl9zLEBcLqHqw==
+  </data>
+ </layer>
+ <layer id="3" name="Object2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0zkKgDAQRuFc2K1wK9waS0u1Uiv1mL4TJOKChf8HD4ZhIFWMERERERGRL3nkU0ChZY5eej+mhFLKKHfsn1ZQSRXV1Dj2d/Q00Gi5aU/MV00002K56U7MV6200a5v90sHTp8XNQ==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrtlTkOgDAMBPNhroKr4Cp4AkeFqBDPZAu/IDFOkR1pCjexlIwU5wghhBDyB2fk/Xci91zCDOawkLky3N/BGjawlbk33D/DAY5wknkx7HsVU+v7VTjDp9sNHkqdh3Sr0XlItyGd74pv6MMVud2H33PSfOqWGf4=
+  </data>
+ </layer>
+ <layer id="5" name="Above2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eNrt0rENADAIA0FWTknJFoybGahQlLsFXrIcAQDwtrPcz+V+uQCMtQn40AVHdQIE
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eNrtzcENACAIADHckP2ncQL9KST0kr4vV0QCADxwasL/VuXb/9/H37/7v6Iu/6ltKyv12g==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object name="south" type="mapchange" id="1" x="0" y="992" width="1024" height="32">
+   <properties>
+    <property name="map" value="0_nalwor_river_se_x1_y2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" id="2" x="0" y="992" width="32" height="32">
+   <properties>
+    <property name="map" value="0_nalwor_river_se_x0_y1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" id="3" x="992" y="512" width="32" height="512">
+   <properties>
+    <property name="map" value="0_nalwor_river_se_x2_y1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
+</map>
